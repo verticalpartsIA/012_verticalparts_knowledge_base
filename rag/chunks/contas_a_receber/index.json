@@ -1,0 +1,386 @@
+[
+  {
+    "chunk": "rag/chunks/contas_a_receber/alterar_conta_receber.identidade.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/alterar_conta_receber.md",
+    "method": "AlterarContaReceber",
+    "focus": "identidade"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/alterar_conta_receber.contrato.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/alterar_conta_receber.md",
+    "method": "AlterarContaReceber",
+    "focus": "contrato"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/alterar_conta_receber.operacao.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/alterar_conta_receber.md",
+    "method": "AlterarContaReceber",
+    "focus": "operacao"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/alterar_conta_receber.faq.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/alterar_conta_receber.md",
+    "method": "AlterarContaReceber",
+    "focus": "faq"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/alterar_distribuicao_departamento.identidade.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/alterar_distribuicao_departamento.md",
+    "method": "AlterarDistribuicaoDepartamento",
+    "focus": "identidade"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/alterar_distribuicao_departamento.contrato.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/alterar_distribuicao_departamento.md",
+    "method": "AlterarDistribuicaoDepartamento",
+    "focus": "contrato"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/alterar_distribuicao_departamento.operacao.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/alterar_distribuicao_departamento.md",
+    "method": "AlterarDistribuicaoDepartamento",
+    "focus": "operacao"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/alterar_distribuicao_departamento.faq.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/alterar_distribuicao_departamento.md",
+    "method": "AlterarDistribuicaoDepartamento",
+    "focus": "faq"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/cancelar_conta_receber.identidade.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/cancelar_conta_receber.md",
+    "method": "CancelarContaReceber",
+    "focus": "identidade"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/cancelar_conta_receber.contrato.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/cancelar_conta_receber.md",
+    "method": "CancelarContaReceber",
+    "focus": "contrato"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/cancelar_conta_receber.operacao.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/cancelar_conta_receber.md",
+    "method": "CancelarContaReceber",
+    "focus": "operacao"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/cancelar_conta_receber.faq.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/cancelar_conta_receber.md",
+    "method": "CancelarContaReceber",
+    "focus": "faq"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/cancelar_recebimento.identidade.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/cancelar_recebimento.md",
+    "method": "CancelarRecebimento",
+    "focus": "identidade"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/cancelar_recebimento.contrato.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/cancelar_recebimento.md",
+    "method": "CancelarRecebimento",
+    "focus": "contrato"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/cancelar_recebimento.operacao.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/cancelar_recebimento.md",
+    "method": "CancelarRecebimento",
+    "focus": "operacao"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/cancelar_recebimento.faq.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/cancelar_recebimento.md",
+    "method": "CancelarRecebimento",
+    "focus": "faq"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/conciliar_recebimento.identidade.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/conciliar_recebimento.md",
+    "method": "ConciliarRecebimento",
+    "focus": "identidade"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/conciliar_recebimento.contrato.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/conciliar_recebimento.md",
+    "method": "ConciliarRecebimento",
+    "focus": "contrato"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/conciliar_recebimento.operacao.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/conciliar_recebimento.md",
+    "method": "ConciliarRecebimento",
+    "focus": "operacao"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/conciliar_recebimento.faq.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/conciliar_recebimento.md",
+    "method": "ConciliarRecebimento",
+    "focus": "faq"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/consultar_conta_receber.identidade.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/consultar_conta_receber.md",
+    "method": "ConsultarContaReceber",
+    "focus": "identidade"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/consultar_conta_receber.contrato.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/consultar_conta_receber.md",
+    "method": "ConsultarContaReceber",
+    "focus": "contrato"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/consultar_conta_receber.operacao.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/consultar_conta_receber.md",
+    "method": "ConsultarContaReceber",
+    "focus": "operacao"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/consultar_conta_receber.faq.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/consultar_conta_receber.md",
+    "method": "ConsultarContaReceber",
+    "focus": "faq"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/desconciliar_recebimento.identidade.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/desconciliar_recebimento.md",
+    "method": "DesconciliarRecebimento",
+    "focus": "identidade"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/desconciliar_recebimento.contrato.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/desconciliar_recebimento.md",
+    "method": "DesconciliarRecebimento",
+    "focus": "contrato"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/desconciliar_recebimento.operacao.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/desconciliar_recebimento.md",
+    "method": "DesconciliarRecebimento",
+    "focus": "operacao"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/desconciliar_recebimento.faq.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/desconciliar_recebimento.md",
+    "method": "DesconciliarRecebimento",
+    "focus": "faq"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/excluir_conta_receber.identidade.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/excluir_conta_receber.md",
+    "method": "ExcluirContaReceber",
+    "focus": "identidade"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/excluir_conta_receber.contrato.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/excluir_conta_receber.md",
+    "method": "ExcluirContaReceber",
+    "focus": "contrato"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/excluir_conta_receber.operacao.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/excluir_conta_receber.md",
+    "method": "ExcluirContaReceber",
+    "focus": "operacao"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/excluir_conta_receber.faq.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/excluir_conta_receber.md",
+    "method": "ExcluirContaReceber",
+    "focus": "faq"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/excluir_distribuicao_departamento.identidade.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/excluir_distribuicao_departamento.md",
+    "method": "ExcluirDistribuicaoDepartamento",
+    "focus": "identidade"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/excluir_distribuicao_departamento.contrato.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/excluir_distribuicao_departamento.md",
+    "method": "ExcluirDistribuicaoDepartamento",
+    "focus": "contrato"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/excluir_distribuicao_departamento.operacao.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/excluir_distribuicao_departamento.md",
+    "method": "ExcluirDistribuicaoDepartamento",
+    "focus": "operacao"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/excluir_distribuicao_departamento.faq.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/excluir_distribuicao_departamento.md",
+    "method": "ExcluirDistribuicaoDepartamento",
+    "focus": "faq"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/incluir_conta_receber.identidade.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/incluir_conta_receber.md",
+    "method": "IncluirContaReceber",
+    "focus": "identidade"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/incluir_conta_receber.contrato.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/incluir_conta_receber.md",
+    "method": "IncluirContaReceber",
+    "focus": "contrato"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/incluir_conta_receber.operacao.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/incluir_conta_receber.md",
+    "method": "IncluirContaReceber",
+    "focus": "operacao"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/incluir_conta_receber.faq.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/incluir_conta_receber.md",
+    "method": "IncluirContaReceber",
+    "focus": "faq"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.identidade.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/incluir_conta_receber_por_lote.md",
+    "method": "IncluirContaReceberPorLote",
+    "focus": "identidade"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.contrato.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/incluir_conta_receber_por_lote.md",
+    "method": "IncluirContaReceberPorLote",
+    "focus": "contrato"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.operacao.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/incluir_conta_receber_por_lote.md",
+    "method": "IncluirContaReceberPorLote",
+    "focus": "operacao"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.faq.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/incluir_conta_receber_por_lote.md",
+    "method": "IncluirContaReceberPorLote",
+    "focus": "faq"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/incluir_distribuicao_departamento.identidade.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/incluir_distribuicao_departamento.md",
+    "method": "IncluirDistribuicaoDepartamento",
+    "focus": "identidade"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/incluir_distribuicao_departamento.contrato.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/incluir_distribuicao_departamento.md",
+    "method": "IncluirDistribuicaoDepartamento",
+    "focus": "contrato"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/incluir_distribuicao_departamento.operacao.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/incluir_distribuicao_departamento.md",
+    "method": "IncluirDistribuicaoDepartamento",
+    "focus": "operacao"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/incluir_distribuicao_departamento.faq.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/incluir_distribuicao_departamento.md",
+    "method": "IncluirDistribuicaoDepartamento",
+    "focus": "faq"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/lancar_recebimento.identidade.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/lancar_recebimento.md",
+    "method": "LancarRecebimento",
+    "focus": "identidade"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/lancar_recebimento.contrato.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/lancar_recebimento.md",
+    "method": "LancarRecebimento",
+    "focus": "contrato"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/lancar_recebimento.operacao.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/lancar_recebimento.md",
+    "method": "LancarRecebimento",
+    "focus": "operacao"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/lancar_recebimento.faq.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/lancar_recebimento.md",
+    "method": "LancarRecebimento",
+    "focus": "faq"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/listar_contas_receber.identidade.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/listar_contas_receber.md",
+    "method": "ListarContasReceber",
+    "focus": "identidade"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/listar_contas_receber.contrato.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/listar_contas_receber.md",
+    "method": "ListarContasReceber",
+    "focus": "contrato"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/listar_contas_receber.operacao.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/listar_contas_receber.md",
+    "method": "ListarContasReceber",
+    "focus": "operacao"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/listar_contas_receber.faq.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/listar_contas_receber.md",
+    "method": "ListarContasReceber",
+    "focus": "faq"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/upsert_conta_receber.identidade.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/upsert_conta_receber.md",
+    "method": "UpsertContaReceber",
+    "focus": "identidade"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/upsert_conta_receber.contrato.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/upsert_conta_receber.md",
+    "method": "UpsertContaReceber",
+    "focus": "contrato"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/upsert_conta_receber.operacao.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/upsert_conta_receber.md",
+    "method": "UpsertContaReceber",
+    "focus": "operacao"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/upsert_conta_receber.faq.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/upsert_conta_receber.md",
+    "method": "UpsertContaReceber",
+    "focus": "faq"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.identidade.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/upsert_conta_receber_por_lote.md",
+    "method": "UpsertContaReceberPorLote",
+    "focus": "identidade"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.contrato.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/upsert_conta_receber_por_lote.md",
+    "method": "UpsertContaReceberPorLote",
+    "focus": "contrato"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.operacao.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/upsert_conta_receber_por_lote.md",
+    "method": "UpsertContaReceberPorLote",
+    "focus": "operacao"
+  },
+  {
+    "chunk": "rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.faq.chunk.md",
+    "source": "docs/omie/financeiro/contas_a_receber/upsert_conta_receber_por_lote.md",
+    "method": "UpsertContaReceberPorLote",
+    "focus": "faq"
+  }
+]

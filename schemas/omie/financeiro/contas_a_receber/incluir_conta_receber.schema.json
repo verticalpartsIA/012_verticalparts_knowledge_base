@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://verticalparts.local/schemas/omie/financeiro/contas_a_receber/incluir_conta_receber.schema.json",
+  "title": "IncluirContaReceber",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "call": {
+      "const": "IncluirContaReceber"
+    },
+    "param": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+"type": "object",
+"additionalProperties": true
+      }
+    }
+  },
+  "required": [
+    "call",
+    "param"
+  ]
+}
