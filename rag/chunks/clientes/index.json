@@ -1,0 +1,310 @@
+[
+  {
+    "chunk": "rag/chunks/clientes/alterar_cliente.identidade.chunk.md",
+    "source": "docs/omie/geral/clientes/alterar_cliente.md",
+    "method": "AlterarCliente",
+    "focus": "identidade, YAML, endpoint, metodo, dominio e status",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/alterar_cliente.contrato.chunk.md",
+    "source": "docs/omie/geral/clientes/alterar_cliente.md",
+    "method": "AlterarCliente",
+    "focus": "payload, campos obrigatorios, campos opcionais e retorno",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/alterar_cliente.operacao.chunk.md",
+    "source": "docs/omie/geral/clientes/alterar_cliente.md",
+    "method": "AlterarCliente",
+    "focus": "quando usar, quando nao usar, regras, validacoes e restricoes",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/alterar_cliente.faq.chunk.md",
+    "source": "docs/omie/geral/clientes/alterar_cliente.md",
+    "method": "AlterarCliente",
+    "focus": "FAQ, perguntas naturais, tags e uso por LLM",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/associar_cod_int_cliente.identidade.chunk.md",
+    "source": "docs/omie/geral/clientes/associar_cod_int_cliente.md",
+    "method": "AssociarCodIntCliente",
+    "focus": "identidade, YAML, endpoint, metodo, dominio e status",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/associar_cod_int_cliente.contrato.chunk.md",
+    "source": "docs/omie/geral/clientes/associar_cod_int_cliente.md",
+    "method": "AssociarCodIntCliente",
+    "focus": "payload, campos obrigatorios, campos opcionais e retorno",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/associar_cod_int_cliente.operacao.chunk.md",
+    "source": "docs/omie/geral/clientes/associar_cod_int_cliente.md",
+    "method": "AssociarCodIntCliente",
+    "focus": "quando usar, quando nao usar, regras, validacoes e restricoes",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/associar_cod_int_cliente.faq.chunk.md",
+    "source": "docs/omie/geral/clientes/associar_cod_int_cliente.md",
+    "method": "AssociarCodIntCliente",
+    "focus": "FAQ, perguntas naturais, tags e uso por LLM",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/consultar_cliente.identidade.chunk.md",
+    "source": "docs/omie/geral/clientes/consultar_cliente.md",
+    "method": "ConsultarCliente",
+    "focus": "identidade, YAML, endpoint, metodo, dominio e status",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/consultar_cliente.contrato.chunk.md",
+    "source": "docs/omie/geral/clientes/consultar_cliente.md",
+    "method": "ConsultarCliente",
+    "focus": "payload, campos obrigatorios, campos opcionais e retorno",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/consultar_cliente.operacao.chunk.md",
+    "source": "docs/omie/geral/clientes/consultar_cliente.md",
+    "method": "ConsultarCliente",
+    "focus": "quando usar, quando nao usar, regras, validacoes e restricoes",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/consultar_cliente.faq.chunk.md",
+    "source": "docs/omie/geral/clientes/consultar_cliente.md",
+    "method": "ConsultarCliente",
+    "focus": "FAQ, perguntas naturais, tags e uso por LLM",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/excluir_cliente.identidade.chunk.md",
+    "source": "docs/omie/geral/clientes/excluir_cliente.md",
+    "method": "ExcluirCliente",
+    "focus": "identidade, YAML, endpoint, metodo, dominio e status",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/excluir_cliente.contrato.chunk.md",
+    "source": "docs/omie/geral/clientes/excluir_cliente.md",
+    "method": "ExcluirCliente",
+    "focus": "payload, campos obrigatorios, campos opcionais e retorno",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/excluir_cliente.operacao.chunk.md",
+    "source": "docs/omie/geral/clientes/excluir_cliente.md",
+    "method": "ExcluirCliente",
+    "focus": "quando usar, quando nao usar, regras, validacoes e restricoes",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/excluir_cliente.faq.chunk.md",
+    "source": "docs/omie/geral/clientes/excluir_cliente.md",
+    "method": "ExcluirCliente",
+    "focus": "FAQ, perguntas naturais, tags e uso por LLM",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/incluir_cliente.identidade.chunk.md",
+    "source": "docs/omie/geral/clientes/incluir_cliente.md",
+    "method": "IncluirCliente",
+    "focus": "identidade, YAML, endpoint, metodo, dominio e status",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/incluir_cliente.contrato.chunk.md",
+    "source": "docs/omie/geral/clientes/incluir_cliente.md",
+    "method": "IncluirCliente",
+    "focus": "payload, campos obrigatorios, campos opcionais e retorno",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/incluir_cliente.operacao.chunk.md",
+    "source": "docs/omie/geral/clientes/incluir_cliente.md",
+    "method": "IncluirCliente",
+    "focus": "quando usar, quando nao usar, regras, validacoes e restricoes",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/incluir_cliente.faq.chunk.md",
+    "source": "docs/omie/geral/clientes/incluir_cliente.md",
+    "method": "IncluirCliente",
+    "focus": "FAQ, perguntas naturais, tags e uso por LLM",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/incluir_clientes_por_lote.identidade.chunk.md",
+    "source": "docs/omie/geral/clientes/incluir_clientes_por_lote.md",
+    "method": "IncluirClientesPorLote",
+    "focus": "identidade, YAML, endpoint, metodo, dominio e status",
+    "status": "Documentado oficialmente / DEPRECATED / Necessita validacao antes de uso"
+  },
+  {
+    "chunk": "rag/chunks/clientes/incluir_clientes_por_lote.contrato.chunk.md",
+    "source": "docs/omie/geral/clientes/incluir_clientes_por_lote.md",
+    "method": "IncluirClientesPorLote",
+    "focus": "payload, campos obrigatorios, campos opcionais e retorno",
+    "status": "Documentado oficialmente / DEPRECATED / Necessita validacao antes de uso"
+  },
+  {
+    "chunk": "rag/chunks/clientes/incluir_clientes_por_lote.operacao.chunk.md",
+    "source": "docs/omie/geral/clientes/incluir_clientes_por_lote.md",
+    "method": "IncluirClientesPorLote",
+    "focus": "quando usar, quando nao usar, regras, validacoes e restricoes",
+    "status": "Documentado oficialmente / DEPRECATED / Necessita validacao antes de uso"
+  },
+  {
+    "chunk": "rag/chunks/clientes/incluir_clientes_por_lote.faq.chunk.md",
+    "source": "docs/omie/geral/clientes/incluir_clientes_por_lote.md",
+    "method": "IncluirClientesPorLote",
+    "focus": "FAQ, perguntas naturais, tags e uso por LLM",
+    "status": "Documentado oficialmente / DEPRECATED / Necessita validacao antes de uso"
+  },
+  {
+    "chunk": "rag/chunks/clientes/listar_clientes.identidade.chunk.md",
+    "source": "docs/omie/geral/clientes/listar_clientes.md",
+    "method": "ListarClientes",
+    "focus": "identidade, YAML, endpoint, metodo, dominio e status",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/listar_clientes.contrato.chunk.md",
+    "source": "docs/omie/geral/clientes/listar_clientes.md",
+    "method": "ListarClientes",
+    "focus": "payload, campos obrigatorios, campos opcionais e retorno",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/listar_clientes.operacao.chunk.md",
+    "source": "docs/omie/geral/clientes/listar_clientes.md",
+    "method": "ListarClientes",
+    "focus": "quando usar, quando nao usar, regras, validacoes e restricoes",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/listar_clientes.faq.chunk.md",
+    "source": "docs/omie/geral/clientes/listar_clientes.md",
+    "method": "ListarClientes",
+    "focus": "FAQ, perguntas naturais, tags e uso por LLM",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/listar_clientes_resumido.identidade.chunk.md",
+    "source": "docs/omie/geral/clientes/listar_clientes_resumido.md",
+    "method": "ListarClientesResumido",
+    "focus": "identidade, YAML, endpoint, metodo, dominio e status",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/listar_clientes_resumido.contrato.chunk.md",
+    "source": "docs/omie/geral/clientes/listar_clientes_resumido.md",
+    "method": "ListarClientesResumido",
+    "focus": "payload, campos obrigatorios, campos opcionais e retorno",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/listar_clientes_resumido.operacao.chunk.md",
+    "source": "docs/omie/geral/clientes/listar_clientes_resumido.md",
+    "method": "ListarClientesResumido",
+    "focus": "quando usar, quando nao usar, regras, validacoes e restricoes",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/listar_clientes_resumido.faq.chunk.md",
+    "source": "docs/omie/geral/clientes/listar_clientes_resumido.md",
+    "method": "ListarClientesResumido",
+    "focus": "FAQ, perguntas naturais, tags e uso por LLM",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/upsert_cliente.identidade.chunk.md",
+    "source": "docs/omie/geral/clientes/upsert_cliente.md",
+    "method": "UpsertCliente",
+    "focus": "identidade, YAML, endpoint, metodo, dominio e status",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/upsert_cliente.contrato.chunk.md",
+    "source": "docs/omie/geral/clientes/upsert_cliente.md",
+    "method": "UpsertCliente",
+    "focus": "payload, campos obrigatorios, campos opcionais e retorno",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/upsert_cliente.operacao.chunk.md",
+    "source": "docs/omie/geral/clientes/upsert_cliente.md",
+    "method": "UpsertCliente",
+    "focus": "quando usar, quando nao usar, regras, validacoes e restricoes",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/upsert_cliente.faq.chunk.md",
+    "source": "docs/omie/geral/clientes/upsert_cliente.md",
+    "method": "UpsertCliente",
+    "focus": "FAQ, perguntas naturais, tags e uso por LLM",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/upsert_cliente_cpf_cnpj.identidade.chunk.md",
+    "source": "docs/omie/geral/clientes/upsert_cliente_cpf_cnpj.md",
+    "method": "UpsertClienteCpfCnpj",
+    "focus": "identidade, YAML, endpoint, metodo, dominio e status",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/upsert_cliente_cpf_cnpj.contrato.chunk.md",
+    "source": "docs/omie/geral/clientes/upsert_cliente_cpf_cnpj.md",
+    "method": "UpsertClienteCpfCnpj",
+    "focus": "payload, campos obrigatorios, campos opcionais e retorno",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/upsert_cliente_cpf_cnpj.operacao.chunk.md",
+    "source": "docs/omie/geral/clientes/upsert_cliente_cpf_cnpj.md",
+    "method": "UpsertClienteCpfCnpj",
+    "focus": "quando usar, quando nao usar, regras, validacoes e restricoes",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/upsert_cliente_cpf_cnpj.faq.chunk.md",
+    "source": "docs/omie/geral/clientes/upsert_cliente_cpf_cnpj.md",
+    "method": "UpsertClienteCpfCnpj",
+    "focus": "FAQ, perguntas naturais, tags e uso por LLM",
+    "status": "Documentado oficialmente / Necessita validacao em integracao"
+  },
+  {
+    "chunk": "rag/chunks/clientes/upsert_clientes_por_lote.identidade.chunk.md",
+    "source": "docs/omie/geral/clientes/upsert_clientes_por_lote.md",
+    "method": "UpsertClientesPorLote",
+    "focus": "identidade, YAML, endpoint, metodo, dominio e status",
+    "status": "Documentado oficialmente / DEPRECATED / Necessita validacao antes de uso"
+  },
+  {
+    "chunk": "rag/chunks/clientes/upsert_clientes_por_lote.contrato.chunk.md",
+    "source": "docs/omie/geral/clientes/upsert_clientes_por_lote.md",
+    "method": "UpsertClientesPorLote",
+    "focus": "payload, campos obrigatorios, campos opcionais e retorno",
+    "status": "Documentado oficialmente / DEPRECATED / Necessita validacao antes de uso"
+  },
+  {
+    "chunk": "rag/chunks/clientes/upsert_clientes_por_lote.operacao.chunk.md",
+    "source": "docs/omie/geral/clientes/upsert_clientes_por_lote.md",
+    "method": "UpsertClientesPorLote",
+    "focus": "quando usar, quando nao usar, regras, validacoes e restricoes",
+    "status": "Documentado oficialmente / DEPRECATED / Necessita validacao antes de uso"
+  },
+  {
+    "chunk": "rag/chunks/clientes/upsert_clientes_por_lote.faq.chunk.md",
+    "source": "docs/omie/geral/clientes/upsert_clientes_por_lote.md",
+    "method": "UpsertClientesPorLote",
+    "focus": "FAQ, perguntas naturais, tags e uso por LLM",
+    "status": "Documentado oficialmente / DEPRECATED / Necessita validacao antes de uso"
+  }
+]

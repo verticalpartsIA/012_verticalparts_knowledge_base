@@ -1,128 +1,436 @@
 ---
-service: ClientesCadastro
-method: ExcluirCliente
-endpoint: https://app.omie.com.br/api/v1/geral/clientes/
-domain: omie.geral
-entity: cliente_fornecedor_transportadora
-operation: delete
-status: oficial/a validar em integração
-source: https://app.omie.com.br/api/v1/geral/clientes/
-rag_tags:
+title: "ExcluirCliente - Omie Geral Clientes"
+service: "ClientesCadastro"
+domain: "omie.geral"
+resource: "clientes"
+method: "ExcluirCliente"
+endpoint: "https://app.omie.com.br/api/v1/geral/clientes/"
+http_method: "POST"
+version: "1"
+entity: "cliente_fornecedor_transportadora"
+related_entities:
+  - Cliente
+  - Fornecedor
+  - Transportadora
+  - Pedido
+  - NF-e
+  - Conta a Receber
+  - Conta a Pagar
+  - CRM
+  - Projeto
+  - Serviço
+  - Produtos
+  - Categorias
+  - Anexos
+related_methods:
+  - ConsultarCliente
+  - AlterarCliente
+  - ListarClientes
+permissions:
+  - "Necessita credenciais Omie validas fora do repositorio"
+  - "Nao documentar chaves, segredos ou senhas"
+complexity: "alta"
+status: "Documentado oficialmente / Necessita validacao em integracao"
+source: "https://app.omie.com.br/api/v1/geral/clientes/"
+last_review: "2026-07-02"
+tags:
   - omie
-  - geral
   - clientes
-  - excluir
-  - cadastro
+  - fornecedores
+  - transportadoras
+  - exclusao
+  - enterprise-rag
+keywords:
+  - "ClientesCadastro"
+  - "ExcluirCliente"
+  - "cadastro Omie"
+  - "RAG"
+  - "LLM"
+questions:
+  - "Como usar ExcluirCliente?"
+  - "Como escolher o metodo correto para clientes?"
+  - "Quais campos precisam ser validados?"
+use_cases:
+  - integracao_erp
+  - sincronizacao_cadastral
+  - assistente_llm
+  - rag_operacional
+business_area: "ERP / Cadastros / Geral"
+llm_ready: true
+rag_ready: true
+graph_ready: true
+embedding_version: 1
 ---
+        # ExcluirCliente
 
-# ExcluirCliente
+        ## Objetivo
 
-## Nome oficial do método
+        Exclui um cadastro de cliente/fornecedor da base Omie. Este documento foi estruturado para LLMs, RAG e GraphRAG, nao como tutorial humano isolado.
 
-`ExcluirCliente`
+        ## Quando utilizar
 
-## Endpoint
+        Utilize `ExcluirCliente` para remover cadastro quando houver decisao operacional validada e ausencia de bloqueios por vinculos.
 
-`https://app.omie.com.br/api/v1/geral/clientes/`
+        ## Quando NÃO utilizar
 
-## Domínio
+        Nao utilize `ExcluirCliente` para desativar logicamente, corrigir dados ou remover registros com documentos e titulos relacionados sem avaliacao. Quando houver duvida, a LLM deve responder que a decisao necessita validacao.
 
-Omie Geral > Clientes, Fornecedores e Transportadoras
+        ## Fluxo de negócio
 
-## Entidade principal
+        1. A integracao identifica a necessidade cadastral.
+        2. A LLM seleciona o metodo com base na intencao: consulta, inclusao, alteracao, exclusao, listagem, associacao ou upsert.
+        3. O payload e montado com dados ficticios em exemplos ou com dados autorizados em ambiente real.
+        4. O retorno deve ser interpretado por `codigo_status` e `descricao_status` quando o tipo de retorno for status.
+        5. A resposta deve citar a fonte oficial e indicar se ha pontos que necessitam validacao.
 
-Cliente / Fornecedor
+        ## Entidades relacionadas
 
-## Entidades relacionadas
+        - Cliente
+        - Fornecedor
+        - Transportadora
+        - Pedido
+        - NF-e
+        - Conta a Receber
+        - Conta a Pagar
+        - CRM
+        - Projeto
+        - Serviço
+        - Produtos
+        - Categorias
+        - Anexos
 
-- Contas a pagar
-- Contas a receber
-- Pedidos de venda
-- Ordens de serviço
-- Documentos fiscais
+        ## Métodos relacionados
 
-## Quando usar
+        - `ConsultarCliente`
+- `AlterarCliente`
+- `ListarClientes`
 
-Use para excluir um cadastro de cliente/fornecedor da base, quando houver decisão operacional validada e ausência de impedimentos de relacionamento.
+        ## Pré-requisitos
 
-## Quando não usar
+        - Acesso autorizado ao ambiente Omie.
+        - Credenciais mantidas fora do repositorio.
+        - Decisao clara sobre chave de identificacao: codigo Omie, codigo de integracao ou CPF/CNPJ.
+        - Validacao de campos obrigatorios conforme finalidade: cadastro simples, fiscal, vendas, compras ou financeiro.
 
-- Não use para desativação lógica se o processo exigir manter histórico.
-- Não use quando houver títulos financeiros, pedidos ou documentos fiscais dependentes sem validação.
-- Não use para corrigir dados; use `AlterarCliente`.
+        ## Payload
 
-## Payload de entrada
+        - Tipo oficial de entrada: `clientes_cadastro_chave`.
+        - Tipo oficial de retorno: `clientes_status`.
+        - Metodo documentado oficialmente: `ExcluirCliente`.
+        - Endpoint oficial: `https://app.omie.com.br/api/v1/geral/clientes/`.
 
-Tipo oficial: `clientes_cadastro_chave`.
+        ## Campos obrigatórios
 
-Campos principais:
+        - codigo_cliente_omie ou codigo_cliente_integracao: a chave exata deve identificar o cadastro.
 
-- `codigo_cliente_omie`
-- `codigo_cliente_integracao`
+        ## Campos opcionais
 
-## Campos obrigatórios
+        - Nenhum campo opcional relevante foi documentado para a chave.
 
-Informe uma chave que identifique o cadastro. A obrigatoriedade exata entre `codigo_cliente_omie` e `codigo_cliente_integracao` deve ser validada.
+        ## Regras de negócio
 
-## Campos opcionais
+        - O cadastro de cliente, fornecedor e transportadora compartilha a mesma base no servico `ClientesCadastro`.
+        - `razao_social` e documentado oficialmente como obrigatorio no cadastro.
+        - Dados fiscais e de endereco podem ser obrigatorios quando o cadastro participa de NF-e ou NFS-e.
+        - Metodos marcados como DEPRECATED pela fonte oficial nao devem ser recomendados para novas integracoes sem validacao.
+        - A LLM deve diferenciar "Documentado oficialmente" de "Necessita validacao".
 
-Sem campos opcionais relevantes além das chaves aceitas.
+        ## Validações
 
-## Payload de retorno
+        - Validar CPF/CNPJ antes de operacoes fiscais.
+        - Validar chave de integracao para evitar duplicidade.
+        - Validar pagina e quantidade por pagina em listagens.
+        - Validar campos condicionais de NF-e/NFS-e.
+        - Validar comportamento real em ambiente autorizado antes de producao.
 
-Tipo oficial: `clientes_status`.
+        ## Restrições
 
-Campos principais:
+        - Nao registrar credenciais no repositorio.
+        - Nao usar exemplos como payload oficial completo.
+        - Nao inferir campos obrigatorios alem do que estiver documentado ou validado.
+        - Nao ocultar status DEPRECATED quando aplicavel.
 
-- `codigo_cliente_omie`
-- `codigo_cliente_integracao`
-- `codigo_status`
-- `descricao_status`
+        ## Resposta esperada
 
-## Exemplo JSON de requisição
+        Retorno oficial: `clientes_status`. Quando houver `codigo_status`, a fonte oficial indica que `0` representa sucesso e valores maiores que `0` indicam erro descrito em `descricao_status`.
 
-```json
-{
+        ## Erros comuns
+
+        - Campo obrigatorio ausente.
+        - Cadastro nao localizado.
+        - CPF/CNPJ invalido.
+        - Codigo de integracao duplicado.
+        - Tentativa de usar metodo depreciado sem justificativa.
+        - Dados fiscais insuficientes para NF-e/NFS-e.
+
+        ## Como resolver os erros
+
+        - Conferir chave usada no payload.
+        - Executar consulta antes de alteracao ou exclusao.
+        - Validar CPF/CNPJ e dados fiscais.
+        - Conferir `codigo_status` e `descricao_status`.
+        - Revisar a fonte oficial e marcar lacunas como "Necessita validacao".
+
+        ## Casos de uso
+
+        - Assistente LLM respondendo duvidas sobre cadastro Omie.
+        - Sincronizacao cadastral entre ERP e sistema legado.
+        - Preparacao de dados para vendas, compras, financeiro, fiscal e servicos.
+        - Auditoria de cadastros importados por API.
+        - GraphRAG conectando cliente, fornecedor, transportadora e documentos operacionais.
+
+        ## Exemplos completos
+
+                > Todos os exemplos abaixo usam dados ficticios. A autenticacao Omie foi omitida de proposito para nao registrar segredos no repositorio.
+
+        ### JSON base
+
+        ```json
+        {
   "call": "ExcluirCliente",
   "param": [
     {
-      "codigo_cliente_integracao": "CLI-EXEMPLO-001"
+      "codigo_cliente_integracao": "CLI-FICTICIO-001"
     }
   ]
 }
-```
+        ```
 
-## Exemplo JSON de resposta
+        ### curl
 
-```json
-{
-  "codigo_cliente_omie": 123456789,
-  "codigo_cliente_integracao": "CLI-EXEMPLO-001",
-  "codigo_status": "0",
-  "descricao_status": "Cadastro excluído com sucesso"
-}
-```
+        ```bash
+        curl -X POST "https://app.omie.com.br/api/v1/geral/clientes/" \
+          -H "Content-Type: application/json" \
+          -d '{"call": "ExcluirCliente", "param": [{"codigo_cliente_integracao": "CLI-FICTICIO-001"}]}'
+        ```
 
-## Erros comuns
+        ### Python
 
-- Cadastro não encontrado.
-- Cadastro vinculado a documentos, títulos ou movimentos.
-- Chave de exclusão ausente.
+        ```python
+        import requests
 
-## Observações importantes
+        payload = {'call': 'ExcluirCliente', 'param': [{'codigo_cliente_integracao': 'CLI-FICTICIO-001'}]}
+        response = requests.post("https://app.omie.com.br/api/v1/geral/clientes/", json=payload, timeout=30)
+        print(response.json())
+        ```
 
-Exclusão é uma operação destrutiva. Para LLMs, sempre sugerir validação humana antes de recomendar execução.
+        ### JavaScript
 
-## Perguntas que um usuário faria
+        ```javascript
+        const payload = {
+  "call": "ExcluirCliente",
+  "param": [
+    {
+      "codigo_cliente_integracao": "CLI-FICTICIO-001"
+    }
+  ]
+};
+        const response = await fetch("https://app.omie.com.br/api/v1/geral/clientes/", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+        console.log(await response.json());
+        ```
 
-- Como excluir um cliente no Omie?
-- Posso excluir fornecedor com contas a pagar?
-- Qual chave uso para remover um cadastro?
+        ### TypeScript
 
-## Tags para RAG
+        ```typescript
+        type OmieRequest = {
+          call: string;
+          param: Array<Record<string, unknown>>;
+        };
 
-`omie`, `clientes`, `excluir cliente`, `remover cadastro`, `delete`, `cadastro`
+        const payload: OmieRequest = {
+  "call": "ExcluirCliente",
+  "param": [
+    {
+      "codigo_cliente_integracao": "CLI-FICTICIO-001"
+    }
+  ]
+};
+        const response = await fetch("https://app.omie.com.br/api/v1/geral/clientes/", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+        const data: unknown = await response.json();
+        console.log(data);
+        ```
 
-## Fonte oficial consultada
+        ### PHP
 
-https://app.omie.com.br/api/v1/geral/clientes/
+        ```php
+        <?php
+        $payload = {"call": "ExcluirCliente", "param": [{"codigo_cliente_integracao": "CLI-FICTICIO-001"}]};
+        $ch = curl_init("https://app.omie.com.br/api/v1/geral/clientes/");
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, ["Content-Type: application/json"]);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($payload));
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        echo curl_exec($ch);
+        curl_close($ch);
+        ```
+
+        ### C#
+
+        ```csharp
+        using System.Net.Http.Json;
+
+        var payload = new {
+            call = "ExcluirCliente",
+            param = new object[] { new { codigo_cliente_integracao = "CLI-FICTICIO-001" } }
+        };
+        using var client = new HttpClient();
+        var response = await client.PostAsJsonAsync("https://app.omie.com.br/api/v1/geral/clientes/", payload);
+        Console.WriteLine(await response.Content.ReadAsStringAsync());
+        ```
+
+        ### Java
+
+        ```java
+        var client = java.net.http.HttpClient.newHttpClient();
+        var request = java.net.http.HttpRequest.newBuilder()
+            .uri(java.net.URI.create("https://app.omie.com.br/api/v1/geral/clientes/"))
+            .header("Content-Type", "application/json")
+            .POST(java.net.http.HttpRequest.BodyPublishers.ofString("""{
+  "call": "ExcluirCliente",
+  "param": [
+    {
+      "codigo_cliente_integracao": "CLI-FICTICIO-001"
+    }
+  ]
+}"""))
+            .build();
+        var response = client.send(request, java.net.http.HttpResponse.BodyHandlers.ofString());
+        System.out.println(response.body());
+        ```
+
+        ### Delphi
+
+        ```pascal
+        // Exemplo ficticio: montar o JSON com call="ExcluirCliente" e param=[...].
+        // Usar o componente HTTP padrao da aplicacao e enviar POST para o endpoint oficial.
+        ```
+
+        ### n8n
+
+        ```json
+        {
+          "node": "HTTP Request",
+          "method": "POST",
+          "url": "https://app.omie.com.br/api/v1/geral/clientes/",
+          "sendBody": true,
+          "bodyContentType": "json",
+          "jsonBody": {"call": "ExcluirCliente", "param": [{"codigo_cliente_integracao": "CLI-FICTICIO-001"}]}
+        }
+        ```
+
+
+        ## FAQ
+
+        ### 1. Como usar este metodo em uma integracao?
+
+Use as secoes de payload, regras e restricoes deste arquivo para exclui um cadastro de cliente/fornecedor da base omie. A fonte oficial documenta o metodo `ExcluirCliente`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
+
+### 2. Quando este metodo deve ser escolhido por uma LLM?
+
+Use as secoes de payload, regras e restricoes deste arquivo para exclui um cadastro de cliente/fornecedor da base omie. A fonte oficial documenta o metodo `ExcluirCliente`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
+
+### 3. Qual e o endpoint oficial?
+
+Use as secoes de payload, regras e restricoes deste arquivo para exclui um cadastro de cliente/fornecedor da base omie. A fonte oficial documenta o metodo `ExcluirCliente`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
+
+### 4. Qual entidade principal este metodo manipula?
+
+Use as secoes de payload, regras e restricoes deste arquivo para exclui um cadastro de cliente/fornecedor da base omie. A fonte oficial documenta o metodo `ExcluirCliente`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
+
+### 5. Ele serve para clientes?
+
+Use as secoes de payload, regras e restricoes deste arquivo para exclui um cadastro de cliente/fornecedor da base omie. A fonte oficial documenta o metodo `ExcluirCliente`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
+
+### 6. Ele serve para fornecedores?
+
+Use as secoes de payload, regras e restricoes deste arquivo para exclui um cadastro de cliente/fornecedor da base omie. A fonte oficial documenta o metodo `ExcluirCliente`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
+
+### 7. Ele serve para transportadoras?
+
+Use as secoes de payload, regras e restricoes deste arquivo para exclui um cadastro de cliente/fornecedor da base omie. A fonte oficial documenta o metodo `ExcluirCliente`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
+
+### 8. Como relacionar este metodo com vendas?
+
+Use as secoes de payload, regras e restricoes deste arquivo para exclui um cadastro de cliente/fornecedor da base omie. A fonte oficial documenta o metodo `ExcluirCliente`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
+
+### 9. Como relacionar este metodo com compras?
+
+Use as secoes de payload, regras e restricoes deste arquivo para exclui um cadastro de cliente/fornecedor da base omie. A fonte oficial documenta o metodo `ExcluirCliente`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
+
+### 10. Como relacionar este metodo com financeiro?
+
+Use as secoes de payload, regras e restricoes deste arquivo para exclui um cadastro de cliente/fornecedor da base omie. A fonte oficial documenta o metodo `ExcluirCliente`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
+
+### 11. Como relacionar este metodo com fiscal?
+
+Use as secoes de payload, regras e restricoes deste arquivo para exclui um cadastro de cliente/fornecedor da base omie. A fonte oficial documenta o metodo `ExcluirCliente`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
+
+### 12. Como pesquisar pelo codigo interno?
+
+Use as secoes de payload, regras e restricoes deste arquivo para exclui um cadastro de cliente/fornecedor da base omie. A fonte oficial documenta o metodo `ExcluirCliente`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
+
+### 13. Como pesquisar pelo codigo Omie?
+
+Use as secoes de payload, regras e restricoes deste arquivo para exclui um cadastro de cliente/fornecedor da base omie. A fonte oficial documenta o metodo `ExcluirCliente`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
+
+### 14. Como tratar CPF ou CNPJ?
+
+Use as secoes de payload, regras e restricoes deste arquivo para exclui um cadastro de cliente/fornecedor da base omie. A fonte oficial documenta o metodo `ExcluirCliente`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
+
+### 15. Quais campos precisam de validacao?
+
+Use as secoes de payload, regras e restricoes deste arquivo para exclui um cadastro de cliente/fornecedor da base omie. A fonte oficial documenta o metodo `ExcluirCliente`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
+
+### 16. Quais erros sao comuns?
+
+Use as secoes de payload, regras e restricoes deste arquivo para exclui um cadastro de cliente/fornecedor da base omie. A fonte oficial documenta o metodo `ExcluirCliente`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
+
+### 17. Como resolver falha de campo obrigatorio?
+
+Use as secoes de payload, regras e restricoes deste arquivo para exclui um cadastro de cliente/fornecedor da base omie. A fonte oficial documenta o metodo `ExcluirCliente`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
+
+### 18. Como resolver cadastro nao encontrado?
+
+Use as secoes de payload, regras e restricoes deste arquivo para exclui um cadastro de cliente/fornecedor da base omie. A fonte oficial documenta o metodo `ExcluirCliente`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
+
+### 19. Os exemplos sao oficiais?
+
+Use as secoes de payload, regras e restricoes deste arquivo para exclui um cadastro de cliente/fornecedor da base omie. A fonte oficial documenta o metodo `ExcluirCliente`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
+
+### 20. Este metodo esta pronto para producao?
+
+Use as secoes de payload, regras e restricoes deste arquivo para exclui um cadastro de cliente/fornecedor da base omie. A fonte oficial documenta o metodo `ExcluirCliente`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
+
+### 21. Como citar a fonte oficial ao responder?
+
+Use as secoes de payload, regras e restricoes deste arquivo para exclui um cadastro de cliente/fornecedor da base omie. A fonte oficial documenta o metodo `ExcluirCliente`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
+
+        ## Perguntas naturais
+
+        - Como escolher `ExcluirCliente`?
+        - Quando `ExcluirCliente` e melhor que os metodos relacionados?
+        - Quais campos desse metodo precisam de validacao?
+        - Este metodo pode ser usado para cliente, fornecedor e transportadora?
+        - Como uma LLM deve explicar o retorno desse metodo?
+
+        ## Tags para RAG
+
+        - omie
+        - clientes
+        - fornecedores
+        - transportadoras
+        - exclusao
+        - enterprise-rag
+        - graphrag
+
+        ## Fonte oficial consultada
+
+        - https://app.omie.com.br/api/v1/geral/clientes/
