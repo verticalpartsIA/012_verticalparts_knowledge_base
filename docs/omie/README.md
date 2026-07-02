@@ -1,45 +1,35 @@
 ---
 title: "Omie API - Indice"
-service: "ClientesCadastro"
-domain: "omie.geral"
+service: "Necessita validação contra documentação oficial Omie"
+domain: "omie"
 resource: "omie"
 method: "indice"
-endpoint: "https://app.omie.com.br/api/v1/geral/clientes/"
-http_method: "POST"
+endpoint: "Necessita validação contra documentação oficial Omie"
+http_method: "Necessita validação"
 version: "1"
-entity: "cliente_fornecedor_transportadora"
-related_entities:
-  - Cliente
-  - Fornecedor
-  - Transportadora
-related_methods:
-  - ConsultarCliente
-  - IncluirCliente
-  - AlterarCliente
-  - ListarClientes
+entity: "api"
+related_entities: []
+related_methods: []
 permissions:
   - "Necessita credenciais Omie validas fora do repositorio"
-complexity: "media"
-status: "Necessita validacao"
-source: "https://app.omie.com.br/api/v1/geral/clientes/"
+complexity: "inicial"
+status: "inicial/a validar"
+source: "Necessita validação contra documentação oficial Omie"
 last_review: "2026-07-02"
 tags:
   - omie
-  - geral
-  - clientes
-  - enterprise-rag
+  - omie
+  - inicial
 keywords:
-  - ClientesCadastro
-  - VerticalParts Knowledge Base
+  - Omie API - Indice
 questions:
-  - "Como usar o cadastro de clientes da Omie?"
+  - "Como validar oficialmente Omie API - Indice na Omie?"
 use_cases:
-  - assistente_llm
-  - rag_operacional
-business_area: "ERP / Cadastros / Geral"
-llm_ready: true
-rag_ready: true
-graph_ready: true
+  - triagem_documental
+business_area: "ERP / Necessita validação"
+llm_ready: false
+rag_ready: false
+graph_ready: false
 embedding_version: 1
 ---
 # API Omie

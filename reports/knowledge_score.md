@@ -2,14 +2,14 @@
 
 | Arquivo | Nota | Lacunas |
 | --- | ---: | --- |
-| `docs/README.md` | 100 | Nenhuma |
-| `docs/omie/README.md` | 100 | Nenhuma |
-| `docs/omie/financeiro/contas_a_pagar.md` | 100 | Nenhuma |
-| `docs/omie/financeiro/contas_a_receber.md` | 100 | Nenhuma |
-| `docs/omie/financeiro/movimentos_financeiros.md` | 100 | Nenhuma |
+| `docs/README.md` | 70 | Metadados, RAG, GraphRAG |
+| `docs/omie/README.md` | 70 | Metadados, RAG, GraphRAG |
+| `docs/omie/financeiro/contas_a_pagar.md` | 70 | Metadados, RAG, GraphRAG |
+| `docs/omie/financeiro/contas_a_receber.md` | 70 | Metadados, RAG, GraphRAG |
+| `docs/omie/financeiro/movimentos_financeiros.md` | 70 | Metadados, RAG, GraphRAG |
 | `docs/omie/geral/clientes_fornecedores_transportadoras.md` | 100 | Nenhuma |
-| `docs/omie/servicos/ordem_de_servico.md` | 100 | Nenhuma |
-| `docs/omie/vendas/pedidos_de_venda.md` | 100 | Nenhuma |
+| `docs/omie/servicos/ordem_de_servico.md` | 70 | Metadados, RAG, GraphRAG |
+| `docs/omie/vendas/pedidos_de_venda.md` | 70 | Metadados, RAG, GraphRAG |
 | `docs/omie/geral/clientes/alterar_cliente.md` | 100 | Nenhuma |
 | `docs/omie/geral/clientes/associar_cod_int_cliente.md` | 100 | Nenhuma |
 | `docs/omie/geral/clientes/consultar_cliente.md` | 100 | Nenhuma |

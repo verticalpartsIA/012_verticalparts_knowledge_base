@@ -61,132 +61,132 @@ rag_ready: true
 graph_ready: true
 embedding_version: 1
 ---
-        # UpsertClientesPorLote
+# UpsertClientesPorLote
 
-        ## Objetivo
+## Objetivo
 
-        Processa upsert de clientes por lote, com limite oficial de 50 ocorrencias por requisicao. Este documento foi estruturado para LLMs, RAG e GraphRAG, nao como tutorial humano isolado.
+Processa upsert de clientes por lote, com limite oficial de 50 ocorrencias por requisicao. Este documento foi estruturado para LLMs, RAG e GraphRAG, nao como tutorial humano isolado.
 
-        ## Quando utilizar
+## Quando utilizar
 
-        Utilize `UpsertClientesPorLote` para documentar legado ou avaliar fluxo existente de upsert em massa.
+Utilize `UpsertClientesPorLote` para documentar legado ou avaliar fluxo existente de upsert em massa.
 
-        ## Quando NÃO utilizar
+## Quando NÃO utilizar
 
-        Nao utilize `UpsertClientesPorLote` para novas integracoes sem validacao, pois a fonte oficial marca o metodo como DEPRECATED. Quando houver duvida, a LLM deve responder que a decisao necessita validacao.
+Nao utilize `UpsertClientesPorLote` para novas integracoes sem validacao, pois a fonte oficial marca o metodo como DEPRECATED. Quando houver duvida, a LLM deve responder que a decisao necessita validacao.
 
-        ## Fluxo de negócio
+## Fluxo de negócio
 
-        1. A integracao identifica a necessidade cadastral.
-        2. A LLM seleciona o metodo com base na intencao: consulta, inclusao, alteracao, exclusao, listagem, associacao ou upsert.
-        3. O payload e montado com dados ficticios em exemplos ou com dados autorizados em ambiente real.
-        4. O retorno deve ser interpretado por `codigo_status` e `descricao_status` quando o tipo de retorno for status.
-        5. A resposta deve citar a fonte oficial e indicar se ha pontos que necessitam validacao.
+1. A integracao identifica a necessidade cadastral.
+2. A LLM seleciona o metodo com base na intencao: consulta, inclusao, alteracao, exclusao, listagem, associacao ou upsert.
+3. O payload e montado com dados ficticios em exemplos ou com dados autorizados em ambiente real.
+4. O retorno deve ser interpretado por `codigo_status` e `descricao_status` quando o tipo de retorno for status.
+5. A resposta deve citar a fonte oficial e indicar se ha pontos que necessitam validacao.
 
-        ## Entidades relacionadas
+## Entidades relacionadas
 
-        - Cliente
-        - Fornecedor
-        - Transportadora
-        - Pedido
-        - NF-e
-        - Conta a Receber
-        - Conta a Pagar
-        - CRM
-        - Projeto
-        - Serviço
-        - Produtos
-        - Categorias
-        - Anexos
+- Cliente
+- Fornecedor
+- Transportadora
+- Pedido
+- NF-e
+- Conta a Receber
+- Conta a Pagar
+- CRM
+- Projeto
+- Serviço
+- Produtos
+- Categorias
+- Anexos
 
-        ## Métodos relacionados
+## Métodos relacionados
 
-        - `UpsertCliente`
+- `UpsertCliente`
 - `IncluirClientesPorLote`
 - `ListarClientes`
 
-        ## Pré-requisitos
+## Pré-requisitos
 
-        - Acesso autorizado ao ambiente Omie.
-        - Credenciais mantidas fora do repositorio.
-        - Decisao clara sobre chave de identificacao: codigo Omie, codigo de integracao ou CPF/CNPJ.
-        - Validacao de campos obrigatorios conforme finalidade: cadastro simples, fiscal, vendas, compras ou financeiro.
+- Acesso autorizado ao ambiente Omie.
+- Credenciais mantidas fora do repositorio.
+- Decisao clara sobre chave de identificacao: codigo Omie, codigo de integracao ou CPF/CNPJ.
+- Validacao de campos obrigatorios conforme finalidade: cadastro simples, fiscal, vendas, compras ou financeiro.
 
-        ## Payload
+## Payload
 
-        - Tipo oficial de entrada: `clientes_lote_request`.
-        - Tipo oficial de retorno: `clientes_lote_response`.
-        - Metodo documentado oficialmente: `UpsertClientesPorLote`.
-        - Endpoint oficial: `https://app.omie.com.br/api/v1/geral/clientes/`.
+- Tipo oficial de entrada: `clientes_lote_request`.
+- Tipo oficial de retorno: `clientes_lote_response`.
+- Metodo documentado oficialmente: `UpsertClientesPorLote`.
+- Endpoint oficial: `https://app.omie.com.br/api/v1/geral/clientes/`.
 
-        ## Campos obrigatórios
+## Campos obrigatórios
 
-        - `lote`
+- `lote`
 - `clientes_cadastro`
 
-        ## Campos opcionais
+## Campos opcionais
 
-        - Campos opcionais de cada item seguem clientes_cadastro.
+- Campos opcionais de cada item seguem clientes_cadastro.
 
-        ## Regras de negócio
+## Regras de negócio
 
-        - O cadastro de cliente, fornecedor e transportadora compartilha a mesma base no servico `ClientesCadastro`.
-        - `razao_social` e documentado oficialmente como obrigatorio no cadastro.
-        - Dados fiscais e de endereco podem ser obrigatorios quando o cadastro participa de NF-e ou NFS-e.
-        - Metodos marcados como DEPRECATED pela fonte oficial nao devem ser recomendados para novas integracoes sem validacao.
-        - A LLM deve diferenciar "Documentado oficialmente" de "Necessita validacao".
+- O cadastro de cliente, fornecedor e transportadora compartilha a mesma base no servico `ClientesCadastro`.
+- `razao_social` e documentado oficialmente como obrigatorio no cadastro.
+- Dados fiscais e de endereco podem ser obrigatorios quando o cadastro participa de NF-e ou NFS-e.
+- Metodos marcados como DEPRECATED pela fonte oficial nao devem ser recomendados para novas integracoes sem validacao.
+- A LLM deve diferenciar "Documentado oficialmente" de "Necessita validacao".
 
-        ## Validações
+## Validações
 
-        - Validar CPF/CNPJ antes de operacoes fiscais.
-        - Validar chave de integracao para evitar duplicidade.
-        - Validar pagina e quantidade por pagina em listagens.
-        - Validar campos condicionais de NF-e/NFS-e.
-        - Validar comportamento real em ambiente autorizado antes de producao.
+- Validar CPF/CNPJ antes de operacoes fiscais.
+- Validar chave de integracao para evitar duplicidade.
+- Validar pagina e quantidade por pagina em listagens.
+- Validar campos condicionais de NF-e/NFS-e.
+- Validar comportamento real em ambiente autorizado antes de producao.
 
-        ## Restrições
+## Restrições
 
-        - Nao registrar credenciais no repositorio.
-        - Nao usar exemplos como payload oficial completo.
-        - Nao inferir campos obrigatorios alem do que estiver documentado ou validado.
-        - Nao ocultar status DEPRECATED quando aplicavel.
+- Nao registrar credenciais no repositorio.
+- Nao usar exemplos como payload oficial completo.
+- Nao inferir campos obrigatorios alem do que estiver documentado ou validado.
+- Nao ocultar status DEPRECATED quando aplicavel.
 
-        ## Resposta esperada
+## Resposta esperada
 
-        Retorno oficial: `clientes_lote_response`. Quando houver `codigo_status`, a fonte oficial indica que `0` representa sucesso e valores maiores que `0` indicam erro descrito em `descricao_status`.
+Retorno oficial: `clientes_lote_response`. Quando houver `codigo_status`, a fonte oficial indica que `0` representa sucesso e valores maiores que `0` indicam erro descrito em `descricao_status`.
 
-        ## Erros comuns
+## Erros comuns
 
-        - Campo obrigatorio ausente.
-        - Cadastro nao localizado.
-        - CPF/CNPJ invalido.
-        - Codigo de integracao duplicado.
-        - Tentativa de usar metodo depreciado sem justificativa.
-        - Dados fiscais insuficientes para NF-e/NFS-e.
+- Campo obrigatorio ausente.
+- Cadastro nao localizado.
+- CPF/CNPJ invalido.
+- Codigo de integracao duplicado.
+- Tentativa de usar metodo depreciado sem justificativa.
+- Dados fiscais insuficientes para NF-e/NFS-e.
 
-        ## Como resolver os erros
+## Como resolver os erros
 
-        - Conferir chave usada no payload.
-        - Executar consulta antes de alteracao ou exclusao.
-        - Validar CPF/CNPJ e dados fiscais.
-        - Conferir `codigo_status` e `descricao_status`.
-        - Revisar a fonte oficial e marcar lacunas como "Necessita validacao".
+- Conferir chave usada no payload.
+- Executar consulta antes de alteracao ou exclusao.
+- Validar CPF/CNPJ e dados fiscais.
+- Conferir `codigo_status` e `descricao_status`.
+- Revisar a fonte oficial e marcar lacunas como "Necessita validacao".
 
-        ## Casos de uso
+## Casos de uso
 
-        - Assistente LLM respondendo duvidas sobre cadastro Omie.
-        - Sincronizacao cadastral entre ERP e sistema legado.
-        - Preparacao de dados para vendas, compras, financeiro, fiscal e servicos.
-        - Auditoria de cadastros importados por API.
-        - GraphRAG conectando cliente, fornecedor, transportadora e documentos operacionais.
+- Assistente LLM respondendo duvidas sobre cadastro Omie.
+- Sincronizacao cadastral entre ERP e sistema legado.
+- Preparacao de dados para vendas, compras, financeiro, fiscal e servicos.
+- Auditoria de cadastros importados por API.
+- GraphRAG conectando cliente, fornecedor, transportadora e documentos operacionais.
 
-        ## Exemplos completos
+## Exemplos completos
 
-                > Todos os exemplos abaixo usam dados ficticios. A autenticacao Omie foi omitida de proposito para nao registrar segredos no repositorio.
+> Todos os exemplos abaixo usam dados ficticios. A autenticacao Omie foi omitida de proposito para nao registrar segredos no repositorio.
 
-        ### JSON base
+### JSON base
 
-        ```json
+```json
         {
   "call": "UpsertClientesPorLote",
   "param": [
@@ -202,29 +202,29 @@ embedding_version: 1
     }
   ]
 }
-        ```
+```
 
-        ### curl
+### curl
 
-        ```bash
+```bash
         curl -X POST "https://app.omie.com.br/api/v1/geral/clientes/" \
           -H "Content-Type: application/json" \
           -d '{"call": "UpsertClientesPorLote", "param": [{"lote": 1, "clientes_cadastro": [{"codigo_cliente_integracao": "CLI-FICTICIO-001", "razao_social": "Cliente Ficticio Ltda", "nome_fantasia": "Cliente Ficticio"}]}]}'
-        ```
+```
 
-        ### Python
+### Python
 
-        ```python
+```python
         import requests
 
         payload = {'call': 'UpsertClientesPorLote', 'param': [{'lote': 1, 'clientes_cadastro': [{'codigo_cliente_integracao': 'CLI-FICTICIO-001', 'razao_social': 'Cliente Ficticio Ltda', 'nome_fantasia': 'Cliente Ficticio'}]}]}
         response = requests.post("https://app.omie.com.br/api/v1/geral/clientes/", json=payload, timeout=30)
         print(response.json())
-        ```
+```
 
-        ### JavaScript
+### JavaScript
 
-        ```javascript
+```javascript
         const payload = {
   "call": "UpsertClientesPorLote",
   "param": [
@@ -246,11 +246,11 @@ embedding_version: 1
           body: JSON.stringify(payload)
         });
         console.log(await response.json());
-        ```
+```
 
-        ### TypeScript
+### TypeScript
 
-        ```typescript
+```typescript
         type OmieRequest = {
           call: string;
           param: Array<Record<string, unknown>>;
@@ -278,11 +278,11 @@ embedding_version: 1
         });
         const data: unknown = await response.json();
         console.log(data);
-        ```
+```
 
-        ### PHP
+### PHP
 
-        ```php
+```php
         <?php
         $payload = {"call": "UpsertClientesPorLote", "param": [{"lote": 1, "clientes_cadastro": [{"codigo_cliente_integracao": "CLI-FICTICIO-001", "razao_social": "Cliente Ficticio Ltda", "nome_fantasia": "Cliente Ficticio"}]}]};
         $ch = curl_init("https://app.omie.com.br/api/v1/geral/clientes/");
@@ -292,11 +292,11 @@ embedding_version: 1
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         echo curl_exec($ch);
         curl_close($ch);
-        ```
+```
 
-        ### C#
+### C#
 
-        ```csharp
+```csharp
         using System.Net.Http.Json;
 
         var payload = new {
@@ -306,11 +306,11 @@ embedding_version: 1
         using var client = new HttpClient();
         var response = await client.PostAsJsonAsync("https://app.omie.com.br/api/v1/geral/clientes/", payload);
         Console.WriteLine(await response.Content.ReadAsStringAsync());
-        ```
+```
 
-        ### Java
+### Java
 
-        ```java
+```java
         var client = java.net.http.HttpClient.newHttpClient();
         var request = java.net.http.HttpRequest.newBuilder()
             .uri(java.net.URI.create("https://app.omie.com.br/api/v1/geral/clientes/"))
@@ -333,18 +333,18 @@ embedding_version: 1
             .build();
         var response = client.send(request, java.net.http.HttpResponse.BodyHandlers.ofString());
         System.out.println(response.body());
-        ```
+```
 
-        ### Delphi
+### Delphi
 
-        ```pascal
+```pascal
         // Exemplo ficticio: montar o JSON com call="UpsertClientesPorLote" e param=[...].
         // Usar o componente HTTP padrao da aplicacao e enviar POST para o endpoint oficial.
-        ```
+```
 
-        ### n8n
+### n8n
 
-        ```json
+```json
         {
           "node": "HTTP Request",
           "method": "POST",
@@ -353,12 +353,12 @@ embedding_version: 1
           "bodyContentType": "json",
           "jsonBody": {"call": "UpsertClientesPorLote", "param": [{"lote": 1, "clientes_cadastro": [{"codigo_cliente_integracao": "CLI-FICTICIO-001", "razao_social": "Cliente Ficticio Ltda", "nome_fantasia": "Cliente Ficticio"}]}]}
         }
-        ```
+```
 
 
-        ## FAQ
+## FAQ
 
-        ### 1. Como usar este metodo em uma integracao?
+### 1. Como usar este metodo em uma integracao?
 
 Use as secoes de payload, regras e restricoes deste arquivo para processa upsert de clientes por lote, com limite oficial de 50 ocorrencias por requisicao. A fonte oficial documenta o metodo `UpsertClientesPorLote`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
 
@@ -442,24 +442,24 @@ Use as secoes de payload, regras e restricoes deste arquivo para processa upsert
 
 Use as secoes de payload, regras e restricoes deste arquivo para processa upsert de clientes por lote, com limite oficial de 50 ocorrencias por requisicao. A fonte oficial documenta o metodo `UpsertClientesPorLote`, mas campos condicionais e comportamento em producao devem ser validados em ambiente autorizado. Exemplos sao ficticios.
 
-        ## Perguntas naturais
+## Perguntas naturais
 
-        - Como escolher `UpsertClientesPorLote`?
-        - Quando `UpsertClientesPorLote` e melhor que os metodos relacionados?
-        - Quais campos desse metodo precisam de validacao?
-        - Este metodo pode ser usado para cliente, fornecedor e transportadora?
-        - Como uma LLM deve explicar o retorno desse metodo?
+- Como escolher `UpsertClientesPorLote`?
+- Quando `UpsertClientesPorLote` e melhor que os metodos relacionados?
+- Quais campos desse metodo precisam de validacao?
+- Este metodo pode ser usado para cliente, fornecedor e transportadora?
+- Como uma LLM deve explicar o retorno desse metodo?
 
-        ## Tags para RAG
+## Tags para RAG
 
-        - omie
-        - clientes
-        - fornecedores
-        - transportadoras
-        - upsert_lote
-        - enterprise-rag
-        - graphrag
+- omie
+- clientes
+- fornecedores
+- transportadoras
+- upsert_lote
+- enterprise-rag
+- graphrag
 
-        ## Fonte oficial consultada
+## Fonte oficial consultada
 
-        - https://app.omie.com.br/api/v1/geral/clientes/
+- https://app.omie.com.br/api/v1/geral/clientes/

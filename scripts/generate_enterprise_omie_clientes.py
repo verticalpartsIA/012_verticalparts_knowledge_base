@@ -8,6 +8,7 @@ explicitamente fechado na fonte.
 from __future__ import annotations
 
 import json
+import re
 from datetime import date
 from pathlib import Path
 from textwrap import dedent
@@ -240,7 +241,10 @@ def ensure_dirs() -> None:
 
 def write(path: str, content: str) -> None:
     (ROOT / path).parent.mkdir(parents=True, exist_ok=True)
-    (ROOT / path).write_text(content.strip() + "\n", encoding="utf-8")
+    normalized = re.sub(r"(?m)^[ \t]+(#{1,6}\s)", r"\1", content.strip())
+    normalized = re.sub(r"(?m)^[ \t]+(```)", r"\1", normalized)
+    normalized = re.sub(r"(?m)^[ \t]+(>)", r"\1", normalized)
+    (ROOT / path).write_text(normalized + "\n", encoding="utf-8")
 
 
 def yaml_for_method(meta: dict) -> str:
@@ -508,21 +512,21 @@ def method_doc(meta: dict) -> str:
     required = "\n".join(f"- `{item}`" if ":" not in item else f"- {item}" for item in fg["required"])
     optional = "\n".join(f"- `{item}`" if item and item[0].islower() else f"- {item}" for item in fg["optional"])
     related = "\n".join(f"- `{m}`" for m in meta["related"])
-    body = dedent(
-        f"""\
-        # {meta['method']}
+    body_template = dedent(
+        """\
+        # {method}
 
         ## Objetivo
 
-        {meta['summary']} Este documento foi estruturado para LLMs, RAG e GraphRAG, nao como tutorial humano isolado.
+        {summary} Este documento foi estruturado para LLMs, RAG e GraphRAG, nao como tutorial humano isolado.
 
         ## Quando utilizar
 
-        Utilize `{meta['method']}` para {meta['use']}
+        Utilize `{method}` para {use}
 
         ## Quando NÃO utilizar
 
-        Nao utilize `{meta['method']}` para {meta['avoid']} Quando houver duvida, a LLM deve responder que a decisao necessita validacao.
+        Nao utilize `{method}` para {avoid} Quando houver duvida, a LLM deve responder que a decisao necessita validacao.
 
         ## Fluxo de negócio
 
@@ -561,10 +565,10 @@ def method_doc(meta: dict) -> str:
 
         ## Payload
 
-        - Tipo oficial de entrada: `{meta['request_type']}`.
-        - Tipo oficial de retorno: `{meta['return_type']}`.
-        - Metodo documentado oficialmente: `{meta['method']}`.
-        - Endpoint oficial: `{SOURCE}`.
+        - Tipo oficial de entrada: `{request_type}`.
+        - Tipo oficial de retorno: `{return_type}`.
+        - Metodo documentado oficialmente: `{method}`.
+        - Endpoint oficial: `{source}`.
 
         ## Campos obrigatórios
 
@@ -599,7 +603,7 @@ def method_doc(meta: dict) -> str:
 
         ## Resposta esperada
 
-        Retorno oficial: `{meta['return_type']}`. Quando houver `codigo_status`, a fonte oficial indica que `0` representa sucesso e valores maiores que `0` indicam erro descrito em `descricao_status`.
+        Retorno oficial: `{return_type}`. Quando houver `codigo_status`, a fonte oficial indica que `0` representa sucesso e valores maiores que `0` indicam erro descrito em `descricao_status`.
 
         ## Erros comuns
 
@@ -628,16 +632,16 @@ def method_doc(meta: dict) -> str:
 
         ## Exemplos completos
 
-        {code_examples(meta)}
+        {examples}
 
         ## FAQ
 
-        {faq(meta)}
+        {faq_content}
 
         ## Perguntas naturais
 
-        - Como escolher `{meta['method']}`?
-        - Quando `{meta['method']}` e melhor que os metodos relacionados?
+        - Como escolher `{method}`?
+        - Quando `{method}` e melhor que os metodos relacionados?
         - Quais campos desse metodo precisam de validacao?
         - Este metodo pode ser usado para cliente, fornecedor e transportadora?
         - Como uma LLM deve explicar o retorno desse metodo?
@@ -648,14 +652,29 @@ def method_doc(meta: dict) -> str:
         - clientes
         - fornecedores
         - transportadoras
-        - {meta['operation']}
+        - {operation}
         - enterprise-rag
         - graphrag
 
         ## Fonte oficial consultada
 
-        - {SOURCE}
+        - {source}
         """
+    )
+    body = body_template.format(
+        method=meta["method"],
+        summary=meta["summary"],
+        use=meta["use"],
+        avoid=meta["avoid"],
+        related=related,
+        request_type=meta["request_type"],
+        return_type=meta["return_type"],
+        source=SOURCE,
+        required=required,
+        optional=optional,
+        examples=code_examples(meta),
+        faq_content=faq(meta),
+        operation=meta["operation"],
     )
     return yaml_for_method(meta) + body
 
@@ -849,6 +868,48 @@ def yaml_generic(title: str, resource: str, method: str = "indice") -> str:
     )
 
 
+def yaml_neutral(title: str, resource: str, domain: str, entity: str) -> str:
+    return "\n".join(
+        [
+            "---",
+            f'title: "{title}"',
+            'service: "Necessita validação contra documentação oficial Omie"',
+            f'domain: "{domain}"',
+            f'resource: "{resource}"',
+            'method: "indice"',
+            'endpoint: "Necessita validação contra documentação oficial Omie"',
+            'http_method: "Necessita validação"',
+            'version: "1"',
+            f'entity: "{entity}"',
+            "related_entities: []",
+            "related_methods: []",
+            "permissions:",
+            '  - "Necessita credenciais Omie validas fora do repositorio"',
+            'complexity: "inicial"',
+            'status: "inicial/a validar"',
+            'source: "Necessita validação contra documentação oficial Omie"',
+            f'last_review: "{TODAY}"',
+            "tags:",
+            "  - omie",
+            f"  - {resource}",
+            "  - inicial",
+            "keywords:",
+            f"  - {title}",
+            "questions:",
+            f'  - "Como validar oficialmente {title} na Omie?"',
+            "use_cases:",
+            "  - triagem_documental",
+            'business_area: "ERP / Necessita validação"',
+            "llm_ready: false",
+            "rag_ready: false",
+            "graph_ready: false",
+            "embedding_version: 1",
+            "---",
+            "",
+        ]
+    )
+
+
 def generic_enterprise_sections(title: str) -> str:
     return dedent(
         f"""\
@@ -931,16 +992,16 @@ def generic_enterprise_sections(title: str) -> str:
 
 def retrofit_docs_omie() -> None:
     targets = {
-        "docs/README.md": ("Documentacao Geral", "docs"),
-        "docs/omie/README.md": ("Omie API - Indice", "omie"),
-        "docs/omie/geral/clientes_fornecedores_transportadoras.md": ("Indice Clientes, Fornecedores e Transportadoras", "clientes"),
-        "docs/omie/financeiro/contas_a_pagar.md": ("Contas a Pagar", "financeiro"),
-        "docs/omie/financeiro/contas_a_receber.md": ("Contas a Receber", "financeiro"),
-        "docs/omie/financeiro/movimentos_financeiros.md": ("Movimentos Financeiros", "financeiro"),
-        "docs/omie/vendas/pedidos_de_venda.md": ("Pedidos de Venda", "vendas"),
-        "docs/omie/servicos/ordem_de_servico.md": ("Ordem de Servico", "servicos"),
+        "docs/README.md": ("Documentacao Geral", "docs", "neutral", "omie", "documentacao"),
+        "docs/omie/README.md": ("Omie API - Indice", "omie", "neutral", "omie", "api"),
+        "docs/omie/geral/clientes_fornecedores_transportadoras.md": ("Indice Clientes, Fornecedores e Transportadoras", "clientes", "clientes", "omie.geral", "cliente_fornecedor_transportadora"),
+        "docs/omie/financeiro/contas_a_pagar.md": ("Contas a Pagar", "contas_a_pagar", "neutral", "omie.financeiro", "conta_a_pagar"),
+        "docs/omie/financeiro/contas_a_receber.md": ("Contas a Receber", "contas_a_receber", "neutral", "omie.financeiro", "conta_a_receber"),
+        "docs/omie/financeiro/movimentos_financeiros.md": ("Movimentos Financeiros", "movimentos_financeiros", "neutral", "omie.financeiro", "movimento_financeiro"),
+        "docs/omie/vendas/pedidos_de_venda.md": ("Pedidos de Venda", "pedidos_de_venda", "neutral", "omie.vendas", "pedido_de_venda"),
+        "docs/omie/servicos/ordem_de_servico.md": ("Ordem de Servico", "ordem_de_servico", "neutral", "omie.servicos", "ordem_de_servico"),
     }
-    for path, (title, resource) in targets.items():
+    for path, (title, resource, profile, domain, entity) in targets.items():
         p = ROOT / path
         if not p.exists():
             continue
@@ -954,7 +1015,12 @@ def retrofit_docs_omie() -> None:
             body = body + generic_enterprise_sections(title)
         elif "## Casos de uso" not in body:
             body = body + "\n## Casos de uso\n\n- Navegacao por dominio.\n- Recuperacao RAG.\n- Expansao GraphRAG.\n"
-        write(path, yaml_generic(title, resource) + body)
+        front_matter = (
+            yaml_generic(title, resource)
+            if profile == "clientes"
+            else yaml_neutral(title, resource, domain, entity)
+        )
+        write(path, front_matter + body)
 
 
 def clientes_readme() -> str:
