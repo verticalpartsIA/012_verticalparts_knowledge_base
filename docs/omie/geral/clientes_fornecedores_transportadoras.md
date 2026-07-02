@@ -1,8 +1,12 @@
-# Clientes, Fornecedores e Transportadoras
+# Índice: Clientes, Fornecedores e Transportadoras
 
-## Título
+## Visão Geral
 
-Clientes, fornecedores e transportadoras
+Este documento é o índice resumido do serviço Omie `ClientesCadastro`, localizado no domínio `Geral > Clientes, Fornecedores e Transportadoras`.
+
+A documentação detalhada por método está em:
+
+- `docs/omie/geral/clientes/`
 
 ## Domínio
 
@@ -14,15 +18,35 @@ Omie Geral
 
 ## Métodos conhecidos
 
-- `ListarClientes`
-- `ConsultarCliente`
-- `IncluirCliente`
 - `AlterarCliente`
+- `AssociarCodIntCliente`
+- `ConsultarCliente`
 - `ExcluirCliente`
+- `IncluirCliente`
+- `IncluirClientesPorLote` - depreciado na fonte oficial
+- `ListarClientes`
+- `ListarClientesResumido`
+- `UpsertCliente`
+- `UpsertClienteCpfCnpj`
+- `UpsertClientesPorLote` - depreciado na fonte oficial
 
 ## Quando usar
 
 Use este grupo de endpoints para consultar, cadastrar e manter entidades cadastrais usadas em operações comerciais, financeiras, logísticas e fiscais. A mesma base cadastral pode representar clientes, fornecedores, transportadoras ou outros participantes relacionados ao fluxo da empresa.
+
+## Documentos Detalhados
+
+- `docs/omie/geral/clientes/alterar_cliente.md`
+- `docs/omie/geral/clientes/associar_cod_int_cliente.md`
+- `docs/omie/geral/clientes/consultar_cliente.md`
+- `docs/omie/geral/clientes/excluir_cliente.md`
+- `docs/omie/geral/clientes/incluir_cliente.md`
+- `docs/omie/geral/clientes/incluir_clientes_por_lote.md`
+- `docs/omie/geral/clientes/listar_clientes.md`
+- `docs/omie/geral/clientes/listar_clientes_resumido.md`
+- `docs/omie/geral/clientes/upsert_cliente.md`
+- `docs/omie/geral/clientes/upsert_cliente_cpf_cnpj.md`
+- `docs/omie/geral/clientes/upsert_clientes_por_lote.md`
 
 ## Entidades relacionadas
 
@@ -43,8 +67,8 @@ Use este grupo de endpoints para consultar, cadastrar e manter entidades cadastr
 
 ## Observações para RAG
 
-Este documento deve ser recuperado quando a pergunta mencionar cadastro, cliente, fornecedor, transportadora, participante, código de cliente ou dados mestres. O agente deve sinalizar que métodos e campos precisam ser validados contra fonte oficial antes de implementação.
+Este índice deve ser recuperado quando a pergunta pedir uma visão geral do cadastro de clientes, fornecedores e transportadoras. Para perguntas sobre método específico, payload, retorno ou erro, a LLM deve preferir os documentos detalhados em `docs/omie/geral/clientes/`.
 
 ## Status
 
-inicial/a validar
+inicial/expandido com fonte oficial

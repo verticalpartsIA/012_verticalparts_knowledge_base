@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://verticalparts.local/schemas/omie/geral/clientes/listar_clientes.schema.json",
+  "title": "ListarClientes",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "call": {
+      "const": "ListarClientes"
+    },
+    "param": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "properties": {
+          "pagina": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "registros_por_pagina": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "apenas_importado_api": {
+            "type": "string",
+            "enum": ["S", "N"]
+          }
+        },
+        "required": ["pagina", "registros_por_pagina"]
+      }
+    }
+  },
+  "required": ["call", "param"]
+}

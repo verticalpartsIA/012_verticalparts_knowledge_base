@@ -45,6 +45,12 @@ A documentação inicial da Omie está em `docs/omie/` e está organizada por do
 
 Os documentos iniciais estão marcados como `status: inicial/a validar`, pois devem ser refinados com fontes oficiais, testes controlados e validação de especialistas internos.
 
+## Primeiro Domínio Documentado em Detalhe
+
+O primeiro serviço documentado em detalhe é `Omie Geral > Clientes, Fornecedores e Transportadoras`, disponível em `docs/omie/geral/clientes/`.
+
+Essa área detalha os métodos oficiais do serviço `ClientesCadastro`, incluindo consulta, inclusão, alteração, exclusão, associação de código interno, listagem, upsert e operações por lote marcadas como depreciadas pela documentação oficial. Os arquivos foram estruturados para uso por LLMs e RAG, com metadados YAML, exemplos fictícios, campos de entrada e retorno, perguntas prováveis e tags de recuperação.
+
 ## Configuração Local
 
 Copie `.env.example` para `.env` apenas no ambiente local e preencha as variáveis fora do Git:
