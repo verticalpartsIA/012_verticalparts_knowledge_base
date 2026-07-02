@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://verticalparts.local/schemas/omie/geral/clientes/alterar_cliente.schema.json",
+  "title": "AlterarCliente",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "call": {
+      "const": "AlterarCliente"
+    },
+    "param": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {
+        "$ref": "#/$defs/clientes_cadastro"
+      }
+    }
+  },
+  "required": ["call", "param"],
+  "$defs": {
+    "clientes_cadastro": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "codigo_cliente_omie": {
+          "type": "integer"
+        },
+        "codigo_cliente_integracao": {
+          "type": "string",
+          "maxLength": 60
+        },
+        "razao_social": {
+          "type": "string",
+          "maxLength": 60
+        },
+        "nome_fantasia": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "email": {
+          "type": "string",
+          "maxLength": 500
+        }
+      },
+      "anyOf": [
+        {
+          "required": ["codigo_cliente_omie"]
+        },
+        {
+          "required": ["codigo_cliente_integracao"]
+        }
+      ]
+    }
+  }
+}
