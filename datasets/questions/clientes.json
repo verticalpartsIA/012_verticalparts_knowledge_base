@@ -1,0 +1,2102 @@
+[
+  {
+    "question": "Como consultar cliente pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar cliente pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar cliente pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar cliente pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar cliente pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar cliente pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar cliente pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar cliente pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar cliente pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar cliente pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar fornecedor pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar fornecedor pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar fornecedor pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar fornecedor pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar fornecedor pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar fornecedor pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar fornecedor pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar fornecedor pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar fornecedor pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar fornecedor pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar transportadora pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar transportadora pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar transportadora pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar transportadora pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar transportadora pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar transportadora pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar transportadora pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar transportadora pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar transportadora pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como consultar transportadora pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar cliente pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar cliente pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar cliente pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar cliente pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar cliente pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar cliente pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar cliente pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar cliente pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar cliente pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar cliente pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar fornecedor pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar fornecedor pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar fornecedor pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar fornecedor pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar fornecedor pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar fornecedor pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar fornecedor pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar fornecedor pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar fornecedor pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar fornecedor pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar transportadora pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar transportadora pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar transportadora pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar transportadora pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar transportadora pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar transportadora pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar transportadora pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar transportadora pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar transportadora pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como localizar transportadora pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar cliente pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar cliente pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar cliente pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar cliente pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar cliente pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar cliente pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar cliente pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar cliente pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar cliente pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar cliente pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar fornecedor pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar fornecedor pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar fornecedor pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar fornecedor pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar fornecedor pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar fornecedor pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar fornecedor pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar fornecedor pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar fornecedor pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar fornecedor pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar transportadora pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar transportadora pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar transportadora pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar transportadora pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar transportadora pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar transportadora pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar transportadora pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar transportadora pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar transportadora pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como alterar transportadora pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir cliente pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir cliente pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir cliente pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir cliente pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir cliente pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir cliente pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir cliente pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir cliente pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir cliente pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir cliente pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir fornecedor pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir fornecedor pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir fornecedor pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir fornecedor pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir fornecedor pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir fornecedor pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir fornecedor pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir fornecedor pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir fornecedor pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir fornecedor pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir transportadora pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir transportadora pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir transportadora pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir transportadora pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir transportadora pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir transportadora pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir transportadora pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir transportadora pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir transportadora pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como incluir transportadora pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir cliente pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir cliente pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir cliente pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir cliente pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir cliente pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir cliente pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir cliente pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir cliente pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir cliente pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir cliente pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir fornecedor pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir fornecedor pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir fornecedor pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir fornecedor pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir fornecedor pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir fornecedor pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir fornecedor pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir fornecedor pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir fornecedor pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir fornecedor pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir transportadora pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir transportadora pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir transportadora pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir transportadora pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir transportadora pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir transportadora pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir transportadora pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir transportadora pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir transportadora pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como excluir transportadora pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar cliente pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar cliente pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar cliente pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar cliente pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar cliente pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar cliente pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar cliente pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar cliente pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar cliente pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar cliente pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar fornecedor pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar fornecedor pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar fornecedor pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar fornecedor pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar fornecedor pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar fornecedor pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar fornecedor pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar fornecedor pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar fornecedor pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar fornecedor pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar transportadora pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar transportadora pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar transportadora pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar transportadora pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar transportadora pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar transportadora pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar transportadora pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar transportadora pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar transportadora pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como listar transportadora pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar cliente pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar cliente pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar cliente pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar cliente pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar cliente pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar cliente pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar cliente pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar cliente pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar cliente pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar cliente pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar fornecedor pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar fornecedor pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar fornecedor pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar fornecedor pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar fornecedor pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar fornecedor pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar fornecedor pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar fornecedor pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar fornecedor pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar fornecedor pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar transportadora pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar transportadora pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar transportadora pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar transportadora pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar transportadora pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar transportadora pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar transportadora pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar transportadora pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar transportadora pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como sincronizar transportadora pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar cliente pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar cliente pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar cliente pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar cliente pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar cliente pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar cliente pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar cliente pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar cliente pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar cliente pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar cliente pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar fornecedor pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar fornecedor pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar fornecedor pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar fornecedor pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar fornecedor pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar fornecedor pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar fornecedor pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar fornecedor pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar fornecedor pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar fornecedor pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar transportadora pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar transportadora pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar transportadora pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar transportadora pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar transportadora pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar transportadora pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar transportadora pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar transportadora pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar transportadora pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como validar transportadora pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar cliente pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar cliente pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar cliente pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar cliente pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar cliente pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar cliente pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar cliente pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar cliente pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar cliente pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar cliente pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar fornecedor pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar fornecedor pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar fornecedor pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar fornecedor pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar fornecedor pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar fornecedor pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar fornecedor pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar fornecedor pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar fornecedor pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar fornecedor pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar transportadora pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar transportadora pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar transportadora pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar transportadora pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar transportadora pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar transportadora pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar transportadora pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar transportadora pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar transportadora pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como pesquisar transportadora pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar cliente pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar cliente pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar cliente pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar cliente pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar cliente pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar cliente pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar cliente pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar cliente pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar cliente pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar cliente pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar fornecedor pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar fornecedor pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar fornecedor pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar fornecedor pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar fornecedor pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar fornecedor pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar fornecedor pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar fornecedor pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar fornecedor pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar fornecedor pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar transportadora pelo codigo interno?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar transportadora pelo codigo Omie?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar transportadora pelo CNPJ?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar transportadora pelo CPF?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar transportadora pelo email?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar transportadora pelo telefone?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar transportadora pelo endereco?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar transportadora pelo razao social?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar transportadora pelo nome fantasia?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  },
+  {
+    "question": "Como atualizar transportadora pelo tag?",
+    "domain": "omie.geral",
+    "resource": "clientes",
+    "expected_source": "https://app.omie.com.br/api/v1/geral/clientes/",
+    "status": "Necessita validacao quando depender de campo condicional"
+  }
+]

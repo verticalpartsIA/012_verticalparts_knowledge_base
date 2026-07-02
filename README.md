@@ -1,68 +1,104 @@
 # VerticalParts Knowledge Base
 
-Este repositório organiza a base de conhecimento técnica da VerticalParts para uso por LLMs, agentes internos e pipelines de RAG. A primeira frente documentada é a API Omie, com foco em transformar conhecimento operacional, documentação técnica e exemplos de uso em documentos rastreáveis, versionados e prontos para indexação.
+Base de conhecimento Enterprise RAG/LLM da VerticalParts para documentar APIs, dominios de negocio, grafos de conhecimento, chunks, embeddings, schemas, testes e estrategias de recuperacao.
+
+## Arquitetura
+
+- `docs/`: conhecimento tecnico fonte, com YAML obrigatorio.
+- `standards/`: padroes mestres para documentos LLM-ready.
+- `business/`: conhecimento de negocio por dominio.
+- `graphs/`: relacoes GraphRAG em Mermaid.
+- `rag/`: chunking, retrieval, reranking e estrategias hibridas.
+- `embeddings/`: orientacoes de modelos e versionamento.
+- `schemas/`: contratos JSON iniciais.
+- `datasets/questions/`: perguntas naturais para avaliacao e treinamento.
+- `tests/knowledge/`: testes automatizados de qualidade documental.
+- `scripts/`: automacoes de geracao, score e suporte.
+- `reports/`: saidas geradas por validadores.
 
 ## Objetivos
 
-- Centralizar documentação técnica validável para APIs, integrações e fluxos de negócio da VerticalParts.
-- Criar uma fonte confiável para respostas assistidas por LLMs e sistemas RAG.
-- Padronizar documentos com metadados úteis para busca semântica, chunking e auditoria.
-- Separar conhecimento de produto, especificações, desenho técnico, prompts, exemplos, schemas, datasets e scripts.
-- Evitar armazenamento de credenciais, tokens, senhas ou segredos no repositório.
+- Criar conhecimento especializado para LLMs, nao apenas documentacao humana.
+- Padronizar metadados para RAG, GraphRAG e embeddings.
+- Separar informacao documentada oficialmente de conteudo que necessita validacao.
+- Evitar credenciais, segredos ou senhas no repositorio.
 
-## Estrutura Inicial
+## Primeiro domínio documentado em detalhe
 
-```text
-.github/workflows/
-docs/
-docs/omie/
-knowledge/
-knowledge/omie/
-specs/
-sdd/
-skills/
-skills/omie-api-knowledge/
-prompts/
-rag/
-schemas/
-examples/
-workflows/
-datasets/
-scripts/
-tests/
+O primeiro dominio detalhado e `Omie Geral > Clientes, Fornecedores e Transportadoras`, baseado na fonte oficial `https://app.omie.com.br/api/v1/geral/clientes/`.
+
+## Estrutura
+
+Consulte `standards/LLM_DOCUMENT_STANDARD.md` para o formato obrigatorio de Markdown, YAML, FAQ, exemplos, tags, chunking, embeddings, RAG e GraphRAG.
+
+## Roadmap
+
+1. Consolidar ClientesCadastro.
+2. Expandir Financeiro.
+3. Expandir Vendas.
+4. Expandir Servicos.
+5. Expandir Fiscal.
+6. Criar avaliadores automaticos por dominio.
+
+## Como contribuir
+
+- Criar branch por dominio ou padrao.
+- Seguir `standards/LLM_DOCUMENT_STANDARD.md`.
+- Rodar testes e score antes de abrir PR.
+- Marcar lacunas como "Necessita validacao".
+
+## Como gerar documentação
+
+```bash
+python scripts/generate_enterprise_omie_clientes.py
 ```
 
-## API Omie
+## Como gerar embeddings
 
-A documentação inicial da Omie está em `docs/omie/` e está organizada por domínio funcional:
+1. Escolha o modelo em `embeddings/README.md`.
+2. Leia chunks em `rag/chunks/`.
+3. Preserve metadados YAML.
+4. Grave `embedding_version`.
 
-- `geral`: cadastros e entidades base.
-- `financeiro`: contas a pagar, contas a receber e movimentos financeiros.
-- `vendas`: pedidos de venda e fluxo comercial.
-- `estoque`: materiais, produtos e movimentações de estoque.
-- `servicos`: ordens de serviço e operações relacionadas.
-- `fiscal`: documentos e obrigações fiscais.
+## Como indexar no Qdrant
 
-Os documentos iniciais estão marcados como `status: inicial/a validar`, pois devem ser refinados com fontes oficiais, testes controlados e validação de especialistas internos.
+- Criar colecao por dominio.
+- Usar filtros por `service`, `method`, `domain`, `status` e `embedding_version`.
+- Indexar chunks de `rag/chunks/clientes/`.
 
-## Primeiro Domínio Documentado em Detalhe
+## Como indexar no pgvector
 
-O primeiro serviço documentado em detalhe é `Omie Geral > Clientes, Fornecedores e Transportadoras`, disponível em `docs/omie/geral/clientes/`.
+- Criar tabela com texto, vetor e metadados JSONB.
+- Usar indices vetoriais e filtros JSONB para dominio e metodo.
+- Registrar hash do chunk para reindexacao incremental.
 
-Essa área detalha os métodos oficiais do serviço `ClientesCadastro`, incluindo consulta, inclusão, alteração, exclusão, associação de código interno, listagem, upsert e operações por lote marcadas como depreciadas pela documentação oficial. Os arquivos foram estruturados para uso por LLMs e RAG, com metadados YAML, exemplos fictícios, campos de entrada e retorno, perguntas prováveis e tags de recuperação.
+## Como integrar com LangChain
 
-## Configuração Local
+- Usar loader Markdown.
+- Separar YAML como metadata.
+- Aplicar retriever hibrido e reranker.
 
-Copie `.env.example` para `.env` apenas no ambiente local e preencha as variáveis fora do Git:
+## Como integrar com LlamaIndex
 
-```env
-OMIE_APP_KEY=
-OMIE_APP_SECRET=
-OMIE_BASE_URL=https://app.omie.com.br/api/v1
+- Carregar chunks como nodes.
+- Mapear YAML para metadata.
+- Usar graph store quando consumir `graphs/`.
+
+## Como integrar com Semantic Kernel
+
+- Registrar chunks como memoria semantica.
+- Criar plugins por dominio Omie.
+- Restringir respostas as fontes recuperadas.
+
+## Como integrar com Haystack
+
+- Usar document store vetorial.
+- Aplicar BM25 + embedding retriever.
+- Rerankear por metodo e status.
+
+## Qualidade
+
+```bash
+pytest tests/knowledge
+python scripts/knowledge_score.py
 ```
-
-Nunca faça commit de chaves, segredos, tokens, senhas ou arquivos `.env` reais.
-
-## Qualidade Esperada
-
-Todo conteúdo deve ser técnico, objetivo, em português do Brasil e adequado para recuperação por RAG. Sempre que possível, cada documento deve informar domínio, endpoint, métodos conhecidos, quando usar, entidades relacionadas, perguntas prováveis de usuários e observações de indexação.
