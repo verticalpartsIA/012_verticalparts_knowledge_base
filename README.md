@@ -29,6 +29,22 @@ A partir da fase v0.3.0, a VerticalParts Knowledge Base passa a ser orientada po
 
 A arquitetura inicial está em `factory/`. Nesta etapa a Factory ainda não executa crawler, scraping ou geração automática real; ela define módulos, contratos, templates, configurações, quality gate e workflow para implementação posterior.
 
+### Generation Planner
+
+O Generation Planner calcula de forma determinística qual serviço deve ser documentado primeiro, usando domínio, dependências, criticidade financeira, impacto no ERP, cobertura, prioridade de registry e relações entre serviços.
+
+```bash
+python factory/scripts/main.py --plan
+python factory/scripts/main.py --next-best-service
+python factory/scripts/main.py --dependency-graph
+```
+
+Relatórios gerados:
+
+- `factory/reports/planner_report.md`
+- `factory/reports/documentation_plan.md`
+- `factory/reports/service_dependency_graph.md`
+
 ## Primeiro domínio documentado em detalhe
 
 O primeiro dominio detalhado e `Omie Geral > Clientes, Fornecedores e Transportadoras`, baseado na fonte oficial `https://app.omie.com.br/api/v1/geral/clientes/`.

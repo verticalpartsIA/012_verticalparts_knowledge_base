@@ -36,6 +36,10 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--list-services", action="store_true", help="Lista todos os servicos do registry.")
     parser.add_argument("--list-pending", action="store_true", help="Lista servicos pendentes.")
     parser.add_argument("--list-implemented", action="store_true", help="Lista servicos implementados.")
+    parser.add_argument("--plan", action="store_true", help="Gera o plano deterministico de documentacao.")
+    parser.add_argument("--priority-report", action="store_true", help="Gera e imprime o caminho do relatorio de prioridades.")
+    parser.add_argument("--dependency-graph", action="store_true", help="Gera e imprime o caminho do grafo de dependencias.")
+    parser.add_argument("--next-best-service", action="store_true", help="Mostra o proximo melhor servico recomendado pelo planner.")
     return parser
 
 
@@ -73,6 +77,22 @@ def ensure_output_structure(output: Path, dry_run: bool = False) -> list[Path]:
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     registry_path = Path(args.registry)
+
+    if args.plan or args.priority_report or args.dependency_graph or args.next_best_service:
+        from planner import DEFAULT_REPORT_DIR, build_plan, format_next_best
+
+        result = build_plan(registry_path=registry_path)
+        if args.next_best_service:
+            print(format_next_best(result))
+            return 0
+        if args.dependency_graph:
+            print(DEFAULT_REPORT_DIR / "service_dependency_graph.md")
+            return 0
+        if args.priority_report:
+            print(DEFAULT_REPORT_DIR / "planner_report.md")
+            return 0
+        print(DEFAULT_REPORT_DIR / "documentation_plan.md")
+        return 0
 
     if args.list_services or args.list_pending or args.list_implemented or args.next:
         services = load_registry(registry_path)
