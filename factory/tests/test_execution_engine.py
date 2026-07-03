@@ -61,6 +61,14 @@ def test_execute_service_dry_run_by_id(tmp_path: Path) -> None:
     assert result.service_name == "Contas a Pagar - Lançamentos"
     assert result.quality_score == 1.0
 
+    alias_result = execute_service(
+        "omie-financeiro-contas-pagar",
+        registry_path=REGISTRY,
+        dry_run=True,
+        **paths(tmp_path / "alias"),
+    )
+    assert alias_result.service_id == "financas_contas_a_pagar_lancamentos"
+
 
 def test_execution_blocks_unknown_completed_and_unresolved_services(tmp_path: Path) -> None:
     with pytest.raises(ExecutionError, match="Serviço inexistente"):

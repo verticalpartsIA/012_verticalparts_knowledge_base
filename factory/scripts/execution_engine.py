@@ -18,6 +18,9 @@ DEFAULT_STATE_PATH = Path("factory/state/factory_state.json")
 DEFAULT_HISTORY_PATH = Path("factory/reports/execution_history.json")
 DEFAULT_REPORT_PATH = Path("factory/reports/execution_report.md")
 DEFAULT_OUTPUT_ROOT = Path("factory/output/execution")
+SERVICE_ID_ALIASES = {
+    "omie-financeiro-contas-pagar": "financas_contas_a_pagar_lancamentos",
+}
 
 
 @dataclass(frozen=True)
@@ -341,8 +344,9 @@ def render_execution_report(result: ExecutionResult) -> str:
 
 
 def find_service(services: list[RegistryService], service_id: str) -> RegistryService:
+    resolved_id = SERVICE_ID_ALIASES.get(service_id, service_id)
     for service in services:
-        if service.id == service_id:
+        if service.id == resolved_id:
             return service
     raise ExecutionError(f"Serviço inexistente: {service_id}")
 
