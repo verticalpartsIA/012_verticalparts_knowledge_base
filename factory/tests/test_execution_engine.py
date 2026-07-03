@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import sys
 from pathlib import Path
+from types import SimpleNamespace
 
 import pytest
 
@@ -70,6 +71,31 @@ def test_execute_service_dry_run_by_id(tmp_path: Path) -> None:
     assert alias_result.service_id == "financas_contas_a_pagar_lancamentos"
 
 
+def test_execute_service_no_write_uses_output_root_without_final_files(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    output_root = tmp_path / "runs" / "first-autonomous-cycle"
+
+    def fake_run_pipeline(url: str, output: Path, dry_run: bool = False, service: str | None = None) -> SimpleNamespace:
+        assert dry_run is True
+        return SimpleNamespace(generated_files=(output / "docs" / "planned.md", output / "reports" / "dashboard.md"))
+
+    monkeypatch.setattr("main.run_pipeline", fake_run_pipeline)
+    result = execute_service(
+        "omie-financeiro-contas-pagar",
+        registry_path=REGISTRY,
+        no_write=True,
+        output_root=output_root,
+        **{key: value for key, value in paths(tmp_path).items() if key != "output_root"},
+    )
+
+    assert result.status == "no-write"
+    assert result.no_write is True
+    assert result.generated_files
+    assert all(str(path).replace("\\", "/").startswith(str(output_root).replace("\\", "/")) for path in result.generated_files)
+    assert not (output_root / "contas_a_pagar_lancamentos" / "docs").exists()
+
+
 def test_execution_blocks_unknown_completed_and_unresolved_services(tmp_path: Path) -> None:
     with pytest.raises(ExecutionError, match="Serviço inexistente"):
         execute_service("nao-existe", registry_path=REGISTRY, dry_run=True, **paths(tmp_path))
@@ -103,4 +129,5 @@ def test_cli_execution_commands(capsys: pytest.CaptureFixture[str]) -> None:
     assert "status=" in capsys.readouterr().out
 
     assert main(["--history"]) == 0
-    assert "execução" in capsys.readouterr().out.lower() or "service_id" in capsys.readouterr().out
+    history_output = capsys.readouterr().out
+    assert "execução" in history_output.lower() or "service_id" in history_output

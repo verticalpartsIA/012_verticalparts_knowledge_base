@@ -17,6 +17,7 @@ from generate_documents import generate_documents
 from generate_questions import generate_questions
 from generate_reports import generate_reports
 from main import ensure_output_structure, run_pipeline
+from models import MethodInfo, ServiceInfo
 from parser import parse_html
 
 
@@ -87,3 +88,42 @@ def test_run_pipeline_dry_run(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -
     assert result.dry_run is True
     assert result.service.methods
     assert not (tmp_path / "docs").exists()
+
+
+def test_method_file_slugs_are_unique_for_colliding_upsert_names(tmp_path: Path) -> None:
+    service = ServiceInfo(
+        name="Contas a Pagar - Lançamentos",
+        endpoint="https://app.omie.com.br/api/v1/financas/contapagar/",
+        domain="omie.financas",
+        description="Servico financeiro.",
+        source_url="https://app.omie.com.br/api/v1/financas/contapagar/",
+        methods=(
+            MethodInfo(
+                name="Upsert",
+                endpoint="https://app.omie.com.br/api/v1/financas/contapagar/",
+                service="Contas a Pagar - Lançamentos",
+                domain="omie.financas",
+                description="Upsert do Contas a Pagar.",
+            ),
+            MethodInfo(
+                name="UPSERT",
+                endpoint="https://app.omie.com.br/api/v1/financas/contapagar/",
+                service="Contas a Pagar - Lançamentos",
+                domain="omie.financas",
+                description="Efetua o UPSERT do Contas a Pagar por Lote.",
+            ),
+            MethodInfo(
+                name="UpsertContaPagar",
+                endpoint="https://app.omie.com.br/api/v1/financas/contapagar/",
+                service="Contas a Pagar - Lançamentos",
+                domain="omie.financas",
+                description="Upsert do Contas a Pagar.",
+            ),
+        ),
+    )
+
+    document_files = [path for path in generate_documents(service, tmp_path, dry_run=True) if path.suffix == ".md"]
+    chunk_files = [path for path in generate_chunks(service, tmp_path, dry_run=True) if path.suffix == ".md"]
+
+    assert len(document_files) == len(set(document_files))
+    assert len(chunk_files) == len(set(chunk_files))

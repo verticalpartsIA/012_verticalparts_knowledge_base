@@ -48,6 +48,7 @@
 - [Arquitetura](../factory/ARCHITECTURE.md) — `factory/ARCHITECTURE.md`
 - [Exemplo: Clientes](../factory/examples/clientes.md) — `factory/examples/clientes.md`
 - [Execution Engine](../factory/execution/README.md) — `factory/execution/README.md`
+- [First Autonomous Documentation Cycle](../factory/reports/first_autonomous_cycle.md) — `factory/reports/first_autonomous_cycle.md`
 - [FACTORY SDD](../factory/FACTORY_SDD.md) — `factory/FACTORY_SDD.md`
 - [FACTORY SPEC](../factory/FACTORY_SPEC.md) — `factory/FACTORY_SPEC.md`
 - [Generation Planner](../factory/planner/README.md) — `factory/planner/README.md`
