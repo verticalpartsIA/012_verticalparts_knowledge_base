@@ -272,7 +272,7 @@ services:
   implemented: false
   methods_count: null
   documentation_url: https://app.omie.com.br/api/v1/crm/tarefas/
-  output_slug: tarefas
+  output_slug: tarefas_crm_2
   depends_on: []
   notes: Servico importado da matriz coverage/omie_api_coverage.md.
 - id: crm_tarefas_resumo
@@ -422,7 +422,7 @@ services:
 - id: crm_vendedores
   name: Vendedores
   domain: crm
-  endpoint: https://app.omie.com.br/api/v1/crm/usuarios/
+  endpoint: https://app.omie.com.br/api/v1/crm/usuarios/#vendedores
   status: Não iniciado
   priority: baixa
   implemented: false
@@ -434,7 +434,7 @@ services:
 - id: crm_telemarketing
   name: Telemarketing
   domain: crm
-  endpoint: https://app.omie.com.br/api/v1/crm/usuarios/
+  endpoint: https://app.omie.com.br/api/v1/crm/usuarios/#telemarketing
   status: Não iniciado
   priority: baixa
   implemented: false
@@ -446,7 +446,7 @@ services:
 - id: crm_pre_vendas
   name: Pré-Vendas
   domain: crm
-  endpoint: https://app.omie.com.br/api/v1/crm/usuarios/
+  endpoint: https://app.omie.com.br/api/v1/crm/usuarios/#pre_vendas
   status: Não iniciado
   priority: baixa
   implemented: false
@@ -491,7 +491,7 @@ services:
   output_slug: contas_correntes_lancamentos
   depends_on: []
   notes: Servico importado da matriz coverage/omie_api_coverage.md.
-- id: financas_contas_a_pagar_lancamentos
+- id: omie-financeiro-contas-pagar
   name: Contas a Pagar - Lançamentos
   domain: finanças
   endpoint: https://app.omie.com.br/api/v1/financas/contapagar/
@@ -500,7 +500,7 @@ services:
   implemented: false
   methods_count: null
   documentation_url: https://app.omie.com.br/api/v1/financas/contapagar/
-  output_slug: contas_a_pagar_lancamentos
+  output_slug: contas_a_pagar
   depends_on: []
   notes: Servico importado da matriz coverage/omie_api_coverage.md.
 - id: financas_contas_a_receber_lancamentos
@@ -836,7 +836,7 @@ services:
   implemented: false
   methods_count: null
   documentation_url: https://app.omie.com.br/api/v1/produtos/compras-resumo/
-  output_slug: resumo
+  output_slug: resumo_compras__estoque_e_produção_2
   depends_on: []
   notes: Servico importado da matriz coverage/omie_api_coverage.md.
 - id: geral_familias_de_produto
@@ -1196,7 +1196,7 @@ services:
   implemented: false
   methods_count: null
   documentation_url: https://app.omie.com.br/api/v1/produtos/vendas-resumo/
-  output_slug: resumo
+  output_slug: resumo_compras__estoque_e_produção_3
   depends_on: []
   notes: Servico importado da matriz coverage/omie_api_coverage.md.
 - id: compras_estoque_e_producao_obter_documentos
@@ -1280,7 +1280,7 @@ services:
   implemented: false
   methods_count: null
   documentation_url: https://app.omie.com.br/api/v1/geral/vendedores/
-  output_slug: vendedores
+  output_slug: vendedores_geral_2
   depends_on: []
   notes: Servico importado da matriz coverage/omie_api_coverage.md.
 - id: compras_estoque_e_producao_formas_de_pagamento_2
@@ -1292,7 +1292,7 @@ services:
   implemented: false
   methods_count: null
   documentation_url: https://app.omie.com.br/api/v1/produtos/formaspagvendas/
-  output_slug: formas_de_pagamento
+  output_slug: formas_de_pagamento_compras__estoque_e_produção_2
   depends_on: []
   notes: Servico importado da matriz coverage/omie_api_coverage.md.
 - id: compras_estoque_e_producao_tabela_de_precos
@@ -1496,7 +1496,7 @@ services:
   implemented: false
   methods_count: null
   documentation_url: https://app.omie.com.br/api/v1/servicos/resumo/
-  output_slug: resumo
+  output_slug: resumo_serviços_e_nfs_e_4
   depends_on: []
   notes: Servico importado da matriz coverage/omie_api_coverage.md.
 - id: servicos_e_nfs_e_obter_documentos
@@ -1508,7 +1508,7 @@ services:
   implemented: false
   methods_count: null
   documentation_url: https://app.omie.com.br/api/v1/servicos/osdocs/
-  output_slug: obter_documentos
+  output_slug: obter_documentos_serviços_e_nfs_e_2
   depends_on: []
   notes: Servico importado da matriz coverage/omie_api_coverage.md.
 - id: servicos_e_nfs_e_consultas
@@ -1520,7 +1520,7 @@ services:
   implemented: false
   methods_count: null
   documentation_url: https://app.omie.com.br/api/v1/servicos/nfse/
-  output_slug: consultas
+  output_slug: consultas_serviços_e_nfs_e_2
   depends_on: []
   notes: Servico importado da matriz coverage/omie_api_coverage.md.
 - id: servicos_e_nfs_e_servicos_no_municipio
@@ -1640,6 +1640,6 @@ services:
   implemented: false
   methods_count: null
   documentation_url: https://app.omie.com.br/api/v1/contador/resumo/
-  output_slug: resumo
+  output_slug: resumo_cadastros_auxiliares_5
   depends_on: []
   notes: Servico importado da matriz coverage/omie_api_coverage.md.

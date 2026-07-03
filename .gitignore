@@ -25,6 +25,8 @@ datasets/processed/
 rag/indexes/
 factory/cache/
 factory/output/
+factory/runs/*
+!factory/runs/.gitkeep
 *.sqlite
 *.db
 

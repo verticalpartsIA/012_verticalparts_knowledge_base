@@ -27,7 +27,16 @@ Base de conhecimento Enterprise RAG/LLM da VerticalParts para documentar APIs, d
 
 A partir da fase v0.3.0, a VerticalParts Knowledge Base passa a ser orientada por uma Factory de geração automática. O objetivo é transformar uma URL oficial da documentação Omie em uma base Enterprise completa para LLMs, incluindo `docs`, `schemas`, `graphs`, `business`, `datasets`, `rag`, `reports`, `coverage` e pull request de revisão.
 
-A arquitetura inicial está em `factory/`. Nesta etapa a Factory ainda não executa crawler, scraping ou geração automática real; ela define módulos, contratos, templates, configurações, quality gate e workflow para implementação posterior.
+A arquitetura e o MVP funcional estão em `factory/`. A partir da v0.6.0, a Factory passa a suportar execução segura em lote com relatórios por execução em `factory/runs/`, `--dry-run`, `--no-write`, `--service-id` e `--output-root`. Conteúdo gerado continua saindo em área isolada e não é mergeado automaticamente.
+
+### Safe Batch Execution
+
+```bash
+python factory/scripts/main.py --batch --limit 2 --dry-run --output-root factory/runs/test
+python factory/scripts/main.py --service-id omie-financeiro-contas-pagar --dry-run
+```
+
+Cada execução em lote registra `run_summary.md`, `services_processed.json`, `services_failed.json`, `dry_run_report.md` e `generated_files_manifest.json`.
 
 ## Primeiro domínio documentado em detalhe
 

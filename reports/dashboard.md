@@ -4,7 +4,7 @@
 
 | Métrica | Valor |
 | --- | ---: |
-| Versão atual | v0.4.0-omie-knowledge-factory-mvp |
+| Versão atual | v0.5.0-autonomous-factory-foundation |
 | Serviços documentados | 2 |
 | Serviços oficiais mapeados | 137 |
 | Métodos documentados | 27 |
@@ -16,7 +16,7 @@
 | Chunks RAG | 108 |
 | Knowledge Score médio | 95.14 |
 | Cobertura da API | 1.46% |
-| Factory | MVP funcional / evolução autônoma iniciada |
+| Factory | Safe Batch Execution em implementação |
 
 ## Autonomous Knowledge Factory v1.0.0
 
@@ -26,5 +26,7 @@
 | Service Registry | Iniciado |
 | Serviços no registry | 137 |
 | Batch Runner | MVP dry-run |
+| Safe Batch Execution | Em implementação |
+| Registry Health | Disponível em `factory/reports/registry_health.md` |
 | Próximo objetivo | execução autônoma por lista de URLs |
 | Impacto na cobertura | 0 ponto percentual nesta entrega |
