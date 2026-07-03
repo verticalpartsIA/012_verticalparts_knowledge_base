@@ -1,0 +1,41 @@
+# Índice Global da Documentação
+
+Última atualização: 2026-07-03
+
+- [Contas a Pagar](../docs/omie/financeiro/contas_a_pagar.md) — `docs/omie/financeiro/contas_a_pagar.md`
+- [AlterarContaReceber](../docs/omie/financeiro/contas_a_receber/alterar_conta_receber.md) — `docs/omie/financeiro/contas_a_receber/alterar_conta_receber.md`
+- [AlterarDistribuicaoDepartamento](../docs/omie/financeiro/contas_a_receber/alterar_distribuicao_departamento.md) — `docs/omie/financeiro/contas_a_receber/alterar_distribuicao_departamento.md`
+- [CancelarContaReceber](../docs/omie/financeiro/contas_a_receber/cancelar_conta_receber.md) — `docs/omie/financeiro/contas_a_receber/cancelar_conta_receber.md`
+- [CancelarRecebimento](../docs/omie/financeiro/contas_a_receber/cancelar_recebimento.md) — `docs/omie/financeiro/contas_a_receber/cancelar_recebimento.md`
+- [ConciliarRecebimento](../docs/omie/financeiro/contas_a_receber/conciliar_recebimento.md) — `docs/omie/financeiro/contas_a_receber/conciliar_recebimento.md`
+- [ConsultarContaReceber](../docs/omie/financeiro/contas_a_receber/consultar_conta_receber.md) — `docs/omie/financeiro/contas_a_receber/consultar_conta_receber.md`
+- [DesconciliarRecebimento](../docs/omie/financeiro/contas_a_receber/desconciliar_recebimento.md) — `docs/omie/financeiro/contas_a_receber/desconciliar_recebimento.md`
+- [ExcluirContaReceber](../docs/omie/financeiro/contas_a_receber/excluir_conta_receber.md) — `docs/omie/financeiro/contas_a_receber/excluir_conta_receber.md`
+- [ExcluirDistribuicaoDepartamento](../docs/omie/financeiro/contas_a_receber/excluir_distribuicao_departamento.md) — `docs/omie/financeiro/contas_a_receber/excluir_distribuicao_departamento.md`
+- [IncluirContaReceber](../docs/omie/financeiro/contas_a_receber/incluir_conta_receber.md) — `docs/omie/financeiro/contas_a_receber/incluir_conta_receber.md`
+- [IncluirContaReceberPorLote](../docs/omie/financeiro/contas_a_receber/incluir_conta_receber_por_lote.md) — `docs/omie/financeiro/contas_a_receber/incluir_conta_receber_por_lote.md`
+- [IncluirDistribuicaoDepartamento](../docs/omie/financeiro/contas_a_receber/incluir_distribuicao_departamento.md) — `docs/omie/financeiro/contas_a_receber/incluir_distribuicao_departamento.md`
+- [LancarRecebimento](../docs/omie/financeiro/contas_a_receber/lancar_recebimento.md) — `docs/omie/financeiro/contas_a_receber/lancar_recebimento.md`
+- [ListarContasReceber](../docs/omie/financeiro/contas_a_receber/listar_contas_receber.md) — `docs/omie/financeiro/contas_a_receber/listar_contas_receber.md`
+- [Omie Financeiro: Contas a Receber](../docs/omie/financeiro/contas_a_receber/README.md) — `docs/omie/financeiro/contas_a_receber/README.md`
+- [UpsertContaReceber](../docs/omie/financeiro/contas_a_receber/upsert_conta_receber.md) — `docs/omie/financeiro/contas_a_receber/upsert_conta_receber.md`
+- [UpsertContaReceberPorLote](../docs/omie/financeiro/contas_a_receber/upsert_conta_receber_por_lote.md) — `docs/omie/financeiro/contas_a_receber/upsert_conta_receber_por_lote.md`
+- [Omie Financeiro: Contas a Receber](../docs/omie/financeiro/contas_a_receber.md) — `docs/omie/financeiro/contas_a_receber.md`
+- [Movimentos Financeiros](../docs/omie/financeiro/movimentos_financeiros.md) — `docs/omie/financeiro/movimentos_financeiros.md`
+- [AlterarCliente](../docs/omie/geral/clientes/alterar_cliente.md) — `docs/omie/geral/clientes/alterar_cliente.md`
+- [AssociarCodIntCliente](../docs/omie/geral/clientes/associar_cod_int_cliente.md) — `docs/omie/geral/clientes/associar_cod_int_cliente.md`
+- [ConsultarCliente](../docs/omie/geral/clientes/consultar_cliente.md) — `docs/omie/geral/clientes/consultar_cliente.md`
+- [ExcluirCliente](../docs/omie/geral/clientes/excluir_cliente.md) — `docs/omie/geral/clientes/excluir_cliente.md`
+- [IncluirCliente](../docs/omie/geral/clientes/incluir_cliente.md) — `docs/omie/geral/clientes/incluir_cliente.md`
+- [IncluirClientesPorLote](../docs/omie/geral/clientes/incluir_clientes_por_lote.md) — `docs/omie/geral/clientes/incluir_clientes_por_lote.md`
+- [ListarClientes](../docs/omie/geral/clientes/listar_clientes.md) — `docs/omie/geral/clientes/listar_clientes.md`
+- [ListarClientesResumido](../docs/omie/geral/clientes/listar_clientes_resumido.md) — `docs/omie/geral/clientes/listar_clientes_resumido.md`
+- [Omie Geral: Clientes, Fornecedores e Transportadoras](../docs/omie/geral/clientes/README.md) — `docs/omie/geral/clientes/README.md`
+- [UpsertCliente](../docs/omie/geral/clientes/upsert_cliente.md) — `docs/omie/geral/clientes/upsert_cliente.md`
+- [UpsertClienteCpfCnpj](../docs/omie/geral/clientes/upsert_cliente_cpf_cnpj.md) — `docs/omie/geral/clientes/upsert_cliente_cpf_cnpj.md`
+- [UpsertClientesPorLote](../docs/omie/geral/clientes/upsert_clientes_por_lote.md) — `docs/omie/geral/clientes/upsert_clientes_por_lote.md`
+- [Índice: Clientes, Fornecedores e Transportadoras](../docs/omie/geral/clientes_fornecedores_transportadoras.md) — `docs/omie/geral/clientes_fornecedores_transportadoras.md`
+- [API Omie](../docs/omie/README.md) — `docs/omie/README.md`
+- [Ordem de Serviço](../docs/omie/servicos/ordem_de_servico.md) — `docs/omie/servicos/ordem_de_servico.md`
+- [Pedidos de Venda](../docs/omie/vendas/pedidos_de_venda.md) — `docs/omie/vendas/pedidos_de_venda.md`
+- [Documentação](../docs/README.md) — `docs/README.md`

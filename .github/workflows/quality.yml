@@ -1,0 +1,76 @@
+name: Quality Gate
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  knowledge-quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate Markdown headings
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          bad=[]
+          for path in Path('.').rglob('*.md'):
+              if '.git' in path.parts:
+                  continue
+              for i,line in enumerate(path.read_text(encoding='utf-8').splitlines(),1):
+                  if line.startswith((' ', '\t')) and line.lstrip().startswith('#'):
+                      bad.append(f'{path}:{i}: indented heading')
+          if bad:
+              print('\n'.join(bad))
+              raise SystemExit(1)
+          PY
+
+      - name: Validate YAML front matter shape
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          required=['title:', 'status:', 'source:']
+          bad=[]
+          for path in Path('docs/omie').rglob('*.md'):
+              text=path.read_text(encoding='utf-8')
+              if not text.startswith('---\n'):
+                  bad.append(f'{path}: missing YAML front matter')
+                  continue
+              front=text.split('---\n',2)[1]
+              for item in required:
+                  if item not in front:
+                      bad.append(f'{path}: missing {item}')
+          if bad:
+              print('\n'.join(bad))
+              raise SystemExit(1)
+          PY
+
+      - name: Validate JSON and schemas
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for path in list(Path('schemas').rglob('*.json')) + list(Path('datasets').rglob('*.json')) + list(Path('rag/chunks').rglob('*.json')):
+              json.loads(path.read_text(encoding='utf-8'))
+              print(f'OK {path}')
+          PY
+
+      - name: Run knowledge score
+        run: python scripts/knowledge_score.py
+
+      - name: Py compile
+        run: python -m py_compile scripts/knowledge_score.py tests/knowledge/test_knowledge_docs.py scripts/generate_enterprise_omie_clientes.py scripts/generate_enterprise_omie_contas_receber.py
+
+      - name: Run pytest when available
+        run: |
+          python -m pip install pytest
+          python -m pytest tests/knowledge/
