@@ -30,8 +30,17 @@
 - Objetivo: executar deterministicamente o próximo serviço recomendado pelo planner, com estado, histórico, relatório e quality gate básico.
 - Prioridade: Alta
 - Dependências: Generation Planner, crawler, parser, method extractor e generators.
-- Status: Em implementação
+- Status: Implementado
 - Entregáveis: `factory/scripts/execution_engine.py`, `factory/state/factory_state.json`, `factory/reports/execution_report.md`, `factory/reports/execution_history.json` e CLI de execução/status/histórico.
+
+### First Autonomous Documentation Cycle
+
+- Objetivo: validar o primeiro ciclo autônomo seguro da Factory sem publicar documentação definitiva.
+- Prioridade: Alta
+- Dependências: Execution Engine, Generation Planner, registry, crawler, parser e geradores determinísticos.
+- Status: Dry run/no-write concluído
+- Serviço selecionado: Contas a Pagar - Lançamentos (`financas_contas_a_pagar_lancamentos`)
+- Próximo passo: corrigir duplicidade de slug detectada em `Upsert` e preparar geração real em PR separado.
 
 ## FASE 1 — Clientes
 

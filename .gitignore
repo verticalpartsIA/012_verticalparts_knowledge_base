@@ -25,6 +25,7 @@ datasets/processed/
 rag/indexes/
 factory/cache/
 factory/output/
+factory/runs/
 *.sqlite
 *.db
 

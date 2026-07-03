@@ -25,7 +25,9 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Executa o MVP da Omie Knowledge Factory.")
     parser.add_argument("--url", help="URL da documentacao oficial.")
     parser.add_argument("--output", default="factory/output", help="Diretorio de saida isolado.")
+    parser.add_argument("--output-root", help="Diretorio raiz para saidas planejadas pelo Execution Engine.")
     parser.add_argument("--dry-run", action="store_true", help="Planeja sem gravar saidas de docs/datasets/rag/reports.")
+    parser.add_argument("--no-write", action="store_true", help="Executa parsing e planejamento sem gravar arquivos finais.")
     parser.add_argument("--service", help="Nome do servico quando a pagina nao possuir titulo claro.")
     parser.add_argument("--registry", default=str(DEFAULT_REGISTRY_PATH), help="Arquivo YAML do service registry.")
     parser.add_argument("--batch", action="store_true", help="Executa a Factory em lote a partir do registry.")
@@ -86,6 +88,7 @@ def main(argv: list[str] | None = None) -> int:
     if args.execute_next or args.execute_service or args.resume or args.status or args.history:
         from execution_engine import execute_next, execute_service, get_history, get_status, resume_execution
 
+        output_root = Path(args.output_root) if args.output_root else None
         if args.status:
             print(get_status())
             return 0
@@ -95,10 +98,13 @@ def main(argv: list[str] | None = None) -> int:
         if args.resume:
             print(resume_execution())
             return 0
+        execution_kwargs = {"registry_path": registry_path, "dry_run": args.dry_run, "no_write": args.no_write}
+        if output_root:
+            execution_kwargs["output_root"] = output_root
         if args.execute_next:
-            result = execute_next(registry_path=registry_path, dry_run=args.dry_run)
+            result = execute_next(**execution_kwargs)
         else:
-            result = execute_service(args.execute_service, registry_path=registry_path, dry_run=args.dry_run)
+            result = execute_service(args.execute_service, **execution_kwargs)
         print(f"Execution Engine concluido: {result.service_id} status={result.status}")
         print("Relatorio: factory/reports/execution_report.md")
         return 0

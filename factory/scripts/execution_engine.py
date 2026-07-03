@@ -37,6 +37,7 @@ class ExecutionResult:
     quality_score: float
     documentation_hash: str
     dry_run: bool
+    no_write: bool = False
 
 
 class ExecutionError(RuntimeError):
@@ -160,6 +161,7 @@ def execute_next(
     *,
     registry_path: Path = Path("factory/registry/omie_services.yaml"),
     dry_run: bool = False,
+    no_write: bool = False,
     state_path: Path = DEFAULT_STATE_PATH,
     history_path: Path = DEFAULT_HISTORY_PATH,
     report_path: Path = DEFAULT_REPORT_PATH,
@@ -172,6 +174,7 @@ def execute_next(
         plan.next_best_service.service.id,
         registry_path=registry_path,
         dry_run=dry_run,
+        no_write=no_write,
         state_path=state_path,
         history_path=history_path,
         report_path=report_path,
@@ -184,6 +187,7 @@ def execute_service(
     *,
     registry_path: Path = Path("factory/registry/omie_services.yaml"),
     dry_run: bool = False,
+    no_write: bool = False,
     state_path: Path = DEFAULT_STATE_PATH,
     history_path: Path = DEFAULT_HISTORY_PATH,
     report_path: Path = DEFAULT_REPORT_PATH,
@@ -208,10 +212,16 @@ def execute_service(
 
     errors: list[str] = []
     generated_files: tuple[str, ...] = ()
-    status = "dry-run" if dry_run else "success"
+    status = "dry-run" if dry_run else "no-write" if no_write else "success"
     try:
         if dry_run:
             generated_files = planned_files_for(service, output_root)
+        elif no_write:
+            from main import run_pipeline
+
+            output_dir = output_root / service.output_slug
+            pipeline_result = run_pipeline(service.documentation_url, output_dir, dry_run=True, service=service.name)
+            generated_files = tuple(str(path).replace("\\", "/") for path in pipeline_result.generated_files)
         else:
             from main import run_pipeline
 
@@ -225,7 +235,7 @@ def execute_service(
     finished = now_iso()
     duration = round(time.monotonic() - start_monotonic, 3)
     doc_hash = hash_generated_files(generated_files)
-    quality_score = 1.0 if status in {"success", "dry-run"} and not errors else 0.0
+    quality_score = 1.0 if status in {"success", "dry-run", "no-write"} and not errors else 0.0
     result = ExecutionResult(
         service_id=service.id,
         service_name=service.name,
@@ -239,6 +249,7 @@ def execute_service(
         quality_score=quality_score,
         documentation_hash=doc_hash,
         dry_run=dry_run,
+        no_write=no_write,
     )
     warnings.extend(validate_after_execution(result))
     result = ExecutionResult(**{**asdict(result), "warnings": tuple(warnings)})
