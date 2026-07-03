@@ -26,5 +26,7 @@
 | Service Registry | Iniciado |
 | Serviços no registry | 137 |
 | Batch Runner | MVP dry-run |
+| Dynamic Service Discovery | Em implementação |
+| Serviços descobertos na fonte pública | 148 |
 | Próximo objetivo | execução autônoma por lista de URLs |
 | Impacto na cobertura | 0 ponto percentual nesta entrega |

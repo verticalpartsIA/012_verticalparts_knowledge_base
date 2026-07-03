@@ -1,0 +1,42 @@
+name: Dynamic Service Discovery
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'factory/scripts/discovery.py'
+      - 'factory/scripts/main.py'
+      - 'factory/tests/**'
+      - '.github/workflows/discovery.yml'
+
+jobs:
+  discovery:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: python -m pip install pytest pyyaml
+
+      - name: Run discovery
+        run: python factory/scripts/main.py --discover
+
+      - name: Compare registry
+        run: python factory/scripts/main.py --compare-registry
+
+      - name: Run factory tests
+        run: python -m pytest factory/tests/
+
+      - name: Upload discovery artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: discovery-report
+          path: |
+            factory/registry/omie_services.generated.yaml
+            factory/reports/discovery_report.md
