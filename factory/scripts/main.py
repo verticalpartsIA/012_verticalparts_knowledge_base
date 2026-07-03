@@ -36,6 +36,9 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--list-services", action="store_true", help="Lista todos os servicos do registry.")
     parser.add_argument("--list-pending", action="store_true", help="Lista servicos pendentes.")
     parser.add_argument("--list-implemented", action="store_true", help="Lista servicos implementados.")
+    parser.add_argument("--discover", action="store_true", help="Descobre servicos publicos da Omie e gera registry temporario.")
+    parser.add_argument("--refresh-registry", action="store_true", help="Atualiza somente omie_services.generated.yaml.")
+    parser.add_argument("--compare-registry", action="store_true", help="Compara registry oficial com registry descoberto.")
     return parser
 
 
@@ -73,6 +76,45 @@ def ensure_output_structure(output: Path, dry_run: bool = False) -> list[Path]:
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     registry_path = Path(args.registry)
+
+    if args.discover or args.refresh_registry or args.compare_registry:
+        from discovery import (
+            DEFAULT_DISCOVERY_REPORT,
+            DEFAULT_GENERATED_REGISTRY,
+            compare_registry,
+            discover_services,
+            load_registry_dict,
+            service_from_generated_dict,
+            write_discovery_report,
+        )
+
+        if args.discover or args.refresh_registry:
+            services, comparison = discover_services(
+                official_registry=registry_path,
+                generated_registry=DEFAULT_GENERATED_REGISTRY,
+                report_path=DEFAULT_DISCOVERY_REPORT,
+            )
+            print(f"Discovery concluido. Servicos encontrados: {len(services)}")
+            print(f"Registry gerado: {DEFAULT_GENERATED_REGISTRY}")
+            print(f"Relatorio: {DEFAULT_DISCOVERY_REPORT}")
+            print(f"Novos: {len(comparison.new_services)} | Removidos: {len(comparison.removed_services)} | Alterados: {len(comparison.changed_services)}")
+            return 0
+
+        current = load_registry_dict(registry_path)
+        generated = load_registry_dict(DEFAULT_GENERATED_REGISTRY)
+        if not generated.get("services"):
+            services, comparison = discover_services(
+                official_registry=registry_path,
+                generated_registry=DEFAULT_GENERATED_REGISTRY,
+                report_path=DEFAULT_DISCOVERY_REPORT,
+            )
+        else:
+            services = [service_from_generated_dict(item) for item in generated.get("services", [])]
+            comparison = compare_registry(current.get("services", []), services)
+            write_discovery_report(comparison, services, DEFAULT_DISCOVERY_REPORT)
+        print(f"Compare concluido. Relatorio: {DEFAULT_DISCOVERY_REPORT}")
+        print(f"Novos: {len(comparison.new_services)} | Removidos: {len(comparison.removed_services)} | Alterados: {len(comparison.changed_services)}")
+        return 0
 
     if args.list_services or args.list_pending or args.list_implemented or args.next:
         services = load_registry(registry_path)

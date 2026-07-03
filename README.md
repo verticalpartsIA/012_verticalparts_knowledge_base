@@ -27,7 +27,19 @@ Base de conhecimento Enterprise RAG/LLM da VerticalParts para documentar APIs, d
 
 A partir da fase v0.3.0, a VerticalParts Knowledge Base passa a ser orientada por uma Factory de geração automática. O objetivo é transformar uma URL oficial da documentação Omie em uma base Enterprise completa para LLMs, incluindo `docs`, `schemas`, `graphs`, `business`, `datasets`, `rag`, `reports`, `coverage` e pull request de revisão.
 
-A arquitetura inicial está em `factory/`. Nesta etapa a Factory ainda não executa crawler, scraping ou geração automática real; ela define módulos, contratos, templates, configurações, quality gate e workflow para implementação posterior.
+A arquitetura inicial está em `factory/`. A Factory já possui MVP funcional e agora passa a contar com descoberta dinâmica de serviços públicos da Omie, sem atualizar automaticamente o registry oficial.
+
+### Dynamic Service Discovery
+
+A partir da v0.7.0, a Factory consegue descobrir serviços públicos da Omie diretamente em `https://developer.omie.com.br/service-list/`, gerar `factory/registry/omie_services.generated.yaml` e comparar com o registry oficial sem atualizá-lo automaticamente.
+
+```bash
+python factory/scripts/main.py --discover
+python factory/scripts/main.py --compare-registry
+python factory/scripts/main.py --refresh-registry
+```
+
+O relatório de descoberta fica em `factory/reports/discovery_report.md`.
 
 ## Primeiro domínio documentado em detalhe
 

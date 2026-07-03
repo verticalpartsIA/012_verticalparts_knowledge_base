@@ -1,0 +1,2229 @@
+generated_at: '2026-07-03T13:34:03.368027+00:00'
+generator_version: 0.7.0
+source: https://developer.omie.com.br/service-list/
+service_count: 148
+hash: 2b15ac0fd3a4c5f13f3146c71a1ae24ca1001331d0dd2ba33699fc6ddce7e204
+services:
+- id: geral_clientes_fornecedores_transportadoras_etc
+  name: Clientes, Fornecedores, Transportadoras, etc
+  category: Geral
+  description: Cria/edita/consulta o cadastro de clientes, fornecedores, transportadoras,
+    etc
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/clientes/
+  url: https://app.omie.com.br/api/v1/geral/clientes/
+  status: Concluído
+  priority: alta
+  implemented: true
+  methods_count: 11
+  documentation_url: https://app.omie.com.br/api/v1/geral/clientes/
+  output_slug: clientes_fornecedores_transportadoras_etc
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: geral_clientes_caracteristicas
+  name: Clientes - Características
+  category: Geral
+  description: Cria/edita/consulta características de clientes
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/clientescaract/
+  url: https://app.omie.com.br/api/v1/geral/clientescaract/
+  status: Não iniciado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/clientescaract/
+  output_slug: clientes_caracteristicas
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: geral_tags
+  name: Tags
+  category: Geral
+  description: Cria/edita/consulta tags quem são usadas no cadastro de clientes, fornecedores,
+    etc
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/clientetag/
+  url: https://app.omie.com.br/api/v1/geral/clientetag/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/clientetag/
+  output_slug: tags
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: geral_projetos
+  name: Projetos
+  category: Geral
+  description: Cria/edita/consulta projetos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/projetos/
+  url: https://app.omie.com.br/api/v1/geral/projetos/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/projetos/
+  output_slug: projetos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: geral_empresas
+  name: Empresas
+  category: Geral
+  description: Lista o cadastro da empresa
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/empresas/
+  url: https://app.omie.com.br/api/v1/geral/empresas/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/empresas/
+  output_slug: empresas
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: geral_departamentos
+  name: Departamentos
+  category: Geral
+  description: Lista o cadastro de departamentos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/departamentos/
+  url: https://app.omie.com.br/api/v1/geral/departamentos/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/departamentos/
+  output_slug: departamentos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: geral_categorias
+  name: Categorias
+  category: Geral
+  description: Lista o cadastro de categorias
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/categorias/
+  url: https://app.omie.com.br/api/v1/geral/categorias/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/categorias/
+  output_slug: categorias
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: geral_parcelas
+  name: Parcelas
+  category: Geral
+  description: Lista as parcelas cadastradas
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/parcelas/
+  url: https://app.omie.com.br/api/v1/geral/parcelas/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/parcelas/
+  output_slug: parcelas
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: geral_tipos_de_atividade_da_empresa
+  name: Tipos de Atividade da Empresa
+  category: Geral
+  description: Lista os tipos de atividade da empresa
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/tpativ/
+  url: https://app.omie.com.br/api/v1/geral/tpativ/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/tpativ/
+  output_slug: tipos_de_atividade_da_empresa
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: geral_cnae
+  name: CNAE
+  category: Geral
+  description: ''
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/cnae/
+  url: https://app.omie.com.br/api/v1/produtos/cnae/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/cnae/
+  output_slug: cnae
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: geral_cidades
+  name: Cidades
+  category: Geral
+  description: Lista o cadastro de cidades
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/cidades/
+  url: https://app.omie.com.br/api/v1/geral/cidades/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/cidades/
+  output_slug: cidades
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: geral_paises
+  name: Países
+  category: Geral
+  description: Lista o cadastro de países
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/paises/
+  url: https://app.omie.com.br/api/v1/geral/paises/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/paises/
+  output_slug: paises
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: geral_tipos_de_anexos
+  name: Tipos de Anexos
+  category: Geral
+  description: Consulta Tipos de Anexos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/tiposanexo/
+  url: https://app.omie.com.br/api/v1/geral/tiposanexo/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/tiposanexo/
+  output_slug: tipos_de_anexos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: geral_documentos_anexos
+  name: Documentos Anexos
+  category: Geral
+  description: Criar/edita/consulta e exclui documentos anexos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/anexo/
+  url: https://app.omie.com.br/api/v1/geral/anexo/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/anexo/
+  output_slug: documentos_anexos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: geral_tipo_de_entrega
+  name: Tipo de Entrega
+  category: Geral
+  description: Criar/edita/consulta e exclui tipo de entrega de fornecedores
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/tiposentrega/
+  url: https://app.omie.com.br/api/v1/geral/tiposentrega/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/tiposentrega/
+  output_slug: tipo_de_entrega
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: geral_tipo_de_assinante
+  name: Tipo de Assinante
+  category: Geral
+  description: Lista os Tipos de Assinante
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/tipoassinante/
+  url: https://app.omie.com.br/api/v1/geral/tipoassinante/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/tipoassinante/
+  output_slug: tipo_de_assinante
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: geral_tarefas
+  name: Tarefas
+  category: Geral
+  description: Cria/consulta/lista variações dos produtos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/tarefas/
+  url: https://app.omie.com.br/api/v1/geral/tarefas/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/tarefas/
+  output_slug: tarefas
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: crm_contas
+  name: Contas
+  category: CRM
+  description: Cria/edita/consulta Contas
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/contas/
+  url: https://app.omie.com.br/api/v1/crm/contas/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/contas/
+  output_slug: contas
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: crm_contas_caracteristicas
+  name: Contas - Características
+  category: CRM
+  description: Cria/edita/consulta caracterísitcas da conta
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/contascaract/
+  url: https://app.omie.com.br/api/v1/crm/contascaract/
+  status: Não iniciado
+  priority: media
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/contascaract/
+  output_slug: contas_caracteristicas
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: crm_contatos
+  name: Contatos
+  category: CRM
+  description: Cria/edita/consulta Contatos
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/contatos/
+  url: https://app.omie.com.br/api/v1/crm/contatos/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/contatos/
+  output_slug: contatos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: crm_oportunidades
+  name: Oportunidades
+  category: CRM
+  description: Cria/edita/consulta Oportunidades
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/oportunidades/
+  url: https://app.omie.com.br/api/v1/crm/oportunidades/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/oportunidades/
+  output_slug: oportunidades
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: crm_oportunidades_resumo
+  name: Oportunidades - Resumo
+  category: CRM
+  description: Resumo de Oportunidades
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/oportunidades-resumo/
+  url: https://app.omie.com.br/api/v1/crm/oportunidades-resumo/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/oportunidades-resumo/
+  output_slug: oportunidades_resumo
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: crm_tarefas
+  name: Tarefas
+  category: CRM
+  description: Cria/edita/consulta Tarefas
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/tarefas/
+  url: https://app.omie.com.br/api/v1/crm/tarefas/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/tarefas/
+  output_slug: tarefas
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: crm_tarefas_resumo
+  name: Tarefas - Resumo
+  category: CRM
+  description: Resumo de Tarefas
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/tarefas-resumo/
+  url: https://app.omie.com.br/api/v1/crm/tarefas-resumo/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/tarefas-resumo/
+  output_slug: tarefas_resumo
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: crm_solucoes
+  name: Soluções
+  category: CRM
+  description: Lista das soluções ofertadas através do CRM
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/solucoes/
+  url: https://app.omie.com.br/api/v1/crm/solucoes/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/solucoes/
+  output_slug: solucoes
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: crm_fases
+  name: Fases
+  category: CRM
+  description: Lista as fases da oportunidade
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/fases/
+  url: https://app.omie.com.br/api/v1/crm/fases/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/fases/
+  output_slug: fases
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: crm_usuarios
+  name: Usuários
+  category: CRM
+  description: Lista dos usuários do CRM
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/usuarios/
+  url: https://app.omie.com.br/api/v1/crm/usuarios/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/usuarios/
+  output_slug: pre_vendas
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: crm_status
+  name: Status
+  category: CRM
+  description: Lista status possíveis de uma oportunidade
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/status/
+  url: https://app.omie.com.br/api/v1/crm/status/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/status/
+  output_slug: status
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: crm_motivos
+  name: Motivos
+  category: CRM
+  description: Lista motivos de conclusão de uma oportunidade
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/motivos/
+  url: https://app.omie.com.br/api/v1/crm/motivos/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/motivos/
+  output_slug: motivos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: crm_tipos
+  name: Tipos
+  category: CRM
+  description: Lista os tipos disponíveis de uma oportunidade
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/tipos/
+  url: https://app.omie.com.br/api/v1/crm/tipos/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/tipos/
+  output_slug: tipos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: crm_parceiros
+  name: Parceiros
+  category: CRM
+  description: Lista dos parceiros e equipes
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/parceiros/
+  url: https://app.omie.com.br/api/v1/crm/parceiros/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/parceiros/
+  output_slug: parceiros
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: crm_finders
+  name: Finders
+  category: CRM
+  description: Lista dos finders cadastrados
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/finders/
+  url: https://app.omie.com.br/api/v1/crm/finders/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/finders/
+  output_slug: finders
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: crm_origens
+  name: Origens
+  category: CRM
+  description: Lista de origens disponíveis para a oportunidade
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/origens/
+  url: https://app.omie.com.br/api/v1/crm/origens/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/origens/
+  output_slug: origens
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: crm_concorrentes
+  name: Concorrentes
+  category: CRM
+  description: Lista dos concorrentes cadastrados
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/concorrentes/
+  url: https://app.omie.com.br/api/v1/crm/concorrentes/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/concorrentes/
+  output_slug: concorrentes
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: crm_verticais
+  name: Verticais
+  category: CRM
+  description: Lista das verticais atendidas
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/verticais/
+  url: https://app.omie.com.br/api/v1/crm/verticais/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/verticais/
+  output_slug: verticais
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: crm_vendedores
+  name: Vendedores
+  category: CRM
+  description: Lista dos vendedores ativos no CRM
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/usuarios/
+  url: https://app.omie.com.br/api/v1/crm/usuarios/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/usuarios/
+  output_slug: pre_vendas
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: crm_telemarketing
+  name: Telemarketing
+  category: CRM
+  description: Lista dos atendentes de telemarketing
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/usuarios/
+  url: https://app.omie.com.br/api/v1/crm/usuarios/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/usuarios/
+  output_slug: pre_vendas
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: crm_pre_vendas
+  name: Pré-Vendas
+  category: CRM
+  description: Lista dos usuários de pré-venda
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/usuarios/
+  url: https://app.omie.com.br/api/v1/crm/usuarios/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/usuarios/
+  output_slug: pre_vendas
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: crm_tipos_de_tarefas
+  name: Tipos de Tarefas
+  category: CRM
+  description: Criar/edita/consulta e exclui Tipos de Tarefas
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/tipostarefa/
+  url: https://app.omie.com.br/api/v1/crm/tipostarefa/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/tipostarefa/
+  output_slug: tipos_de_tarefas
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: financas_contas_correntes
+  name: Contas Correntes
+  category: Finanças
+  description: Cria/edita/consulta o cadastro de contas correntes
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/contacorrente/
+  url: https://app.omie.com.br/api/v1/geral/contacorrente/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/contacorrente/
+  output_slug: contas_correntes
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: financas_contas_correntes_lancamentos
+  name: Contas Correntes - Lançamentos
+  category: Finanças
+  description: Cria/edita/consulta lançamentos na conta corrente
+  domain: financas
+  endpoint: https://app.omie.com.br/api/v1/financas/contacorrentelancamentos/
+  url: https://app.omie.com.br/api/v1/financas/contacorrentelancamentos/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/financas/contacorrentelancamentos/
+  output_slug: contas_correntes_lancamentos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: financas_contas_a_pagar_lancamentos
+  name: Contas a Pagar - Lançamentos
+  category: Finanças
+  description: Cria/edita/consulta títulos a pagar
+  domain: financas
+  endpoint: https://app.omie.com.br/api/v1/financas/contapagar/
+  url: https://app.omie.com.br/api/v1/financas/contapagar/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/financas/contapagar/
+  output_slug: contas_a_pagar_lancamentos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: financas_contas_a_receber_lancamentos
+  name: Contas a Receber - Lançamentos
+  category: Finanças
+  description: Cria/edita/consulta títulos a receber
+  domain: financas
+  endpoint: https://app.omie.com.br/api/v1/financas/contareceber/
+  url: https://app.omie.com.br/api/v1/financas/contareceber/
+  status: Concluído
+  priority: alta
+  implemented: true
+  methods_count: 16
+  documentation_url: https://app.omie.com.br/api/v1/financas/contareceber/
+  output_slug: contas_a_receber_lancamentos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: financas_contas_a_receber_boletos
+  name: Contas a Receber - Boletos
+  category: Finanças
+  description: Gera/Obtém/Prorroga e Cancela Boletos de um título a receber
+  domain: financas
+  endpoint: https://app.omie.com.br/api/v1/financas/contareceberboleto/
+  url: https://app.omie.com.br/api/v1/financas/contareceberboleto/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/financas/contareceberboleto/
+  output_slug: contas_a_receber_boletos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: financas_contas_a_receber_pix
+  name: Contas a Receber - PIX
+  category: Finanças
+  description: Gera um PIX para um contas a receber do Omie.CASH
+  domain: financas
+  endpoint: https://app.omie.com.br/api/v1/financas/pix/
+  url: https://app.omie.com.br/api/v1/financas/pix/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/financas/pix/
+  output_slug: contas_a_receber_pix
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: financas_extrato_de_conta_corrente
+  name: Extrato de Conta Corrente
+  category: Finanças
+  description: Listagem do extrato de conta corrente
+  domain: financas
+  endpoint: https://app.omie.com.br/api/v1/financas/extrato/
+  url: https://app.omie.com.br/api/v1/financas/extrato/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/financas/extrato/
+  output_slug: extrato_de_conta_corrente
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: financas_orcamento_de_caixa
+  name: Orçamento de Caixa
+  category: Finanças
+  description: Listagem do orçamento de caixa (Previsto x Realizado)
+  domain: financas
+  endpoint: https://app.omie.com.br/api/v1/financas/caixa/
+  url: https://app.omie.com.br/api/v1/financas/caixa/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/financas/caixa/
+  output_slug: orcamento_de_caixa
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: financas_pesquisar_titulos
+  name: Pesquisar Títulos
+  category: Finanças
+  description: Lista de títulos a pagar e receber
+  domain: financas
+  endpoint: https://app.omie.com.br/api/v1/financas/pesquisartitulos/
+  url: https://app.omie.com.br/api/v1/financas/pesquisartitulos/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/financas/pesquisartitulos/
+  output_slug: pesquisar_titulos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: financas_movimentos_financeiros
+  name: Movimentos Financeiros
+  category: Finanças
+  description: Consulta de pagamentos, baixas, lançamentos no Conta Corrente.
+  domain: financas
+  endpoint: https://app.omie.com.br/api/v1/financas/mf/
+  url: https://app.omie.com.br/api/v1/financas/mf/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/financas/mf/
+  output_slug: movimentos_financeiros
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: financas_resumo
+  name: Resumo
+  category: Finanças
+  description: Resumo de Finanças
+  domain: financas
+  endpoint: https://app.omie.com.br/api/v1/financas/resumo/
+  url: https://app.omie.com.br/api/v1/financas/resumo/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/financas/resumo/
+  output_slug: resumo
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: financas_bancos
+  name: Bancos
+  category: Finanças
+  description: Lista o cadastro de instituições bancárias
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/bancos/
+  url: https://app.omie.com.br/api/v1/geral/bancos/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/bancos/
+  output_slug: bancos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: financas_tipos_de_documento
+  name: Tipos de Documento
+  category: Finanças
+  description: Lista os tipos de documentos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/tiposdoc/
+  url: https://app.omie.com.br/api/v1/geral/tiposdoc/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/tiposdoc/
+  output_slug: tipos_de_documento
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: financas_tipos_de_contas_correntes
+  name: Tipos de Contas Correntes
+  category: Finanças
+  description: Lista os tipos de contas correntes
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/tipocc/
+  url: https://app.omie.com.br/api/v1/geral/tipocc/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/tipocc/
+  output_slug: tipos_de_contas_correntes
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: financas_contas_do_dre
+  name: Contas do DRE
+  category: Finanças
+  description: Lista as Contas do DRE
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/dre/
+  url: https://app.omie.com.br/api/v1/geral/dre/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/dre/
+  output_slug: contas_do_dre
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: financas_finalidade_de_transferencia
+  name: Finalidade de Transferência
+  category: Finanças
+  description: Lista as Finalidades de Transferência do CNAB
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/finaltransf/
+  url: https://app.omie.com.br/api/v1/geral/finaltransf/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/finaltransf/
+  output_slug: finalidade_de_transferencia
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: financas_origem_do_titulos
+  name: Origem do títulos
+  category: Finanças
+  description: Lista as origens dos títulos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/origemlancamento/
+  url: https://app.omie.com.br/api/v1/geral/origemlancamento/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/origemlancamento/
+  output_slug: origem_do_titulos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: financas_bandeiras_de_cartao
+  name: Bandeiras de Cartão
+  category: Finanças
+  description: Lista as Bandeiras de Cartão de débito e crédito
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/bandeiracartao/
+  url: https://app.omie.com.br/api/v1/geral/bandeiracartao/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/bandeiracartao/
+  output_slug: bandeiras_de_cartao
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_produtos
+  name: Produtos
+  category: Compras, Estoque e Produção
+  description: Cria/edita/consulta produtos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/produtos/
+  url: https://app.omie.com.br/api/v1/geral/produtos/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/produtos/
+  output_slug: produtos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_produtos_caracteristicas
+  name: Produtos - Características
+  category: Compras, Estoque e Produção
+  description: Cria/edita/consulta características de um determinado produto
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/prodcaract/
+  url: https://app.omie.com.br/api/v1/geral/prodcaract/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/prodcaract/
+  output_slug: produtos_caracteristicas
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_produtos_estrutura
+  name: Produtos - Estrutura
+  category: Compras, Estoque e Produção
+  description: Consulta estrutura de um determinado produto
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/malha/
+  url: https://app.omie.com.br/api/v1/geral/malha/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/malha/
+  output_slug: produtos_estrutura
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_produtos_kit
+  name: Produtos - Kit
+  category: Compras, Estoque e Produção
+  description: Edita kit de produtos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/produtoskit/
+  url: https://app.omie.com.br/api/v1/geral/produtoskit/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/produtoskit/
+  output_slug: produtos_kit
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_produtos_variacao
+  name: Produtos - Variação
+  category: Compras, Estoque e Produção
+  description: Cria/consulta/lista variações dos produtos
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/variacao/
+  url: https://app.omie.com.br/api/v1/produtos/variacao/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/variacao/
+  output_slug: produtos_variacao
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_produtos_lote
+  name: Produtos - Lote
+  category: Compras, Estoque e Produção
+  description: Consulta/lista lotes dos produtos
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/produtoslote/
+  url: https://app.omie.com.br/api/v1/produtos/produtoslote/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/produtoslote/
+  output_slug: produtos_lote
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_requisicoes_de_compra
+  name: Requisições de Compra
+  category: Compras, Estoque e Produção
+  description: Cria/edita/consulta requisições de compra
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/requisicaocompra/
+  url: https://app.omie.com.br/api/v1/produtos/requisicaocompra/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/requisicaocompra/
+  output_slug: requisicoes_de_compra
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_pedidos_de_compra
+  name: Pedidos de Compra
+  category: Compras, Estoque e Produção
+  description: Cria/edita/consulta pedidos de compra
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/pedidocompra/
+  url: https://app.omie.com.br/api/v1/produtos/pedidocompra/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/pedidocompra/
+  output_slug: pedidos_de_compra
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_ordens_de_producao
+  name: Ordens de Produção
+  category: Compras, Estoque e Produção
+  description: Cria/edita/consulta ordens de produção
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/op/
+  url: https://app.omie.com.br/api/v1/produtos/op/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/op/
+  output_slug: ordens_de_producao
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_nota_de_entrada
+  name: Nota de Entrada
+  category: Compras, Estoque e Produção
+  description: Cria/EditaConsulta Notas de Entrada
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/notaentrada/
+  url: https://app.omie.com.br/api/v1/produtos/notaentrada/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/notaentrada/
+  output_slug: nota_de_entrada
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_nota_de_entrada_faturamento
+  name: Nota de Entrada - Faturamento
+  category: Compras, Estoque e Produção
+  description: Operações de faturamento de Notas de Entrada
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/notaentradafat/
+  url: https://app.omie.com.br/api/v1/produtos/notaentradafat/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/notaentradafat/
+  output_slug: nota_de_entrada_faturamento
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_recebimento_de_nota_fiscal
+  name: Recebimento de Nota Fiscal
+  category: Compras, Estoque e Produção
+  description: Edita os dados do Recebimento de uma NF-e
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/recebimentonfe/
+  url: https://app.omie.com.br/api/v1/produtos/recebimentonfe/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/recebimentonfe/
+  output_slug: recebimento_de_nota_fiscal
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_resumo
+  name: Resumo
+  category: Compras, Estoque e Produção
+  description: Resumo de compras
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/compras-resumo/
+  url: https://app.omie.com.br/api/v1/produtos/compras-resumo/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/compras-resumo/
+  output_slug: resumo
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_familias_de_produto
+  name: Familias de Produto
+  category: Compras, Estoque e Produção
+  description: Cria/edita/consulta famílias de produto
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/familias/
+  url: https://app.omie.com.br/api/v1/geral/familias/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/familias/
+  output_slug: familias_de_produto
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_unidades
+  name: Unidades
+  category: Compras, Estoque e Produção
+  description: Consulta unidades de medida
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/unidade/
+  url: https://app.omie.com.br/api/v1/geral/unidade/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/unidade/
+  output_slug: unidades
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_compradores
+  name: Compradores
+  category: Compras, Estoque e Produção
+  description: Consulta lista de compradores cadastrados
+  domain: estoque
+  endpoint: https://app.omie.com.br/api/v1/estoque/comprador/
+  url: https://app.omie.com.br/api/v1/estoque/comprador/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/estoque/comprador/
+  output_slug: compradores
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_produto_x_fornecedor
+  name: Produto x Fornecedor
+  category: Compras, Estoque e Produção
+  description: Lista relação entre produtos e fornecedores
+  domain: estoque
+  endpoint: https://app.omie.com.br/api/v1/estoque/produtofornecedor/
+  url: https://app.omie.com.br/api/v1/estoque/produtofornecedor/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/estoque/produtofornecedor/
+  output_slug: produto_x_fornecedor
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_formas_de_pagamento
+  name: Formas de Pagamento
+  category: Compras, Estoque e Produção
+  description: Lista as opções de forma de pagamento de uma compra
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/formaspagcompras/
+  url: https://app.omie.com.br/api/v1/produtos/formaspagcompras/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/formaspagcompras/
+  output_slug: formas_de_pagamento
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_ncm
+  name: NCM
+  category: Compras, Estoque e Produção
+  description: Lista/consulta de códigos NCM (Nomenclatura Comum do Mercosul)
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/ncm/
+  url: https://app.omie.com.br/api/v1/produtos/ncm/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/ncm/
+  output_slug: ncm
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_cenario_de_impostos
+  name: Cenário de Impostos
+  category: Compras, Estoque e Produção
+  description: Lista os Cenários de Impostos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/cenarios/
+  url: https://app.omie.com.br/api/v1/geral/cenarios/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/cenarios/
+  output_slug: cenario_de_impostos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_cfop
+  name: CFOP
+  category: Compras, Estoque e Produção
+  description: ''
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/cfop/
+  url: https://app.omie.com.br/api/v1/produtos/cfop/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/cfop/
+  output_slug: cfop
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_cnae
+  name: CNAE
+  category: Compras, Estoque e Produção
+  description: ''
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/cnae/
+  url: https://app.omie.com.br/api/v1/produtos/cnae/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/cnae/
+  output_slug: cnae
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_icms_cst
+  name: ICMS - CST
+  category: Compras, Estoque e Produção
+  description: ''
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/icmscst/
+  url: https://app.omie.com.br/api/v1/produtos/icmscst/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/icmscst/
+  output_slug: icms_cst
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_icms_csosn
+  name: ICMS - CSOSN
+  category: Compras, Estoque e Produção
+  description: ''
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/icmscsosn/
+  url: https://app.omie.com.br/api/v1/produtos/icmscsosn/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/icmscsosn/
+  output_slug: icms_csosn
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_icms_origem_da_mercadoria
+  name: ICMS - Origem da Mercadoria
+  category: Compras, Estoque e Produção
+  description: ''
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/icmsorigem/
+  url: https://app.omie.com.br/api/v1/produtos/icmsorigem/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/icmsorigem/
+  output_slug: icms_origem_da_mercadoria
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_pis_cst
+  name: PIS - CST
+  category: Compras, Estoque e Produção
+  description: ''
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/piscst/
+  url: https://app.omie.com.br/api/v1/produtos/piscst/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/piscst/
+  output_slug: pis_cst
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_cofins_cst
+  name: COFINS - CST
+  category: Compras, Estoque e Produção
+  description: ''
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/cofinscst/
+  url: https://app.omie.com.br/api/v1/produtos/cofinscst/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/cofinscst/
+  output_slug: cofins_cst
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_ipi_cst
+  name: IPI - CST
+  category: Compras, Estoque e Produção
+  description: ''
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/ipicst/
+  url: https://app.omie.com.br/api/v1/produtos/ipicst/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/ipicst/
+  output_slug: ipi_cst
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_ipi_enquadramento
+  name: IPI - Enquadramento
+  category: Compras, Estoque e Produção
+  description: ''
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/ipienq/
+  url: https://app.omie.com.br/api/v1/produtos/ipienq/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/ipienq/
+  output_slug: ipi_enquadramento
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_tipo_de_calculo
+  name: Tipo de Cálculo
+  category: Compras, Estoque e Produção
+  description: ''
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/tpcalc/
+  url: https://app.omie.com.br/api/v1/produtos/tpcalc/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/tpcalc/
+  output_slug: tipo_de_calculo
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_cest
+  name: CEST
+  category: Compras, Estoque e Produção
+  description: ''
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/cest/
+  url: https://app.omie.com.br/api/v1/produtos/cest/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/cest/
+  output_slug: cest
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_ajustes_de_estoque
+  name: Ajustes de Estoque
+  category: Compras, Estoque e Produção
+  description: Cria/exclui movimentações do estoque
+  domain: estoque
+  endpoint: https://app.omie.com.br/api/v1/estoque/ajuste/
+  url: https://app.omie.com.br/api/v1/estoque/ajuste/
+  status: Planejado
+  priority: media
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/estoque/ajuste/
+  output_slug: ajustes_de_estoque
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_consulta_estoque
+  name: Consulta Estoque
+  category: Compras, Estoque e Produção
+  description: Consulta consolidada do estoque do produto
+  domain: estoque
+  endpoint: https://app.omie.com.br/api/v1/estoque/consulta/
+  url: https://app.omie.com.br/api/v1/estoque/consulta/
+  status: Planejado
+  priority: media
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/estoque/consulta/
+  output_slug: consulta_estoque
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_movimento_estoque
+  name: Movimento Estoque
+  category: Compras, Estoque e Produção
+  description: Lista os movimentos de estoque de entrada/saida por período
+  domain: estoque
+  endpoint: https://app.omie.com.br/api/v1/estoque/movestoque/
+  url: https://app.omie.com.br/api/v1/estoque/movestoque/
+  status: Planejado
+  priority: media
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/estoque/movestoque/
+  output_slug: movimento_estoque
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_locais_de_estoque
+  name: Locais de Estoque
+  category: Compras, Estoque e Produção
+  description: Listagem dos Locais de Estoque
+  domain: estoque
+  endpoint: https://app.omie.com.br/api/v1/estoque/local/
+  url: https://app.omie.com.br/api/v1/estoque/local/
+  status: Planejado
+  priority: media
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/estoque/local/
+  output_slug: locais_de_estoque
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: compras_estoque_e_producao_resumo_do_estoque
+  name: Resumo do Estoque
+  category: Compras, Estoque e Produção
+  description: Resumo do Estoque de um produto
+  domain: estoque
+  endpoint: https://app.omie.com.br/api/v1/estoque/resumo/
+  url: https://app.omie.com.br/api/v1/estoque/resumo/
+  status: Planejado
+  priority: media
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/estoque/resumo/
+  output_slug: resumo_do_estoque
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_pedidos_de_venda_resumido
+  name: Pedidos de Venda - Resumido
+  category: Vendas e NF-e
+  description: Adiciona pedidos e itens de venda de produto
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/pedidovenda/
+  url: https://app.omie.com.br/api/v1/produtos/pedidovenda/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/pedidovenda/
+  output_slug: pedidos_de_venda_resumido
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_pedidos_de_venda
+  name: Pedidos de Venda
+  category: Vendas e NF-e
+  description: Cria/edita/consulta pedidos e orçamentos
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/pedido/
+  url: https://app.omie.com.br/api/v1/produtos/pedido/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/pedido/
+  output_slug: pedidos_de_venda
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_pedidos_de_venda_faturamento
+  name: Pedidos de Venda - Faturamento
+  category: Vendas e NF-e
+  description: Operações de faturamento de pedido
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/pedidovendafat/
+  url: https://app.omie.com.br/api/v1/produtos/pedidovendafat/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/pedidovendafat/
+  output_slug: pedidos_de_venda_faturamento
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_pedidos_de_venda_etapas
+  name: Pedidos de Venda - Etapas
+  category: Vendas e NF-e
+  description: Consulta das etapas de pedido
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/pedidoetapas/
+  url: https://app.omie.com.br/api/v1/produtos/pedidoetapas/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/pedidoetapas/
+  output_slug: pedidos_de_venda_etapas
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_ct_e_ct_e_os
+  name: CT-e / CT-e OS
+  category: Vendas e NF-e
+  description: Adiciona/Cancela Conhecimento de Transporte
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/cte/
+  url: https://app.omie.com.br/api/v1/produtos/cte/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/cte/
+  output_slug: ct_e_ct_e_os
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_remessa_de_produtos
+  name: Remessa de Produtos
+  category: Vendas e NF-e
+  description: Cria/edita uma NF de remessa de produto
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/remessa/
+  url: https://app.omie.com.br/api/v1/produtos/remessa/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/remessa/
+  output_slug: remessa_de_produtos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_remessa_de_produtos_faturamento
+  name: Remessa de Produtos - Faturamento
+  category: Vendas e NF-e
+  description: Operações de faturamento da Remessa
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/remessafat/
+  url: https://app.omie.com.br/api/v1/produtos/remessafat/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/remessafat/
+  output_slug: remessa_de_produtos_faturamento
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_resumo
+  name: Resumo
+  category: Vendas e NF-e
+  description: Resumo de vendas de NF-e, CT-e e Cupom Fiscal
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/vendas-resumo/
+  url: https://app.omie.com.br/api/v1/produtos/vendas-resumo/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/vendas-resumo/
+  output_slug: resumo
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_obter_documentos
+  name: Obter Documentos
+  category: Vendas e NF-e
+  description: Disponibiliza PDF e XML de documentos fiscais (NF-e, NFC-e, CT-e, etc)
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/dfedocs/
+  url: https://app.omie.com.br/api/v1/produtos/dfedocs/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/dfedocs/
+  output_slug: obter_documentos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_produtos
+  name: Produtos
+  category: Vendas e NF-e
+  description: Cria/edita/consulta produtos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/produtos/
+  url: https://app.omie.com.br/api/v1/geral/produtos/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/produtos/
+  output_slug: produtos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_produtos_caracteristicas
+  name: Produtos - Características
+  category: Vendas e NF-e
+  description: Cria/edita/consulta características de um determinado produto
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/prodcaract/
+  url: https://app.omie.com.br/api/v1/geral/prodcaract/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/prodcaract/
+  output_slug: produtos_caracteristicas
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_produtos_kit
+  name: Produtos - Kit
+  category: Vendas e NF-e
+  description: Edita kit de produtos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/produtoskit/
+  url: https://app.omie.com.br/api/v1/geral/produtoskit/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/produtoskit/
+  output_slug: produtos_kit
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_produtos_variacao
+  name: Produtos - Variação
+  category: Vendas e NF-e
+  description: Cria/consulta/lista variações dos produtos
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/variacao/
+  url: https://app.omie.com.br/api/v1/produtos/variacao/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/variacao/
+  output_slug: produtos_variacao
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_produtos_lote
+  name: Produtos - Lote
+  category: Vendas e NF-e
+  description: Consulta/lista lotes dos produtos
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/produtoslote/
+  url: https://app.omie.com.br/api/v1/produtos/produtoslote/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/produtoslote/
+  output_slug: produtos_lote
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_adicionar
+  name: Adicionar
+  category: Vendas e NF-e
+  description: Adicionar cupom fiscal/NFC-e/CF-e SAT
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/cupomfiscalincluir/
+  url: https://app.omie.com.br/api/v1/produtos/cupomfiscalincluir/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/cupomfiscalincluir/
+  output_slug: adicionar
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_cancelar_ou_excluir
+  name: Cancelar ou excluir
+  category: Vendas e NF-e
+  description: Cancelar/excluir/inutilizar cupons fiscais
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/cupomfiscal/
+  url: https://app.omie.com.br/api/v1/produtos/cupomfiscal/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/cupomfiscal/
+  output_slug: cancelar_ou_excluir
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_consultar
+  name: Consultar
+  category: Vendas e NF-e
+  description: Consultas de Cupom Fiscal
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/cupomfiscalconsultar/
+  url: https://app.omie.com.br/api/v1/produtos/cupomfiscalconsultar/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/cupomfiscalconsultar/
+  output_slug: consultar
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_importar_nfc_e
+  name: Importar NFC-e
+  category: Vendas e NF-e
+  description: Importação de XML de NFC-e
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/nfce/
+  url: https://app.omie.com.br/api/v1/produtos/nfce/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/nfce/
+  output_slug: importar_nfc_e
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_importar_cfe_sat
+  name: Importar CFe-Sat
+  category: Vendas e NF-e
+  description: Importação de XML de CFe-Sat
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/sat/
+  url: https://app.omie.com.br/api/v1/produtos/sat/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/sat/
+  output_slug: importar_cfe_sat
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_vendedores
+  name: Vendedores
+  category: Vendas e NF-e
+  description: Cria/edita/consulta o cadastro de vendedores
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/vendedores/
+  url: https://app.omie.com.br/api/v1/geral/vendedores/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/vendedores/
+  output_slug: vendedores
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_formas_de_pagamento
+  name: Formas de Pagamento
+  category: Vendas e NF-e
+  description: Lista as formas de pagamento de um pedido de venda
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/formaspagvendas/
+  url: https://app.omie.com.br/api/v1/produtos/formaspagvendas/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/formaspagvendas/
+  output_slug: formas_de_pagamento
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_tabela_de_precos
+  name: Tabela de Preços
+  category: Vendas e NF-e
+  description: Cria/edita/consulta tabelas de preço usadas no pedido de venda
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/tabelaprecos/
+  url: https://app.omie.com.br/api/v1/produtos/tabelaprecos/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/tabelaprecos/
+  output_slug: tabela_de_precos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_caracteristicas_de_produtos
+  name: Características de produtos
+  category: Vendas e NF-e
+  description: Cria/edita/consulta características que serão usadas nos produtos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/caracteristicas/
+  url: https://app.omie.com.br/api/v1/geral/caracteristicas/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/caracteristicas/
+  output_slug: caracteristicas_de_produtos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_ncm
+  name: NCM
+  category: Vendas e NF-e
+  description: Lista/consulta de códigos NCM (Nomenclatura Comum do Mercosul)
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/ncm/
+  url: https://app.omie.com.br/api/v1/produtos/ncm/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/ncm/
+  output_slug: ncm
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_etapas_de_faturamento
+  name: Etapas de Faturamento
+  category: Vendas e NF-e
+  description: Lista as etapas do faturamento
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/etapafat/
+  url: https://app.omie.com.br/api/v1/produtos/etapafat/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/etapafat/
+  output_slug: etapas_de_faturamento
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_cenario_de_impostos
+  name: Cenário de Impostos
+  category: Vendas e NF-e
+  description: Lista os Cenários de Impostos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/cenarios/
+  url: https://app.omie.com.br/api/v1/geral/cenarios/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/cenarios/
+  output_slug: cenario_de_impostos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_meios_de_pagamento
+  name: Meios de Pagamento
+  category: Vendas e NF-e
+  description: Listagem de meios de pagamentos (parcelas)
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/meiospagamento/
+  url: https://app.omie.com.br/api/v1/geral/meiospagamento/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/meiospagamento/
+  output_slug: meios_de_pagamento
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_origem_do_pedido
+  name: Origem do Pedido
+  category: Vendas e NF-e
+  description: Lista as origens de pedidos disponíveis
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/origempedido/
+  url: https://app.omie.com.br/api/v1/geral/origempedido/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/origempedido/
+  output_slug: origem_do_pedido
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_motivos_de_devolucao
+  name: Motivos de Devolução
+  category: Vendas e NF-e
+  description: Lista os Motivos de Devolução
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/motivodevolucao/
+  url: https://app.omie.com.br/api/v1/geral/motivodevolucao/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/motivodevolucao/
+  output_slug: motivos_de_devolucao
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_consultas
+  name: Consultas
+  category: Vendas e NF-e
+  description: Lista de NF-e emitidas
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/nfconsultar/
+  url: https://app.omie.com.br/api/v1/produtos/nfconsultar/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/nfconsultar/
+  output_slug: consultas
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_utilitarios
+  name: Utilitários
+  category: Vendas e NF-e
+  description: Recupera URL da NF-e (XML), do Danfe ou do logotipo da empresa
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/notafiscalutil/
+  url: https://app.omie.com.br/api/v1/produtos/notafiscalutil/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/notafiscalutil/
+  output_slug: utilitarios
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: vendas_e_nf_e_importar
+  name: Importar
+  category: Vendas e NF-e
+  description: Importação de XML de NF-e
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/nfe/
+  url: https://app.omie.com.br/api/v1/produtos/nfe/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/nfe/
+  output_slug: importar
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: servicos_e_nfs_e_servicos
+  name: Serviços
+  category: Serviços e NFS-e
+  description: Cria/edita/consulta serviços prestados pela empresa
+  domain: servicos
+  endpoint: https://app.omie.com.br/api/v1/servicos/servico/
+  url: https://app.omie.com.br/api/v1/servicos/servico/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/servico/
+  output_slug: servicos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: servicos_e_nfs_e_ordens_de_servico
+  name: Ordens de Serviço
+  category: Serviços e NFS-e
+  description: Cria/edita/consulta uma ordem de serviço
+  domain: servicos
+  endpoint: https://app.omie.com.br/api/v1/servicos/os/
+  url: https://app.omie.com.br/api/v1/servicos/os/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/os/
+  output_slug: ordens_de_servico
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: servicos_e_nfs_e_ordens_de_servico_faturamento
+  name: Ordens de Serviço - Faturamento
+  category: Serviços e NFS-e
+  description: Operações de faturamento de OS
+  domain: servicos
+  endpoint: https://app.omie.com.br/api/v1/servicos/osp/
+  url: https://app.omie.com.br/api/v1/servicos/osp/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/osp/
+  output_slug: ordens_de_servico_faturamento
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: servicos_e_nfs_e_ordens_de_servico_fat_em_lote
+  name: Ordens de Serviço - Fat. em Lote
+  category: Serviços e NFS-e
+  description: Faturamento de Ordens de Serviço em Lote
+  domain: servicos
+  endpoint: https://app.omie.com.br/api/v1/servicos/oslote/
+  url: https://app.omie.com.br/api/v1/servicos/oslote/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/oslote/
+  output_slug: ordens_de_servico_fat_em_lote
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: servicos_e_nfs_e_contratos_de_servico
+  name: Contratos de Serviço
+  category: Serviços e NFS-e
+  description: Cria/edita/consulta contratos de serviço (recorrência)
+  domain: servicos
+  endpoint: https://app.omie.com.br/api/v1/servicos/contrato/
+  url: https://app.omie.com.br/api/v1/servicos/contrato/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/contrato/
+  output_slug: contratos_de_servico
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: servicos_e_nfs_e_contratos_de_servico_faturamento
+  name: Contratos de Serviço - Faturamento
+  category: Serviços e NFS-e
+  description: Operações de faturamento do Contrato de Serviço
+  domain: servicos
+  endpoint: https://app.omie.com.br/api/v1/servicos/contratofat/
+  url: https://app.omie.com.br/api/v1/servicos/contratofat/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/contratofat/
+  output_slug: contratos_de_servico_faturamento
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: servicos_e_nfs_e_contratos_de_servico_fat_em_lote
+  name: Contratos de Serviço - Fat. em Lote
+  category: Serviços e NFS-e
+  description: Faturamento de Contratos de Serviço em Lote
+  domain: servicos
+  endpoint: https://app.omie.com.br/api/v1/servicos/contratolote/
+  url: https://app.omie.com.br/api/v1/servicos/contratolote/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/contratolote/
+  output_slug: contratos_de_servico_fat_em_lote
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: servicos_e_nfs_e_resumo
+  name: Resumo
+  category: Serviços e NFS-e
+  description: Resumo do Faturamento de Serviços
+  domain: servicos
+  endpoint: https://app.omie.com.br/api/v1/servicos/resumo/
+  url: https://app.omie.com.br/api/v1/servicos/resumo/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/resumo/
+  output_slug: resumo
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: servicos_e_nfs_e_obter_documentos
+  name: Obter Documentos
+  category: Serviços e NFS-e
+  description: Disponibiliza PDF e XML de documentos fiscais (NFS-e, Recibo, Via Única,
+    etc)
+  domain: servicos
+  endpoint: https://app.omie.com.br/api/v1/servicos/osdocs/
+  url: https://app.omie.com.br/api/v1/servicos/osdocs/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/osdocs/
+  output_slug: obter_documentos
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: servicos_e_nfs_e_consultas
+  name: Consultas
+  category: Serviços e NFS-e
+  description: Listagem de NFS-e emitidas
+  domain: servicos
+  endpoint: https://app.omie.com.br/api/v1/servicos/nfse/
+  url: https://app.omie.com.br/api/v1/servicos/nfse/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/nfse/
+  output_slug: consultas
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: servicos_e_nfs_e_vendedores
+  name: Vendedores
+  category: Serviços e NFS-e
+  description: Cria/edita/consulta o cadastro de vendedores
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/vendedores/
+  url: https://app.omie.com.br/api/v1/geral/vendedores/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/vendedores/
+  output_slug: vendedores
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: servicos_e_nfs_e_servicos_no_municipio
+  name: Serviços no Município
+  category: Serviços e NFS-e
+  description: Lista serviços disponíveis para o município
+  domain: servicos
+  endpoint: https://app.omie.com.br/api/v1/servicos/listaservico/
+  url: https://app.omie.com.br/api/v1/servicos/listaservico/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/listaservico/
+  output_slug: servicos_no_municipio
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: servicos_e_nfs_e_tipos_de_tributacao
+  name: Tipos de Tributação
+  category: Serviços e NFS-e
+  description: Lista os tipos de tributação
+  domain: servicos
+  endpoint: https://app.omie.com.br/api/v1/servicos/tipotrib/
+  url: https://app.omie.com.br/api/v1/servicos/tipotrib/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/tipotrib/
+  output_slug: tipos_de_tributacao
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: servicos_e_nfs_e_lc_116
+  name: LC 116
+  category: Serviços e NFS-e
+  description: Lista os códigos da Lei Complementar 116
+  domain: servicos
+  endpoint: https://app.omie.com.br/api/v1/servicos/lc116/
+  url: https://app.omie.com.br/api/v1/servicos/lc116/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/lc116/
+  output_slug: lc_116
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: servicos_e_nfs_e_nbs
+  name: NBS
+  category: Serviços e NFS-e
+  description: Lista os códigos de Nomenclatura Brasileira Serviços (NBS)
+  domain: servicos
+  endpoint: https://app.omie.com.br/api/v1/servicos/nbs/
+  url: https://app.omie.com.br/api/v1/servicos/nbs/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/nbs/
+  output_slug: nbs
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: servicos_e_nfs_e_ibpt
+  name: IBPT
+  category: Serviços e NFS-e
+  description: Lista de impostos definidos na tabela do IBPT
+  domain: servicos
+  endpoint: https://app.omie.com.br/api/v1/servicos/ibpt/
+  url: https://app.omie.com.br/api/v1/servicos/ibpt/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/ibpt/
+  output_slug: ibpt
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: servicos_e_nfs_e_formas_de_pagamento
+  name: Formas de Pagamento
+  category: Serviços e NFS-e
+  description: Lista as formas de pagamento
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/formaspagvendas/
+  url: https://app.omie.com.br/api/v1/produtos/formaspagvendas/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/formaspagvendas/
+  output_slug: formas_de_pagamento
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: servicos_e_nfs_e_tipo_de_faturamento_de_contrato
+  name: Tipo de Faturamento de Contrato
+  category: Serviços e NFS-e
+  description: Lista os tipos de faturamento de contratos
+  domain: servicos
+  endpoint: https://app.omie.com.br/api/v1/servicos/contratotpfat/
+  url: https://app.omie.com.br/api/v1/servicos/contratotpfat/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/contratotpfat/
+  output_slug: tipo_de_faturamento_de_contrato
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: servicos_e_nfs_e_etapas_de_faturamento
+  name: Etapas de Faturamento
+  category: Serviços e NFS-e
+  description: Lista as etapas do faturamento
+  domain: produtos
+  endpoint: https://app.omie.com.br/api/v1/produtos/etapafat/
+  url: https://app.omie.com.br/api/v1/produtos/etapafat/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/etapafat/
+  output_slug: etapas_de_faturamento
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: servicos_e_nfs_e_tipo_de_utilizacao
+  name: Tipo de utilização
+  category: Serviços e NFS-e
+  description: Lista os Tipos de utilização
+  domain: servicos
+  endpoint: https://app.omie.com.br/api/v1/servicos/tipoutilizacao/
+  url: https://app.omie.com.br/api/v1/servicos/tipoutilizacao/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/tipoutilizacao/
+  output_slug: tipo_de_utilizacao
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: servicos_e_nfs_e_classificacao_do_servico
+  name: Classificação do Serviço
+  category: Serviços e NFS-e
+  description: Lista as Classificações do Serviço
+  domain: servicos
+  endpoint: https://app.omie.com.br/api/v1/servicos/classificacaoservico/
+  url: https://app.omie.com.br/api/v1/servicos/classificacaoservico/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/classificacaoservico/
+  output_slug: classificacao_do_servico
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: painel_do_contador_documentos_fiscais
+  name: Documentos Fiscais
+  category: Painel do Contador
+  description: Listagem dos XMLs de Documentos Fiscais (NF-e/NFC-e/CF-e SAT/NFS-e)
+  domain: contador
+  endpoint: https://app.omie.com.br/api/v1/contador/xml/
+  url: https://app.omie.com.br/api/v1/contador/xml/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/contador/xml/
+  output_slug: documentos_fiscais
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.
+- id: painel_do_contador_resumo
+  name: Resumo
+  category: Painel do Contador
+  description: Resumo do Fechamento Contábil
+  domain: contador
+  endpoint: https://app.omie.com.br/api/v1/contador/resumo/
+  url: https://app.omie.com.br/api/v1/contador/resumo/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/contador/resumo/
+  output_slug: resumo
+  depends_on: []
+  notes: Servico descoberto automaticamente em documentação publica da Omie.

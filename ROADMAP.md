@@ -14,8 +14,16 @@
 - Objetivo: receber uma lista de URLs oficiais Omie e gerar automaticamente documentação, schemas, perguntas, chunks, graphs, business knowledge, coverage e dashboard.
 - Prioridade: Alta
 - Dependências: Omie Knowledge Factory MVP, Service Registry, Batch Runner e Quality Gate.
-- Status: Em andamento
+- Status: Em andamento / Dynamic Service Discovery iniciado
 - Épicos: Service Registry, Batch Runner, Parser Robusto, Template Engine, Schema Generator avançado, FAQ Generator determinístico, Question Generator avançado, Graph Generator avançado, Business Knowledge Generator, Chunking Engine, Coverage Updater, Dashboard Updater, Quality Gate, PR Automation e Release Automation.
+
+### v0.7.0 — Dynamic Service Discovery
+
+- Objetivo: remover a dependência de registry mantido manualmente, descobrindo a lista pública de serviços Omie a partir de `https://developer.omie.com.br/service-list/`.
+- Prioridade: Alta
+- Dependências: Service Registry e CLI da Factory.
+- Status: Em implementação
+- Entregáveis: `factory/scripts/discovery.py`, `factory/registry/omie_services.generated.yaml`, relatório de discovery, comparação de registry e workflow opcional sem commit automático.
 
 ## FASE 1 — Clientes
 
