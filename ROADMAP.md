@@ -17,6 +17,14 @@
 - Status: Em andamento
 - Épicos: Service Registry, Batch Runner, Parser Robusto, Template Engine, Schema Generator avançado, FAQ Generator determinístico, Question Generator avançado, Graph Generator avançado, Business Knowledge Generator, Chunking Engine, Coverage Updater, Dashboard Updater, Quality Gate, PR Automation e Release Automation.
 
+### Generation Planner
+
+- Objetivo: decidir automaticamente a ordem recomendada de documentação dos serviços Omie.
+- Prioridade: Alta
+- Dependências: Service Registry, coverage e documentação existente.
+- Status: Em implementação
+- Entregáveis: scoring determinístico, classificação Critical/High/Medium/Low, plano de documentação, relatório de prioridade e grafo Mermaid de dependências.
+
 ## FASE 1 — Clientes
 
 - Objetivo: Consolidar cadastro base compartilhado entre clientes, fornecedores e transportadoras.

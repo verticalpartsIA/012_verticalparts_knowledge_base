@@ -1,0 +1,93 @@
+version: "0.1.0"
+
+classification_thresholds:
+  critical: 80
+  high: 60
+  medium: 40
+
+weights:
+  registry_priority:
+    alta: 24
+    media: 14
+    baixa: 6
+  domain:
+    finanças: 22
+    geral: 18
+    compras, estoque e produção: 16
+    serviços e nfs-e: 15
+    crm: 10
+    cadastros auxiliares: 6
+  status:
+    concluído: 12
+    planejado: 10
+    não iniciado: 6
+  implemented_bonus: 8
+  pending_bonus: 18
+  dependency_resolved_bonus: 8
+  dependency_blocked_penalty: -8
+  documented_penalty: -18
+  methods_known_bonus: 6
+  dependent_service_factor: 2
+
+financial_keywords:
+  - contas a receber
+  - contas a pagar
+  - financeiro
+  - finanças
+  - boleto
+  - pix
+  - extrato
+  - caixa
+  - bancos
+  - movimentos financeiros
+
+erp_impact_keywords:
+  critical:
+    - clientes
+    - fornecedores
+    - transportadoras
+    - contas a receber
+    - contas a pagar
+    - produtos
+    - pedidos de venda
+    - nota fiscal
+    - nf-e
+    - nfs-e
+  high:
+    - categorias
+    - bancos
+    - movimentos financeiros
+    - ordens de serviço
+    - estoque
+    - pedidos de compra
+  medium:
+    - crm
+    - projetos
+    - departamentos
+    - vendedores
+
+dependency_rules:
+  clientes:
+    - geral_clientes_fornecedores_transportadoras_etc
+  contas a receber:
+    - geral_clientes_fornecedores_transportadoras_etc
+  contas a pagar:
+    - geral_clientes_fornecedores_transportadoras_etc
+  pedidos de venda:
+    - geral_clientes_fornecedores_transportadoras_etc
+    - geral_produtos
+  produtos:
+    - geral_categorias
+  movimentos financeiros:
+    - financas_contas_a_receber_lancamentos
+    - financas_contas_a_pagar_lancamentos
+  ordens de serviço:
+    - geral_clientes_fornecedores_transportadoras_etc
+  estoque:
+    - geral_produtos
+
+duration_by_complexity:
+  Low: "0.5-1 dia"
+  Medium: "1-2 dias"
+  High: "2-4 dias"
+  Critical: "4-6 dias"

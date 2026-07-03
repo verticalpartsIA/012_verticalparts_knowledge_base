@@ -26,5 +26,7 @@
 | Service Registry | Iniciado |
 | Serviços no registry | 137 |
 | Batch Runner | MVP dry-run |
+| Generation Planner | Em implementação |
+| Próximo melhor serviço | Contas a Pagar - Lançamentos |
 | Próximo objetivo | execução autônoma por lista de URLs |
 | Impacto na cobertura | 0 ponto percentual nesta entrega |
