@@ -4,7 +4,7 @@
 
 | Métrica | Valor |
 | --- | ---: |
-| Versão atual | v0.2.0-omie-contas-receber-rag |
+| Versão atual | v0.4.0-omie-knowledge-factory-mvp |
 | Serviços documentados | 2 |
 | Serviços oficiais mapeados | 137 |
 | Métodos documentados | 27 |
@@ -16,4 +16,15 @@
 | Chunks RAG | 108 |
 | Knowledge Score médio | 95.14 |
 | Cobertura da API | 1.46% |
-| Factory | Arquitetura criada / implementação planejada |
+| Factory | MVP funcional / evolução autônoma iniciada |
+
+## Autonomous Knowledge Factory v1.0.0
+
+| Item | Status |
+| --- | --- |
+| Foundation | Concluída |
+| Service Registry | Iniciado |
+| Serviços no registry | 137 |
+| Batch Runner | MVP dry-run |
+| Próximo objetivo | execução autônoma por lista de URLs |
+| Impacto na cobertura | 0 ponto percentual nesta entrega |

@@ -7,7 +7,15 @@
 - Objetivo: substituir geração manual por uma Factory capaz de transformar qualquer URL oficial da API Omie em base Enterprise LLM/RAG.
 - Prioridade: Alta
 - Dependências: padrões Enterprise existentes, quality gate, coverage e dashboard
-- Status: Arquitetura criada / implementação planejada
+- Status: MVP funcional entregue / evolução autônoma iniciada
+
+## Autonomous Knowledge Factory v1.0.0
+
+- Objetivo: receber uma lista de URLs oficiais Omie e gerar automaticamente documentação, schemas, perguntas, chunks, graphs, business knowledge, coverage e dashboard.
+- Prioridade: Alta
+- Dependências: Omie Knowledge Factory MVP, Service Registry, Batch Runner e Quality Gate.
+- Status: Em andamento
+- Épicos: Service Registry, Batch Runner, Parser Robusto, Template Engine, Schema Generator avançado, FAQ Generator determinístico, Question Generator avançado, Graph Generator avançado, Business Knowledge Generator, Chunking Engine, Coverage Updater, Dashboard Updater, Quality Gate, PR Automation e Release Automation.
 
 ## FASE 1 — Clientes
 
