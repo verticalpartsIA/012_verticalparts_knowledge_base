@@ -50,6 +50,7 @@
 - [FACTORY SDD](../factory/FACTORY_SDD.md) — `factory/FACTORY_SDD.md`
 - [FACTORY SPEC](../factory/FACTORY_SPEC.md) — `factory/FACTORY_SPEC.md`
 - [Omie Knowledge Factory](../factory/README.md) — `factory/README.md`
+- [Registry Health](../factory/reports/registry_health.md) — `factory/reports/registry_health.md`
 - [Roadmap da Factory](../factory/ROADMAP.md) — `factory/ROADMAP.md`
 - [Business Knowledge: {{ service_title }}](../factory/templates/business.md) — `factory/templates/business.md`
 - [Chunk {{ method }} - {{ focus }}](../factory/templates/chunk.md) — `factory/templates/chunk.md`

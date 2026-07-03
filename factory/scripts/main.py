@@ -25,8 +25,11 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Executa o MVP da Omie Knowledge Factory.")
     parser.add_argument("--url", help="URL da documentacao oficial.")
     parser.add_argument("--output", default="factory/output", help="Diretorio de saida isolado.")
+    parser.add_argument("--output-root", default="factory/runs", help="Raiz para relatorios de execucao em lote.")
     parser.add_argument("--dry-run", action="store_true", help="Planeja sem gravar saidas de docs/datasets/rag/reports.")
+    parser.add_argument("--no-write", action="store_true", help="Executa parsing e planejamento sem gravar arquivos finais.")
     parser.add_argument("--service", help="Nome do servico quando a pagina nao possuir titulo claro.")
+    parser.add_argument("--service-id", help="ID do servico no registry para execucao controlada.")
     parser.add_argument("--registry", default=str(DEFAULT_REGISTRY_PATH), help="Arquivo YAML do service registry.")
     parser.add_argument("--batch", action="store_true", help="Executa a Factory em lote a partir do registry.")
     parser.add_argument("--limit", type=int, help="Limite de servicos no batch.")
@@ -93,27 +96,30 @@ def main(argv: list[str] | None = None) -> int:
         print(recommended.documentation_url)
         return 0
 
-    if args.batch:
+    if args.batch or args.service_id:
         from batch_runner import run_batch
 
         result = run_batch(
             registry_path=registry_path,
-            output_dir=Path(args.output),
+            output_root=Path(args.output_root),
             dry_run=args.dry_run,
+            no_write=args.no_write,
             limit=args.limit,
             domain=args.domain,
             priority=args.priority,
+            service_id=args.service_id,
         )
         print(f"Batch concluido. Servicos: {len(result.results)}")
         for item in result.results:
             print(f"{item.service_id}: {item.status}")
+        print(f"Run dir: {result.run_dir}")
         print(f"Relatorio: {result.report_path}")
         return 0
 
     if not args.url:
         raise SystemExit("--url e obrigatorio quando nao usar comandos de registry ou batch.")
-    result = run_pipeline(args.url, Path(args.output), dry_run=args.dry_run, service=args.service)
-    mode = "dry-run" if result.dry_run else "geracao"
+    result = run_pipeline(args.url, Path(args.output), dry_run=(args.dry_run or args.no_write), service=args.service)
+    mode = "dry-run" if args.dry_run else "no-write" if args.no_write else "geracao"
     print(f"Factory MVP concluida em modo {mode}.")
     print(f"Servico: {result.service.name}")
     print(f"Metodos: {len(result.service.methods)}")

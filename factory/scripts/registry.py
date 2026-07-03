@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from collections import Counter
 from pathlib import Path
 from typing import Any
 
@@ -46,6 +47,25 @@ class RegistryError(RuntimeError):
     """Erro de carga ou validacao do registry."""
 
 
+@dataclass(frozen=True)
+class RegistryHealth:
+    total_services: int
+    implemented_services: int
+    duplicate_ids: tuple[str, ...]
+    duplicate_endpoints: tuple[str, ...]
+    duplicate_output_slugs: tuple[str, ...]
+    missing_dependencies: tuple[str, ...]
+
+    @property
+    def healthy(self) -> bool:
+        return not (
+            self.duplicate_ids
+            or self.duplicate_endpoints
+            or self.duplicate_output_slugs
+            or self.missing_dependencies
+        )
+
+
 def load_registry(path: Path = DEFAULT_REGISTRY_PATH) -> list[RegistryService]:
     if not path.exists():
         raise RegistryError(f"Registry nao encontrado: {path}")
@@ -80,15 +100,53 @@ def service_from_dict(item: dict[str, Any], index: int) -> RegistryService:
 
 
 def validate_services(services: list[RegistryService]) -> None:
-    ids = [service.id for service in services]
-    duplicates = sorted({service_id for service_id in ids if ids.count(service_id) > 1})
-    if duplicates:
-        raise RegistryError(f"IDs duplicados no registry: {', '.join(duplicates)}")
+    health = registry_health(services)
+    if health.duplicate_ids:
+        raise RegistryError(f"IDs duplicados no registry: {', '.join(health.duplicate_ids)}")
+    if health.duplicate_endpoints:
+        raise RegistryError(f"Endpoints duplicados no registry: {', '.join(health.duplicate_endpoints)}")
+    if health.duplicate_output_slugs:
+        raise RegistryError(f"output_slug duplicado no registry: {', '.join(health.duplicate_output_slugs)}")
+    if health.missing_dependencies:
+        raise RegistryError(f"Dependencias inexistentes no registry: {', '.join(health.missing_dependencies)}")
     for service in services:
         if not service.documentation_url.startswith(("http://", "https://")):
             raise RegistryError(f"documentation_url invalida em {service.id}")
         if service.priority not in {"alta", "media", "baixa"}:
             raise RegistryError(f"priority invalida em {service.id}: {service.priority}")
+
+
+def registry_health(services: list[RegistryService]) -> RegistryHealth:
+    ids = [service.id for service in services]
+    endpoints = [service.endpoint for service in services]
+    output_slugs = [service.output_slug for service in services]
+    known_ids = set(ids)
+    missing_dependencies = sorted(
+        f"{service.id}->{dependency}"
+        for service in services
+        for dependency in service.depends_on
+        if dependency not in known_ids
+    )
+    return RegistryHealth(
+        total_services=len(services),
+        implemented_services=sum(1 for service in services if service.implemented),
+        duplicate_ids=duplicates(ids),
+        duplicate_endpoints=duplicates(endpoints),
+        duplicate_output_slugs=duplicates(output_slugs),
+        missing_dependencies=tuple(missing_dependencies),
+    )
+
+
+def duplicates(values: list[str]) -> tuple[str, ...]:
+    counts = Counter(values)
+    return tuple(sorted(value for value, count in counts.items() if count > 1))
+
+
+def find_service(services: list[RegistryService], service_id: str) -> RegistryService:
+    for service in services:
+        if service.id == service_id:
+            return service
+    raise RegistryError(f"service-id nao encontrado: {service_id}")
 
 
 def filter_services(
@@ -141,3 +199,52 @@ def format_services(services: list[RegistryService]) -> str:
         for service in services
     )
     return "\n".join(lines)
+
+
+def render_health_report(services: list[RegistryService]) -> str:
+    health = registry_health(services)
+    status = "Saudavel" if health.healthy else "Com inconsistencias"
+    return f"""# Registry Health
+
+Status: {status}
+
+| Métrica | Valor |
+| --- | ---: |
+| Serviços | {health.total_services} |
+| Serviços implementados | {health.implemented_services} |
+| IDs duplicados | {len(health.duplicate_ids)} |
+| Endpoints duplicados | {len(health.duplicate_endpoints)} |
+| Output slugs duplicados | {len(health.duplicate_output_slugs)} |
+| Dependências inexistentes | {len(health.missing_dependencies)} |
+
+## IDs duplicados
+
+{format_list(health.duplicate_ids)}
+
+## Endpoints duplicados
+
+{format_list(health.duplicate_endpoints)}
+
+## Output slugs duplicados
+
+{format_list(health.duplicate_output_slugs)}
+
+## Dependências inexistentes
+
+{format_list(health.missing_dependencies)}
+"""
+
+
+def write_health_report(
+    services: list[RegistryService],
+    path: Path = Path("factory/reports/registry_health.md"),
+) -> Path:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(render_health_report(services), encoding="utf-8")
+    return path
+
+
+def format_list(values: tuple[str, ...]) -> str:
+    if not values:
+        return "- Nenhuma."
+    return "\n".join(f"- {value}" for value in values)

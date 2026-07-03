@@ -14,8 +14,16 @@
 - Objetivo: receber uma lista de URLs oficiais Omie e gerar automaticamente documentação, schemas, perguntas, chunks, graphs, business knowledge, coverage e dashboard.
 - Prioridade: Alta
 - Dependências: Omie Knowledge Factory MVP, Service Registry, Batch Runner e Quality Gate.
-- Status: Em andamento
+- Status: Em andamento / Safe Batch Execution iniciado
 - Épicos: Service Registry, Batch Runner, Parser Robusto, Template Engine, Schema Generator avançado, FAQ Generator determinístico, Question Generator avançado, Graph Generator avançado, Business Knowledge Generator, Chunking Engine, Coverage Updater, Dashboard Updater, Quality Gate, PR Automation e Release Automation.
+
+### v0.6.0 — Safe Batch Execution
+
+- Objetivo: permitir execução segura em lote com rastreabilidade por run, sem merge automático de conteúdo gerado.
+- Prioridade: Alta
+- Dependências: Service Registry v0.5.0 e MVP da Factory.
+- Status: Em implementação
+- Entregáveis: `factory/runs/`, relatórios por execução, `--output-root`, `--no-write`, `--service-id`, health report do registry e manifest de arquivos planejados/gerados.
 
 ## FASE 1 — Clientes
 
