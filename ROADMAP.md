@@ -25,6 +25,14 @@
 - Status: Em implementação
 - Entregáveis: scoring determinístico, classificação Critical/High/Medium/Low, plano de documentação, relatório de prioridade e grafo Mermaid de dependências.
 
+### v0.7.0 — Execution Engine
+
+- Objetivo: executar deterministicamente o próximo serviço recomendado pelo planner, com estado, histórico, relatório e quality gate básico.
+- Prioridade: Alta
+- Dependências: Generation Planner, crawler, parser, method extractor e generators.
+- Status: Em implementação
+- Entregáveis: `factory/scripts/execution_engine.py`, `factory/state/factory_state.json`, `factory/reports/execution_report.md`, `factory/reports/execution_history.json` e CLI de execução/status/histórico.
+
 ## FASE 1 — Clientes
 
 - Objetivo: Consolidar cadastro base compartilhado entre clientes, fornecedores e transportadoras.

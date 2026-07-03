@@ -47,11 +47,13 @@
 - [Embeddings](../embeddings/README.md) — `embeddings/README.md`
 - [Arquitetura](../factory/ARCHITECTURE.md) — `factory/ARCHITECTURE.md`
 - [Exemplo: Clientes](../factory/examples/clientes.md) — `factory/examples/clientes.md`
+- [Execution Engine](../factory/execution/README.md) — `factory/execution/README.md`
 - [FACTORY SDD](../factory/FACTORY_SDD.md) — `factory/FACTORY_SDD.md`
 - [FACTORY SPEC](../factory/FACTORY_SPEC.md) — `factory/FACTORY_SPEC.md`
 - [Generation Planner](../factory/planner/README.md) — `factory/planner/README.md`
 - [Omie Knowledge Factory](../factory/README.md) — `factory/README.md`
 - [Documentation Plan](../factory/reports/documentation_plan.md) — `factory/reports/documentation_plan.md`
+- [Execution Report](../factory/reports/execution_report.md) — `factory/reports/execution_report.md`
 - [Generation Planner Report](../factory/reports/planner_report.md) — `factory/reports/planner_report.md`
 - [Service Dependency Graph](../factory/reports/service_dependency_graph.md) — `factory/reports/service_dependency_graph.md`
 - [Roadmap da Factory](../factory/ROADMAP.md) — `factory/ROADMAP.md`
