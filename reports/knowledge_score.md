@@ -10,6 +10,20 @@
 | `docs/omie/geral/clientes_fornecedores_transportadoras.md` | 100 | Nenhuma |
 | `docs/omie/servicos/ordem_de_servico.md` | 70 | Metadados, RAG, GraphRAG |
 | `docs/omie/vendas/pedidos_de_venda.md` | 70 | Metadados, RAG, GraphRAG |
+| `docs/omie/financeiro/contas_a_pagar_lancamentos/alterar_conta_pagar.md` | 90 | GraphRAG |
+| `docs/omie/financeiro/contas_a_pagar_lancamentos/cancelar_pagamento.md` | 90 | GraphRAG |
+| `docs/omie/financeiro/contas_a_pagar_lancamentos/consultar_conta_pagar.md` | 90 | GraphRAG |
+| `docs/omie/financeiro/contas_a_pagar_lancamentos/excluir_conta_pagar.md` | 90 | GraphRAG |
+| `docs/omie/financeiro/contas_a_pagar_lancamentos/incluir_conta_pagar.md` | 90 | GraphRAG |
+| `docs/omie/financeiro/contas_a_pagar_lancamentos/incluir_conta_pagar_por_lote.md` | 90 | GraphRAG |
+| `docs/omie/financeiro/contas_a_pagar_lancamentos/lancar_pagamento.md` | 90 | GraphRAG |
+| `docs/omie/financeiro/contas_a_pagar_lancamentos/listar.md` | 90 | GraphRAG |
+| `docs/omie/financeiro/contas_a_pagar_lancamentos/listar_contas_pagar.md` | 90 | GraphRAG |
+| `docs/omie/financeiro/contas_a_pagar_lancamentos/README.md` | 20 | Completude, Exemplos, FAQ, Relacionamentos, Perguntas naturais, Business Knowledge, RAG, Embeddings |
+| `docs/omie/financeiro/contas_a_pagar_lancamentos/upsert_cadastro.md` | 90 | GraphRAG |
+| `docs/omie/financeiro/contas_a_pagar_lancamentos/upsert_conta_pagar.md` | 90 | GraphRAG |
+| `docs/omie/financeiro/contas_a_pagar_lancamentos/upsert_conta_pagar_por_lote.md` | 90 | GraphRAG |
+| `docs/omie/financeiro/contas_a_pagar_lancamentos/upsert_lote.md` | 90 | GraphRAG |
 | `docs/omie/financeiro/contas_a_receber/alterar_conta_receber.md` | 100 | Nenhuma |
 | `docs/omie/financeiro/contas_a_receber/alterar_distribuicao_departamento.md` | 100 | Nenhuma |
 | `docs/omie/financeiro/contas_a_receber/cancelar_conta_receber.md` | 100 | Nenhuma |

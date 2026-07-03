@@ -219,13 +219,13 @@ def execute_service(
         elif no_write:
             from main import run_pipeline
 
-            output_dir = output_root / service.output_slug
+            output_dir = output_dir_for(service, output_root)
             pipeline_result = run_pipeline(service.documentation_url, output_dir, dry_run=True, service=service.name)
             generated_files = tuple(str(path).replace("\\", "/") for path in pipeline_result.generated_files)
         else:
             from main import run_pipeline
 
-            output_dir = output_root / service.output_slug
+            output_dir = output_dir_for(service, output_root)
             pipeline_result = run_pipeline(service.documentation_url, output_dir, dry_run=False, service=service.name)
             generated_files = tuple(str(path).replace("\\", "/") for path in pipeline_result.generated_files)
     except Exception as exc:  # pragma: no cover - caminho defensivo de execucao externa
@@ -256,6 +256,7 @@ def execute_service(
     update_state_after_execution(result, services, state_path, history_path)
     append_history(result, history_path)
     write_execution_report(result, report_path)
+    sync_first_real_generation_report(result)
     return result
 
 
@@ -325,6 +326,18 @@ def write_execution_report(result: ExecutionResult, path: Path = DEFAULT_REPORT_
     return path
 
 
+def sync_first_real_generation_report(result: ExecutionResult) -> None:
+    path = Path("factory/reports/first_real_generation.md")
+    if not path.exists() or result.status != "success":
+        return
+    text = path.read_text(encoding="utf-8")
+    text = text.replace(
+        "| Hash | `calculado pelo Execution Engine em factory/reports/execution_report.md` |",
+        f"| Hash | `{result.documentation_hash}` |",
+    )
+    path.write_text(text, encoding="utf-8")
+
+
 def render_execution_report(result: ExecutionResult) -> str:
     return f"""# Execution Report
 
@@ -363,7 +376,7 @@ def find_service(services: list[RegistryService], service_id: str) -> RegistrySe
 
 
 def planned_files_for(service: RegistryService, output_root: Path) -> tuple[str, ...]:
-    base = output_root / service.output_slug
+    base = output_dir_for(service, output_root)
     return (
         str(base / "docs").replace("\\", "/"),
         str(base / "schemas").replace("\\", "/"),
@@ -374,6 +387,12 @@ def planned_files_for(service: RegistryService, output_root: Path) -> tuple[str,
         str(base / "reports").replace("\\", "/"),
         str(base / "coverage").replace("\\", "/"),
     )
+
+
+def output_dir_for(service: RegistryService, output_root: Path) -> Path:
+    if output_root in {Path("."), Path("")}:
+        return Path(".")
+    return output_root / service.output_slug
 
 
 def hash_generated_files(files: tuple[str, ...]) -> str:

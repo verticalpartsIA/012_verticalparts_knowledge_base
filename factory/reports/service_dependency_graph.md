@@ -8,6 +8,9 @@ graph TD
   svc_financas_contas_a_pagar_lancamentos["Contas a Pagar - Lançamentos"]
   svc_geral_clientes_fornecedores_transportadoras_etc --> svc_financas_contas_a_pagar_lancamentos
   svc_geral_categorias["Categorias"]
+  svc_financas_movimentos_financeiros["Movimentos Financeiros"]
+  svc_financas_contas_a_pagar_lancamentos --> svc_financas_movimentos_financeiros
+  svc_financas_contas_a_receber_lancamentos --> svc_financas_movimentos_financeiros
   svc_servicos_e_nfs_e_ordens_de_servico["Ordens de Serviço"]
   svc_geral_clientes_fornecedores_transportadoras_etc --> svc_servicos_e_nfs_e_ordens_de_servico
   svc_servicos_e_nfs_e_ordens_de_servico_fat_em_lote["Ordens de Serviço - Fat. em Lote"]
@@ -94,9 +97,6 @@ graph TD
   svc_cadastros_auxiliares_resumo["Resumo"]
   svc_geral_produtos["Produtos"]
   svc_geral_categorias --> svc_geral_produtos
-  svc_financas_movimentos_financeiros["Movimentos Financeiros"]
-  svc_financas_contas_a_pagar_lancamentos --> svc_financas_movimentos_financeiros
-  svc_financas_contas_a_receber_lancamentos --> svc_financas_movimentos_financeiros
   svc_geral_caracteristicas_de_produtos["Características de produtos"]
   svc_geral_categorias --> svc_geral_caracteristicas_de_produtos
   svc_geral_produtos_caracteristicas["Produtos - Características"]

@@ -6,6 +6,7 @@ from pathlib import Path
 from types import SimpleNamespace
 
 import pytest
+import yaml
 
 SCRIPTS = Path(__file__).resolve().parents[1] / "scripts"
 if str(SCRIPTS) not in sys.path:
@@ -38,8 +39,22 @@ def paths(tmp_path: Path) -> dict[str, Path]:
     }
 
 
+def registry_with_contas_pagar_pending(tmp_path: Path) -> Path:
+    data = yaml.safe_load(REGISTRY.read_text(encoding="utf-8"))
+    for service in data["services"]:
+        if service["id"] == "financas_contas_a_pagar_lancamentos":
+            service["status"] = "Planejado"
+            service["implemented"] = False
+            service["methods_count"] = None
+    path = tmp_path / "omie_services.yaml"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(yaml.safe_dump(data, allow_unicode=True, sort_keys=False), encoding="utf-8")
+    return path
+
+
 def test_execute_next_dry_run_updates_state_history_and_report(tmp_path: Path) -> None:
-    result = execute_next(registry_path=REGISTRY, dry_run=True, **paths(tmp_path))
+    registry = registry_with_contas_pagar_pending(tmp_path)
+    result = execute_next(registry_path=registry, dry_run=True, **paths(tmp_path))
 
     assert result.service_id == "financas_contas_a_pagar_lancamentos"
     assert result.status == "dry-run"
@@ -53,9 +68,10 @@ def test_execute_next_dry_run_updates_state_history_and_report(tmp_path: Path) -
 
 
 def test_execute_service_dry_run_by_id(tmp_path: Path) -> None:
+    registry = registry_with_contas_pagar_pending(tmp_path)
     result = execute_service(
         "financas_contas_a_pagar_lancamentos",
-        registry_path=REGISTRY,
+        registry_path=registry,
         dry_run=True,
         **paths(tmp_path),
     )
@@ -64,7 +80,7 @@ def test_execute_service_dry_run_by_id(tmp_path: Path) -> None:
 
     alias_result = execute_service(
         "omie-financeiro-contas-pagar",
-        registry_path=REGISTRY,
+        registry_path=registry,
         dry_run=True,
         **paths(tmp_path / "alias"),
     )
@@ -74,6 +90,7 @@ def test_execute_service_dry_run_by_id(tmp_path: Path) -> None:
 def test_execute_service_no_write_uses_output_root_without_final_files(
     tmp_path: Path, monkeypatch: pytest.MonkeyPatch
 ) -> None:
+    registry = registry_with_contas_pagar_pending(tmp_path)
     output_root = tmp_path / "runs" / "first-autonomous-cycle"
 
     def fake_run_pipeline(url: str, output: Path, dry_run: bool = False, service: str | None = None) -> SimpleNamespace:
@@ -83,7 +100,7 @@ def test_execute_service_no_write_uses_output_root_without_final_files(
     monkeypatch.setattr("main.run_pipeline", fake_run_pipeline)
     result = execute_service(
         "omie-financeiro-contas-pagar",
-        registry_path=REGISTRY,
+        registry_path=registry,
         no_write=True,
         output_root=output_root,
         **{key: value for key, value in paths(tmp_path).items() if key != "output_root"},
@@ -105,15 +122,18 @@ def test_execution_blocks_unknown_completed_and_unresolved_services(tmp_path: Pa
     with pytest.raises(ExecutionError, match="Serviço já concluído"):
         validate_before_execution(completed_service, registry_path=REGISTRY, state_path=tmp_path / "state.json")
 
-    pending_service = next(service for service in services if service.id == "financas_movimentos_financeiros")
+    pending_service = next(service for service in services if service.id == "geral_produtos")
     with pytest.raises(ExecutionError, match="Dependência não resolvida"):
         validate_before_execution(pending_service, registry_path=REGISTRY, state_path=tmp_path / "state2.json")
 
     duplicate_state = tmp_path / "duplicate_state.json"
     save_state({"status": "idle", "services_completed": ["financas_contas_a_pagar_lancamentos"]}, duplicate_state)
-    duplicate_service = next(service for service in services if service.id == "financas_contas_a_pagar_lancamentos")
+    duplicate_registry = registry_with_contas_pagar_pending(tmp_path / "duplicate")
+    duplicate_service = next(
+        service for service in load_registry(duplicate_registry) if service.id == "financas_contas_a_pagar_lancamentos"
+    )
     with pytest.raises(ExecutionError, match="Execução duplicada bloqueada"):
-        validate_before_execution(duplicate_service, registry_path=REGISTRY, state_path=duplicate_state)
+        validate_before_execution(duplicate_service, registry_path=duplicate_registry, state_path=duplicate_state)
 
 
 def test_resume_status_and_history(tmp_path: Path) -> None:

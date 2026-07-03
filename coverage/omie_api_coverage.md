@@ -46,7 +46,7 @@ Fonte oficial: https://developer.omie.com.br/service-list/
 | CRM | Tipos de Tarefas | `https://app.omie.com.br/api/v1/crm/tipostarefa/` | A validar | Não iniciado |
 | Geral | Contas Correntes | `https://app.omie.com.br/api/v1/geral/contacorrente/` | A validar | Não iniciado |
 | Finanças | Contas Correntes - Lançamentos | `https://app.omie.com.br/api/v1/financas/contacorrentelancamentos/` | A validar | Não iniciado |
-| Finanças | Contas a Pagar - Lançamentos | `https://app.omie.com.br/api/v1/financas/contapagar/` | A validar | Planejado |
+| Finanças | Contas a Pagar - Lançamentos | `https://app.omie.com.br/api/v1/financas/contapagar/` | 13 | Concluído |
 | Finanças | Contas a Receber - Lançamentos | `https://app.omie.com.br/api/v1/financas/contareceber/` | 16 | Concluído |
 | Finanças | Contas a Receber - Boletos | `https://app.omie.com.br/api/v1/financas/contareceberboleto/` | A validar | Não iniciado |
 | Finanças | Contas a Receber - PIX | `https://app.omie.com.br/api/v1/financas/pix/` | A validar | Não iniciado |
@@ -146,8 +146,8 @@ Fonte oficial: https://developer.omie.com.br/service-list/
 ## Percentual de cobertura
 
 - Serviços oficiais mapeados: 137
-- Serviços concluídos: 2
-- Cobertura estimada: 1.46%
+- Serviços concluídos: 3
+- Cobertura estimada: 2.19%
 
 ## Infraestrutura de escala
 

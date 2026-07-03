@@ -1,0 +1,67 @@
+[
+  {
+    "chunk_id": "contas_a_pagar_lancamentos-alterar_conta_pagar-001",
+    "method": "AlterarContaPagar",
+    "path": "rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-alterar_conta_pagar-001.md"
+  },
+  {
+    "chunk_id": "contas_a_pagar_lancamentos-cancelar_pagamento-001",
+    "method": "CancelarPagamento",
+    "path": "rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-cancelar_pagamento-001.md"
+  },
+  {
+    "chunk_id": "contas_a_pagar_lancamentos-consultar_conta_pagar-001",
+    "method": "ConsultarContaPagar",
+    "path": "rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-consultar_conta_pagar-001.md"
+  },
+  {
+    "chunk_id": "contas_a_pagar_lancamentos-excluir_conta_pagar-001",
+    "method": "ExcluirContaPagar",
+    "path": "rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-excluir_conta_pagar-001.md"
+  },
+  {
+    "chunk_id": "contas_a_pagar_lancamentos-incluir_conta_pagar-001",
+    "method": "IncluirContaPagar",
+    "path": "rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-incluir_conta_pagar-001.md"
+  },
+  {
+    "chunk_id": "contas_a_pagar_lancamentos-incluir_conta_pagar_por_lote-001",
+    "method": "IncluirContaPagarPorLote",
+    "path": "rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-incluir_conta_pagar_por_lote-001.md"
+  },
+  {
+    "chunk_id": "contas_a_pagar_lancamentos-lancar_pagamento-001",
+    "method": "LancarPagamento",
+    "path": "rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-lancar_pagamento-001.md"
+  },
+  {
+    "chunk_id": "contas_a_pagar_lancamentos-listar-001",
+    "method": "Listar",
+    "path": "rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-listar-001.md"
+  },
+  {
+    "chunk_id": "contas_a_pagar_lancamentos-listar_contas_pagar-001",
+    "method": "ListarContasPagar",
+    "path": "rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-listar_contas_pagar-001.md"
+  },
+  {
+    "chunk_id": "contas_a_pagar_lancamentos-upsert_cadastro-001",
+    "method": "Upsert",
+    "path": "rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-upsert_cadastro-001.md"
+  },
+  {
+    "chunk_id": "contas_a_pagar_lancamentos-upsert_lote-001",
+    "method": "UPSERT",
+    "path": "rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-upsert_lote-001.md"
+  },
+  {
+    "chunk_id": "contas_a_pagar_lancamentos-upsert_conta_pagar-001",
+    "method": "UpsertContaPagar",
+    "path": "rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-upsert_conta_pagar-001.md"
+  },
+  {
+    "chunk_id": "contas_a_pagar_lancamentos-upsert_conta_pagar_por_lote-001",
+    "method": "UpsertContaPagarPorLote",
+    "path": "rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-upsert_conta_pagar_por_lote-001.md"
+  }
+]

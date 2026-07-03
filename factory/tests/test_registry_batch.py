@@ -30,7 +30,7 @@ def test_registry_filters_and_next_service() -> None:
     pending_financeiro = list_pending(services, domain="finanças")
     recommended = next_recommended(services)
 
-    assert len(implemented) == 2
+    assert len(implemented) == 3
     assert pending_financeiro
     assert recommended is not None
     assert recommended.implemented is False

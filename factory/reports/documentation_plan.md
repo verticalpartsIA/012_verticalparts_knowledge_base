@@ -11,7 +11,7 @@
 - Duração estimada: 4-6 dias
 
 03 Contas a Pagar - Lançamentos
-- Score: 118
+- Score: 94
 - Classificação: Critical
 - Duração estimada: 2-4 dias
 
@@ -20,403 +20,403 @@
 - Classificação: Critical
 - Duração estimada: 2-4 dias
 
-05 Ordens de Serviço
+05 Movimentos Financeiros
+- Score: 111
+- Classificação: Critical
+- Duração estimada: 2-4 dias
+
+06 Ordens de Serviço
 - Score: 99
 - Classificação: Critical
 - Duração estimada: 2-4 dias
 
-06 Ordens de Serviço - Fat. em Lote
+07 Ordens de Serviço - Fat. em Lote
 - Score: 99
 - Classificação: Critical
 - Duração estimada: 2-4 dias
 
-07 Ordens de Serviço - Faturamento
+08 Ordens de Serviço - Faturamento
 - Score: 99
 - Classificação: Critical
 - Duração estimada: 2-4 dias
 
-08 Clientes - Características
+09 Clientes - Características
 - Score: 98
 - Classificação: Critical
 - Duração estimada: 2-4 dias
 
-09 Contas a Receber - Boletos
+10 Contas a Receber - Boletos
 - Score: 94
 - Classificação: Critical
 - Duração estimada: 2-4 dias
 
-10 Contas a Receber - PIX
+11 Contas a Receber - PIX
 - Score: 94
 - Classificação: Critical
 - Duração estimada: 2-4 dias
 
-11 Bancos
+12 Bancos
 - Score: 85
 - Classificação: Critical
 - Duração estimada: 2-4 dias
 
-12 Contas Correntes - Lançamentos
+13 Contas Correntes - Lançamentos
 - Score: 78
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-13 Extrato de Conta Corrente
+14 Extrato de Conta Corrente
 - Score: 78
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-14 Orçamento de Caixa
+15 Orçamento de Caixa
 - Score: 78
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-15 Pesquisar Títulos
+16 Pesquisar Títulos
 - Score: 78
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-16 Resumo
+17 Resumo
 - Score: 78
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-17 Classificação do Serviço
+18 Classificação do Serviço
 - Score: 77
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-18 Consultas
+19 Consultas
 - Score: 77
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-19 Contratos de Serviço
+20 Contratos de Serviço
 - Score: 77
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-20 Contratos de Serviço - Fat. em Lote
+21 Contratos de Serviço - Fat. em Lote
 - Score: 77
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-21 Contratos de Serviço - Faturamento
+22 Contratos de Serviço - Faturamento
 - Score: 77
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-22 IBPT
+23 IBPT
 - Score: 77
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-23 LC 116
+24 LC 116
 - Score: 77
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-24 NBS
+25 NBS
 - Score: 77
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-25 Obter Documentos
+26 Obter Documentos
 - Score: 77
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-26 Resumo
+27 Resumo
 - Score: 77
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-27 Serviços
+28 Serviços
 - Score: 77
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-28 Serviços no Município
+29 Serviços no Município
 - Score: 77
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-29 Tipo de Faturamento de Contrato
+30 Tipo de Faturamento de Contrato
 - Score: 77
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-30 Tipo de utilização
+31 Tipo de utilização
 - Score: 77
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-31 Tipos de Tributação
+32 Tipos de Tributação
 - Score: 77
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-32 Contas - Características
+33 Contas - Características
 - Score: 70
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-33 Departamentos
+34 Departamentos
 - Score: 70
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-34 Projetos
+35 Projetos
 - Score: 70
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-35 Vendedores
+36 Vendedores
 - Score: 70
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-36 Bandeiras de Cartão
+37 Bandeiras de Cartão
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-37 Cenário de Impostos
+38 Cenário de Impostos
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-38 Cidades
+39 Cidades
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-39 Contas Correntes
+40 Contas Correntes
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-40 Contas do DRE
+41 Contas do DRE
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-41 Documentos Anexos
+42 Documentos Anexos
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-42 Empresas
+43 Empresas
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-43 Familias de Produto
+44 Familias de Produto
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-44 Finalidade de Transferência
+45 Finalidade de Transferência
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-45 Meios de Pagamento
+46 Meios de Pagamento
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-46 Motivos de Devolução
+47 Motivos de Devolução
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-47 Origem do Pedido
+48 Origem do Pedido
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-48 Origem do títulos
+49 Origem do títulos
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-49 Países
+50 Países
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-50 Parcelas
+51 Parcelas
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-51 Tags
+52 Tags
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-52 Tarefas
+53 Tarefas
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-53 Tipo de Assinante
+54 Tipo de Assinante
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-54 Tipo de Entrega
+55 Tipo de Entrega
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-55 Tipos de Anexos
+56 Tipos de Anexos
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-56 Tipos de Atividade da Empresa
+57 Tipos de Atividade da Empresa
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-57 Tipos de Contas Correntes
+58 Tipos de Contas Correntes
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-58 Tipos de Documento
+59 Tipos de Documento
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-59 Unidades
+60 Unidades
 - Score: 64
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-60 Concorrentes
+61 Concorrentes
 - Score: 62
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-61 Contas
+62 Contas
 - Score: 62
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-62 Contatos
+63 Contatos
 - Score: 62
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-63 Fases
+64 Fases
 - Score: 62
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-64 Finders
+65 Finders
 - Score: 62
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-65 Motivos
+66 Motivos
 - Score: 62
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-66 Oportunidades
+67 Oportunidades
 - Score: 62
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-67 Oportunidades - Resumo
+68 Oportunidades - Resumo
 - Score: 62
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-68 Origens
+69 Origens
 - Score: 62
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-69 Parceiros
+70 Parceiros
 - Score: 62
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-70 Pré-Vendas
+71 Pré-Vendas
 - Score: 62
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-71 Soluções
+72 Soluções
 - Score: 62
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-72 Status
+73 Status
 - Score: 62
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-73 Tarefas
+74 Tarefas
 - Score: 62
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-74 Tarefas - Resumo
+75 Tarefas - Resumo
 - Score: 62
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-75 Telemarketing
+76 Telemarketing
 - Score: 62
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-76 Tipos
+77 Tipos
 - Score: 62
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-77 Tipos de Tarefas
+78 Tipos de Tarefas
 - Score: 62
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-78 Usuários
+79 Usuários
 - Score: 62
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-79 Vendedores
+80 Vendedores
 - Score: 62
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-80 Verticais
+81 Verticais
 - Score: 62
 - Classificação: High
 - Duração estimada: 2-4 dias
 
-81 Documentos Fiscais
+82 Documentos Fiscais
 - Score: 52
 - Classificação: Medium
 - Duração estimada: 1-2 dias
 
-82 Resumo
+83 Resumo
 - Score: 52
 - Classificação: Medium
 - Duração estimada: 1-2 dias
 
-83 Produtos
+84 Produtos
 - Score: 184
-- Classificação: Critical
-- Duração estimada: 2-4 dias
-
-84 Movimentos Financeiros
-- Score: 95
 - Classificação: Critical
 - Duração estimada: 2-4 dias
 
