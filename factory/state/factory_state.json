@@ -1,0 +1,14 @@
+{
+  "last_service_executed": null,
+  "last_execution": null,
+  "last_version": "0.7.0",
+  "last_planner": null,
+  "services_completed": [],
+  "services_pending": [],
+  "services_failed": [],
+  "services_ignored": [],
+  "average_duration_seconds": 0.0,
+  "documentation_hash": null,
+  "status": "idle",
+  "current_service": null
+}

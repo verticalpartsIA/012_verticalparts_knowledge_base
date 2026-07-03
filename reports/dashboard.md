@@ -28,5 +28,7 @@
 | Batch Runner | MVP dry-run |
 | Generation Planner | Em implementação |
 | Próximo melhor serviço | Contas a Pagar - Lançamentos |
+| Execution Engine | Em implementação |
+| Estado da Factory | `factory/state/factory_state.json` |
 | Próximo objetivo | execução autônoma por lista de URLs |
 | Impacto na cobertura | 0 ponto percentual nesta entrega |

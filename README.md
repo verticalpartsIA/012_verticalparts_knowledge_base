@@ -45,6 +45,23 @@ Relatórios gerados:
 - `factory/reports/documentation_plan.md`
 - `factory/reports/service_dependency_graph.md`
 
+### Execution Engine
+
+O Execution Engine executa deterministicamente o próximo serviço recomendado pelo planner, com validação de estado, histórico, quality gate básico e relatório de execução. Ele não abre pull requests, não faz commits automáticos, não usa IA/LLM e não altera documentação Enterprise existente em modo `--dry-run`.
+
+```bash
+python factory/scripts/main.py --execute-next --dry-run
+python factory/scripts/main.py --execute-service financas_contas_a_pagar_lancamentos --dry-run
+python factory/scripts/main.py --status
+python factory/scripts/main.py --history
+```
+
+Relatórios e estado:
+
+- `factory/reports/execution_report.md`
+- `factory/reports/execution_history.json`
+- `factory/state/factory_state.json`
+
 ## Primeiro domínio documentado em detalhe
 
 O primeiro dominio detalhado e `Omie Geral > Clientes, Fornecedores e Transportadoras`, baseado na fonte oficial `https://app.omie.com.br/api/v1/geral/clientes/`.

@@ -40,6 +40,11 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--priority-report", action="store_true", help="Gera e imprime o caminho do relatorio de prioridades.")
     parser.add_argument("--dependency-graph", action="store_true", help="Gera e imprime o caminho do grafo de dependencias.")
     parser.add_argument("--next-best-service", action="store_true", help="Mostra o proximo melhor servico recomendado pelo planner.")
+    parser.add_argument("--execute-next", action="store_true", help="Executa o proximo servico recomendado pelo planner.")
+    parser.add_argument("--execute-service", help="Executa um servico especifico pelo ID do registry.")
+    parser.add_argument("--resume", action="store_true", help="Retoma/libera execucao interrompida.")
+    parser.add_argument("--status", action="store_true", help="Mostra o estado atual da Factory.")
+    parser.add_argument("--history", action="store_true", help="Mostra o historico de execucoes.")
     return parser
 
 
@@ -77,6 +82,26 @@ def ensure_output_structure(output: Path, dry_run: bool = False) -> list[Path]:
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     registry_path = Path(args.registry)
+
+    if args.execute_next or args.execute_service or args.resume or args.status or args.history:
+        from execution_engine import execute_next, execute_service, get_history, get_status, resume_execution
+
+        if args.status:
+            print(get_status())
+            return 0
+        if args.history:
+            print(get_history())
+            return 0
+        if args.resume:
+            print(resume_execution())
+            return 0
+        if args.execute_next:
+            result = execute_next(registry_path=registry_path, dry_run=args.dry_run)
+        else:
+            result = execute_service(args.execute_service, registry_path=registry_path, dry_run=args.dry_run)
+        print(f"Execution Engine concluido: {result.service_id} status={result.status}")
+        print("Relatorio: factory/reports/execution_report.md")
+        return 0
 
     if args.plan or args.priority_report or args.dependency_graph or args.next_best_service:
         from planner import DEFAULT_REPORT_DIR, build_plan, format_next_best
