@@ -1,0 +1,2102 @@
+[
+  {
+    "question": "Como consultar conta a receber por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar conta a receber por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar conta a receber por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar conta a receber por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar conta a receber por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar conta a receber por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar conta a receber por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar conta a receber por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar conta a receber por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar conta a receber por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar título por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar título por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar título por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar título por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar título por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar título por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar título por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar título por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar título por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar título por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar recebimento por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar recebimento por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar recebimento por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar recebimento por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar recebimento por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar recebimento por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar recebimento por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar recebimento por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar recebimento por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar recebimento por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar baixa por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar baixa por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar baixa por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar baixa por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar baixa por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar baixa por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar baixa por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar baixa por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar baixa por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar baixa por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar parcela por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar parcela por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar parcela por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar parcela por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar parcela por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar parcela por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar parcela por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar parcela por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar parcela por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar parcela por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar lançamento por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar lançamento por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar lançamento por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar lançamento por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar lançamento por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar lançamento por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar lançamento por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar lançamento por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar lançamento por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como consultar lançamento por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar conta a receber por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar conta a receber por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar conta a receber por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar conta a receber por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar conta a receber por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar conta a receber por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar conta a receber por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar conta a receber por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar conta a receber por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar conta a receber por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar título por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar título por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar título por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar título por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar título por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar título por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar título por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar título por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar título por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar título por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar recebimento por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar recebimento por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar recebimento por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar recebimento por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar recebimento por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar recebimento por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar recebimento por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar recebimento por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar recebimento por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar recebimento por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar baixa por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar baixa por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar baixa por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar baixa por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar baixa por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar baixa por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar baixa por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar baixa por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar baixa por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar baixa por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar parcela por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar parcela por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar parcela por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar parcela por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar parcela por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar parcela por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar parcela por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar parcela por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar parcela por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar parcela por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar lançamento por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar lançamento por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar lançamento por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar lançamento por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar lançamento por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar lançamento por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar lançamento por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar lançamento por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar lançamento por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como listar lançamento por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir conta a receber por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir conta a receber por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir conta a receber por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir conta a receber por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir conta a receber por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir conta a receber por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir conta a receber por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir conta a receber por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir conta a receber por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir conta a receber por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir título por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir título por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir título por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir título por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir título por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir título por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir título por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir título por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir título por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir título por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir recebimento por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir recebimento por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir recebimento por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir recebimento por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir recebimento por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir recebimento por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir recebimento por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir recebimento por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir recebimento por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir recebimento por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir baixa por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir baixa por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir baixa por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir baixa por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir baixa por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir baixa por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir baixa por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir baixa por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir baixa por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir baixa por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir parcela por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir parcela por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir parcela por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir parcela por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir parcela por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir parcela por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir parcela por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir parcela por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir parcela por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir parcela por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir lançamento por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir lançamento por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir lançamento por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir lançamento por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir lançamento por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir lançamento por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir lançamento por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir lançamento por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir lançamento por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como incluir lançamento por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar conta a receber por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar conta a receber por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar conta a receber por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar conta a receber por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar conta a receber por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar conta a receber por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar conta a receber por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar conta a receber por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar conta a receber por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar conta a receber por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar título por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar título por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar título por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar título por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar título por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar título por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar título por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar título por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar título por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar título por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar recebimento por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar recebimento por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar recebimento por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar recebimento por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar recebimento por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar recebimento por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar recebimento por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar recebimento por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar recebimento por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar recebimento por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar baixa por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar baixa por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar baixa por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar baixa por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar baixa por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar baixa por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar baixa por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar baixa por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar baixa por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar baixa por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar parcela por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar parcela por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar parcela por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar parcela por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar parcela por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar parcela por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar parcela por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar parcela por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar parcela por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar parcela por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar lançamento por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar lançamento por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar lançamento por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar lançamento por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar lançamento por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar lançamento por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar lançamento por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar lançamento por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar lançamento por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como alterar lançamento por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar conta a receber por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar conta a receber por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar conta a receber por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar conta a receber por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar conta a receber por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar conta a receber por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar conta a receber por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar conta a receber por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar conta a receber por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar conta a receber por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar título por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar título por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar título por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar título por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar título por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar título por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar título por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar título por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar título por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar título por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar recebimento por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar recebimento por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar recebimento por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar recebimento por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar recebimento por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar recebimento por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar recebimento por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar recebimento por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar recebimento por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar recebimento por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar baixa por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar baixa por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar baixa por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar baixa por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar baixa por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar baixa por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar baixa por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar baixa por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar baixa por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar baixa por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar parcela por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar parcela por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar parcela por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar parcela por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar parcela por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar parcela por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar parcela por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar parcela por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar parcela por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar parcela por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar lançamento por cliente?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar lançamento por pedido de venda?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar lançamento por ordem de serviço?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar lançamento por NF-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar lançamento por NFS-e?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar lançamento por categoria?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar lançamento por banco?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar lançamento por código Omie?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar lançamento por código de integração?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  },
+  {
+    "question": "Como baixar lançamento por vencimento?",
+    "domain": "omie.financeiro",
+    "resource": "contas_a_receber",
+    "expected_source": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "status": "Documentado oficialmente / Necessita validação quando depender de regra condicional"
+  }
+]

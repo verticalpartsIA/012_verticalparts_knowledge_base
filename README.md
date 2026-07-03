@@ -27,6 +27,11 @@ Base de conhecimento Enterprise RAG/LLM da VerticalParts para documentar APIs, d
 
 O primeiro dominio detalhado e `Omie Geral > Clientes, Fornecedores e Transportadoras`, baseado na fonte oficial `https://app.omie.com.br/api/v1/geral/clientes/`.
 
+## Domínios documentados em detalhe
+
+- Omie Geral > Clientes, Fornecedores e Transportadoras.
+- Omie Financeiro > Contas a Receber.
+
 ## Estrutura
 
 Consulte `standards/LLM_DOCUMENT_STANDARD.md` para o formato obrigatorio de Markdown, YAML, FAQ, exemplos, tags, chunking, embeddings, RAG e GraphRAG.
