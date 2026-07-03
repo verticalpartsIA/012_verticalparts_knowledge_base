@@ -23,6 +23,12 @@ Base de conhecimento Enterprise RAG/LLM da VerticalParts para documentar APIs, d
 - Separar informacao documentada oficialmente de conteudo que necessita validacao.
 - Evitar credenciais, segredos ou senhas no repositorio.
 
+## Omie Knowledge Factory
+
+A partir da fase v0.3.0, a VerticalParts Knowledge Base passa a ser orientada por uma Factory de geração automática. O objetivo é transformar uma URL oficial da documentação Omie em uma base Enterprise completa para LLMs, incluindo `docs`, `schemas`, `graphs`, `business`, `datasets`, `rag`, `reports`, `coverage` e pull request de revisão.
+
+A arquitetura inicial está em `factory/`. Nesta etapa a Factory ainda não executa crawler, scraping ou geração automática real; ela define módulos, contratos, templates, configurações, quality gate e workflow para implementação posterior.
+
 ## Primeiro domínio documentado em detalhe
 
 O primeiro dominio detalhado e `Omie Geral > Clientes, Fornecedores e Transportadoras`, baseado na fonte oficial `https://app.omie.com.br/api/v1/geral/clientes/`.

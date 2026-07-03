@@ -1,0 +1,12 @@
+templates:
+  document: factory/templates/document.md
+  schema: factory/templates/schema.json
+  faq: factory/templates/faq.md
+  questions: factory/templates/questions.json
+  business: factory/templates/business.md
+  graph: factory/templates/graph.md
+  chunk: factory/templates/chunk.md
+  readme: factory/templates/readme.md
+  index: factory/templates/index.md
+  coverage: factory/templates/coverage.md
+

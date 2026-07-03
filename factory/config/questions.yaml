@@ -1,0 +1,16 @@
+questions:
+  minimum_per_service: 300
+  allow_duplicates: false
+  styles:
+    - suporte
+    - tecnico
+    - operacional
+    - integracao
+    - auditoria
+  required_fields:
+    - question
+    - domain
+    - resource
+    - expected_source
+    - status
+

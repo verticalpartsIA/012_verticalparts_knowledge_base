@@ -2,6 +2,13 @@
 
 Última atualização: 2026-07-03
 
+## Infraestrutura — Omie Knowledge Factory
+
+- Objetivo: substituir geração manual por uma Factory capaz de transformar qualquer URL oficial da API Omie em base Enterprise LLM/RAG.
+- Prioridade: Alta
+- Dependências: padrões Enterprise existentes, quality gate, coverage e dashboard
+- Status: Arquitetura criada / implementação planejada
+
 ## FASE 1 — Clientes
 
 - Objetivo: Consolidar cadastro base compartilhado entre clientes, fornecedores e transportadoras.

@@ -148,3 +148,9 @@ Fonte oficial: https://developer.omie.com.br/service-list/
 - Serviços oficiais mapeados: 137
 - Serviços concluídos: 2
 - Cobertura estimada: 1.46%
+
+## Infraestrutura de escala
+
+- Omie Knowledge Factory: arquitetura criada.
+- Impacto na cobertura: não altera a cobertura funcional da API nesta entrega, pois nenhum novo endpoint foi documentado.
+- Próximo passo: implementar crawler/parser/extractors para acelerar a FASE 3 em diante.

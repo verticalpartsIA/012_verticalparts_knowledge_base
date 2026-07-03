@@ -1,0 +1,19 @@
+rag:
+  chunk_min_tokens: 500
+  chunk_max_tokens: 900
+  retrieval:
+    hybrid: true
+    lexical_boost_fields:
+      - method
+      - endpoint
+      - entity
+      - status
+    reranking: true
+  required_metadata:
+    - source_path
+    - service
+    - method
+    - endpoint
+    - status
+    - embedding_version
+

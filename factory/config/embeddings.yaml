@@ -1,0 +1,17 @@
+embeddings:
+  embedding_version: 1
+  store_metadata: true
+  supported_models:
+    - OpenAI
+    - Gemini
+    - VoyageAI
+    - BGE
+    - E5
+    - Nomic
+    - Qwen
+    - Jina
+  reindex_required_when:
+    - model_changes
+    - dimensions_change
+    - chunk_strategy_changes
+
