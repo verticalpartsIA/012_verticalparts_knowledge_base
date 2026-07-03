@@ -1,9 +1,24 @@
-"""Method Extractor da Omie Knowledge Factory.
+"""Normalizacao de metodos extraidos pelo parser."""
 
-Responsabilidade:
-    Identificar todos os métodos oficiais de um serviço Omie, incluindo nome,
-    descrição, tipo de entrada, tipo de retorno, endpoint e status.
+from __future__ import annotations
 
-O extractor deve falhar quando houver ambiguidade em vez de inventar métodos.
-"""
+from models import MethodInfo, ServiceInfo
 
+
+class MethodExtractionError(RuntimeError):
+    """Erro quando nenhum metodo confiavel e identificado."""
+
+
+def extract_methods(service: ServiceInfo, allow_empty: bool = False) -> tuple[MethodInfo, ...]:
+    """Retorna metodos unicos, ordenados e validados."""
+
+    unique: dict[str, MethodInfo] = {}
+    for method in service.methods:
+        if method.name not in unique:
+            unique[method.name] = method
+    methods = tuple(sorted(unique.values(), key=lambda method: method.name.lower()))
+    if not methods and not allow_empty:
+        raise MethodExtractionError(
+            "Nenhum metodo foi extraido da documentacao. Verifique se o HTML contem os nomes oficiais."
+        )
+    return methods

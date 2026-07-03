@@ -23,6 +23,8 @@ build/
 datasets/raw/
 datasets/processed/
 rag/indexes/
+factory/cache/
+factory/output/
 *.sqlite
 *.db
 
