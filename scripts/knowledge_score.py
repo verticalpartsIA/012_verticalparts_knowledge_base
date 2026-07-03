@@ -4,7 +4,11 @@ from pathlib import Path
 
 
 ROOT = Path(".")
-DOCS = list((ROOT / "docs").rglob("*.md"))
+DOCS = [
+    path
+    for path in (ROOT / "docs").rglob("*.md")
+    if path.as_posix() != "docs/INDEX.md"
+]
 REPORT = ROOT / "reports" / "knowledge_score.md"
 
 
