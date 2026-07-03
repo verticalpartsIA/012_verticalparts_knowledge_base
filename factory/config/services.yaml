@@ -1,0 +1,15 @@
+services:
+  - id: clientes
+    title: Clientes, Fornecedores e Transportadoras
+    domain: omie.geral
+    endpoint: https://app.omie.com.br/api/v1/geral/clientes/
+    status: concluido
+  - id: contas_a_receber
+    title: Contas a Receber
+    domain: omie.financeiro
+    endpoint: https://app.omie.com.br/api/v1/financas/contareceber/
+    status: concluido
+defaults:
+  status_for_new_services: planejado
+  source_status_when_uncertain: "Necessita validação"
+

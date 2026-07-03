@@ -1,0 +1,10 @@
+[
+  {
+    "question": "{{ question }}",
+    "domain": "{{ domain }}",
+    "resource": "{{ resource }}",
+    "expected_source": "{{ source }}",
+    "status": "{{ status }}"
+  }
+]
+

@@ -1,0 +1,15 @@
+factory:
+  name: Omie Knowledge Factory
+  version: 0.1.0
+  mode: architecture_only
+  default_language: pt-BR
+  output_root: .
+  official_source_required: true
+  allow_scraping: false
+  allow_credentials: false
+quality:
+  fail_on_missing_yaml: true
+  fail_on_indented_headings: true
+  fail_on_secret_patterns: true
+  require_llm_standard: true
+

@@ -1,0 +1,13 @@
+graph:
+  format: mermaid
+  graph_type: domain_entity_method
+  required_nodes:
+    - service
+    - method
+    - entity
+    - related_entities
+  required_edges:
+    - service_to_method
+    - method_to_entity
+    - entity_to_related_entity
+
