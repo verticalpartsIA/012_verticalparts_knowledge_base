@@ -28,7 +28,7 @@ permissions:
 complexity: "media"
 status: "Documentado oficialmente / Necessita validação em integração"
 source: "https://app.omie.com.br/api/v1/financas/contareceber/"
-last_review: "2026-07-02"
+last_review: "2026-07-03"
 tags:
   - omie
   - financeiro
