@@ -5,15 +5,16 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from models import ServiceInfo, slugify
+from models import ServiceInfo, slugify, unique_method_slug_map
 
 
 def generate_chunks(service: ServiceInfo, output_dir: Path, dry_run: bool = False) -> list[Path]:
     target_dir = output_dir / "rag" / "chunks" / slugify(service.name)
     files: list[Path] = []
     index: list[dict[str, str]] = []
+    slugs = unique_method_slug_map(service.methods)
     for method in service.methods:
-        chunk_id = f"{slugify(service.name)}-{method.slug}-001"
+        chunk_id = f"{slugify(service.name)}-{slugs[method]}-001"
         path = target_dir / f"{chunk_id}.md"
         content = render_chunk(chunk_id, method.name, service.name, service.source_url, method.description)
         files.append(path)

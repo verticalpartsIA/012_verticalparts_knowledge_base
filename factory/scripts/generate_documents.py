@@ -4,18 +4,19 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from models import MethodInfo, ServiceInfo, slugify
+from models import MethodInfo, ServiceInfo, slugify, unique_method_slug_map
 
 
 def generate_documents(service: ServiceInfo, output_dir: Path, dry_run: bool = False) -> list[Path]:
     target_dir = output_dir / "docs" / path_for_service(service)
     files: list[Path] = []
+    slugs = unique_method_slug_map(service.methods)
     for method in service.methods:
-        path = target_dir / f"{method.slug}.md"
+        path = target_dir / f"{slugs[method]}.md"
         files.append(path)
         if not dry_run:
             path.parent.mkdir(parents=True, exist_ok=True)
-            path.write_text(render_method_document(method), encoding="utf-8")
+            path.write_text(render_method_document(method, method_slug=slugs[method]), encoding="utf-8")
     files.extend(generate_service_artifacts(service, output_dir, dry_run=dry_run))
     return files
 
@@ -45,10 +46,11 @@ def path_for_service(service: ServiceInfo) -> Path:
     return Path("omie") / slugify(domain) / slugify(service.name)
 
 
-def render_method_document(method: MethodInfo) -> str:
+def render_method_document(method: MethodInfo, method_slug: str | None = None) -> str:
     required_fields = [field for field in method.request_fields if field.required]
     optional_fields = [field for field in method.request_fields if not field.required]
     questions = natural_questions(method)
+    slug = method_slug or method.slug
     return f"""---
 title: "{method.name}"
 service: "{method.service}"
@@ -69,7 +71,7 @@ last_review: "2026-07-03"
 tags:
   - omie
   - factory-mvp
-  - {method.slug}
+  - {slug}
 keywords:
   - "{method.name}"
 questions: {len(questions)}
@@ -179,7 +181,7 @@ Necessita validacao contra a documentacao oficial e regras operacionais da Verti
 
 - omie
 - factory-mvp
-- {method.slug}
+- {slug}
 - enterprise-rag
 
 ## Fonte oficial consultada
@@ -227,8 +229,9 @@ Conteudo gerado por parsing deterministico. Regras de negocio detalhadas ainda p
 
 def render_graph(service: ServiceInfo) -> str:
     lines = ["```mermaid", "graph TD", f'  S["{service.name}"]']
+    slugs = unique_method_slug_map(service.methods)
     for method in service.methods:
-        lines.append(f'  S --> {method.slug}["{method.name}"]')
+        lines.append(f'  S --> {slugs[method]}["{method.name}"]')
     lines.append("```")
     return "# GraphRAG - " + service.name + "\n\n" + "\n".join(lines) + "\n"
 
