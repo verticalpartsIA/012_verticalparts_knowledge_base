@@ -151,6 +151,8 @@ Fonte oficial: https://developer.omie.com.br/service-list/
 
 ## Infraestrutura de escala
 
-- Omie Knowledge Factory: arquitetura criada.
+- Omie Knowledge Factory: arquitetura criada e MVP funcional entregue.
+- Autonomous Knowledge Factory v1.0.0: fundação iniciada com Service Registry e Batch Runner.
+- Serviços no registry: 137.
 - Impacto na cobertura: não altera a cobertura funcional da API nesta entrega, pois nenhum novo endpoint foi documentado.
-- Próximo passo: implementar crawler/parser/extractors para acelerar a FASE 3 em diante.
+- Próximo passo: evoluir parser robusto, template engine, generators avançados, quality gate, PR automation e release automation.

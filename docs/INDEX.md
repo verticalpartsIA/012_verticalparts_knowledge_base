@@ -2,7 +2,6 @@
 
 Última atualização: 2026-07-03
 
-- [pytest cache directory #](../.pytest_cache/README.md) — `.pytest_cache/README.md`
 - [Business Knowledge: Omie Clientes](../business/omie/clientes.md) — `business/omie/clientes.md`
 - [Business Knowledge: Omie Contas a Receber](../business/omie/contas_a_receber.md) — `business/omie/contas_a_receber.md`
 - [Changelog](../CHANGELOG.md) — `CHANGELOG.md`
@@ -56,7 +55,7 @@
 - [Chunk {{ method }} - {{ focus }}](../factory/templates/chunk.md) — `factory/templates/chunk.md`
 - [Cobertura da API Omie](../factory/templates/coverage.md) — `factory/templates/coverage.md`
 - [{{ method }}](../factory/templates/document.md) — `factory/templates/document.md`
-- [faq](../factory/templates/faq.md) — `factory/templates/faq.md`
+- [Faq](../factory/templates/faq.md) — `factory/templates/faq.md`
 - [GraphRAG: {{ service_title }}](../factory/templates/graph.md) — `factory/templates/graph.md`
 - [Índice: {{ title }}](../factory/templates/index.md) — `factory/templates/index.md`
 - [{{ service_title }}](../factory/templates/readme.md) — `factory/templates/readme.md`
@@ -65,6 +64,8 @@
 - [GraphRAG: Omie Clientes](../graphs/omie/clientes.graph.md) — `graphs/omie/clientes.graph.md`
 - [GraphRAG: Omie Contas a Receber](../graphs/omie/contas_a_receber.graph.md) — `graphs/omie/contas_a_receber.graph.md`
 - [Knowledge](../knowledge/README.md) — `knowledge/README.md`
+- [Foundation Complete](../milestones/FOUNDATION_COMPLETE.md) — `milestones/FOUNDATION_COMPLETE.md`
+- [v1.0.0 — Autonomous Knowledge Factory](../milestones/V1_AUTONOMOUS_KNOWLEDGE_FACTORY.md) — `milestones/V1_AUTONOMOUS_KNOWLEDGE_FACTORY.md`
 - [Chunk AlterarCliente - contrato](../rag/chunks/clientes/alterar_cliente.contrato.chunk.md) — `rag/chunks/clientes/alterar_cliente.contrato.chunk.md`
 - [Chunk AlterarCliente - faq](../rag/chunks/clientes/alterar_cliente.faq.chunk.md) — `rag/chunks/clientes/alterar_cliente.faq.chunk.md`
 - [Chunk AlterarCliente - identidade](../rag/chunks/clientes/alterar_cliente.identidade.chunk.md) — `rag/chunks/clientes/alterar_cliente.identidade.chunk.md`

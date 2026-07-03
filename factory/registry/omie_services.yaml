@@ -1,0 +1,1645 @@
+services:
+- id: geral_clientes_fornecedores_transportadoras_etc
+  name: Clientes, Fornecedores, Transportadoras, etc
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/clientes/
+  status: Concluído
+  priority: alta
+  implemented: true
+  methods_count: 11
+  documentation_url: https://app.omie.com.br/api/v1/geral/clientes/
+  output_slug: clientes_fornecedores_transportadoras_etc
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_clientes_caracteristicas
+  name: Clientes - Características
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/clientescaract/
+  status: Não iniciado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/clientescaract/
+  output_slug: clientes_caracteristicas
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_tags
+  name: Tags
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/clientetag/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/clientetag/
+  output_slug: tags
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_projetos
+  name: Projetos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/projetos/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/projetos/
+  output_slug: projetos
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_empresas
+  name: Empresas
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/empresas/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/empresas/
+  output_slug: empresas
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_departamentos
+  name: Departamentos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/departamentos/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/departamentos/
+  output_slug: departamentos
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_categorias
+  name: Categorias
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/categorias/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/categorias/
+  output_slug: categorias
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_parcelas
+  name: Parcelas
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/parcelas/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/parcelas/
+  output_slug: parcelas
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_tipos_de_atividade_da_empresa
+  name: Tipos de Atividade da Empresa
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/tpativ/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/tpativ/
+  output_slug: tipos_de_atividade_da_empresa
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_cnae
+  name: CNAE
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/cnae/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/cnae/
+  output_slug: cnae
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_cidades
+  name: Cidades
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/cidades/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/cidades/
+  output_slug: cidades
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_paises
+  name: Países
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/paises/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/paises/
+  output_slug: paises
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_tipos_de_anexos
+  name: Tipos de Anexos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/tiposanexo/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/tiposanexo/
+  output_slug: tipos_de_anexos
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_documentos_anexos
+  name: Documentos Anexos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/anexo/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/anexo/
+  output_slug: documentos_anexos
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_tipo_de_entrega
+  name: Tipo de Entrega
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/tiposentrega/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/tiposentrega/
+  output_slug: tipo_de_entrega
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_tipo_de_assinante
+  name: Tipo de Assinante
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/tipoassinante/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/tipoassinante/
+  output_slug: tipo_de_assinante
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_tarefas
+  name: Tarefas
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/tarefas/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/tarefas/
+  output_slug: tarefas
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: crm_contas
+  name: Contas
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/contas/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/contas/
+  output_slug: contas
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: crm_contas_caracteristicas
+  name: Contas - Características
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/contascaract/
+  status: Não iniciado
+  priority: media
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/contascaract/
+  output_slug: contas_caracteristicas
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: crm_contatos
+  name: Contatos
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/contatos/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/contatos/
+  output_slug: contatos
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: crm_oportunidades
+  name: Oportunidades
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/oportunidades/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/oportunidades/
+  output_slug: oportunidades
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: crm_oportunidades_resumo
+  name: Oportunidades - Resumo
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/oportunidades-resumo/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/oportunidades-resumo/
+  output_slug: oportunidades_resumo
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: crm_tarefas
+  name: Tarefas
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/tarefas/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/tarefas/
+  output_slug: tarefas
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: crm_tarefas_resumo
+  name: Tarefas - Resumo
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/tarefas-resumo/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/tarefas-resumo/
+  output_slug: tarefas_resumo
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: crm_solucoes
+  name: Soluções
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/solucoes/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/solucoes/
+  output_slug: solucoes
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: crm_fases
+  name: Fases
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/fases/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/fases/
+  output_slug: fases
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: crm_usuarios
+  name: Usuários
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/usuarios/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/usuarios/
+  output_slug: usuarios
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: crm_status
+  name: Status
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/status/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/status/
+  output_slug: status
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: crm_motivos
+  name: Motivos
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/motivos/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/motivos/
+  output_slug: motivos
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: crm_tipos
+  name: Tipos
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/tipos/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/tipos/
+  output_slug: tipos
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: crm_parceiros
+  name: Parceiros
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/parceiros/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/parceiros/
+  output_slug: parceiros
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: crm_finders
+  name: Finders
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/finders/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/finders/
+  output_slug: finders
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: crm_origens
+  name: Origens
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/origens/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/origens/
+  output_slug: origens
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: crm_concorrentes
+  name: Concorrentes
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/concorrentes/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/concorrentes/
+  output_slug: concorrentes
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: crm_verticais
+  name: Verticais
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/verticais/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/verticais/
+  output_slug: verticais
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: crm_vendedores
+  name: Vendedores
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/usuarios/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/usuarios/
+  output_slug: vendedores
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: crm_telemarketing
+  name: Telemarketing
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/usuarios/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/usuarios/
+  output_slug: telemarketing
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: crm_pre_vendas
+  name: Pré-Vendas
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/usuarios/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/usuarios/
+  output_slug: pre_vendas
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: crm_tipos_de_tarefas
+  name: Tipos de Tarefas
+  domain: crm
+  endpoint: https://app.omie.com.br/api/v1/crm/tipostarefa/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/crm/tipostarefa/
+  output_slug: tipos_de_tarefas
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_contas_correntes
+  name: Contas Correntes
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/contacorrente/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/contacorrente/
+  output_slug: contas_correntes
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: financas_contas_correntes_lancamentos
+  name: Contas Correntes - Lançamentos
+  domain: finanças
+  endpoint: https://app.omie.com.br/api/v1/financas/contacorrentelancamentos/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/financas/contacorrentelancamentos/
+  output_slug: contas_correntes_lancamentos
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: financas_contas_a_pagar_lancamentos
+  name: Contas a Pagar - Lançamentos
+  domain: finanças
+  endpoint: https://app.omie.com.br/api/v1/financas/contapagar/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/financas/contapagar/
+  output_slug: contas_a_pagar_lancamentos
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: financas_contas_a_receber_lancamentos
+  name: Contas a Receber - Lançamentos
+  domain: finanças
+  endpoint: https://app.omie.com.br/api/v1/financas/contareceber/
+  status: Concluído
+  priority: alta
+  implemented: true
+  methods_count: 16
+  documentation_url: https://app.omie.com.br/api/v1/financas/contareceber/
+  output_slug: contas_a_receber_lancamentos
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: financas_contas_a_receber_boletos
+  name: Contas a Receber - Boletos
+  domain: finanças
+  endpoint: https://app.omie.com.br/api/v1/financas/contareceberboleto/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/financas/contareceberboleto/
+  output_slug: contas_a_receber_boletos
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: financas_contas_a_receber_pix
+  name: Contas a Receber - PIX
+  domain: finanças
+  endpoint: https://app.omie.com.br/api/v1/financas/pix/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/financas/pix/
+  output_slug: contas_a_receber_pix
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: financas_extrato_de_conta_corrente
+  name: Extrato de Conta Corrente
+  domain: finanças
+  endpoint: https://app.omie.com.br/api/v1/financas/extrato/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/financas/extrato/
+  output_slug: extrato_de_conta_corrente
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: financas_orcamento_de_caixa
+  name: Orçamento de Caixa
+  domain: finanças
+  endpoint: https://app.omie.com.br/api/v1/financas/caixa/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/financas/caixa/
+  output_slug: orcamento_de_caixa
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: financas_pesquisar_titulos
+  name: Pesquisar Títulos
+  domain: finanças
+  endpoint: https://app.omie.com.br/api/v1/financas/pesquisartitulos/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/financas/pesquisartitulos/
+  output_slug: pesquisar_titulos
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: financas_movimentos_financeiros
+  name: Movimentos Financeiros
+  domain: finanças
+  endpoint: https://app.omie.com.br/api/v1/financas/mf/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/financas/mf/
+  output_slug: movimentos_financeiros
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: financas_resumo
+  name: Resumo
+  domain: finanças
+  endpoint: https://app.omie.com.br/api/v1/financas/resumo/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/financas/resumo/
+  output_slug: resumo
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_bancos
+  name: Bancos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/bancos/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/bancos/
+  output_slug: bancos
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_tipos_de_documento
+  name: Tipos de Documento
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/tiposdoc/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/tiposdoc/
+  output_slug: tipos_de_documento
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_tipos_de_contas_correntes
+  name: Tipos de Contas Correntes
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/tipocc/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/tipocc/
+  output_slug: tipos_de_contas_correntes
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_contas_do_dre
+  name: Contas do DRE
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/dre/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/dre/
+  output_slug: contas_do_dre
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_finalidade_de_transferencia
+  name: Finalidade de Transferência
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/finaltransf/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/finaltransf/
+  output_slug: finalidade_de_transferencia
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_origem_do_titulos
+  name: Origem do títulos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/origemlancamento/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/origemlancamento/
+  output_slug: origem_do_titulos
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_bandeiras_de_cartao
+  name: Bandeiras de Cartão
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/bandeiracartao/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/bandeiracartao/
+  output_slug: bandeiras_de_cartao
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_produtos
+  name: Produtos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/produtos/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/produtos/
+  output_slug: produtos
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_produtos_caracteristicas
+  name: Produtos - Características
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/prodcaract/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/prodcaract/
+  output_slug: produtos_caracteristicas
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_produtos_estrutura
+  name: Produtos - Estrutura
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/malha/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/malha/
+  output_slug: produtos_estrutura
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_produtos_kit
+  name: Produtos - Kit
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/produtoskit/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/produtoskit/
+  output_slug: produtos_kit
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_produtos_variacao
+  name: Produtos - Variação
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/variacao/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/variacao/
+  output_slug: produtos_variacao
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_produtos_lote
+  name: Produtos - Lote
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/produtoslote/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/produtoslote/
+  output_slug: produtos_lote
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_requisicoes_de_compra
+  name: Requisições de Compra
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/requisicaocompra/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/requisicaocompra/
+  output_slug: requisicoes_de_compra
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_pedidos_de_compra
+  name: Pedidos de Compra
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/pedidocompra/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/pedidocompra/
+  output_slug: pedidos_de_compra
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_ordens_de_producao
+  name: Ordens de Produção
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/op/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/op/
+  output_slug: ordens_de_producao
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_nota_de_entrada
+  name: Nota de Entrada
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/notaentrada/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/notaentrada/
+  output_slug: nota_de_entrada
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_nota_de_entrada_faturamento
+  name: Nota de Entrada - Faturamento
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/notaentradafat/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/notaentradafat/
+  output_slug: nota_de_entrada_faturamento
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_recebimento_de_nota_fiscal
+  name: Recebimento de Nota Fiscal
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/recebimentonfe/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/recebimentonfe/
+  output_slug: recebimento_de_nota_fiscal
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_resumo
+  name: Resumo
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/compras-resumo/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/compras-resumo/
+  output_slug: resumo
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_familias_de_produto
+  name: Familias de Produto
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/familias/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/familias/
+  output_slug: familias_de_produto
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_unidades
+  name: Unidades
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/unidade/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/unidade/
+  output_slug: unidades
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_compradores
+  name: Compradores
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/estoque/comprador/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/estoque/comprador/
+  output_slug: compradores
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_produto_x_fornecedor
+  name: Produto x Fornecedor
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/estoque/produtofornecedor/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/estoque/produtofornecedor/
+  output_slug: produto_x_fornecedor
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_formas_de_pagamento
+  name: Formas de Pagamento
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/formaspagcompras/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/formaspagcompras/
+  output_slug: formas_de_pagamento
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_ncm
+  name: NCM
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/ncm/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/ncm/
+  output_slug: ncm
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_cenario_de_impostos
+  name: Cenário de Impostos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/cenarios/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/cenarios/
+  output_slug: cenario_de_impostos
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_cfop
+  name: CFOP
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/cfop/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/cfop/
+  output_slug: cfop
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_icms_cst
+  name: ICMS - CST
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/icmscst/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/icmscst/
+  output_slug: icms_cst
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_icms_csosn
+  name: ICMS - CSOSN
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/icmscsosn/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/icmscsosn/
+  output_slug: icms_csosn
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_icms_origem_da_mercadoria
+  name: ICMS - Origem da Mercadoria
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/icmsorigem/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/icmsorigem/
+  output_slug: icms_origem_da_mercadoria
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_pis_cst
+  name: PIS - CST
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/piscst/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/piscst/
+  output_slug: pis_cst
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_cofins_cst
+  name: COFINS - CST
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/cofinscst/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/cofinscst/
+  output_slug: cofins_cst
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_ipi_cst
+  name: IPI - CST
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/ipicst/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/ipicst/
+  output_slug: ipi_cst
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_ipi_enquadramento
+  name: IPI - Enquadramento
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/ipienq/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/ipienq/
+  output_slug: ipi_enquadramento
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_tipo_de_calculo
+  name: Tipo de Cálculo
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/tpcalc/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/tpcalc/
+  output_slug: tipo_de_calculo
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_cest
+  name: CEST
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/cest/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/cest/
+  output_slug: cest
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_ajustes_de_estoque
+  name: Ajustes de Estoque
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/estoque/ajuste/
+  status: Planejado
+  priority: media
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/estoque/ajuste/
+  output_slug: ajustes_de_estoque
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_consulta_estoque
+  name: Consulta Estoque
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/estoque/consulta/
+  status: Planejado
+  priority: media
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/estoque/consulta/
+  output_slug: consulta_estoque
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_movimento_estoque
+  name: Movimento Estoque
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/estoque/movestoque/
+  status: Planejado
+  priority: media
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/estoque/movestoque/
+  output_slug: movimento_estoque
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_locais_de_estoque
+  name: Locais de Estoque
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/estoque/local/
+  status: Planejado
+  priority: media
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/estoque/local/
+  output_slug: locais_de_estoque
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_resumo_do_estoque
+  name: Resumo do Estoque
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/estoque/resumo/
+  status: Planejado
+  priority: media
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/estoque/resumo/
+  output_slug: resumo_do_estoque
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_pedidos_de_venda_resumido
+  name: Pedidos de Venda - Resumido
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/pedidovenda/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/pedidovenda/
+  output_slug: pedidos_de_venda_resumido
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_pedidos_de_venda
+  name: Pedidos de Venda
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/pedido/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/pedido/
+  output_slug: pedidos_de_venda
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_pedidos_de_venda_faturamento
+  name: Pedidos de Venda - Faturamento
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/pedidovendafat/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/pedidovendafat/
+  output_slug: pedidos_de_venda_faturamento
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_pedidos_de_venda_etapas
+  name: Pedidos de Venda - Etapas
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/pedidoetapas/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/pedidoetapas/
+  output_slug: pedidos_de_venda_etapas
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_ct_e_ct_e_os
+  name: CT-e / CT-e OS
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/cte/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/cte/
+  output_slug: ct_e_ct_e_os
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_remessa_de_produtos
+  name: Remessa de Produtos
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/remessa/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/remessa/
+  output_slug: remessa_de_produtos
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_remessa_de_produtos_faturamento
+  name: Remessa de Produtos - Faturamento
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/remessafat/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/remessafat/
+  output_slug: remessa_de_produtos_faturamento
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_resumo_2
+  name: Resumo
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/vendas-resumo/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/vendas-resumo/
+  output_slug: resumo
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_obter_documentos
+  name: Obter Documentos
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/dfedocs/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/dfedocs/
+  output_slug: obter_documentos
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_adicionar
+  name: Adicionar
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/cupomfiscalincluir/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/cupomfiscalincluir/
+  output_slug: adicionar
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_cancelar_ou_excluir
+  name: Cancelar ou excluir
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/cupomfiscal/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/cupomfiscal/
+  output_slug: cancelar_ou_excluir
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_consultar
+  name: Consultar
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/cupomfiscalconsultar/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/cupomfiscalconsultar/
+  output_slug: consultar
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_importar_nfc_e
+  name: Importar NFC-e
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/nfce/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/nfce/
+  output_slug: importar_nfc_e
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_importar_cfe_sat
+  name: Importar CFe-Sat
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/sat/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/sat/
+  output_slug: importar_cfe_sat
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_vendedores
+  name: Vendedores
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/vendedores/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/vendedores/
+  output_slug: vendedores
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_formas_de_pagamento_2
+  name: Formas de Pagamento
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/formaspagvendas/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/formaspagvendas/
+  output_slug: formas_de_pagamento
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_tabela_de_precos
+  name: Tabela de Preços
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/tabelaprecos/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/tabelaprecos/
+  output_slug: tabela_de_precos
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_caracteristicas_de_produtos
+  name: Características de produtos
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/caracteristicas/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/caracteristicas/
+  output_slug: caracteristicas_de_produtos
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_etapas_de_faturamento
+  name: Etapas de Faturamento
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/etapafat/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/etapafat/
+  output_slug: etapas_de_faturamento
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_meios_de_pagamento
+  name: Meios de Pagamento
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/meiospagamento/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/meiospagamento/
+  output_slug: meios_de_pagamento
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_origem_do_pedido
+  name: Origem do Pedido
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/origempedido/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/origempedido/
+  output_slug: origem_do_pedido
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: geral_motivos_de_devolucao
+  name: Motivos de Devolução
+  domain: geral
+  endpoint: https://app.omie.com.br/api/v1/geral/motivodevolucao/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/geral/motivodevolucao/
+  output_slug: motivos_de_devolucao
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_consultas
+  name: Consultas
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/nfconsultar/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/nfconsultar/
+  output_slug: consultas
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_utilitarios
+  name: Utilitários
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/notafiscalutil/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/notafiscalutil/
+  output_slug: utilitarios
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: compras_estoque_e_producao_importar
+  name: Importar
+  domain: compras, estoque e produção
+  endpoint: https://app.omie.com.br/api/v1/produtos/nfe/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/produtos/nfe/
+  output_slug: importar
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: servicos_e_nfs_e_servicos
+  name: Serviços
+  domain: serviços e nfs-e
+  endpoint: https://app.omie.com.br/api/v1/servicos/servico/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/servico/
+  output_slug: servicos
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: servicos_e_nfs_e_ordens_de_servico
+  name: Ordens de Serviço
+  domain: serviços e nfs-e
+  endpoint: https://app.omie.com.br/api/v1/servicos/os/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/os/
+  output_slug: ordens_de_servico
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: servicos_e_nfs_e_ordens_de_servico_faturamento
+  name: Ordens de Serviço - Faturamento
+  domain: serviços e nfs-e
+  endpoint: https://app.omie.com.br/api/v1/servicos/osp/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/osp/
+  output_slug: ordens_de_servico_faturamento
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: servicos_e_nfs_e_ordens_de_servico_fat_em_lote
+  name: Ordens de Serviço - Fat. em Lote
+  domain: serviços e nfs-e
+  endpoint: https://app.omie.com.br/api/v1/servicos/oslote/
+  status: Planejado
+  priority: alta
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/oslote/
+  output_slug: ordens_de_servico_fat_em_lote
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: servicos_e_nfs_e_contratos_de_servico
+  name: Contratos de Serviço
+  domain: serviços e nfs-e
+  endpoint: https://app.omie.com.br/api/v1/servicos/contrato/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/contrato/
+  output_slug: contratos_de_servico
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: servicos_e_nfs_e_contratos_de_servico_faturamento
+  name: Contratos de Serviço - Faturamento
+  domain: serviços e nfs-e
+  endpoint: https://app.omie.com.br/api/v1/servicos/contratofat/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/contratofat/
+  output_slug: contratos_de_servico_faturamento
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: servicos_e_nfs_e_contratos_de_servico_fat_em_lote
+  name: Contratos de Serviço - Fat. em Lote
+  domain: serviços e nfs-e
+  endpoint: https://app.omie.com.br/api/v1/servicos/contratolote/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/contratolote/
+  output_slug: contratos_de_servico_fat_em_lote
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: servicos_e_nfs_e_resumo
+  name: Resumo
+  domain: serviços e nfs-e
+  endpoint: https://app.omie.com.br/api/v1/servicos/resumo/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/resumo/
+  output_slug: resumo
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: servicos_e_nfs_e_obter_documentos
+  name: Obter Documentos
+  domain: serviços e nfs-e
+  endpoint: https://app.omie.com.br/api/v1/servicos/osdocs/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/osdocs/
+  output_slug: obter_documentos
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: servicos_e_nfs_e_consultas
+  name: Consultas
+  domain: serviços e nfs-e
+  endpoint: https://app.omie.com.br/api/v1/servicos/nfse/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/nfse/
+  output_slug: consultas
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: servicos_e_nfs_e_servicos_no_municipio
+  name: Serviços no Município
+  domain: serviços e nfs-e
+  endpoint: https://app.omie.com.br/api/v1/servicos/listaservico/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/listaservico/
+  output_slug: servicos_no_municipio
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: servicos_e_nfs_e_tipos_de_tributacao
+  name: Tipos de Tributação
+  domain: serviços e nfs-e
+  endpoint: https://app.omie.com.br/api/v1/servicos/tipotrib/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/tipotrib/
+  output_slug: tipos_de_tributacao
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: servicos_e_nfs_e_lc_116
+  name: LC 116
+  domain: serviços e nfs-e
+  endpoint: https://app.omie.com.br/api/v1/servicos/lc116/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/lc116/
+  output_slug: lc_116
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: servicos_e_nfs_e_nbs
+  name: NBS
+  domain: serviços e nfs-e
+  endpoint: https://app.omie.com.br/api/v1/servicos/nbs/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/nbs/
+  output_slug: nbs
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: servicos_e_nfs_e_ibpt
+  name: IBPT
+  domain: serviços e nfs-e
+  endpoint: https://app.omie.com.br/api/v1/servicos/ibpt/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/ibpt/
+  output_slug: ibpt
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: servicos_e_nfs_e_tipo_de_faturamento_de_contrato
+  name: Tipo de Faturamento de Contrato
+  domain: serviços e nfs-e
+  endpoint: https://app.omie.com.br/api/v1/servicos/contratotpfat/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/contratotpfat/
+  output_slug: tipo_de_faturamento_de_contrato
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: servicos_e_nfs_e_tipo_de_utilizacao
+  name: Tipo de utilização
+  domain: serviços e nfs-e
+  endpoint: https://app.omie.com.br/api/v1/servicos/tipoutilizacao/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/tipoutilizacao/
+  output_slug: tipo_de_utilizacao
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: servicos_e_nfs_e_classificacao_do_servico
+  name: Classificação do Serviço
+  domain: serviços e nfs-e
+  endpoint: https://app.omie.com.br/api/v1/servicos/classificacaoservico/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/servicos/classificacaoservico/
+  output_slug: classificacao_do_servico
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: cadastros_auxiliares_documentos_fiscais
+  name: Documentos Fiscais
+  domain: cadastros auxiliares
+  endpoint: https://app.omie.com.br/api/v1/contador/xml/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/contador/xml/
+  output_slug: documentos_fiscais
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+- id: cadastros_auxiliares_resumo
+  name: Resumo
+  domain: cadastros auxiliares
+  endpoint: https://app.omie.com.br/api/v1/contador/resumo/
+  status: Não iniciado
+  priority: baixa
+  implemented: false
+  methods_count: null
+  documentation_url: https://app.omie.com.br/api/v1/contador/resumo/
+  output_slug: resumo
+  depends_on: []
+  notes: Servico importado da matriz coverage/omie_api_coverage.md.
