@@ -47,6 +47,11 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--resume", action="store_true", help="Retoma/libera execucao interrompida.")
     parser.add_argument("--status", action="store_true", help="Mostra o estado atual da Factory.")
     parser.add_argument("--history", action="store_true", help="Mostra o historico de execucoes.")
+    parser.add_argument("--validate", action="store_true", help="Executa validacao deterministica da knowledge base.")
+    parser.add_argument("--validate-service", help="Valida documentos de um servico especifico.")
+    parser.add_argument("--validate-all", action="store_true", help="Valida todos os documentos da knowledge base.")
+    parser.add_argument("--improvement-report", action="store_true", help="Gera relatorio de melhorias da knowledge base.")
+    parser.add_argument("--quality-ranking", action="store_true", help="Gera ranking de qualidade por servico.")
     return parser
 
 
@@ -84,6 +89,19 @@ def ensure_output_structure(output: Path, dry_run: bool = False) -> list[Path]:
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     registry_path = Path(args.registry)
+
+    if args.validate or args.validate_service or args.validate_all or args.improvement_report or args.quality_ranking:
+        from knowledge_validator import format_summary, validate
+
+        result = validate(service_id=args.validate_service)
+        if args.improvement_report:
+            print(result.improvement_path)
+            return 0
+        if args.quality_ranking:
+            print(result.ranking_path)
+            return 0
+        print(format_summary(result))
+        return 0
 
     if args.execute_next or args.execute_service or args.resume or args.status or args.history:
         from execution_engine import execute_next, execute_service, get_history, get_status, resume_execution
