@@ -1,0 +1,129 @@
+status: Aguardando modelagem da VerticalParts
+ontology_source: ontology/verticalparts/entities.yaml
+intents:
+- intent: consultar_cliente
+  entity: Cliente
+  description: Será preenchido posteriormente
+- intent: consultar_fornecedor
+  entity: Fornecedor
+  description: Será preenchido posteriormente
+- intent: consultar_contato
+  entity: Contato
+  description: Será preenchido posteriormente
+- intent: consultar_obra
+  entity: Obra
+  description: Será preenchido posteriormente
+- intent: consultar_projeto
+  entity: Projeto
+  description: Será preenchido posteriormente
+- intent: consultar_equipamento
+  entity: Equipamento
+  description: Será preenchido posteriormente
+- intent: consultar_elevador
+  entity: Elevador
+  description: Será preenchido posteriormente
+- intent: consultar_escada_rolante
+  entity: Escada Rolante
+  description: Será preenchido posteriormente
+- intent: consultar_esteira_rolante
+  entity: Esteira Rolante
+  description: Será preenchido posteriormente
+- intent: consultar_peça
+  entity: Peça
+  description: Será preenchido posteriormente
+- intent: consultar_produto
+  entity: Produto
+  description: Será preenchido posteriormente
+- intent: consultar_almoxarifado
+  entity: Almoxarifado
+  description: Será preenchido posteriormente
+- intent: consultar_estoque
+  entity: Estoque
+  description: Será preenchido posteriormente
+- intent: consultar_pedidovenda
+  entity: PedidoVenda
+  description: Será preenchido posteriormente
+- intent: consultar_pedidocompra
+  entity: PedidoCompra
+  description: Será preenchido posteriormente
+- intent: consultar_contrato
+  entity: Contrato
+  description: Será preenchido posteriormente
+- intent: consultar_proposta
+  entity: Proposta
+  description: Será preenchido posteriormente
+- intent: consultar_ordemservico
+  entity: OrdemServico
+  description: Será preenchido posteriormente
+- intent: consultar_chamado
+  entity: Chamado
+  description: Será preenchido posteriormente
+- intent: consultar_preventiva
+  entity: Preventiva
+  description: Será preenchido posteriormente
+- intent: consultar_corretiva
+  entity: Corretiva
+  description: Será preenchido posteriormente
+- intent: consultar_modernização
+  entity: Modernização
+  description: Será preenchido posteriormente
+- intent: consultar_instalação
+  entity: Instalação
+  description: Será preenchido posteriormente
+- intent: consultar_entrega
+  entity: Entrega
+  description: Será preenchido posteriormente
+- intent: consultar_recebimento
+  entity: Recebimento
+  description: Será preenchido posteriormente
+- intent: consultar_faturamento
+  entity: Faturamento
+  description: Será preenchido posteriormente
+- intent: consultar_nfe
+  entity: NF-e
+  description: Será preenchido posteriormente
+- intent: consultar_nfse
+  entity: NFS-e
+  description: Será preenchido posteriormente
+- intent: consultar_pagamento
+  entity: Pagamento
+  description: Será preenchido posteriormente
+- intent: consultar_recebimentofinanceiro
+  entity: RecebimentoFinanceiro
+  description: Será preenchido posteriormente
+- intent: consultar_centrocusto
+  entity: CentroCusto
+  description: Será preenchido posteriormente
+- intent: consultar_contareceber
+  entity: ContaReceber
+  description: Será preenchido posteriormente
+- intent: consultar_contapagar
+  entity: ContaPagar
+  description: Será preenchido posteriormente
+- intent: consultar_funcionário
+  entity: Funcionário
+  description: Será preenchido posteriormente
+- intent: consultar_técnico
+  entity: Técnico
+  description: Será preenchido posteriormente
+- intent: consultar_supervisor
+  entity: Supervisor
+  description: Será preenchido posteriormente
+- intent: consultar_comprador
+  entity: Comprador
+  description: Será preenchido posteriormente
+- intent: consultar_vendedor
+  entity: Vendedor
+  description: Será preenchido posteriormente
+- intent: consultar_engenharia
+  entity: Engenharia
+  description: Será preenchido posteriormente
+- intent: consultar_financeiro
+  entity: Financeiro
+  description: Será preenchido posteriormente
+- intent: consultar_jurídico
+  entity: Jurídico
+  description: Será preenchido posteriormente
+- intent: consultar_rh
+  entity: RH
+  description: Será preenchido posteriormente

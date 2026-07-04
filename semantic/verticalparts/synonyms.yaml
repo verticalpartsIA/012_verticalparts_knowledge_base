@@ -1,0 +1,161 @@
+status: Aguardando modelagem da VerticalParts
+ontology_source: ontology/verticalparts/entities.yaml
+synonyms:
+- synonym: contratante
+  entity: Cliente
+- synonym: comprador
+  entity: Cliente
+- synonym: fornecedor homologado
+  entity: Fornecedor
+- synonym: vendor
+  entity: Fornecedor
+- synonym: interlocutor
+  entity: Contato
+- synonym: representante
+  entity: Contato
+- synonym: site
+  entity: Obra
+- synonym: empreendimento
+  entity: Obra
+- synonym: desenho técnico
+  entity: Projeto
+- synonym: escopo técnico
+  entity: Projeto
+- synonym: máquina
+  entity: Equipamento
+- synonym: unidade operacional
+  entity: Equipamento
+- synonym: ascensor
+  entity: Elevador
+- synonym: escada mecânica
+  entity: Escada Rolante
+- synonym: passarela rolante
+  entity: Esteira Rolante
+- synonym: item de reposição
+  entity: Peça
+- synonym: componente técnico
+  entity: Peça
+- synonym: produto cadastrado
+  entity: Produto
+- synonym: SKU
+  entity: Produto
+- synonym: depósito
+  entity: Almoxarifado
+- synonym: armazém
+  entity: Almoxarifado
+- synonym: inventário
+  entity: Estoque
+- synonym: disponibilidade
+  entity: Estoque
+- synonym: ordem de venda
+  entity: PedidoVenda
+- synonym: venda
+  entity: PedidoVenda
+- synonym: ordem de compra
+  entity: PedidoCompra
+- synonym: compra
+  entity: PedidoCompra
+- synonym: acordo
+  entity: Contrato
+- synonym: contrato comercial
+  entity: Contrato
+- synonym: oferta
+  entity: Proposta
+- synonym: cotação
+  entity: Proposta
+- synonym: OS
+  entity: OrdemServico
+- synonym: serviço
+  entity: OrdemServico
+- synonym: solicitação
+  entity: Chamado
+- synonym: ocorrência
+  entity: Chamado
+- synonym: visita preventiva
+  entity: Preventiva
+- synonym: rotina preventiva
+  entity: Preventiva
+- synonym: reparo
+  entity: Corretiva
+- synonym: atendimento corretivo
+  entity: Corretiva
+- synonym: retrofit
+  entity: Modernização
+- synonym: atualização
+  entity: Modernização
+- synonym: montagem
+  entity: Instalação
+- synonym: implantação
+  entity: Instalação
+- synonym: handover
+  entity: Entrega
+- synonym: conclusão
+  entity: Entrega
+- synonym: entrada
+  entity: Recebimento
+- synonym: conferência
+  entity: Recebimento
+- synonym: emissão
+  entity: Faturamento
+- synonym: cobrança
+  entity: Faturamento
+- synonym: nota fiscal de produto
+  entity: NF-e
+- synonym: nota fiscal de serviço
+  entity: NFS-e
+- synonym: baixa de pagamento
+  entity: Pagamento
+- synonym: desembolso
+  entity: Pagamento
+- synonym: baixa de recebimento
+  entity: RecebimentoFinanceiro
+- synonym: entrada financeira
+  entity: RecebimentoFinanceiro
+- synonym: unidade de custo
+  entity: CentroCusto
+- synonym: alocação
+  entity: CentroCusto
+- synonym: título a receber
+  entity: ContaReceber
+- synonym: recebível
+  entity: ContaReceber
+- synonym: título a pagar
+  entity: ContaPagar
+- synonym: obrigação
+  entity: ContaPagar
+- synonym: empregado
+  entity: Funcionário
+- synonym: membro interno
+  entity: Funcionário
+- synonym: executor técnico
+  entity: Técnico
+- synonym: especialista técnico
+  entity: Técnico
+- synonym: líder
+  entity: Supervisor
+- synonym: coordenador
+  entity: Supervisor
+- synonym: buyer
+  entity: Comprador
+- synonym: responsável de compras
+  entity: Comprador
+- synonym: representante comercial
+  entity: Vendedor
+- synonym: executivo comercial
+  entity: Vendedor
+- synonym: time técnico
+  entity: Engenharia
+- synonym: departamento técnico
+  entity: Engenharia
+- synonym: tesouraria
+  entity: Financeiro
+- synonym: contas
+  entity: Financeiro
+- synonym: legal
+  entity: Jurídico
+- synonym: contratos
+  entity: Jurídico
+- synonym: people
+  entity: RH
+- synonym: gestão de pessoas
+  entity: RH

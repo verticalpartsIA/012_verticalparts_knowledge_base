@@ -1,0 +1,16 @@
+status: Aguardando modelagem da VerticalParts
+ontology_source: ontology/verticalparts/entities.yaml
+capabilities:
+- Comercial
+- Compras
+- Engenharia
+- Instalação
+- Assistência
+- Financeiro
+- Fiscal
+- RH
+- Jurídico
+- BI
+- CRM
+- WMS
+- ERP

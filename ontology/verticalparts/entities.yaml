@@ -1,0 +1,1039 @@
+status: Aguardando modelagem da VerticalParts
+generated_at: '2026-07-04'
+entities:
+- name: Cliente
+  description: Será preenchido posteriormente
+  aliases:
+  - Cliente VerticalParts
+  synonyms:
+  - contratante
+  - comprador
+  abbreviations:
+  - CLI
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships:
+  - &id004
+    - Cliente
+    - Proposta
+    - solicita_ou_recebe
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Comercial
+- name: Fornecedor
+  description: Será preenchido posteriormente
+  aliases:
+  - Parceiro fornecedor
+  synonyms:
+  - fornecedor homologado
+  - vendor
+  abbreviations:
+  - FOR
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Compras
+- name: Contato
+  description: Será preenchido posteriormente
+  aliases:
+  - Pessoa de contato
+  synonyms:
+  - interlocutor
+  - representante
+  abbreviations:
+  - CTT
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: CRM
+- name: Obra
+  description: Será preenchido posteriormente
+  aliases:
+  - Local de obra
+  synonyms:
+  - site
+  - empreendimento
+  abbreviations:
+  - OBR
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Instalação
+- name: Projeto
+  description: Será preenchido posteriormente
+  aliases:
+  - Projeto técnico
+  synonyms:
+  - desenho técnico
+  - escopo técnico
+  abbreviations:
+  - PRJ
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships:
+  - &id003
+    - Contrato
+    - Projeto
+    - origina
+  - &id001
+    - Projeto
+    - PedidoCompra
+    - demanda
+  lifecycle:
+  - Rascunho
+  - Em engenharia
+  - Aprovado
+  - Em implantação
+  - Entregue
+  - Encerrado
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Engenharia
+- name: Equipamento
+  description: Será preenchido posteriormente
+  aliases:
+  - Ativo instalado
+  synonyms:
+  - máquina
+  - unidade operacional
+  abbreviations:
+  - EQP
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships:
+  - &id006
+    - Equipamento
+    - Preventiva
+    - recebe
+  - &id007
+    - Equipamento
+    - Corretiva
+    - recebe
+  - &id008
+    - Equipamento
+    - Modernização
+    - pode_receber
+  lifecycle:
+  - Planejado
+  - Em instalação
+  - Ativo
+  - Em manutenção
+  - Modernização
+  - Desativado
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Assistência
+- name: Elevador
+  description: Será preenchido posteriormente
+  aliases:
+  - Equipamento elevador
+  synonyms:
+  - ascensor
+  abbreviations:
+  - ELV
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Engenharia
+- name: Escada Rolante
+  description: Será preenchido posteriormente
+  aliases:
+  - Equipamento escada rolante
+  synonyms:
+  - escada mecânica
+  abbreviations:
+  - ESC
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Engenharia
+- name: Esteira Rolante
+  description: Será preenchido posteriormente
+  aliases:
+  - Equipamento esteira rolante
+  synonyms:
+  - passarela rolante
+  abbreviations:
+  - ESTR
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Engenharia
+- name: Peça
+  description: Será preenchido posteriormente
+  aliases:
+  - Componente
+  synonyms:
+  - item de reposição
+  - componente técnico
+  abbreviations:
+  - PCA
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Almoxarifado
+- name: Produto
+  description: Será preenchido posteriormente
+  aliases:
+  - Item comercial
+  synonyms:
+  - produto cadastrado
+  - SKU
+  abbreviations:
+  - PROD
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: ERP
+- name: Almoxarifado
+  description: Será preenchido posteriormente
+  aliases:
+  - Depósito interno
+  synonyms:
+  - depósito
+  - armazém
+  abbreviations:
+  - ALM
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Almoxarifado
+- name: Estoque
+  description: Será preenchido posteriormente
+  aliases:
+  - Saldo de estoque
+  synonyms:
+  - inventário
+  - disponibilidade
+  abbreviations:
+  - STK
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships:
+  - &id012
+    - Recebimento
+    - Estoque
+    - atualiza
+  - &id009
+    - Estoque
+    - Instalação
+    - abastece
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: WMS
+- name: PedidoVenda
+  description: Será preenchido posteriormente
+  aliases:
+  - Pedido de Venda
+  synonyms:
+  - ordem de venda
+  - venda
+  abbreviations:
+  - PV
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships:
+  - &id005
+    - Proposta
+    - PedidoVenda
+    - converte_em
+  - &id002
+    - PedidoVenda
+    - Contrato
+    - formaliza
+  lifecycle:
+  - Rascunho
+  - Aberto
+  - Aprovado
+  - Faturado
+  - Cancelado
+  - Concluído
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Comercial
+- name: PedidoCompra
+  description: Será preenchido posteriormente
+  aliases:
+  - Pedido de Compra
+  synonyms:
+  - ordem de compra
+  - compra
+  abbreviations:
+  - PC
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships:
+  - *id001
+  - &id011
+    - PedidoCompra
+    - Recebimento
+    - gera
+  lifecycle:
+  - Rascunho
+  - Aberto
+  - Aprovado
+  - Recebido
+  - Cancelado
+  - Concluído
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Compras
+- name: Contrato
+  description: Será preenchido posteriormente
+  aliases:
+  - Instrumento contratual
+  synonyms:
+  - acordo
+  - contrato comercial
+  abbreviations:
+  - CTR
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships:
+  - *id002
+  - *id003
+  lifecycle:
+  - Rascunho
+  - Em análise
+  - Assinado
+  - Vigente
+  - Suspenso
+  - Encerrado
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Jurídico
+- name: Proposta
+  description: Será preenchido posteriormente
+  aliases:
+  - Proposta comercial
+  synonyms:
+  - oferta
+  - cotação
+  abbreviations:
+  - PROP
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships:
+  - *id004
+  - *id005
+  lifecycle:
+  - Rascunho
+  - Enviada
+  - Negociação
+  - Aprovada
+  - Cancelada
+  - Convertida
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Comercial
+- name: OrdemServico
+  description: Será preenchido posteriormente
+  aliases:
+  - Ordem de Serviço
+  synonyms:
+  - OS
+  - serviço
+  abbreviations:
+  - OS
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle:
+  - Aberta
+  - Planejada
+  - Em execução
+  - Concluída
+  - Cancelada
+  - Faturada
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Assistência
+- name: Chamado
+  description: Será preenchido posteriormente
+  aliases:
+  - Ticket de atendimento
+  synonyms:
+  - solicitação
+  - ocorrência
+  abbreviations:
+  - CHM
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Assistência
+- name: Preventiva
+  description: Será preenchido posteriormente
+  aliases:
+  - Manutenção preventiva
+  synonyms:
+  - visita preventiva
+  - rotina preventiva
+  abbreviations:
+  - PREV
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships:
+  - *id006
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Assistência
+- name: Corretiva
+  description: Será preenchido posteriormente
+  aliases:
+  - Manutenção corretiva
+  synonyms:
+  - reparo
+  - atendimento corretivo
+  abbreviations:
+  - COR
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships:
+  - *id007
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Assistência
+- name: Modernização
+  description: Será preenchido posteriormente
+  aliases:
+  - Modernização técnica
+  synonyms:
+  - retrofit
+  - atualização
+  abbreviations:
+  - MOD
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships:
+  - *id008
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Engenharia
+- name: Instalação
+  description: Será preenchido posteriormente
+  aliases:
+  - Instalação técnica
+  synonyms:
+  - montagem
+  - implantação
+  abbreviations:
+  - INST
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships:
+  - *id009
+  - &id010
+    - Instalação
+    - Entrega
+    - resulta_em
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Instalação
+- name: Entrega
+  description: Será preenchido posteriormente
+  aliases:
+  - Entrega operacional
+  synonyms:
+  - handover
+  - conclusão
+  abbreviations:
+  - ENT
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships:
+  - *id010
+  - &id013
+    - Entrega
+    - Faturamento
+    - habilita
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Logística
+- name: Recebimento
+  description: Será preenchido posteriormente
+  aliases:
+  - Recebimento físico
+  synonyms:
+  - entrada
+  - conferência
+  abbreviations:
+  - REC
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships:
+  - *id011
+  - *id012
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Almoxarifado
+- name: Faturamento
+  description: Será preenchido posteriormente
+  aliases:
+  - Processo de faturamento
+  synonyms:
+  - emissão
+  - cobrança
+  abbreviations:
+  - FAT
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships:
+  - *id013
+  - &id014
+    - Faturamento
+    - ContaReceber
+    - gera
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Fiscal
+- name: NF-e
+  description: Será preenchido posteriormente
+  aliases:
+  - Nota Fiscal Eletrônica
+  synonyms:
+  - nota fiscal de produto
+  abbreviations:
+  - NFE
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Fiscal
+- name: NFS-e
+  description: Será preenchido posteriormente
+  aliases:
+  - Nota Fiscal de Serviço Eletrônica
+  synonyms:
+  - nota fiscal de serviço
+  abbreviations:
+  - NFSE
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Fiscal
+- name: Pagamento
+  description: Será preenchido posteriormente
+  aliases:
+  - Liquidação de pagamento
+  synonyms:
+  - baixa de pagamento
+  - desembolso
+  abbreviations:
+  - PAG
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Financeiro
+- name: RecebimentoFinanceiro
+  description: Será preenchido posteriormente
+  aliases:
+  - Recebimento financeiro
+  synonyms:
+  - baixa de recebimento
+  - entrada financeira
+  abbreviations:
+  - RCF
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships:
+  - &id015
+    - ContaReceber
+    - RecebimentoFinanceiro
+    - liquida_por
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Financeiro
+- name: CentroCusto
+  description: Será preenchido posteriormente
+  aliases:
+  - Centro de Custo
+  synonyms:
+  - unidade de custo
+  - alocação
+  abbreviations:
+  - CC
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Financeiro
+- name: ContaReceber
+  description: Será preenchido posteriormente
+  aliases:
+  - Conta a Receber
+  synonyms:
+  - título a receber
+  - recebível
+  abbreviations:
+  - CR
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships:
+  - *id014
+  - *id015
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Financeiro
+- name: ContaPagar
+  description: Será preenchido posteriormente
+  aliases:
+  - Conta a Pagar
+  synonyms:
+  - título a pagar
+  - obrigação
+  abbreviations:
+  - CP
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Financeiro
+- name: Funcionário
+  description: Será preenchido posteriormente
+  aliases:
+  - Colaborador
+  synonyms:
+  - empregado
+  - membro interno
+  abbreviations:
+  - FUNC
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: RH
+- name: Técnico
+  description: Será preenchido posteriormente
+  aliases:
+  - Técnico de campo
+  synonyms:
+  - executor técnico
+  - especialista técnico
+  abbreviations:
+  - TEC
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Assistência
+- name: Supervisor
+  description: Será preenchido posteriormente
+  aliases:
+  - Supervisor operacional
+  synonyms:
+  - líder
+  - coordenador
+  abbreviations:
+  - SUP
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Instalação
+- name: Comprador
+  description: Será preenchido posteriormente
+  aliases:
+  - Analista de compras
+  synonyms:
+  - buyer
+  - responsável de compras
+  abbreviations:
+  - COMP
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Compras
+- name: Vendedor
+  description: Será preenchido posteriormente
+  aliases:
+  - Consultor comercial
+  synonyms:
+  - representante comercial
+  - executivo comercial
+  abbreviations:
+  - VEND
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Comercial
+- name: Engenharia
+  description: Será preenchido posteriormente
+  aliases:
+  - Área de engenharia
+  synonyms:
+  - time técnico
+  - departamento técnico
+  abbreviations:
+  - ENG
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Engenharia
+- name: Financeiro
+  description: Será preenchido posteriormente
+  aliases:
+  - Área financeira
+  synonyms:
+  - tesouraria
+  - contas
+  abbreviations:
+  - FIN
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Financeiro
+- name: Jurídico
+  description: Será preenchido posteriormente
+  aliases:
+  - Área jurídica
+  synonyms:
+  - legal
+  - contratos
+  abbreviations:
+  - JUR
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: Jurídico
+- name: RH
+  description: Será preenchido posteriormente
+  aliases:
+  - Recursos Humanos
+  synonyms:
+  - people
+  - gestão de pessoas
+  abbreviations:
+  - RH
+  primary_attributes:
+  - id
+  - codigo
+  - nome
+  - status
+  - data_criacao
+  - data_atualizacao
+  relationships: []
+  lifecycle: []
+  related_documents: []
+  related_kpis: []
+  owner: Será preenchido posteriormente
+  department: RH
