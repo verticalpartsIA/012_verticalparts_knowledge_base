@@ -1,200 +1,397 @@
 # Índice Global da Documentação
 
-Última atualização: 2026-07-03
+Última atualização: 2026-07-04
 
-- [Business Knowledge: Omie Clientes](../business/omie/clientes.md) — `business/omie/clientes.md`
-- [Business Knowledge: Omie Contas a Receber](../business/omie/contas_a_receber.md) — `business/omie/contas_a_receber.md`
-- [Changelog](../CHANGELOG.md) — `CHANGELOG.md`
-- [Contribuindo](../CONTRIBUTING.md) — `CONTRIBUTING.md`
-- [Cobertura da API Omie](../coverage/omie_api_coverage.md) — `coverage/omie_api_coverage.md`
-- [Contas a Pagar](../docs/omie/financeiro/contas_a_pagar.md) — `docs/omie/financeiro/contas_a_pagar.md`
-- [Omie Financeiro: Contas a Receber](../docs/omie/financeiro/contas_a_receber.md) — `docs/omie/financeiro/contas_a_receber.md`
-- [AlterarContaReceber](../docs/omie/financeiro/contas_a_receber/alterar_conta_receber.md) — `docs/omie/financeiro/contas_a_receber/alterar_conta_receber.md`
-- [AlterarDistribuicaoDepartamento](../docs/omie/financeiro/contas_a_receber/alterar_distribuicao_departamento.md) — `docs/omie/financeiro/contas_a_receber/alterar_distribuicao_departamento.md`
-- [CancelarContaReceber](../docs/omie/financeiro/contas_a_receber/cancelar_conta_receber.md) — `docs/omie/financeiro/contas_a_receber/cancelar_conta_receber.md`
-- [CancelarRecebimento](../docs/omie/financeiro/contas_a_receber/cancelar_recebimento.md) — `docs/omie/financeiro/contas_a_receber/cancelar_recebimento.md`
-- [ConciliarRecebimento](../docs/omie/financeiro/contas_a_receber/conciliar_recebimento.md) — `docs/omie/financeiro/contas_a_receber/conciliar_recebimento.md`
-- [ConsultarContaReceber](../docs/omie/financeiro/contas_a_receber/consultar_conta_receber.md) — `docs/omie/financeiro/contas_a_receber/consultar_conta_receber.md`
-- [DesconciliarRecebimento](../docs/omie/financeiro/contas_a_receber/desconciliar_recebimento.md) — `docs/omie/financeiro/contas_a_receber/desconciliar_recebimento.md`
-- [ExcluirContaReceber](../docs/omie/financeiro/contas_a_receber/excluir_conta_receber.md) — `docs/omie/financeiro/contas_a_receber/excluir_conta_receber.md`
-- [ExcluirDistribuicaoDepartamento](../docs/omie/financeiro/contas_a_receber/excluir_distribuicao_departamento.md) — `docs/omie/financeiro/contas_a_receber/excluir_distribuicao_departamento.md`
-- [IncluirContaReceber](../docs/omie/financeiro/contas_a_receber/incluir_conta_receber.md) — `docs/omie/financeiro/contas_a_receber/incluir_conta_receber.md`
-- [IncluirContaReceberPorLote](../docs/omie/financeiro/contas_a_receber/incluir_conta_receber_por_lote.md) — `docs/omie/financeiro/contas_a_receber/incluir_conta_receber_por_lote.md`
-- [IncluirDistribuicaoDepartamento](../docs/omie/financeiro/contas_a_receber/incluir_distribuicao_departamento.md) — `docs/omie/financeiro/contas_a_receber/incluir_distribuicao_departamento.md`
-- [LancarRecebimento](../docs/omie/financeiro/contas_a_receber/lancar_recebimento.md) — `docs/omie/financeiro/contas_a_receber/lancar_recebimento.md`
-- [ListarContasReceber](../docs/omie/financeiro/contas_a_receber/listar_contas_receber.md) — `docs/omie/financeiro/contas_a_receber/listar_contas_receber.md`
-- [Omie Financeiro: Contas a Receber](../docs/omie/financeiro/contas_a_receber/README.md) — `docs/omie/financeiro/contas_a_receber/README.md`
-- [UpsertContaReceber](../docs/omie/financeiro/contas_a_receber/upsert_conta_receber.md) — `docs/omie/financeiro/contas_a_receber/upsert_conta_receber.md`
-- [UpsertContaReceberPorLote](../docs/omie/financeiro/contas_a_receber/upsert_conta_receber_por_lote.md) — `docs/omie/financeiro/contas_a_receber/upsert_conta_receber_por_lote.md`
-- [Movimentos Financeiros](../docs/omie/financeiro/movimentos_financeiros.md) — `docs/omie/financeiro/movimentos_financeiros.md`
-- [AlterarCliente](../docs/omie/geral/clientes/alterar_cliente.md) — `docs/omie/geral/clientes/alterar_cliente.md`
-- [AssociarCodIntCliente](../docs/omie/geral/clientes/associar_cod_int_cliente.md) — `docs/omie/geral/clientes/associar_cod_int_cliente.md`
-- [ConsultarCliente](../docs/omie/geral/clientes/consultar_cliente.md) — `docs/omie/geral/clientes/consultar_cliente.md`
-- [ExcluirCliente](../docs/omie/geral/clientes/excluir_cliente.md) — `docs/omie/geral/clientes/excluir_cliente.md`
-- [IncluirCliente](../docs/omie/geral/clientes/incluir_cliente.md) — `docs/omie/geral/clientes/incluir_cliente.md`
-- [IncluirClientesPorLote](../docs/omie/geral/clientes/incluir_clientes_por_lote.md) — `docs/omie/geral/clientes/incluir_clientes_por_lote.md`
-- [ListarClientes](../docs/omie/geral/clientes/listar_clientes.md) — `docs/omie/geral/clientes/listar_clientes.md`
-- [ListarClientesResumido](../docs/omie/geral/clientes/listar_clientes_resumido.md) — `docs/omie/geral/clientes/listar_clientes_resumido.md`
-- [Omie Geral: Clientes, Fornecedores e Transportadoras](../docs/omie/geral/clientes/README.md) — `docs/omie/geral/clientes/README.md`
-- [UpsertCliente](../docs/omie/geral/clientes/upsert_cliente.md) — `docs/omie/geral/clientes/upsert_cliente.md`
-- [UpsertClienteCpfCnpj](../docs/omie/geral/clientes/upsert_cliente_cpf_cnpj.md) — `docs/omie/geral/clientes/upsert_cliente_cpf_cnpj.md`
-- [UpsertClientesPorLote](../docs/omie/geral/clientes/upsert_clientes_por_lote.md) — `docs/omie/geral/clientes/upsert_clientes_por_lote.md`
-- [Índice: Clientes, Fornecedores e Transportadoras](../docs/omie/geral/clientes_fornecedores_transportadoras.md) — `docs/omie/geral/clientes_fornecedores_transportadoras.md`
-- [API Omie](../docs/omie/README.md) — `docs/omie/README.md`
-- [Ordem de Serviço](../docs/omie/servicos/ordem_de_servico.md) — `docs/omie/servicos/ordem_de_servico.md`
-- [Pedidos de Venda](../docs/omie/vendas/pedidos_de_venda.md) — `docs/omie/vendas/pedidos_de_venda.md`
-- [Documentação](../docs/README.md) — `docs/README.md`
-- [Embeddings](../embeddings/README.md) — `embeddings/README.md`
-- [Arquitetura](../factory/ARCHITECTURE.md) — `factory/ARCHITECTURE.md`
-- [Exemplo: Clientes](../factory/examples/clientes.md) — `factory/examples/clientes.md`
-- [Execution Engine](../factory/execution/README.md) — `factory/execution/README.md`
-- [First Autonomous Documentation Cycle](../factory/reports/first_autonomous_cycle.md) — `factory/reports/first_autonomous_cycle.md`
-- [FACTORY SDD](../factory/FACTORY_SDD.md) — `factory/FACTORY_SDD.md`
-- [FACTORY SPEC](../factory/FACTORY_SPEC.md) — `factory/FACTORY_SPEC.md`
-- [Generation Planner](../factory/planner/README.md) — `factory/planner/README.md`
-- [Omie Knowledge Factory](../factory/README.md) — `factory/README.md`
-- [Documentation Plan](../factory/reports/documentation_plan.md) — `factory/reports/documentation_plan.md`
-- [Execution Report](../factory/reports/execution_report.md) — `factory/reports/execution_report.md`
-- [Generation Planner Report](../factory/reports/planner_report.md) — `factory/reports/planner_report.md`
-- [Service Dependency Graph](../factory/reports/service_dependency_graph.md) — `factory/reports/service_dependency_graph.md`
-- [Roadmap da Factory](../factory/ROADMAP.md) — `factory/ROADMAP.md`
-- [Business Knowledge: {{ service_title }}](../factory/templates/business.md) — `factory/templates/business.md`
-- [Chunk {{ method }} - {{ focus }}](../factory/templates/chunk.md) — `factory/templates/chunk.md`
-- [Cobertura da API Omie](../factory/templates/coverage.md) — `factory/templates/coverage.md`
-- [{{ method }}](../factory/templates/document.md) — `factory/templates/document.md`
-- [Faq](../factory/templates/faq.md) — `factory/templates/faq.md`
-- [GraphRAG: {{ service_title }}](../factory/templates/graph.md) — `factory/templates/graph.md`
-- [Índice: {{ title }}](../factory/templates/index.md) — `factory/templates/index.md`
-- [{{ service_title }}](../factory/templates/readme.md) — `factory/templates/readme.md`
-- [Testes da Factory](../factory/tests/README.md) — `factory/tests/README.md`
-- [Workflow](../factory/workflows/workflow.md) — `factory/workflows/workflow.md`
-- [GraphRAG: Omie Clientes](../graphs/omie/clientes.graph.md) — `graphs/omie/clientes.graph.md`
-- [GraphRAG: Omie Contas a Receber](../graphs/omie/contas_a_receber.graph.md) — `graphs/omie/contas_a_receber.graph.md`
-- [Knowledge](../knowledge/README.md) — `knowledge/README.md`
-- [Foundation Complete](../milestones/FOUNDATION_COMPLETE.md) — `milestones/FOUNDATION_COMPLETE.md`
-- [v1.0.0 — Autonomous Knowledge Factory](../milestones/V1_AUTONOMOUS_KNOWLEDGE_FACTORY.md) — `milestones/V1_AUTONOMOUS_KNOWLEDGE_FACTORY.md`
-- [Chunk AlterarCliente - contrato](../rag/chunks/clientes/alterar_cliente.contrato.chunk.md) — `rag/chunks/clientes/alterar_cliente.contrato.chunk.md`
-- [Chunk AlterarCliente - faq](../rag/chunks/clientes/alterar_cliente.faq.chunk.md) — `rag/chunks/clientes/alterar_cliente.faq.chunk.md`
-- [Chunk AlterarCliente - identidade](../rag/chunks/clientes/alterar_cliente.identidade.chunk.md) — `rag/chunks/clientes/alterar_cliente.identidade.chunk.md`
-- [Chunk AlterarCliente - operacao](../rag/chunks/clientes/alterar_cliente.operacao.chunk.md) — `rag/chunks/clientes/alterar_cliente.operacao.chunk.md`
-- [Chunk AssociarCodIntCliente - contrato](../rag/chunks/clientes/associar_cod_int_cliente.contrato.chunk.md) — `rag/chunks/clientes/associar_cod_int_cliente.contrato.chunk.md`
-- [Chunk AssociarCodIntCliente - faq](../rag/chunks/clientes/associar_cod_int_cliente.faq.chunk.md) — `rag/chunks/clientes/associar_cod_int_cliente.faq.chunk.md`
-- [Chunk AssociarCodIntCliente - identidade](../rag/chunks/clientes/associar_cod_int_cliente.identidade.chunk.md) — `rag/chunks/clientes/associar_cod_int_cliente.identidade.chunk.md`
-- [Chunk AssociarCodIntCliente - operacao](../rag/chunks/clientes/associar_cod_int_cliente.operacao.chunk.md) — `rag/chunks/clientes/associar_cod_int_cliente.operacao.chunk.md`
-- [Chunk ConsultarCliente - contrato](../rag/chunks/clientes/consultar_cliente.contrato.chunk.md) — `rag/chunks/clientes/consultar_cliente.contrato.chunk.md`
-- [Chunk ConsultarCliente - faq](../rag/chunks/clientes/consultar_cliente.faq.chunk.md) — `rag/chunks/clientes/consultar_cliente.faq.chunk.md`
-- [Chunk ConsultarCliente - identidade](../rag/chunks/clientes/consultar_cliente.identidade.chunk.md) — `rag/chunks/clientes/consultar_cliente.identidade.chunk.md`
-- [Chunk ConsultarCliente - operacao](../rag/chunks/clientes/consultar_cliente.operacao.chunk.md) — `rag/chunks/clientes/consultar_cliente.operacao.chunk.md`
-- [Chunk ExcluirCliente - contrato](../rag/chunks/clientes/excluir_cliente.contrato.chunk.md) — `rag/chunks/clientes/excluir_cliente.contrato.chunk.md`
-- [Chunk ExcluirCliente - faq](../rag/chunks/clientes/excluir_cliente.faq.chunk.md) — `rag/chunks/clientes/excluir_cliente.faq.chunk.md`
-- [Chunk ExcluirCliente - identidade](../rag/chunks/clientes/excluir_cliente.identidade.chunk.md) — `rag/chunks/clientes/excluir_cliente.identidade.chunk.md`
-- [Chunk ExcluirCliente - operacao](../rag/chunks/clientes/excluir_cliente.operacao.chunk.md) — `rag/chunks/clientes/excluir_cliente.operacao.chunk.md`
-- [Chunk IncluirCliente - contrato](../rag/chunks/clientes/incluir_cliente.contrato.chunk.md) — `rag/chunks/clientes/incluir_cliente.contrato.chunk.md`
-- [Chunk IncluirCliente - faq](../rag/chunks/clientes/incluir_cliente.faq.chunk.md) — `rag/chunks/clientes/incluir_cliente.faq.chunk.md`
-- [Chunk IncluirCliente - identidade](../rag/chunks/clientes/incluir_cliente.identidade.chunk.md) — `rag/chunks/clientes/incluir_cliente.identidade.chunk.md`
-- [Chunk IncluirCliente - operacao](../rag/chunks/clientes/incluir_cliente.operacao.chunk.md) — `rag/chunks/clientes/incluir_cliente.operacao.chunk.md`
-- [Chunk IncluirClientesPorLote - contrato](../rag/chunks/clientes/incluir_clientes_por_lote.contrato.chunk.md) — `rag/chunks/clientes/incluir_clientes_por_lote.contrato.chunk.md`
-- [Chunk IncluirClientesPorLote - faq](../rag/chunks/clientes/incluir_clientes_por_lote.faq.chunk.md) — `rag/chunks/clientes/incluir_clientes_por_lote.faq.chunk.md`
-- [Chunk IncluirClientesPorLote - identidade](../rag/chunks/clientes/incluir_clientes_por_lote.identidade.chunk.md) — `rag/chunks/clientes/incluir_clientes_por_lote.identidade.chunk.md`
-- [Chunk IncluirClientesPorLote - operacao](../rag/chunks/clientes/incluir_clientes_por_lote.operacao.chunk.md) — `rag/chunks/clientes/incluir_clientes_por_lote.operacao.chunk.md`
-- [Chunk ListarClientes - contrato](../rag/chunks/clientes/listar_clientes.contrato.chunk.md) — `rag/chunks/clientes/listar_clientes.contrato.chunk.md`
-- [Chunk ListarClientes - faq](../rag/chunks/clientes/listar_clientes.faq.chunk.md) — `rag/chunks/clientes/listar_clientes.faq.chunk.md`
-- [Chunk ListarClientes - identidade](../rag/chunks/clientes/listar_clientes.identidade.chunk.md) — `rag/chunks/clientes/listar_clientes.identidade.chunk.md`
-- [Chunk ListarClientes - operacao](../rag/chunks/clientes/listar_clientes.operacao.chunk.md) — `rag/chunks/clientes/listar_clientes.operacao.chunk.md`
-- [Chunk ListarClientesResumido - contrato](../rag/chunks/clientes/listar_clientes_resumido.contrato.chunk.md) — `rag/chunks/clientes/listar_clientes_resumido.contrato.chunk.md`
-- [Chunk ListarClientesResumido - faq](../rag/chunks/clientes/listar_clientes_resumido.faq.chunk.md) — `rag/chunks/clientes/listar_clientes_resumido.faq.chunk.md`
-- [Chunk ListarClientesResumido - identidade](../rag/chunks/clientes/listar_clientes_resumido.identidade.chunk.md) — `rag/chunks/clientes/listar_clientes_resumido.identidade.chunk.md`
-- [Chunk ListarClientesResumido - operacao](../rag/chunks/clientes/listar_clientes_resumido.operacao.chunk.md) — `rag/chunks/clientes/listar_clientes_resumido.operacao.chunk.md`
-- [Estratégia de Recuperação: Clientes](../rag/chunks/clientes/retrieval_strategy.md) — `rag/chunks/clientes/retrieval_strategy.md`
-- [Chunk UpsertCliente - contrato](../rag/chunks/clientes/upsert_cliente.contrato.chunk.md) — `rag/chunks/clientes/upsert_cliente.contrato.chunk.md`
-- [Chunk UpsertCliente - faq](../rag/chunks/clientes/upsert_cliente.faq.chunk.md) — `rag/chunks/clientes/upsert_cliente.faq.chunk.md`
-- [Chunk UpsertCliente - identidade](../rag/chunks/clientes/upsert_cliente.identidade.chunk.md) — `rag/chunks/clientes/upsert_cliente.identidade.chunk.md`
-- [Chunk UpsertCliente - operacao](../rag/chunks/clientes/upsert_cliente.operacao.chunk.md) — `rag/chunks/clientes/upsert_cliente.operacao.chunk.md`
-- [Chunk UpsertClienteCpfCnpj - contrato](../rag/chunks/clientes/upsert_cliente_cpf_cnpj.contrato.chunk.md) — `rag/chunks/clientes/upsert_cliente_cpf_cnpj.contrato.chunk.md`
-- [Chunk UpsertClienteCpfCnpj - faq](../rag/chunks/clientes/upsert_cliente_cpf_cnpj.faq.chunk.md) — `rag/chunks/clientes/upsert_cliente_cpf_cnpj.faq.chunk.md`
-- [Chunk UpsertClienteCpfCnpj - identidade](../rag/chunks/clientes/upsert_cliente_cpf_cnpj.identidade.chunk.md) — `rag/chunks/clientes/upsert_cliente_cpf_cnpj.identidade.chunk.md`
-- [Chunk UpsertClienteCpfCnpj - operacao](../rag/chunks/clientes/upsert_cliente_cpf_cnpj.operacao.chunk.md) — `rag/chunks/clientes/upsert_cliente_cpf_cnpj.operacao.chunk.md`
-- [Chunk UpsertClientesPorLote - contrato](../rag/chunks/clientes/upsert_clientes_por_lote.contrato.chunk.md) — `rag/chunks/clientes/upsert_clientes_por_lote.contrato.chunk.md`
-- [Chunk UpsertClientesPorLote - faq](../rag/chunks/clientes/upsert_clientes_por_lote.faq.chunk.md) — `rag/chunks/clientes/upsert_clientes_por_lote.faq.chunk.md`
-- [Chunk UpsertClientesPorLote - identidade](../rag/chunks/clientes/upsert_clientes_por_lote.identidade.chunk.md) — `rag/chunks/clientes/upsert_clientes_por_lote.identidade.chunk.md`
-- [Chunk UpsertClientesPorLote - operacao](../rag/chunks/clientes/upsert_clientes_por_lote.operacao.chunk.md) — `rag/chunks/clientes/upsert_clientes_por_lote.operacao.chunk.md`
-- [Chunk AlterarContaReceber - contrato](../rag/chunks/contas_a_receber/alterar_conta_receber.contrato.chunk.md) — `rag/chunks/contas_a_receber/alterar_conta_receber.contrato.chunk.md`
-- [Chunk AlterarContaReceber - faq](../rag/chunks/contas_a_receber/alterar_conta_receber.faq.chunk.md) — `rag/chunks/contas_a_receber/alterar_conta_receber.faq.chunk.md`
-- [Chunk AlterarContaReceber - identidade](../rag/chunks/contas_a_receber/alterar_conta_receber.identidade.chunk.md) — `rag/chunks/contas_a_receber/alterar_conta_receber.identidade.chunk.md`
-- [Chunk AlterarContaReceber - operacao](../rag/chunks/contas_a_receber/alterar_conta_receber.operacao.chunk.md) — `rag/chunks/contas_a_receber/alterar_conta_receber.operacao.chunk.md`
-- [Chunk AlterarDistribuicaoDepartamento - contrato](../rag/chunks/contas_a_receber/alterar_distribuicao_departamento.contrato.chunk.md) — `rag/chunks/contas_a_receber/alterar_distribuicao_departamento.contrato.chunk.md`
-- [Chunk AlterarDistribuicaoDepartamento - faq](../rag/chunks/contas_a_receber/alterar_distribuicao_departamento.faq.chunk.md) — `rag/chunks/contas_a_receber/alterar_distribuicao_departamento.faq.chunk.md`
-- [Chunk AlterarDistribuicaoDepartamento - identidade](../rag/chunks/contas_a_receber/alterar_distribuicao_departamento.identidade.chunk.md) — `rag/chunks/contas_a_receber/alterar_distribuicao_departamento.identidade.chunk.md`
-- [Chunk AlterarDistribuicaoDepartamento - operacao](../rag/chunks/contas_a_receber/alterar_distribuicao_departamento.operacao.chunk.md) — `rag/chunks/contas_a_receber/alterar_distribuicao_departamento.operacao.chunk.md`
-- [Chunk CancelarContaReceber - contrato](../rag/chunks/contas_a_receber/cancelar_conta_receber.contrato.chunk.md) — `rag/chunks/contas_a_receber/cancelar_conta_receber.contrato.chunk.md`
-- [Chunk CancelarContaReceber - faq](../rag/chunks/contas_a_receber/cancelar_conta_receber.faq.chunk.md) — `rag/chunks/contas_a_receber/cancelar_conta_receber.faq.chunk.md`
-- [Chunk CancelarContaReceber - identidade](../rag/chunks/contas_a_receber/cancelar_conta_receber.identidade.chunk.md) — `rag/chunks/contas_a_receber/cancelar_conta_receber.identidade.chunk.md`
-- [Chunk CancelarContaReceber - operacao](../rag/chunks/contas_a_receber/cancelar_conta_receber.operacao.chunk.md) — `rag/chunks/contas_a_receber/cancelar_conta_receber.operacao.chunk.md`
-- [Chunk CancelarRecebimento - contrato](../rag/chunks/contas_a_receber/cancelar_recebimento.contrato.chunk.md) — `rag/chunks/contas_a_receber/cancelar_recebimento.contrato.chunk.md`
-- [Chunk CancelarRecebimento - faq](../rag/chunks/contas_a_receber/cancelar_recebimento.faq.chunk.md) — `rag/chunks/contas_a_receber/cancelar_recebimento.faq.chunk.md`
-- [Chunk CancelarRecebimento - identidade](../rag/chunks/contas_a_receber/cancelar_recebimento.identidade.chunk.md) — `rag/chunks/contas_a_receber/cancelar_recebimento.identidade.chunk.md`
-- [Chunk CancelarRecebimento - operacao](../rag/chunks/contas_a_receber/cancelar_recebimento.operacao.chunk.md) — `rag/chunks/contas_a_receber/cancelar_recebimento.operacao.chunk.md`
-- [Chunk ConciliarRecebimento - contrato](../rag/chunks/contas_a_receber/conciliar_recebimento.contrato.chunk.md) — `rag/chunks/contas_a_receber/conciliar_recebimento.contrato.chunk.md`
-- [Chunk ConciliarRecebimento - faq](../rag/chunks/contas_a_receber/conciliar_recebimento.faq.chunk.md) — `rag/chunks/contas_a_receber/conciliar_recebimento.faq.chunk.md`
-- [Chunk ConciliarRecebimento - identidade](../rag/chunks/contas_a_receber/conciliar_recebimento.identidade.chunk.md) — `rag/chunks/contas_a_receber/conciliar_recebimento.identidade.chunk.md`
-- [Chunk ConciliarRecebimento - operacao](../rag/chunks/contas_a_receber/conciliar_recebimento.operacao.chunk.md) — `rag/chunks/contas_a_receber/conciliar_recebimento.operacao.chunk.md`
-- [Chunk ConsultarContaReceber - contrato](../rag/chunks/contas_a_receber/consultar_conta_receber.contrato.chunk.md) — `rag/chunks/contas_a_receber/consultar_conta_receber.contrato.chunk.md`
-- [Chunk ConsultarContaReceber - faq](../rag/chunks/contas_a_receber/consultar_conta_receber.faq.chunk.md) — `rag/chunks/contas_a_receber/consultar_conta_receber.faq.chunk.md`
-- [Chunk ConsultarContaReceber - identidade](../rag/chunks/contas_a_receber/consultar_conta_receber.identidade.chunk.md) — `rag/chunks/contas_a_receber/consultar_conta_receber.identidade.chunk.md`
-- [Chunk ConsultarContaReceber - operacao](../rag/chunks/contas_a_receber/consultar_conta_receber.operacao.chunk.md) — `rag/chunks/contas_a_receber/consultar_conta_receber.operacao.chunk.md`
-- [Chunk DesconciliarRecebimento - contrato](../rag/chunks/contas_a_receber/desconciliar_recebimento.contrato.chunk.md) — `rag/chunks/contas_a_receber/desconciliar_recebimento.contrato.chunk.md`
-- [Chunk DesconciliarRecebimento - faq](../rag/chunks/contas_a_receber/desconciliar_recebimento.faq.chunk.md) — `rag/chunks/contas_a_receber/desconciliar_recebimento.faq.chunk.md`
-- [Chunk DesconciliarRecebimento - identidade](../rag/chunks/contas_a_receber/desconciliar_recebimento.identidade.chunk.md) — `rag/chunks/contas_a_receber/desconciliar_recebimento.identidade.chunk.md`
-- [Chunk DesconciliarRecebimento - operacao](../rag/chunks/contas_a_receber/desconciliar_recebimento.operacao.chunk.md) — `rag/chunks/contas_a_receber/desconciliar_recebimento.operacao.chunk.md`
-- [Chunk ExcluirContaReceber - contrato](../rag/chunks/contas_a_receber/excluir_conta_receber.contrato.chunk.md) — `rag/chunks/contas_a_receber/excluir_conta_receber.contrato.chunk.md`
-- [Chunk ExcluirContaReceber - faq](../rag/chunks/contas_a_receber/excluir_conta_receber.faq.chunk.md) — `rag/chunks/contas_a_receber/excluir_conta_receber.faq.chunk.md`
-- [Chunk ExcluirContaReceber - identidade](../rag/chunks/contas_a_receber/excluir_conta_receber.identidade.chunk.md) — `rag/chunks/contas_a_receber/excluir_conta_receber.identidade.chunk.md`
-- [Chunk ExcluirContaReceber - operacao](../rag/chunks/contas_a_receber/excluir_conta_receber.operacao.chunk.md) — `rag/chunks/contas_a_receber/excluir_conta_receber.operacao.chunk.md`
-- [Chunk ExcluirDistribuicaoDepartamento - contrato](../rag/chunks/contas_a_receber/excluir_distribuicao_departamento.contrato.chunk.md) — `rag/chunks/contas_a_receber/excluir_distribuicao_departamento.contrato.chunk.md`
-- [Chunk ExcluirDistribuicaoDepartamento - faq](../rag/chunks/contas_a_receber/excluir_distribuicao_departamento.faq.chunk.md) — `rag/chunks/contas_a_receber/excluir_distribuicao_departamento.faq.chunk.md`
-- [Chunk ExcluirDistribuicaoDepartamento - identidade](../rag/chunks/contas_a_receber/excluir_distribuicao_departamento.identidade.chunk.md) — `rag/chunks/contas_a_receber/excluir_distribuicao_departamento.identidade.chunk.md`
-- [Chunk ExcluirDistribuicaoDepartamento - operacao](../rag/chunks/contas_a_receber/excluir_distribuicao_departamento.operacao.chunk.md) — `rag/chunks/contas_a_receber/excluir_distribuicao_departamento.operacao.chunk.md`
-- [Chunk IncluirContaReceber - contrato](../rag/chunks/contas_a_receber/incluir_conta_receber.contrato.chunk.md) — `rag/chunks/contas_a_receber/incluir_conta_receber.contrato.chunk.md`
-- [Chunk IncluirContaReceber - faq](../rag/chunks/contas_a_receber/incluir_conta_receber.faq.chunk.md) — `rag/chunks/contas_a_receber/incluir_conta_receber.faq.chunk.md`
-- [Chunk IncluirContaReceber - identidade](../rag/chunks/contas_a_receber/incluir_conta_receber.identidade.chunk.md) — `rag/chunks/contas_a_receber/incluir_conta_receber.identidade.chunk.md`
-- [Chunk IncluirContaReceber - operacao](../rag/chunks/contas_a_receber/incluir_conta_receber.operacao.chunk.md) — `rag/chunks/contas_a_receber/incluir_conta_receber.operacao.chunk.md`
-- [Chunk IncluirContaReceberPorLote - contrato](../rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.contrato.chunk.md) — `rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.contrato.chunk.md`
-- [Chunk IncluirContaReceberPorLote - faq](../rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.faq.chunk.md) — `rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.faq.chunk.md`
-- [Chunk IncluirContaReceberPorLote - identidade](../rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.identidade.chunk.md) — `rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.identidade.chunk.md`
-- [Chunk IncluirContaReceberPorLote - operacao](../rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.operacao.chunk.md) — `rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.operacao.chunk.md`
-- [Chunk IncluirDistribuicaoDepartamento - contrato](../rag/chunks/contas_a_receber/incluir_distribuicao_departamento.contrato.chunk.md) — `rag/chunks/contas_a_receber/incluir_distribuicao_departamento.contrato.chunk.md`
-- [Chunk IncluirDistribuicaoDepartamento - faq](../rag/chunks/contas_a_receber/incluir_distribuicao_departamento.faq.chunk.md) — `rag/chunks/contas_a_receber/incluir_distribuicao_departamento.faq.chunk.md`
-- [Chunk IncluirDistribuicaoDepartamento - identidade](../rag/chunks/contas_a_receber/incluir_distribuicao_departamento.identidade.chunk.md) — `rag/chunks/contas_a_receber/incluir_distribuicao_departamento.identidade.chunk.md`
-- [Chunk IncluirDistribuicaoDepartamento - operacao](../rag/chunks/contas_a_receber/incluir_distribuicao_departamento.operacao.chunk.md) — `rag/chunks/contas_a_receber/incluir_distribuicao_departamento.operacao.chunk.md`
-- [Chunk LancarRecebimento - contrato](../rag/chunks/contas_a_receber/lancar_recebimento.contrato.chunk.md) — `rag/chunks/contas_a_receber/lancar_recebimento.contrato.chunk.md`
-- [Chunk LancarRecebimento - faq](../rag/chunks/contas_a_receber/lancar_recebimento.faq.chunk.md) — `rag/chunks/contas_a_receber/lancar_recebimento.faq.chunk.md`
-- [Chunk LancarRecebimento - identidade](../rag/chunks/contas_a_receber/lancar_recebimento.identidade.chunk.md) — `rag/chunks/contas_a_receber/lancar_recebimento.identidade.chunk.md`
-- [Chunk LancarRecebimento - operacao](../rag/chunks/contas_a_receber/lancar_recebimento.operacao.chunk.md) — `rag/chunks/contas_a_receber/lancar_recebimento.operacao.chunk.md`
-- [Chunk ListarContasReceber - contrato](../rag/chunks/contas_a_receber/listar_contas_receber.contrato.chunk.md) — `rag/chunks/contas_a_receber/listar_contas_receber.contrato.chunk.md`
-- [Chunk ListarContasReceber - faq](../rag/chunks/contas_a_receber/listar_contas_receber.faq.chunk.md) — `rag/chunks/contas_a_receber/listar_contas_receber.faq.chunk.md`
-- [Chunk ListarContasReceber - identidade](../rag/chunks/contas_a_receber/listar_contas_receber.identidade.chunk.md) — `rag/chunks/contas_a_receber/listar_contas_receber.identidade.chunk.md`
-- [Chunk ListarContasReceber - operacao](../rag/chunks/contas_a_receber/listar_contas_receber.operacao.chunk.md) — `rag/chunks/contas_a_receber/listar_contas_receber.operacao.chunk.md`
-- [Estratégia de Recuperação: Contas a Receber](../rag/chunks/contas_a_receber/retrieval_strategy.md) — `rag/chunks/contas_a_receber/retrieval_strategy.md`
-- [Chunk UpsertContaReceber - contrato](../rag/chunks/contas_a_receber/upsert_conta_receber.contrato.chunk.md) — `rag/chunks/contas_a_receber/upsert_conta_receber.contrato.chunk.md`
-- [Chunk UpsertContaReceber - faq](../rag/chunks/contas_a_receber/upsert_conta_receber.faq.chunk.md) — `rag/chunks/contas_a_receber/upsert_conta_receber.faq.chunk.md`
-- [Chunk UpsertContaReceber - identidade](../rag/chunks/contas_a_receber/upsert_conta_receber.identidade.chunk.md) — `rag/chunks/contas_a_receber/upsert_conta_receber.identidade.chunk.md`
-- [Chunk UpsertContaReceber - operacao](../rag/chunks/contas_a_receber/upsert_conta_receber.operacao.chunk.md) — `rag/chunks/contas_a_receber/upsert_conta_receber.operacao.chunk.md`
-- [Chunk UpsertContaReceberPorLote - contrato](../rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.contrato.chunk.md) — `rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.contrato.chunk.md`
-- [Chunk UpsertContaReceberPorLote - faq](../rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.faq.chunk.md) — `rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.faq.chunk.md`
-- [Chunk UpsertContaReceberPorLote - identidade](../rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.identidade.chunk.md) — `rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.identidade.chunk.md`
-- [Chunk UpsertContaReceberPorLote - operacao](../rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.operacao.chunk.md) — `rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.operacao.chunk.md`
-- [Estratégia de Chunking: Omie Geral Clientes](../rag/omie/geral/clientes/chunking_strategy.md) — `rag/omie/geral/clientes/chunking_strategy.md`
-- [Estratégia de Indexação RAG para API Omie](../rag/omie_indexing_strategy.md) — `rag/omie_indexing_strategy.md`
-- [RAG](../rag/README.md) — `rag/README.md`
-- [VerticalParts Knowledge Base](../README.md) — `README.md`
-- [Dashboard da Knowledge Base](../reports/dashboard.md) — `reports/dashboard.md`
-- [Knowledge Score](../reports/knowledge_score.md) — `reports/knowledge_score.md`
-- [Roadmap VerticalParts Knowledge Base](../ROADMAP.md) — `ROADMAP.md`
-- [Scripts](../scripts/README.md) — `scripts/README.md`
-- [SDD: Desenho Técnico da Base Omie para RAG/LLM](../sdd/omie_api_knowledge_base_sdd.md) — `sdd/omie_api_knowledge_base_sdd.md`
-- [SDD](../sdd/README.md) — `sdd/README.md`
-- [Skill: Omie API Knowledge](../skills/omie-api-knowledge/SKILL.md) — `skills/omie-api-knowledge/SKILL.md`
-- [Skills](../skills/README.md) — `skills/README.md`
-- [SPEC: Base de Conhecimento da API Omie](../specs/omie_api_knowledge_base_spec.md) — `specs/omie_api_knowledge_base_spec.md`
-- [Especificações](../specs/README.md) — `specs/README.md`
-- [LLM Document Standard](../standards/LLM_DOCUMENT_STANDARD.md) — `standards/LLM_DOCUMENT_STANDARD.md`
+## docs
+- [docs/INDEX.md](docs/INDEX.md)
+- [docs/omie/estoque/consulta_estoque/listarestposrequest.md](docs/omie/estoque/consulta_estoque/listarestposrequest.md)
+- [docs/omie/estoque/consulta_estoque/listarestposresponse.md](docs/omie/estoque/consulta_estoque/listarestposresponse.md)
+- [docs/omie/estoque/consulta_estoque/listarmovestoquerequest.md](docs/omie/estoque/consulta_estoque/listarmovestoquerequest.md)
+- [docs/omie/estoque/consulta_estoque/listarmovestoqueresponse.md](docs/omie/estoque/consulta_estoque/listarmovestoqueresponse.md)
+- [docs/omie/estoque/consulta_estoque/listarmovimentoestoque.md](docs/omie/estoque/consulta_estoque/listarmovimentoestoque.md)
+- [docs/omie/estoque/consulta_estoque/listarposestoque.md](docs/omie/estoque/consulta_estoque/listarposestoque.md)
+- [docs/omie/estoque/consulta_estoque/listarsaldopendente.md](docs/omie/estoque/consulta_estoque/listarsaldopendente.md)
+- [docs/omie/estoque/movimento_estoque/consultarprevisao.md](docs/omie/estoque/movimento_estoque/consultarprevisao.md)
+- [docs/omie/estoque/movimento_estoque/listarmovimentos.md](docs/omie/estoque/movimento_estoque/listarmovimentos.md)
+- [docs/omie/financas/contas_a_pagar_lancamentos/alterarcontapagar.md](docs/omie/financas/contas_a_pagar_lancamentos/alterarcontapagar.md)
+- [docs/omie/financas/contas_a_pagar_lancamentos/cancelarpagamento.md](docs/omie/financas/contas_a_pagar_lancamentos/cancelarpagamento.md)
+- [docs/omie/financas/contas_a_pagar_lancamentos/consultarcontapagar.md](docs/omie/financas/contas_a_pagar_lancamentos/consultarcontapagar.md)
+- [docs/omie/financas/contas_a_pagar_lancamentos/excluircontapagar.md](docs/omie/financas/contas_a_pagar_lancamentos/excluircontapagar.md)
+- [docs/omie/financas/contas_a_pagar_lancamentos/incluircontapagar.md](docs/omie/financas/contas_a_pagar_lancamentos/incluircontapagar.md)
+- [docs/omie/financas/contas_a_pagar_lancamentos/incluircontapagarporlote.md](docs/omie/financas/contas_a_pagar_lancamentos/incluircontapagarporlote.md)
+- [docs/omie/financas/contas_a_pagar_lancamentos/lancarpagamento.md](docs/omie/financas/contas_a_pagar_lancamentos/lancarpagamento.md)
+- [docs/omie/financas/contas_a_pagar_lancamentos/listar.md](docs/omie/financas/contas_a_pagar_lancamentos/listar.md)
+- [docs/omie/financas/contas_a_pagar_lancamentos/listarcontaspagar.md](docs/omie/financas/contas_a_pagar_lancamentos/listarcontaspagar.md)
+- [docs/omie/financas/contas_a_pagar_lancamentos/upsert_cadastro.md](docs/omie/financas/contas_a_pagar_lancamentos/upsert_cadastro.md)
+- [docs/omie/financas/contas_a_pagar_lancamentos/upsert_lote.md](docs/omie/financas/contas_a_pagar_lancamentos/upsert_lote.md)
+- [docs/omie/financas/contas_a_pagar_lancamentos/upsertcontapagar.md](docs/omie/financas/contas_a_pagar_lancamentos/upsertcontapagar.md)
+- [docs/omie/financas/contas_a_pagar_lancamentos/upsertcontapagarporlote.md](docs/omie/financas/contas_a_pagar_lancamentos/upsertcontapagarporlote.md)
+- [docs/omie/financeiro/contas_a_pagar.md](docs/omie/financeiro/contas_a_pagar.md)
+- [docs/omie/financeiro/contas_a_receber/alterar_conta_receber.md](docs/omie/financeiro/contas_a_receber/alterar_conta_receber.md)
+- [docs/omie/financeiro/contas_a_receber/alterar_distribuicao_departamento.md](docs/omie/financeiro/contas_a_receber/alterar_distribuicao_departamento.md)
+- [docs/omie/financeiro/contas_a_receber/cancelar_conta_receber.md](docs/omie/financeiro/contas_a_receber/cancelar_conta_receber.md)
+- [docs/omie/financeiro/contas_a_receber/cancelar_recebimento.md](docs/omie/financeiro/contas_a_receber/cancelar_recebimento.md)
+- [docs/omie/financeiro/contas_a_receber/conciliar_recebimento.md](docs/omie/financeiro/contas_a_receber/conciliar_recebimento.md)
+- [docs/omie/financeiro/contas_a_receber/consultar_conta_receber.md](docs/omie/financeiro/contas_a_receber/consultar_conta_receber.md)
+- [docs/omie/financeiro/contas_a_receber/desconciliar_recebimento.md](docs/omie/financeiro/contas_a_receber/desconciliar_recebimento.md)
+- [docs/omie/financeiro/contas_a_receber/excluir_conta_receber.md](docs/omie/financeiro/contas_a_receber/excluir_conta_receber.md)
+- [docs/omie/financeiro/contas_a_receber/excluir_distribuicao_departamento.md](docs/omie/financeiro/contas_a_receber/excluir_distribuicao_departamento.md)
+- [docs/omie/financeiro/contas_a_receber/incluir_conta_receber.md](docs/omie/financeiro/contas_a_receber/incluir_conta_receber.md)
+- [docs/omie/financeiro/contas_a_receber/incluir_conta_receber_por_lote.md](docs/omie/financeiro/contas_a_receber/incluir_conta_receber_por_lote.md)
+- [docs/omie/financeiro/contas_a_receber/incluir_distribuicao_departamento.md](docs/omie/financeiro/contas_a_receber/incluir_distribuicao_departamento.md)
+- [docs/omie/financeiro/contas_a_receber/lancar_recebimento.md](docs/omie/financeiro/contas_a_receber/lancar_recebimento.md)
+- [docs/omie/financeiro/contas_a_receber/listar_contas_receber.md](docs/omie/financeiro/contas_a_receber/listar_contas_receber.md)
+- [docs/omie/financeiro/contas_a_receber/README.md](docs/omie/financeiro/contas_a_receber/README.md)
+- [docs/omie/financeiro/contas_a_receber/upsert_conta_receber.md](docs/omie/financeiro/contas_a_receber/upsert_conta_receber.md)
+- [docs/omie/financeiro/contas_a_receber/upsert_conta_receber_por_lote.md](docs/omie/financeiro/contas_a_receber/upsert_conta_receber_por_lote.md)
+- [docs/omie/financeiro/contas_a_receber.md](docs/omie/financeiro/contas_a_receber.md)
+- [docs/omie/financeiro/movimentos_financeiros.md](docs/omie/financeiro/movimentos_financeiros.md)
+- [docs/omie/geral/clientes/alterar_cliente.md](docs/omie/geral/clientes/alterar_cliente.md)
+- [docs/omie/geral/clientes/associar_cod_int_cliente.md](docs/omie/geral/clientes/associar_cod_int_cliente.md)
+- [docs/omie/geral/clientes/consultar_cliente.md](docs/omie/geral/clientes/consultar_cliente.md)
+- [docs/omie/geral/clientes/excluir_cliente.md](docs/omie/geral/clientes/excluir_cliente.md)
+- [docs/omie/geral/clientes/incluir_cliente.md](docs/omie/geral/clientes/incluir_cliente.md)
+- [docs/omie/geral/clientes/incluir_clientes_por_lote.md](docs/omie/geral/clientes/incluir_clientes_por_lote.md)
+- [docs/omie/geral/clientes/listar_clientes.md](docs/omie/geral/clientes/listar_clientes.md)
+- [docs/omie/geral/clientes/listar_clientes_resumido.md](docs/omie/geral/clientes/listar_clientes_resumido.md)
+- [docs/omie/geral/clientes/README.md](docs/omie/geral/clientes/README.md)
+- [docs/omie/geral/clientes/upsert_cliente.md](docs/omie/geral/clientes/upsert_cliente.md)
+- [docs/omie/geral/clientes/upsert_cliente_cpf_cnpj.md](docs/omie/geral/clientes/upsert_cliente_cpf_cnpj.md)
+- [docs/omie/geral/clientes/upsert_clientes_por_lote.md](docs/omie/geral/clientes/upsert_clientes_por_lote.md)
+- [docs/omie/geral/clientes_fornecedores_transportadoras.md](docs/omie/geral/clientes_fornecedores_transportadoras.md)
+- [docs/omie/geral/produtos/alterarproduto.md](docs/omie/geral/produtos/alterarproduto.md)
+- [docs/omie/geral/produtos/associarcodintproduto.md](docs/omie/geral/produtos/associarcodintproduto.md)
+- [docs/omie/geral/produtos/consultarproduto.md](docs/omie/geral/produtos/consultarproduto.md)
+- [docs/omie/geral/produtos/excluirproduto.md](docs/omie/geral/produtos/excluirproduto.md)
+- [docs/omie/geral/produtos/incluir.md](docs/omie/geral/produtos/incluir.md)
+- [docs/omie/geral/produtos/incluirproduto.md](docs/omie/geral/produtos/incluirproduto.md)
+- [docs/omie/geral/produtos/incluirprodutosporlote.md](docs/omie/geral/produtos/incluirprodutosporlote.md)
+- [docs/omie/geral/produtos/listarprodutos.md](docs/omie/geral/produtos/listarprodutos.md)
+- [docs/omie/geral/produtos/listarprodutosresumido.md](docs/omie/geral/produtos/listarprodutosresumido.md)
+- [docs/omie/geral/produtos/upsertproduto.md](docs/omie/geral/produtos/upsertproduto.md)
+- [docs/omie/geral/produtos/upsertprodutosporlote.md](docs/omie/geral/produtos/upsertprodutosporlote.md)
+- [docs/omie/produtos/nf_e_consultas/consultarnf.md](docs/omie/produtos/nf_e_consultas/consultarnf.md)
+- [docs/omie/produtos/nf_e_consultas/listar.md](docs/omie/produtos/nf_e_consultas/listar.md)
+- [docs/omie/produtos/nf_e_consultas/listarnf.md](docs/omie/produtos/nf_e_consultas/listarnf.md)
+- [docs/omie/produtos/nf_e_consultas/nfconsultar.md](docs/omie/produtos/nf_e_consultas/nfconsultar.md)
+- [docs/omie/produtos/nf_e_importar/excluirnfe.md](docs/omie/produtos/nf_e_importar/excluirnfe.md)
+- [docs/omie/produtos/nf_e_importar/listarnfe.md](docs/omie/produtos/nf_e_importar/listarnfe.md)
+- [docs/omie/produtos/pedidos_de_compra/alterar.md](docs/omie/produtos/pedidos_de_compra/alterar.md)
+- [docs/omie/produtos/pedidos_de_compra/consultar.md](docs/omie/produtos/pedidos_de_compra/consultar.md)
+- [docs/omie/produtos/pedidos_de_compra/consultarpedcompra.md](docs/omie/produtos/pedidos_de_compra/consultarpedcompra.md)
+- [docs/omie/produtos/pedidos_de_compra/excluir.md](docs/omie/produtos/pedidos_de_compra/excluir.md)
+- [docs/omie/produtos/pedidos_de_compra/excluirpedcompra.md](docs/omie/produtos/pedidos_de_compra/excluirpedcompra.md)
+- [docs/omie/produtos/pedidos_de_compra/incluir.md](docs/omie/produtos/pedidos_de_compra/incluir.md)
+- [docs/omie/produtos/pedidos_de_compra/incluirpedcompra.md](docs/omie/produtos/pedidos_de_compra/incluirpedcompra.md)
+- [docs/omie/produtos/pedidos_de_compra/upsert.md](docs/omie/produtos/pedidos_de_compra/upsert.md)
+- [docs/omie/produtos/pedidos_de_compra/upsertpedcompra.md](docs/omie/produtos/pedidos_de_compra/upsertpedcompra.md)
+- [docs/omie/produtos/pedidos_de_venda/alterarpedfaturado.md](docs/omie/produtos/pedidos_de_venda/alterarpedfaturado.md)
+- [docs/omie/produtos/pedidos_de_venda/alterarpedidovenda.md](docs/omie/produtos/pedidos_de_venda/alterarpedidovenda.md)
+- [docs/omie/produtos/pedidos_de_venda/consultarpedido.md](docs/omie/produtos/pedidos_de_venda/consultarpedido.md)
+- [docs/omie/produtos/pedidos_de_venda/excluir.md](docs/omie/produtos/pedidos_de_venda/excluir.md)
+- [docs/omie/produtos/pedidos_de_venda/excluirpedido.md](docs/omie/produtos/pedidos_de_venda/excluirpedido.md)
+- [docs/omie/produtos/pedidos_de_venda/incluirpedido.md](docs/omie/produtos/pedidos_de_venda/incluirpedido.md)
+- [docs/omie/produtos/pedidos_de_venda/listar.md](docs/omie/produtos/pedidos_de_venda/listar.md)
+- [docs/omie/produtos/pedidos_de_venda/listarpedidos.md](docs/omie/produtos/pedidos_de_venda/listarpedidos.md)
+- [docs/omie/produtos/pedidos_de_venda_faturamento/associarcodintpedidovenda.md](docs/omie/produtos/pedidos_de_venda_faturamento/associarcodintpedidovenda.md)
+- [docs/omie/produtos/pedidos_de_venda_faturamento/cancelarpedidovenda.md](docs/omie/produtos/pedidos_de_venda_faturamento/cancelarpedidovenda.md)
+- [docs/omie/produtos/pedidos_de_venda_faturamento/obterpedidosvenda.md](docs/omie/produtos/pedidos_de_venda_faturamento/obterpedidosvenda.md)
+- [docs/omie/produtos/pedidos_de_venda_faturamento/validarpedidovenda.md](docs/omie/produtos/pedidos_de_venda_faturamento/validarpedidovenda.md)
+- [docs/omie/README.md](docs/omie/README.md)
+- [docs/omie/servicos/nfs_e_consultas/listarnfses.md](docs/omie/servicos/nfs_e_consultas/listarnfses.md)
+- [docs/omie/servicos/ordem_de_servico.md](docs/omie/servicos/ordem_de_servico.md)
+- [docs/omie/servicos/ordens_de_servico_faturamento/associarcodintos.md](docs/omie/servicos/ordens_de_servico_faturamento/associarcodintos.md)
+- [docs/omie/servicos/ordens_de_servico_faturamento/cancelaros.md](docs/omie/servicos/ordens_de_servico_faturamento/cancelaros.md)
+- [docs/omie/servicos/ordens_de_servico_faturamento/obteros.md](docs/omie/servicos/ordens_de_servico_faturamento/obteros.md)
+- [docs/omie/servicos/ordens_de_servico_faturamento/validaros.md](docs/omie/servicos/ordens_de_servico_faturamento/validaros.md)
+- [docs/omie/vendas/pedidos_de_venda.md](docs/omie/vendas/pedidos_de_venda.md)
+- [docs/README.md](docs/README.md)
+
+## business
+- [business/omie/clientes.md](business/omie/clientes.md)
+- [business/omie/consulta_estoque.md](business/omie/consulta_estoque.md)
+- [business/omie/contas_a_pagar_lancamentos.md](business/omie/contas_a_pagar_lancamentos.md)
+- [business/omie/contas_a_receber.md](business/omie/contas_a_receber.md)
+- [business/omie/fluxo_aprovacao_compras.md](business/omie/fluxo_aprovacao_compras.md)
+- [business/omie/fluxo_aprovacao_vendas.md](business/omie/fluxo_aprovacao_vendas.md)
+- [business/omie/fluxo_compra_completo.md](business/omie/fluxo_compra_completo.md)
+- [business/omie/fluxo_faturamento.md](business/omie/fluxo_faturamento.md)
+- [business/omie/fluxo_venda_completo.md](business/omie/fluxo_venda_completo.md)
+- [business/omie/movimento_estoque.md](business/omie/movimento_estoque.md)
+- [business/omie/nf_e_consultas.md](business/omie/nf_e_consultas.md)
+- [business/omie/nf_e_importar.md](business/omie/nf_e_importar.md)
+- [business/omie/nfs_e_consultas.md](business/omie/nfs_e_consultas.md)
+- [business/omie/ordens_de_servico_faturamento.md](business/omie/ordens_de_servico_faturamento.md)
+- [business/omie/pedidos_de_compra.md](business/omie/pedidos_de_compra.md)
+- [business/omie/pedidos_de_venda.md](business/omie/pedidos_de_venda.md)
+- [business/omie/pedidos_de_venda_faturamento.md](business/omie/pedidos_de_venda_faturamento.md)
+- [business/omie/produtos.md](business/omie/produtos.md)
+
+## graphs
+- [graphs/omie/aprovacoes.graph.md](graphs/omie/aprovacoes.graph.md)
+- [graphs/omie/clientes.graph.md](graphs/omie/clientes.graph.md)
+- [graphs/omie/compra.graph.md](graphs/omie/compra.graph.md)
+- [graphs/omie/consulta_estoque.graph.md](graphs/omie/consulta_estoque.graph.md)
+- [graphs/omie/contas_a_pagar_lancamentos.graph.md](graphs/omie/contas_a_pagar_lancamentos.graph.md)
+- [graphs/omie/contas_a_receber.graph.md](graphs/omie/contas_a_receber.graph.md)
+- [graphs/omie/faturamento.graph.md](graphs/omie/faturamento.graph.md)
+- [graphs/omie/movimento_estoque.graph.md](graphs/omie/movimento_estoque.graph.md)
+- [graphs/omie/nf_e_consultas.graph.md](graphs/omie/nf_e_consultas.graph.md)
+- [graphs/omie/nf_e_importar.graph.md](graphs/omie/nf_e_importar.graph.md)
+- [graphs/omie/nfs_e_consultas.graph.md](graphs/omie/nfs_e_consultas.graph.md)
+- [graphs/omie/ordens_de_servico_faturamento.graph.md](graphs/omie/ordens_de_servico_faturamento.graph.md)
+- [graphs/omie/pedidos_de_compra.graph.md](graphs/omie/pedidos_de_compra.graph.md)
+- [graphs/omie/pedidos_de_venda.graph.md](graphs/omie/pedidos_de_venda.graph.md)
+- [graphs/omie/pedidos_de_venda_faturamento.graph.md](graphs/omie/pedidos_de_venda_faturamento.graph.md)
+- [graphs/omie/produtos.graph.md](graphs/omie/produtos.graph.md)
+- [graphs/omie/venda.graph.md](graphs/omie/venda.graph.md)
+
+## schemas
+- [schemas/omie/consulta_estoque/consulta_estoque.schema.json](schemas/omie/consulta_estoque/consulta_estoque.schema.json)
+- [schemas/omie/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos.schema.json](schemas/omie/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos.schema.json)
+- [schemas/omie/financeiro/contas_a_receber/alterar_conta_receber.schema.json](schemas/omie/financeiro/contas_a_receber/alterar_conta_receber.schema.json)
+- [schemas/omie/financeiro/contas_a_receber/cancelar_recebimento.schema.json](schemas/omie/financeiro/contas_a_receber/cancelar_recebimento.schema.json)
+- [schemas/omie/financeiro/contas_a_receber/consultar_conta_receber.schema.json](schemas/omie/financeiro/contas_a_receber/consultar_conta_receber.schema.json)
+- [schemas/omie/financeiro/contas_a_receber/incluir_conta_receber.schema.json](schemas/omie/financeiro/contas_a_receber/incluir_conta_receber.schema.json)
+- [schemas/omie/financeiro/contas_a_receber/lancar_recebimento.schema.json](schemas/omie/financeiro/contas_a_receber/lancar_recebimento.schema.json)
+- [schemas/omie/financeiro/contas_a_receber/listar_contas_receber.schema.json](schemas/omie/financeiro/contas_a_receber/listar_contas_receber.schema.json)
+- [schemas/omie/geral/clientes/alterar_cliente.schema.json](schemas/omie/geral/clientes/alterar_cliente.schema.json)
+- [schemas/omie/geral/clientes/consultar_cliente.schema.json](schemas/omie/geral/clientes/consultar_cliente.schema.json)
+- [schemas/omie/geral/clientes/incluir_cliente.schema.json](schemas/omie/geral/clientes/incluir_cliente.schema.json)
+- [schemas/omie/geral/clientes/listar_clientes.schema.json](schemas/omie/geral/clientes/listar_clientes.schema.json)
+- [schemas/omie/movimento_estoque/movimento_estoque.schema.json](schemas/omie/movimento_estoque/movimento_estoque.schema.json)
+- [schemas/omie/nf_e_consultas/nf_e_consultas.schema.json](schemas/omie/nf_e_consultas/nf_e_consultas.schema.json)
+- [schemas/omie/nf_e_importar/nf_e_importar.schema.json](schemas/omie/nf_e_importar/nf_e_importar.schema.json)
+- [schemas/omie/nfs_e_consultas/nfs_e_consultas.schema.json](schemas/omie/nfs_e_consultas/nfs_e_consultas.schema.json)
+- [schemas/omie/ordens_de_servico_faturamento/ordens_de_servico_faturamento.schema.json](schemas/omie/ordens_de_servico_faturamento/ordens_de_servico_faturamento.schema.json)
+- [schemas/omie/pedidos_de_compra/pedidos_de_compra.schema.json](schemas/omie/pedidos_de_compra/pedidos_de_compra.schema.json)
+- [schemas/omie/pedidos_de_venda/pedidos_de_venda.schema.json](schemas/omie/pedidos_de_venda/pedidos_de_venda.schema.json)
+- [schemas/omie/pedidos_de_venda_faturamento/pedidos_de_venda_faturamento.schema.json](schemas/omie/pedidos_de_venda_faturamento/pedidos_de_venda_faturamento.schema.json)
+- [schemas/omie/produtos/produtos.schema.json](schemas/omie/produtos/produtos.schema.json)
+
+## datasets/questions
+- [datasets/questions/clientes.json](datasets/questions/clientes.json)
+- [datasets/questions/consulta_estoque.json](datasets/questions/consulta_estoque.json)
+- [datasets/questions/contas_a_pagar_lancamentos.json](datasets/questions/contas_a_pagar_lancamentos.json)
+- [datasets/questions/contas_a_receber.json](datasets/questions/contas_a_receber.json)
+- [datasets/questions/movimento_estoque.json](datasets/questions/movimento_estoque.json)
+- [datasets/questions/nf_e_consultas.json](datasets/questions/nf_e_consultas.json)
+- [datasets/questions/nf_e_importar.json](datasets/questions/nf_e_importar.json)
+- [datasets/questions/nfs_e_consultas.json](datasets/questions/nfs_e_consultas.json)
+- [datasets/questions/ordens_de_servico_faturamento.json](datasets/questions/ordens_de_servico_faturamento.json)
+- [datasets/questions/pedidos_de_compra.json](datasets/questions/pedidos_de_compra.json)
+- [datasets/questions/pedidos_de_venda.json](datasets/questions/pedidos_de_venda.json)
+- [datasets/questions/pedidos_de_venda_faturamento.json](datasets/questions/pedidos_de_venda_faturamento.json)
+- [datasets/questions/produtos.json](datasets/questions/produtos.json)
+
+## rag/chunks
+- [rag/chunks/clientes/alterar_cliente.contrato.chunk.md](rag/chunks/clientes/alterar_cliente.contrato.chunk.md)
+- [rag/chunks/clientes/alterar_cliente.faq.chunk.md](rag/chunks/clientes/alterar_cliente.faq.chunk.md)
+- [rag/chunks/clientes/alterar_cliente.identidade.chunk.md](rag/chunks/clientes/alterar_cliente.identidade.chunk.md)
+- [rag/chunks/clientes/alterar_cliente.operacao.chunk.md](rag/chunks/clientes/alterar_cliente.operacao.chunk.md)
+- [rag/chunks/clientes/associar_cod_int_cliente.contrato.chunk.md](rag/chunks/clientes/associar_cod_int_cliente.contrato.chunk.md)
+- [rag/chunks/clientes/associar_cod_int_cliente.faq.chunk.md](rag/chunks/clientes/associar_cod_int_cliente.faq.chunk.md)
+- [rag/chunks/clientes/associar_cod_int_cliente.identidade.chunk.md](rag/chunks/clientes/associar_cod_int_cliente.identidade.chunk.md)
+- [rag/chunks/clientes/associar_cod_int_cliente.operacao.chunk.md](rag/chunks/clientes/associar_cod_int_cliente.operacao.chunk.md)
+- [rag/chunks/clientes/consultar_cliente.contrato.chunk.md](rag/chunks/clientes/consultar_cliente.contrato.chunk.md)
+- [rag/chunks/clientes/consultar_cliente.faq.chunk.md](rag/chunks/clientes/consultar_cliente.faq.chunk.md)
+- [rag/chunks/clientes/consultar_cliente.identidade.chunk.md](rag/chunks/clientes/consultar_cliente.identidade.chunk.md)
+- [rag/chunks/clientes/consultar_cliente.operacao.chunk.md](rag/chunks/clientes/consultar_cliente.operacao.chunk.md)
+- [rag/chunks/clientes/excluir_cliente.contrato.chunk.md](rag/chunks/clientes/excluir_cliente.contrato.chunk.md)
+- [rag/chunks/clientes/excluir_cliente.faq.chunk.md](rag/chunks/clientes/excluir_cliente.faq.chunk.md)
+- [rag/chunks/clientes/excluir_cliente.identidade.chunk.md](rag/chunks/clientes/excluir_cliente.identidade.chunk.md)
+- [rag/chunks/clientes/excluir_cliente.operacao.chunk.md](rag/chunks/clientes/excluir_cliente.operacao.chunk.md)
+- [rag/chunks/clientes/incluir_cliente.contrato.chunk.md](rag/chunks/clientes/incluir_cliente.contrato.chunk.md)
+- [rag/chunks/clientes/incluir_cliente.faq.chunk.md](rag/chunks/clientes/incluir_cliente.faq.chunk.md)
+- [rag/chunks/clientes/incluir_cliente.identidade.chunk.md](rag/chunks/clientes/incluir_cliente.identidade.chunk.md)
+- [rag/chunks/clientes/incluir_cliente.operacao.chunk.md](rag/chunks/clientes/incluir_cliente.operacao.chunk.md)
+- [rag/chunks/clientes/incluir_clientes_por_lote.contrato.chunk.md](rag/chunks/clientes/incluir_clientes_por_lote.contrato.chunk.md)
+- [rag/chunks/clientes/incluir_clientes_por_lote.faq.chunk.md](rag/chunks/clientes/incluir_clientes_por_lote.faq.chunk.md)
+- [rag/chunks/clientes/incluir_clientes_por_lote.identidade.chunk.md](rag/chunks/clientes/incluir_clientes_por_lote.identidade.chunk.md)
+- [rag/chunks/clientes/incluir_clientes_por_lote.operacao.chunk.md](rag/chunks/clientes/incluir_clientes_por_lote.operacao.chunk.md)
+- [rag/chunks/clientes/index.json](rag/chunks/clientes/index.json)
+- [rag/chunks/clientes/listar_clientes.contrato.chunk.md](rag/chunks/clientes/listar_clientes.contrato.chunk.md)
+- [rag/chunks/clientes/listar_clientes.faq.chunk.md](rag/chunks/clientes/listar_clientes.faq.chunk.md)
+- [rag/chunks/clientes/listar_clientes.identidade.chunk.md](rag/chunks/clientes/listar_clientes.identidade.chunk.md)
+- [rag/chunks/clientes/listar_clientes.operacao.chunk.md](rag/chunks/clientes/listar_clientes.operacao.chunk.md)
+- [rag/chunks/clientes/listar_clientes_resumido.contrato.chunk.md](rag/chunks/clientes/listar_clientes_resumido.contrato.chunk.md)
+- [rag/chunks/clientes/listar_clientes_resumido.faq.chunk.md](rag/chunks/clientes/listar_clientes_resumido.faq.chunk.md)
+- [rag/chunks/clientes/listar_clientes_resumido.identidade.chunk.md](rag/chunks/clientes/listar_clientes_resumido.identidade.chunk.md)
+- [rag/chunks/clientes/listar_clientes_resumido.operacao.chunk.md](rag/chunks/clientes/listar_clientes_resumido.operacao.chunk.md)
+- [rag/chunks/clientes/retrieval_strategy.md](rag/chunks/clientes/retrieval_strategy.md)
+- [rag/chunks/clientes/upsert_cliente.contrato.chunk.md](rag/chunks/clientes/upsert_cliente.contrato.chunk.md)
+- [rag/chunks/clientes/upsert_cliente.faq.chunk.md](rag/chunks/clientes/upsert_cliente.faq.chunk.md)
+- [rag/chunks/clientes/upsert_cliente.identidade.chunk.md](rag/chunks/clientes/upsert_cliente.identidade.chunk.md)
+- [rag/chunks/clientes/upsert_cliente.operacao.chunk.md](rag/chunks/clientes/upsert_cliente.operacao.chunk.md)
+- [rag/chunks/clientes/upsert_cliente_cpf_cnpj.contrato.chunk.md](rag/chunks/clientes/upsert_cliente_cpf_cnpj.contrato.chunk.md)
+- [rag/chunks/clientes/upsert_cliente_cpf_cnpj.faq.chunk.md](rag/chunks/clientes/upsert_cliente_cpf_cnpj.faq.chunk.md)
+- [rag/chunks/clientes/upsert_cliente_cpf_cnpj.identidade.chunk.md](rag/chunks/clientes/upsert_cliente_cpf_cnpj.identidade.chunk.md)
+- [rag/chunks/clientes/upsert_cliente_cpf_cnpj.operacao.chunk.md](rag/chunks/clientes/upsert_cliente_cpf_cnpj.operacao.chunk.md)
+- [rag/chunks/clientes/upsert_clientes_por_lote.contrato.chunk.md](rag/chunks/clientes/upsert_clientes_por_lote.contrato.chunk.md)
+- [rag/chunks/clientes/upsert_clientes_por_lote.faq.chunk.md](rag/chunks/clientes/upsert_clientes_por_lote.faq.chunk.md)
+- [rag/chunks/clientes/upsert_clientes_por_lote.identidade.chunk.md](rag/chunks/clientes/upsert_clientes_por_lote.identidade.chunk.md)
+- [rag/chunks/clientes/upsert_clientes_por_lote.operacao.chunk.md](rag/chunks/clientes/upsert_clientes_por_lote.operacao.chunk.md)
+- [rag/chunks/consulta_estoque/consulta_estoque-listarestposrequest-001.md](rag/chunks/consulta_estoque/consulta_estoque-listarestposrequest-001.md)
+- [rag/chunks/consulta_estoque/consulta_estoque-listarestposresponse-001.md](rag/chunks/consulta_estoque/consulta_estoque-listarestposresponse-001.md)
+- [rag/chunks/consulta_estoque/consulta_estoque-listarmovestoquerequest-001.md](rag/chunks/consulta_estoque/consulta_estoque-listarmovestoquerequest-001.md)
+- [rag/chunks/consulta_estoque/consulta_estoque-listarmovestoqueresponse-001.md](rag/chunks/consulta_estoque/consulta_estoque-listarmovestoqueresponse-001.md)
+- [rag/chunks/consulta_estoque/consulta_estoque-listarmovimentoestoque-001.md](rag/chunks/consulta_estoque/consulta_estoque-listarmovimentoestoque-001.md)
+- [rag/chunks/consulta_estoque/consulta_estoque-listarposestoque-001.md](rag/chunks/consulta_estoque/consulta_estoque-listarposestoque-001.md)
+- [rag/chunks/consulta_estoque/consulta_estoque-listarsaldopendente-001.md](rag/chunks/consulta_estoque/consulta_estoque-listarsaldopendente-001.md)
+- [rag/chunks/consulta_estoque/index.json](rag/chunks/consulta_estoque/index.json)
+- [rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-alterarcontapagar-001.md](rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-alterarcontapagar-001.md)
+- [rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-cancelarpagamento-001.md](rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-cancelarpagamento-001.md)
+- [rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-consultarcontapagar-001.md](rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-consultarcontapagar-001.md)
+- [rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-excluircontapagar-001.md](rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-excluircontapagar-001.md)
+- [rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-incluircontapagar-001.md](rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-incluircontapagar-001.md)
+- [rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-incluircontapagarporlote-001.md](rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-incluircontapagarporlote-001.md)
+- [rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-lancarpagamento-001.md](rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-lancarpagamento-001.md)
+- [rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-listar-001.md](rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-listar-001.md)
+- [rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-listarcontaspagar-001.md](rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-listarcontaspagar-001.md)
+- [rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-upsert_cadastro-001.md](rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-upsert_cadastro-001.md)
+- [rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-upsert_lote-001.md](rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-upsert_lote-001.md)
+- [rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-upsertcontapagar-001.md](rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-upsertcontapagar-001.md)
+- [rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-upsertcontapagarporlote-001.md](rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-upsertcontapagarporlote-001.md)
+- [rag/chunks/contas_a_pagar_lancamentos/index.json](rag/chunks/contas_a_pagar_lancamentos/index.json)
+- [rag/chunks/contas_a_receber/alterar_conta_receber.contrato.chunk.md](rag/chunks/contas_a_receber/alterar_conta_receber.contrato.chunk.md)
+- [rag/chunks/contas_a_receber/alterar_conta_receber.faq.chunk.md](rag/chunks/contas_a_receber/alterar_conta_receber.faq.chunk.md)
+- [rag/chunks/contas_a_receber/alterar_conta_receber.identidade.chunk.md](rag/chunks/contas_a_receber/alterar_conta_receber.identidade.chunk.md)
+- [rag/chunks/contas_a_receber/alterar_conta_receber.operacao.chunk.md](rag/chunks/contas_a_receber/alterar_conta_receber.operacao.chunk.md)
+- [rag/chunks/contas_a_receber/alterar_distribuicao_departamento.contrato.chunk.md](rag/chunks/contas_a_receber/alterar_distribuicao_departamento.contrato.chunk.md)
+- [rag/chunks/contas_a_receber/alterar_distribuicao_departamento.faq.chunk.md](rag/chunks/contas_a_receber/alterar_distribuicao_departamento.faq.chunk.md)
+- [rag/chunks/contas_a_receber/alterar_distribuicao_departamento.identidade.chunk.md](rag/chunks/contas_a_receber/alterar_distribuicao_departamento.identidade.chunk.md)
+- [rag/chunks/contas_a_receber/alterar_distribuicao_departamento.operacao.chunk.md](rag/chunks/contas_a_receber/alterar_distribuicao_departamento.operacao.chunk.md)
+- [rag/chunks/contas_a_receber/cancelar_conta_receber.contrato.chunk.md](rag/chunks/contas_a_receber/cancelar_conta_receber.contrato.chunk.md)
+- [rag/chunks/contas_a_receber/cancelar_conta_receber.faq.chunk.md](rag/chunks/contas_a_receber/cancelar_conta_receber.faq.chunk.md)
+- [rag/chunks/contas_a_receber/cancelar_conta_receber.identidade.chunk.md](rag/chunks/contas_a_receber/cancelar_conta_receber.identidade.chunk.md)
+- [rag/chunks/contas_a_receber/cancelar_conta_receber.operacao.chunk.md](rag/chunks/contas_a_receber/cancelar_conta_receber.operacao.chunk.md)
+- [rag/chunks/contas_a_receber/cancelar_recebimento.contrato.chunk.md](rag/chunks/contas_a_receber/cancelar_recebimento.contrato.chunk.md)
+- [rag/chunks/contas_a_receber/cancelar_recebimento.faq.chunk.md](rag/chunks/contas_a_receber/cancelar_recebimento.faq.chunk.md)
+- [rag/chunks/contas_a_receber/cancelar_recebimento.identidade.chunk.md](rag/chunks/contas_a_receber/cancelar_recebimento.identidade.chunk.md)
+- [rag/chunks/contas_a_receber/cancelar_recebimento.operacao.chunk.md](rag/chunks/contas_a_receber/cancelar_recebimento.operacao.chunk.md)
+- [rag/chunks/contas_a_receber/conciliar_recebimento.contrato.chunk.md](rag/chunks/contas_a_receber/conciliar_recebimento.contrato.chunk.md)
+- [rag/chunks/contas_a_receber/conciliar_recebimento.faq.chunk.md](rag/chunks/contas_a_receber/conciliar_recebimento.faq.chunk.md)
+- [rag/chunks/contas_a_receber/conciliar_recebimento.identidade.chunk.md](rag/chunks/contas_a_receber/conciliar_recebimento.identidade.chunk.md)
+- [rag/chunks/contas_a_receber/conciliar_recebimento.operacao.chunk.md](rag/chunks/contas_a_receber/conciliar_recebimento.operacao.chunk.md)
+- [rag/chunks/contas_a_receber/consultar_conta_receber.contrato.chunk.md](rag/chunks/contas_a_receber/consultar_conta_receber.contrato.chunk.md)
+- [rag/chunks/contas_a_receber/consultar_conta_receber.faq.chunk.md](rag/chunks/contas_a_receber/consultar_conta_receber.faq.chunk.md)
+- [rag/chunks/contas_a_receber/consultar_conta_receber.identidade.chunk.md](rag/chunks/contas_a_receber/consultar_conta_receber.identidade.chunk.md)
+- [rag/chunks/contas_a_receber/consultar_conta_receber.operacao.chunk.md](rag/chunks/contas_a_receber/consultar_conta_receber.operacao.chunk.md)
+- [rag/chunks/contas_a_receber/desconciliar_recebimento.contrato.chunk.md](rag/chunks/contas_a_receber/desconciliar_recebimento.contrato.chunk.md)
+- [rag/chunks/contas_a_receber/desconciliar_recebimento.faq.chunk.md](rag/chunks/contas_a_receber/desconciliar_recebimento.faq.chunk.md)
+- [rag/chunks/contas_a_receber/desconciliar_recebimento.identidade.chunk.md](rag/chunks/contas_a_receber/desconciliar_recebimento.identidade.chunk.md)
+- [rag/chunks/contas_a_receber/desconciliar_recebimento.operacao.chunk.md](rag/chunks/contas_a_receber/desconciliar_recebimento.operacao.chunk.md)
+- [rag/chunks/contas_a_receber/excluir_conta_receber.contrato.chunk.md](rag/chunks/contas_a_receber/excluir_conta_receber.contrato.chunk.md)
+- [rag/chunks/contas_a_receber/excluir_conta_receber.faq.chunk.md](rag/chunks/contas_a_receber/excluir_conta_receber.faq.chunk.md)
+- [rag/chunks/contas_a_receber/excluir_conta_receber.identidade.chunk.md](rag/chunks/contas_a_receber/excluir_conta_receber.identidade.chunk.md)
+- [rag/chunks/contas_a_receber/excluir_conta_receber.operacao.chunk.md](rag/chunks/contas_a_receber/excluir_conta_receber.operacao.chunk.md)
+- [rag/chunks/contas_a_receber/excluir_distribuicao_departamento.contrato.chunk.md](rag/chunks/contas_a_receber/excluir_distribuicao_departamento.contrato.chunk.md)
+- [rag/chunks/contas_a_receber/excluir_distribuicao_departamento.faq.chunk.md](rag/chunks/contas_a_receber/excluir_distribuicao_departamento.faq.chunk.md)
+- [rag/chunks/contas_a_receber/excluir_distribuicao_departamento.identidade.chunk.md](rag/chunks/contas_a_receber/excluir_distribuicao_departamento.identidade.chunk.md)
+- [rag/chunks/contas_a_receber/excluir_distribuicao_departamento.operacao.chunk.md](rag/chunks/contas_a_receber/excluir_distribuicao_departamento.operacao.chunk.md)
+- [rag/chunks/contas_a_receber/incluir_conta_receber.contrato.chunk.md](rag/chunks/contas_a_receber/incluir_conta_receber.contrato.chunk.md)
+- [rag/chunks/contas_a_receber/incluir_conta_receber.faq.chunk.md](rag/chunks/contas_a_receber/incluir_conta_receber.faq.chunk.md)
+- [rag/chunks/contas_a_receber/incluir_conta_receber.identidade.chunk.md](rag/chunks/contas_a_receber/incluir_conta_receber.identidade.chunk.md)
+- [rag/chunks/contas_a_receber/incluir_conta_receber.operacao.chunk.md](rag/chunks/contas_a_receber/incluir_conta_receber.operacao.chunk.md)
+- [rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.contrato.chunk.md](rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.contrato.chunk.md)
+- [rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.faq.chunk.md](rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.faq.chunk.md)
+- [rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.identidade.chunk.md](rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.identidade.chunk.md)
+- [rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.operacao.chunk.md](rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.operacao.chunk.md)
+- [rag/chunks/contas_a_receber/incluir_distribuicao_departamento.contrato.chunk.md](rag/chunks/contas_a_receber/incluir_distribuicao_departamento.contrato.chunk.md)
+- [rag/chunks/contas_a_receber/incluir_distribuicao_departamento.faq.chunk.md](rag/chunks/contas_a_receber/incluir_distribuicao_departamento.faq.chunk.md)
+- [rag/chunks/contas_a_receber/incluir_distribuicao_departamento.identidade.chunk.md](rag/chunks/contas_a_receber/incluir_distribuicao_departamento.identidade.chunk.md)
+- [rag/chunks/contas_a_receber/incluir_distribuicao_departamento.operacao.chunk.md](rag/chunks/contas_a_receber/incluir_distribuicao_departamento.operacao.chunk.md)
+- [rag/chunks/contas_a_receber/index.json](rag/chunks/contas_a_receber/index.json)
+- [rag/chunks/contas_a_receber/lancar_recebimento.contrato.chunk.md](rag/chunks/contas_a_receber/lancar_recebimento.contrato.chunk.md)
+- [rag/chunks/contas_a_receber/lancar_recebimento.faq.chunk.md](rag/chunks/contas_a_receber/lancar_recebimento.faq.chunk.md)
+- [rag/chunks/contas_a_receber/lancar_recebimento.identidade.chunk.md](rag/chunks/contas_a_receber/lancar_recebimento.identidade.chunk.md)
+- [rag/chunks/contas_a_receber/lancar_recebimento.operacao.chunk.md](rag/chunks/contas_a_receber/lancar_recebimento.operacao.chunk.md)
+- [rag/chunks/contas_a_receber/listar_contas_receber.contrato.chunk.md](rag/chunks/contas_a_receber/listar_contas_receber.contrato.chunk.md)
+- [rag/chunks/contas_a_receber/listar_contas_receber.faq.chunk.md](rag/chunks/contas_a_receber/listar_contas_receber.faq.chunk.md)
+- [rag/chunks/contas_a_receber/listar_contas_receber.identidade.chunk.md](rag/chunks/contas_a_receber/listar_contas_receber.identidade.chunk.md)
+- [rag/chunks/contas_a_receber/listar_contas_receber.operacao.chunk.md](rag/chunks/contas_a_receber/listar_contas_receber.operacao.chunk.md)
+- [rag/chunks/contas_a_receber/retrieval_strategy.md](rag/chunks/contas_a_receber/retrieval_strategy.md)
+- [rag/chunks/contas_a_receber/upsert_conta_receber.contrato.chunk.md](rag/chunks/contas_a_receber/upsert_conta_receber.contrato.chunk.md)
+- [rag/chunks/contas_a_receber/upsert_conta_receber.faq.chunk.md](rag/chunks/contas_a_receber/upsert_conta_receber.faq.chunk.md)
+- [rag/chunks/contas_a_receber/upsert_conta_receber.identidade.chunk.md](rag/chunks/contas_a_receber/upsert_conta_receber.identidade.chunk.md)
+- [rag/chunks/contas_a_receber/upsert_conta_receber.operacao.chunk.md](rag/chunks/contas_a_receber/upsert_conta_receber.operacao.chunk.md)
+- [rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.contrato.chunk.md](rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.contrato.chunk.md)
+- [rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.faq.chunk.md](rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.faq.chunk.md)
+- [rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.identidade.chunk.md](rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.identidade.chunk.md)
+- [rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.operacao.chunk.md](rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.operacao.chunk.md)
+- [rag/chunks/movimento_estoque/index.json](rag/chunks/movimento_estoque/index.json)
+- [rag/chunks/movimento_estoque/movimento_estoque-consultarprevisao-001.md](rag/chunks/movimento_estoque/movimento_estoque-consultarprevisao-001.md)
+- [rag/chunks/movimento_estoque/movimento_estoque-listarmovimentos-001.md](rag/chunks/movimento_estoque/movimento_estoque-listarmovimentos-001.md)
+- [rag/chunks/nf_e_consultas/index.json](rag/chunks/nf_e_consultas/index.json)
+- [rag/chunks/nf_e_consultas/nf_e_consultas-consultarnf-001.md](rag/chunks/nf_e_consultas/nf_e_consultas-consultarnf-001.md)
+- [rag/chunks/nf_e_consultas/nf_e_consultas-listar-001.md](rag/chunks/nf_e_consultas/nf_e_consultas-listar-001.md)
+- [rag/chunks/nf_e_consultas/nf_e_consultas-listarnf-001.md](rag/chunks/nf_e_consultas/nf_e_consultas-listarnf-001.md)
+- [rag/chunks/nf_e_consultas/nf_e_consultas-nfconsultar-001.md](rag/chunks/nf_e_consultas/nf_e_consultas-nfconsultar-001.md)
+- [rag/chunks/nf_e_importar/index.json](rag/chunks/nf_e_importar/index.json)
+- [rag/chunks/nf_e_importar/nf_e_importar-excluirnfe-001.md](rag/chunks/nf_e_importar/nf_e_importar-excluirnfe-001.md)
+- [rag/chunks/nf_e_importar/nf_e_importar-listarnfe-001.md](rag/chunks/nf_e_importar/nf_e_importar-listarnfe-001.md)
+- [rag/chunks/nfs_e_consultas/index.json](rag/chunks/nfs_e_consultas/index.json)
+- [rag/chunks/nfs_e_consultas/nfs_e_consultas-listarnfses-001.md](rag/chunks/nfs_e_consultas/nfs_e_consultas-listarnfses-001.md)
+- [rag/chunks/ordens_de_servico_faturamento/index.json](rag/chunks/ordens_de_servico_faturamento/index.json)
+- [rag/chunks/ordens_de_servico_faturamento/ordens_de_servico_faturamento-associarcodintos-001.md](rag/chunks/ordens_de_servico_faturamento/ordens_de_servico_faturamento-associarcodintos-001.md)
+- [rag/chunks/ordens_de_servico_faturamento/ordens_de_servico_faturamento-cancelaros-001.md](rag/chunks/ordens_de_servico_faturamento/ordens_de_servico_faturamento-cancelaros-001.md)
+- [rag/chunks/ordens_de_servico_faturamento/ordens_de_servico_faturamento-obteros-001.md](rag/chunks/ordens_de_servico_faturamento/ordens_de_servico_faturamento-obteros-001.md)
+- [rag/chunks/ordens_de_servico_faturamento/ordens_de_servico_faturamento-validaros-001.md](rag/chunks/ordens_de_servico_faturamento/ordens_de_servico_faturamento-validaros-001.md)
+- [rag/chunks/pedidos_de_compra/index.json](rag/chunks/pedidos_de_compra/index.json)
+- [rag/chunks/pedidos_de_compra/pedidos_de_compra-alterar-001.md](rag/chunks/pedidos_de_compra/pedidos_de_compra-alterar-001.md)
+- [rag/chunks/pedidos_de_compra/pedidos_de_compra-consultar-001.md](rag/chunks/pedidos_de_compra/pedidos_de_compra-consultar-001.md)
+- [rag/chunks/pedidos_de_compra/pedidos_de_compra-consultarpedcompra-001.md](rag/chunks/pedidos_de_compra/pedidos_de_compra-consultarpedcompra-001.md)
+- [rag/chunks/pedidos_de_compra/pedidos_de_compra-excluir-001.md](rag/chunks/pedidos_de_compra/pedidos_de_compra-excluir-001.md)
+- [rag/chunks/pedidos_de_compra/pedidos_de_compra-excluirpedcompra-001.md](rag/chunks/pedidos_de_compra/pedidos_de_compra-excluirpedcompra-001.md)
+- [rag/chunks/pedidos_de_compra/pedidos_de_compra-incluir-001.md](rag/chunks/pedidos_de_compra/pedidos_de_compra-incluir-001.md)
+- [rag/chunks/pedidos_de_compra/pedidos_de_compra-incluirpedcompra-001.md](rag/chunks/pedidos_de_compra/pedidos_de_compra-incluirpedcompra-001.md)
+- [rag/chunks/pedidos_de_compra/pedidos_de_compra-upsert-001.md](rag/chunks/pedidos_de_compra/pedidos_de_compra-upsert-001.md)
+- [rag/chunks/pedidos_de_compra/pedidos_de_compra-upsertpedcompra-001.md](rag/chunks/pedidos_de_compra/pedidos_de_compra-upsertpedcompra-001.md)
+- [rag/chunks/pedidos_de_venda/index.json](rag/chunks/pedidos_de_venda/index.json)
+- [rag/chunks/pedidos_de_venda/pedidos_de_venda-alterarpedfaturado-001.md](rag/chunks/pedidos_de_venda/pedidos_de_venda-alterarpedfaturado-001.md)
+- [rag/chunks/pedidos_de_venda/pedidos_de_venda-alterarpedidovenda-001.md](rag/chunks/pedidos_de_venda/pedidos_de_venda-alterarpedidovenda-001.md)
+- [rag/chunks/pedidos_de_venda/pedidos_de_venda-consultarpedido-001.md](rag/chunks/pedidos_de_venda/pedidos_de_venda-consultarpedido-001.md)
+- [rag/chunks/pedidos_de_venda/pedidos_de_venda-excluir-001.md](rag/chunks/pedidos_de_venda/pedidos_de_venda-excluir-001.md)
+- [rag/chunks/pedidos_de_venda/pedidos_de_venda-excluirpedido-001.md](rag/chunks/pedidos_de_venda/pedidos_de_venda-excluirpedido-001.md)
+- [rag/chunks/pedidos_de_venda/pedidos_de_venda-incluirpedido-001.md](rag/chunks/pedidos_de_venda/pedidos_de_venda-incluirpedido-001.md)
+- [rag/chunks/pedidos_de_venda/pedidos_de_venda-listar-001.md](rag/chunks/pedidos_de_venda/pedidos_de_venda-listar-001.md)
+- [rag/chunks/pedidos_de_venda/pedidos_de_venda-listarpedidos-001.md](rag/chunks/pedidos_de_venda/pedidos_de_venda-listarpedidos-001.md)
+- [rag/chunks/pedidos_de_venda_faturamento/index.json](rag/chunks/pedidos_de_venda_faturamento/index.json)
+- [rag/chunks/pedidos_de_venda_faturamento/pedidos_de_venda_faturamento-associarcodintpedidovenda-001.md](rag/chunks/pedidos_de_venda_faturamento/pedidos_de_venda_faturamento-associarcodintpedidovenda-001.md)
+- [rag/chunks/pedidos_de_venda_faturamento/pedidos_de_venda_faturamento-cancelarpedidovenda-001.md](rag/chunks/pedidos_de_venda_faturamento/pedidos_de_venda_faturamento-cancelarpedidovenda-001.md)
+- [rag/chunks/pedidos_de_venda_faturamento/pedidos_de_venda_faturamento-obterpedidosvenda-001.md](rag/chunks/pedidos_de_venda_faturamento/pedidos_de_venda_faturamento-obterpedidosvenda-001.md)
+- [rag/chunks/pedidos_de_venda_faturamento/pedidos_de_venda_faturamento-validarpedidovenda-001.md](rag/chunks/pedidos_de_venda_faturamento/pedidos_de_venda_faturamento-validarpedidovenda-001.md)
+- [rag/chunks/produtos/index.json](rag/chunks/produtos/index.json)
+- [rag/chunks/produtos/produtos-alterarproduto-001.md](rag/chunks/produtos/produtos-alterarproduto-001.md)
+- [rag/chunks/produtos/produtos-associarcodintproduto-001.md](rag/chunks/produtos/produtos-associarcodintproduto-001.md)
+- [rag/chunks/produtos/produtos-consultarproduto-001.md](rag/chunks/produtos/produtos-consultarproduto-001.md)
+- [rag/chunks/produtos/produtos-excluirproduto-001.md](rag/chunks/produtos/produtos-excluirproduto-001.md)
+- [rag/chunks/produtos/produtos-incluir-001.md](rag/chunks/produtos/produtos-incluir-001.md)
+- [rag/chunks/produtos/produtos-incluirproduto-001.md](rag/chunks/produtos/produtos-incluirproduto-001.md)
+- [rag/chunks/produtos/produtos-incluirprodutosporlote-001.md](rag/chunks/produtos/produtos-incluirprodutosporlote-001.md)
+- [rag/chunks/produtos/produtos-listarprodutos-001.md](rag/chunks/produtos/produtos-listarprodutos-001.md)
+- [rag/chunks/produtos/produtos-listarprodutosresumido-001.md](rag/chunks/produtos/produtos-listarprodutosresumido-001.md)
+- [rag/chunks/produtos/produtos-upsertproduto-001.md](rag/chunks/produtos/produtos-upsertproduto-001.md)
+- [rag/chunks/produtos/produtos-upsertprodutosporlote-001.md](rag/chunks/produtos/produtos-upsertprodutosporlote-001.md)
+
+## coverage
+- [coverage/omie_api_coverage.md](coverage/omie_api_coverage.md)
+- [coverage/omie_commercial_suite_coverage.md](coverage/omie_commercial_suite_coverage.md)
+
+## reports
+- [reports/dashboard.md](reports/dashboard.md)
+- [reports/knowledge_score.md](reports/knowledge_score.md)
+
+## factory/reports
+- [factory/reports/commercial_suite_discovery_report.md](factory/reports/commercial_suite_discovery_report.md)
+- [factory/reports/commercial_suite_generation_runs.json](factory/reports/commercial_suite_generation_runs.json)
+- [factory/reports/commercial_suite_parse_summary.json](factory/reports/commercial_suite_parse_summary.json)
+- [factory/reports/document_quality_ranking.md](factory/reports/document_quality_ranking.md)
+- [factory/reports/documentation_plan.md](factory/reports/documentation_plan.md)
+- [factory/reports/execution_history.json](factory/reports/execution_history.json)
+- [factory/reports/execution_report.md](factory/reports/execution_report.md)
+- [factory/reports/first_autonomous_cycle.md](factory/reports/first_autonomous_cycle.md)
+- [factory/reports/improvement_report.md](factory/reports/improvement_report.md)
+- [factory/reports/planner_report.md](factory/reports/planner_report.md)
+- [factory/reports/service_dependency_graph.md](factory/reports/service_dependency_graph.md)
+- [factory/reports/validation_report.md](factory/reports/validation_report.md)

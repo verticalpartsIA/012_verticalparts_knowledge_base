@@ -1,0 +1,37 @@
+[
+  {
+    "chunk_id": "consulta_estoque-listarestposrequest-001",
+    "method": "ListarEstPosRequest",
+    "path": "factory/output/commercial-suite/consulta_estoque/rag/chunks/consulta_estoque/consulta_estoque-listarestposrequest-001.md"
+  },
+  {
+    "chunk_id": "consulta_estoque-listarestposresponse-001",
+    "method": "ListarEstPosResponse",
+    "path": "factory/output/commercial-suite/consulta_estoque/rag/chunks/consulta_estoque/consulta_estoque-listarestposresponse-001.md"
+  },
+  {
+    "chunk_id": "consulta_estoque-listarmovestoquerequest-001",
+    "method": "ListarMovEstoqueRequest",
+    "path": "factory/output/commercial-suite/consulta_estoque/rag/chunks/consulta_estoque/consulta_estoque-listarmovestoquerequest-001.md"
+  },
+  {
+    "chunk_id": "consulta_estoque-listarmovestoqueresponse-001",
+    "method": "ListarMovEstoqueResponse",
+    "path": "factory/output/commercial-suite/consulta_estoque/rag/chunks/consulta_estoque/consulta_estoque-listarmovestoqueresponse-001.md"
+  },
+  {
+    "chunk_id": "consulta_estoque-listarmovimentoestoque-001",
+    "method": "ListarMovimentoEstoque",
+    "path": "factory/output/commercial-suite/consulta_estoque/rag/chunks/consulta_estoque/consulta_estoque-listarmovimentoestoque-001.md"
+  },
+  {
+    "chunk_id": "consulta_estoque-listarposestoque-001",
+    "method": "ListarPosEstoque",
+    "path": "factory/output/commercial-suite/consulta_estoque/rag/chunks/consulta_estoque/consulta_estoque-listarposestoque-001.md"
+  },
+  {
+    "chunk_id": "consulta_estoque-listarsaldopendente-001",
+    "method": "ListarSaldoPendente",
+    "path": "factory/output/commercial-suite/consulta_estoque/rag/chunks/consulta_estoque/consulta_estoque-listarsaldopendente-001.md"
+  }
+]

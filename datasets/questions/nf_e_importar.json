@@ -1,0 +1,52 @@
+[
+  {
+    "method": "ExcluirNFe",
+    "question": "Quando devo usar ExcluirNFe em NF-e Importar?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfe/"
+  },
+  {
+    "method": "ExcluirNFe",
+    "question": "Quais parametros o metodo ExcluirNFe aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfe/"
+  },
+  {
+    "method": "ExcluirNFe",
+    "question": "Quais campos sao obrigatorios para chamar ExcluirNFe?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfe/"
+  },
+  {
+    "method": "ExcluirNFe",
+    "question": "Qual exemplo de payload ficticio para ExcluirNFe?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfe/"
+  },
+  {
+    "method": "ExcluirNFe",
+    "question": "Que resposta o metodo ExcluirNFe retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfe/"
+  },
+  {
+    "method": "ListarNFe",
+    "question": "Quando devo usar ListarNFe em NF-e Importar?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfe/"
+  },
+  {
+    "method": "ListarNFe",
+    "question": "Quais parametros o metodo ListarNFe aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfe/"
+  },
+  {
+    "method": "ListarNFe",
+    "question": "Quais campos sao obrigatorios para chamar ListarNFe?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfe/"
+  },
+  {
+    "method": "ListarNFe",
+    "question": "Qual exemplo de payload ficticio para ListarNFe?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfe/"
+  },
+  {
+    "method": "ListarNFe",
+    "question": "Que resposta o metodo ListarNFe retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfe/"
+  }
+]

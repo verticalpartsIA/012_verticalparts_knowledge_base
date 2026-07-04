@@ -1,0 +1,27 @@
+[
+  {
+    "method": "ListarNFSEs",
+    "question": "Quando devo usar ListarNFSEs em NFS-e Consultas?",
+    "source": "https://app.omie.com.br/api/v1/servicos/nfse/"
+  },
+  {
+    "method": "ListarNFSEs",
+    "question": "Quais parametros o metodo ListarNFSEs aceita?",
+    "source": "https://app.omie.com.br/api/v1/servicos/nfse/"
+  },
+  {
+    "method": "ListarNFSEs",
+    "question": "Quais campos sao obrigatorios para chamar ListarNFSEs?",
+    "source": "https://app.omie.com.br/api/v1/servicos/nfse/"
+  },
+  {
+    "method": "ListarNFSEs",
+    "question": "Qual exemplo de payload ficticio para ListarNFSEs?",
+    "source": "https://app.omie.com.br/api/v1/servicos/nfse/"
+  },
+  {
+    "method": "ListarNFSEs",
+    "question": "Que resposta o metodo ListarNFSEs retorna?",
+    "source": "https://app.omie.com.br/api/v1/servicos/nfse/"
+  }
+]

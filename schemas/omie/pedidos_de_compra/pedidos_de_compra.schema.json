@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pedidos de Compra",
+  "type": "object",
+  "properties": {
+    "call": {
+      "type": "string",
+      "enum": [
+        "Alterar",
+        "Consultar",
+        "ConsultarPedCompra",
+        "Excluir",
+        "ExcluirPedCompra",
+        "Incluir",
+        "IncluirPedCompra",
+        "Upsert",
+        "UpsertPedCompra"
+      ]
+    },
+    "param": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "call",
+    "param"
+  ],
+  "additionalProperties": true
+}

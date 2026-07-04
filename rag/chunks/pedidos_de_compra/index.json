@@ -1,0 +1,47 @@
+[
+  {
+    "chunk_id": "pedidos_de_compra-alterar-001",
+    "method": "Alterar",
+    "path": "factory/output/commercial-suite/pedidos_de_compra/rag/chunks/pedidos_de_compra/pedidos_de_compra-alterar-001.md"
+  },
+  {
+    "chunk_id": "pedidos_de_compra-consultar-001",
+    "method": "Consultar",
+    "path": "factory/output/commercial-suite/pedidos_de_compra/rag/chunks/pedidos_de_compra/pedidos_de_compra-consultar-001.md"
+  },
+  {
+    "chunk_id": "pedidos_de_compra-consultarpedcompra-001",
+    "method": "ConsultarPedCompra",
+    "path": "factory/output/commercial-suite/pedidos_de_compra/rag/chunks/pedidos_de_compra/pedidos_de_compra-consultarpedcompra-001.md"
+  },
+  {
+    "chunk_id": "pedidos_de_compra-excluir-001",
+    "method": "Excluir",
+    "path": "factory/output/commercial-suite/pedidos_de_compra/rag/chunks/pedidos_de_compra/pedidos_de_compra-excluir-001.md"
+  },
+  {
+    "chunk_id": "pedidos_de_compra-excluirpedcompra-001",
+    "method": "ExcluirPedCompra",
+    "path": "factory/output/commercial-suite/pedidos_de_compra/rag/chunks/pedidos_de_compra/pedidos_de_compra-excluirpedcompra-001.md"
+  },
+  {
+    "chunk_id": "pedidos_de_compra-incluir-001",
+    "method": "Incluir",
+    "path": "factory/output/commercial-suite/pedidos_de_compra/rag/chunks/pedidos_de_compra/pedidos_de_compra-incluir-001.md"
+  },
+  {
+    "chunk_id": "pedidos_de_compra-incluirpedcompra-001",
+    "method": "IncluirPedCompra",
+    "path": "factory/output/commercial-suite/pedidos_de_compra/rag/chunks/pedidos_de_compra/pedidos_de_compra-incluirpedcompra-001.md"
+  },
+  {
+    "chunk_id": "pedidos_de_compra-upsert-001",
+    "method": "Upsert",
+    "path": "factory/output/commercial-suite/pedidos_de_compra/rag/chunks/pedidos_de_compra/pedidos_de_compra-upsert-001.md"
+  },
+  {
+    "chunk_id": "pedidos_de_compra-upsertpedcompra-001",
+    "method": "UpsertPedCompra",
+    "path": "factory/output/commercial-suite/pedidos_de_compra/rag/chunks/pedidos_de_compra/pedidos_de_compra-upsertpedcompra-001.md"
+  }
+]

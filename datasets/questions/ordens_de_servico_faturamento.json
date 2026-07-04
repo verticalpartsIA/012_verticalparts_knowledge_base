@@ -1,0 +1,102 @@
+[
+  {
+    "method": "AssociarCodIntOS",
+    "question": "Quando devo usar AssociarCodIntOS em Ordens de Serviço Faturamento?",
+    "source": "https://app.omie.com.br/api/v1/servicos/osp/"
+  },
+  {
+    "method": "AssociarCodIntOS",
+    "question": "Quais parametros o metodo AssociarCodIntOS aceita?",
+    "source": "https://app.omie.com.br/api/v1/servicos/osp/"
+  },
+  {
+    "method": "AssociarCodIntOS",
+    "question": "Quais campos sao obrigatorios para chamar AssociarCodIntOS?",
+    "source": "https://app.omie.com.br/api/v1/servicos/osp/"
+  },
+  {
+    "method": "AssociarCodIntOS",
+    "question": "Qual exemplo de payload ficticio para AssociarCodIntOS?",
+    "source": "https://app.omie.com.br/api/v1/servicos/osp/"
+  },
+  {
+    "method": "AssociarCodIntOS",
+    "question": "Que resposta o metodo AssociarCodIntOS retorna?",
+    "source": "https://app.omie.com.br/api/v1/servicos/osp/"
+  },
+  {
+    "method": "CancelarOS",
+    "question": "Quando devo usar CancelarOS em Ordens de Serviço Faturamento?",
+    "source": "https://app.omie.com.br/api/v1/servicos/osp/"
+  },
+  {
+    "method": "CancelarOS",
+    "question": "Quais parametros o metodo CancelarOS aceita?",
+    "source": "https://app.omie.com.br/api/v1/servicos/osp/"
+  },
+  {
+    "method": "CancelarOS",
+    "question": "Quais campos sao obrigatorios para chamar CancelarOS?",
+    "source": "https://app.omie.com.br/api/v1/servicos/osp/"
+  },
+  {
+    "method": "CancelarOS",
+    "question": "Qual exemplo de payload ficticio para CancelarOS?",
+    "source": "https://app.omie.com.br/api/v1/servicos/osp/"
+  },
+  {
+    "method": "CancelarOS",
+    "question": "Que resposta o metodo CancelarOS retorna?",
+    "source": "https://app.omie.com.br/api/v1/servicos/osp/"
+  },
+  {
+    "method": "ObterOS",
+    "question": "Quando devo usar ObterOS em Ordens de Serviço Faturamento?",
+    "source": "https://app.omie.com.br/api/v1/servicos/osp/"
+  },
+  {
+    "method": "ObterOS",
+    "question": "Quais parametros o metodo ObterOS aceita?",
+    "source": "https://app.omie.com.br/api/v1/servicos/osp/"
+  },
+  {
+    "method": "ObterOS",
+    "question": "Quais campos sao obrigatorios para chamar ObterOS?",
+    "source": "https://app.omie.com.br/api/v1/servicos/osp/"
+  },
+  {
+    "method": "ObterOS",
+    "question": "Qual exemplo de payload ficticio para ObterOS?",
+    "source": "https://app.omie.com.br/api/v1/servicos/osp/"
+  },
+  {
+    "method": "ObterOS",
+    "question": "Que resposta o metodo ObterOS retorna?",
+    "source": "https://app.omie.com.br/api/v1/servicos/osp/"
+  },
+  {
+    "method": "ValidarOS",
+    "question": "Quando devo usar ValidarOS em Ordens de Serviço Faturamento?",
+    "source": "https://app.omie.com.br/api/v1/servicos/osp/"
+  },
+  {
+    "method": "ValidarOS",
+    "question": "Quais parametros o metodo ValidarOS aceita?",
+    "source": "https://app.omie.com.br/api/v1/servicos/osp/"
+  },
+  {
+    "method": "ValidarOS",
+    "question": "Quais campos sao obrigatorios para chamar ValidarOS?",
+    "source": "https://app.omie.com.br/api/v1/servicos/osp/"
+  },
+  {
+    "method": "ValidarOS",
+    "question": "Qual exemplo de payload ficticio para ValidarOS?",
+    "source": "https://app.omie.com.br/api/v1/servicos/osp/"
+  },
+  {
+    "method": "ValidarOS",
+    "question": "Que resposta o metodo ValidarOS retorna?",
+    "source": "https://app.omie.com.br/api/v1/servicos/osp/"
+  }
+]

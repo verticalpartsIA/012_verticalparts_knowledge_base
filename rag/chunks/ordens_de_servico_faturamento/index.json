@@ -1,0 +1,22 @@
+[
+  {
+    "chunk_id": "ordens_de_servico_faturamento-associarcodintos-001",
+    "method": "AssociarCodIntOS",
+    "path": "factory/output/commercial-suite/ordens_de_servico_faturamento/rag/chunks/ordens_de_servico_faturamento/ordens_de_servico_faturamento-associarcodintos-001.md"
+  },
+  {
+    "chunk_id": "ordens_de_servico_faturamento-cancelaros-001",
+    "method": "CancelarOS",
+    "path": "factory/output/commercial-suite/ordens_de_servico_faturamento/rag/chunks/ordens_de_servico_faturamento/ordens_de_servico_faturamento-cancelaros-001.md"
+  },
+  {
+    "chunk_id": "ordens_de_servico_faturamento-obteros-001",
+    "method": "ObterOS",
+    "path": "factory/output/commercial-suite/ordens_de_servico_faturamento/rag/chunks/ordens_de_servico_faturamento/ordens_de_servico_faturamento-obteros-001.md"
+  },
+  {
+    "chunk_id": "ordens_de_servico_faturamento-validaros-001",
+    "method": "ValidarOS",
+    "path": "factory/output/commercial-suite/ordens_de_servico_faturamento/rag/chunks/ordens_de_servico_faturamento/ordens_de_servico_faturamento-validaros-001.md"
+  }
+]

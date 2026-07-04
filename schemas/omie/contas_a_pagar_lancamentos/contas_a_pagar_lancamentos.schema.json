@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Contas a Pagar Lançamentos",
+  "type": "object",
+  "properties": {
+    "call": {
+      "type": "string",
+      "enum": [
+        "AlterarContaPagar",
+        "CancelarPagamento",
+        "ConsultarContaPagar",
+        "ExcluirContaPagar",
+        "IncluirContaPagar",
+        "IncluirContaPagarPorLote",
+        "LancarPagamento",
+        "Listar",
+        "ListarContasPagar",
+        "Upsert",
+        "UPSERT",
+        "UpsertContaPagar",
+        "UpsertContaPagarPorLote"
+      ]
+    },
+    "param": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "call",
+    "param"
+  ],
+  "additionalProperties": true
+}

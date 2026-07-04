@@ -1,0 +1,101 @@
+[
+  {
+    "id": "compras_estoque_e_producao_pedidos_de_venda",
+    "name": "Pedidos de Venda",
+    "url": "https://app.omie.com.br/api/v1/produtos/pedido/",
+    "output": "factory\\output\\commercial-suite\\pedidos_de_venda",
+    "returncode": 0,
+    "stdout": "Factory MVP concluida em modo geracao.\nServico: Pedidos de Venda\nMetodos: 8\nArquivos: 24\n",
+    "stderr": ""
+  },
+  {
+    "id": "compras_estoque_e_producao_pedidos_de_venda_faturamento",
+    "name": "Pedidos de Venda Faturamento",
+    "url": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/",
+    "output": "factory\\output\\commercial-suite\\pedidos_de_venda_faturamento",
+    "returncode": 0,
+    "stdout": "Factory MVP concluida em modo geracao.\nServico: Pedidos de Venda Faturamento\nMetodos: 4\nArquivos: 16\n",
+    "stderr": ""
+  },
+  {
+    "id": "compras_estoque_e_producao_pedidos_de_compra",
+    "name": "Pedidos de Compra",
+    "url": "https://app.omie.com.br/api/v1/produtos/pedidocompra/",
+    "output": "factory\\output\\commercial-suite\\pedidos_de_compra",
+    "returncode": 0,
+    "stdout": "Factory MVP concluida em modo geracao.\nServico: Pedidos de Compra\nMetodos: 9\nArquivos: 26\n",
+    "stderr": ""
+  },
+  {
+    "id": "geral_produtos",
+    "name": "Produtos",
+    "url": "https://app.omie.com.br/api/v1/geral/produtos/",
+    "output": "factory\\output\\commercial-suite\\produtos",
+    "returncode": 0,
+    "stdout": "Factory MVP concluida em modo geracao.\nServico: Produtos\nMetodos: 11\nArquivos: 30\n",
+    "stderr": ""
+  },
+  {
+    "id": "compras_estoque_e_producao_consulta_estoque",
+    "name": "Consulta Estoque",
+    "url": "https://app.omie.com.br/api/v1/estoque/consulta/",
+    "output": "factory\\output\\commercial-suite\\consulta_estoque",
+    "returncode": 0,
+    "stdout": "Factory MVP concluida em modo geracao.\nServico: Consulta Estoque\nMetodos: 7\nArquivos: 22\n",
+    "stderr": ""
+  },
+  {
+    "id": "compras_estoque_e_producao_movimento_estoque",
+    "name": "Movimento Estoque",
+    "url": "https://app.omie.com.br/api/v1/estoque/movestoque/",
+    "output": "factory\\output\\commercial-suite\\movimento_estoque",
+    "returncode": 0,
+    "stdout": "Factory MVP concluida em modo geracao.\nServico: Movimento Estoque\nMetodos: 2\nArquivos: 12\n",
+    "stderr": ""
+  },
+  {
+    "id": "financas_contas_a_pagar_lancamentos",
+    "name": "Contas a Pagar Lançamentos",
+    "url": "https://app.omie.com.br/api/v1/financas/contapagar/",
+    "output": "factory\\output\\commercial-suite\\contas_a_pagar_lancamentos",
+    "returncode": 0,
+    "stdout": "Factory MVP concluida em modo geracao.\nServico: Contas a Pagar Lançamentos\nMetodos: 13\nArquivos: 34\n",
+    "stderr": ""
+  },
+  {
+    "id": "compras_estoque_e_producao_consultas",
+    "name": "NF-e Consultas",
+    "url": "https://app.omie.com.br/api/v1/produtos/nfconsultar/",
+    "output": "factory\\output\\commercial-suite\\consultas",
+    "returncode": 0,
+    "stdout": "Factory MVP concluida em modo geracao.\nServico: NF-e Consultas\nMetodos: 4\nArquivos: 16\n",
+    "stderr": ""
+  },
+  {
+    "id": "compras_estoque_e_producao_importar",
+    "name": "NF-e Importar",
+    "url": "https://app.omie.com.br/api/v1/produtos/nfe/",
+    "output": "factory\\output\\commercial-suite\\importar",
+    "returncode": 0,
+    "stdout": "Factory MVP concluida em modo geracao.\nServico: NF-e Importar\nMetodos: 2\nArquivos: 12\n",
+    "stderr": ""
+  },
+  {
+    "id": "servicos_e_nfs_e_consultas",
+    "name": "NFS-e Consultas",
+    "url": "https://app.omie.com.br/api/v1/servicos/nfse/",
+    "output": "factory\\output\\commercial-suite\\consultas",
+    "returncode": 0,
+    "stdout": "Factory MVP concluida em modo geracao.\nServico: NFS-e Consultas\nMetodos: 1\nArquivos: 10\n",
+    "stderr": ""
+  },
+  {
+    "id": "servicos_e_nfs_e_ordens_de_servico_faturamento",
+    "name": "Ordens de Serviço Faturamento",
+    "url": "https://app.omie.com.br/api/v1/servicos/osp/",
+    "output": "factory\\output\\commercial-suite\\ordens_de_servico_faturamento",
+    "returncode": 0,
+    "stdout": "Factory MVP concluida em modo geracao.\nServico: Ordens de Serviço Faturamento\nMetodos: 4\nArquivos: 16\n",
+    "stderr": ""
+  }
+]

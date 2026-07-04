@@ -1,0 +1,52 @@
+[
+  {
+    "method": "ConsultarPrevisao",
+    "question": "Quando devo usar ConsultarPrevisao em Movimento Estoque?",
+    "source": "https://app.omie.com.br/api/v1/estoque/movestoque/"
+  },
+  {
+    "method": "ConsultarPrevisao",
+    "question": "Quais parametros o metodo ConsultarPrevisao aceita?",
+    "source": "https://app.omie.com.br/api/v1/estoque/movestoque/"
+  },
+  {
+    "method": "ConsultarPrevisao",
+    "question": "Quais campos sao obrigatorios para chamar ConsultarPrevisao?",
+    "source": "https://app.omie.com.br/api/v1/estoque/movestoque/"
+  },
+  {
+    "method": "ConsultarPrevisao",
+    "question": "Qual exemplo de payload ficticio para ConsultarPrevisao?",
+    "source": "https://app.omie.com.br/api/v1/estoque/movestoque/"
+  },
+  {
+    "method": "ConsultarPrevisao",
+    "question": "Que resposta o metodo ConsultarPrevisao retorna?",
+    "source": "https://app.omie.com.br/api/v1/estoque/movestoque/"
+  },
+  {
+    "method": "ListarMovimentos",
+    "question": "Quando devo usar ListarMovimentos em Movimento Estoque?",
+    "source": "https://app.omie.com.br/api/v1/estoque/movestoque/"
+  },
+  {
+    "method": "ListarMovimentos",
+    "question": "Quais parametros o metodo ListarMovimentos aceita?",
+    "source": "https://app.omie.com.br/api/v1/estoque/movestoque/"
+  },
+  {
+    "method": "ListarMovimentos",
+    "question": "Quais campos sao obrigatorios para chamar ListarMovimentos?",
+    "source": "https://app.omie.com.br/api/v1/estoque/movestoque/"
+  },
+  {
+    "method": "ListarMovimentos",
+    "question": "Qual exemplo de payload ficticio para ListarMovimentos?",
+    "source": "https://app.omie.com.br/api/v1/estoque/movestoque/"
+  },
+  {
+    "method": "ListarMovimentos",
+    "question": "Que resposta o metodo ListarMovimentos retorna?",
+    "source": "https://app.omie.com.br/api/v1/estoque/movestoque/"
+  }
+]

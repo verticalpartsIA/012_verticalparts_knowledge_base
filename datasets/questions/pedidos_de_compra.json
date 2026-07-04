@@ -1,0 +1,227 @@
+[
+  {
+    "method": "Alterar",
+    "question": "Quando devo usar Alterar em Pedidos de Compra?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Alterar",
+    "question": "Quais parametros o metodo Alterar aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Alterar",
+    "question": "Quais campos sao obrigatorios para chamar Alterar?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Alterar",
+    "question": "Qual exemplo de payload ficticio para Alterar?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Alterar",
+    "question": "Que resposta o metodo Alterar retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Consultar",
+    "question": "Quando devo usar Consultar em Pedidos de Compra?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Consultar",
+    "question": "Quais parametros o metodo Consultar aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Consultar",
+    "question": "Quais campos sao obrigatorios para chamar Consultar?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Consultar",
+    "question": "Qual exemplo de payload ficticio para Consultar?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Consultar",
+    "question": "Que resposta o metodo Consultar retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "ConsultarPedCompra",
+    "question": "Quando devo usar ConsultarPedCompra em Pedidos de Compra?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "ConsultarPedCompra",
+    "question": "Quais parametros o metodo ConsultarPedCompra aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "ConsultarPedCompra",
+    "question": "Quais campos sao obrigatorios para chamar ConsultarPedCompra?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "ConsultarPedCompra",
+    "question": "Qual exemplo de payload ficticio para ConsultarPedCompra?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "ConsultarPedCompra",
+    "question": "Que resposta o metodo ConsultarPedCompra retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Excluir",
+    "question": "Quando devo usar Excluir em Pedidos de Compra?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Excluir",
+    "question": "Quais parametros o metodo Excluir aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Excluir",
+    "question": "Quais campos sao obrigatorios para chamar Excluir?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Excluir",
+    "question": "Qual exemplo de payload ficticio para Excluir?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Excluir",
+    "question": "Que resposta o metodo Excluir retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "ExcluirPedCompra",
+    "question": "Quando devo usar ExcluirPedCompra em Pedidos de Compra?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "ExcluirPedCompra",
+    "question": "Quais parametros o metodo ExcluirPedCompra aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "ExcluirPedCompra",
+    "question": "Quais campos sao obrigatorios para chamar ExcluirPedCompra?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "ExcluirPedCompra",
+    "question": "Qual exemplo de payload ficticio para ExcluirPedCompra?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "ExcluirPedCompra",
+    "question": "Que resposta o metodo ExcluirPedCompra retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Incluir",
+    "question": "Quando devo usar Incluir em Pedidos de Compra?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Incluir",
+    "question": "Quais parametros o metodo Incluir aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Incluir",
+    "question": "Quais campos sao obrigatorios para chamar Incluir?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Incluir",
+    "question": "Qual exemplo de payload ficticio para Incluir?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Incluir",
+    "question": "Que resposta o metodo Incluir retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "IncluirPedCompra",
+    "question": "Quando devo usar IncluirPedCompra em Pedidos de Compra?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "IncluirPedCompra",
+    "question": "Quais parametros o metodo IncluirPedCompra aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "IncluirPedCompra",
+    "question": "Quais campos sao obrigatorios para chamar IncluirPedCompra?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "IncluirPedCompra",
+    "question": "Qual exemplo de payload ficticio para IncluirPedCompra?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "IncluirPedCompra",
+    "question": "Que resposta o metodo IncluirPedCompra retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Quando devo usar Upsert em Pedidos de Compra?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Quais parametros o metodo Upsert aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Quais campos sao obrigatorios para chamar Upsert?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Qual exemplo de payload ficticio para Upsert?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Que resposta o metodo Upsert retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "UpsertPedCompra",
+    "question": "Quando devo usar UpsertPedCompra em Pedidos de Compra?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "UpsertPedCompra",
+    "question": "Quais parametros o metodo UpsertPedCompra aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "UpsertPedCompra",
+    "question": "Quais campos sao obrigatorios para chamar UpsertPedCompra?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "UpsertPedCompra",
+    "question": "Qual exemplo de payload ficticio para UpsertPedCompra?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  },
+  {
+    "method": "UpsertPedCompra",
+    "question": "Que resposta o metodo UpsertPedCompra retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidocompra/"
+  }
+]

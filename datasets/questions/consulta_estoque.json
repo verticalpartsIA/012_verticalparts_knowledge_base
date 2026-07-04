@@ -1,0 +1,177 @@
+[
+  {
+    "method": "ListarEstPosRequest",
+    "question": "Quando devo usar ListarEstPosRequest em Consulta Estoque?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarEstPosRequest",
+    "question": "Quais parametros o metodo ListarEstPosRequest aceita?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarEstPosRequest",
+    "question": "Quais campos sao obrigatorios para chamar ListarEstPosRequest?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarEstPosRequest",
+    "question": "Qual exemplo de payload ficticio para ListarEstPosRequest?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarEstPosRequest",
+    "question": "Que resposta o metodo ListarEstPosRequest retorna?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarEstPosResponse",
+    "question": "Quando devo usar ListarEstPosResponse em Consulta Estoque?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarEstPosResponse",
+    "question": "Quais parametros o metodo ListarEstPosResponse aceita?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarEstPosResponse",
+    "question": "Quais campos sao obrigatorios para chamar ListarEstPosResponse?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarEstPosResponse",
+    "question": "Qual exemplo de payload ficticio para ListarEstPosResponse?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarEstPosResponse",
+    "question": "Que resposta o metodo ListarEstPosResponse retorna?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarMovEstoqueRequest",
+    "question": "Quando devo usar ListarMovEstoqueRequest em Consulta Estoque?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarMovEstoqueRequest",
+    "question": "Quais parametros o metodo ListarMovEstoqueRequest aceita?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarMovEstoqueRequest",
+    "question": "Quais campos sao obrigatorios para chamar ListarMovEstoqueRequest?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarMovEstoqueRequest",
+    "question": "Qual exemplo de payload ficticio para ListarMovEstoqueRequest?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarMovEstoqueRequest",
+    "question": "Que resposta o metodo ListarMovEstoqueRequest retorna?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarMovEstoqueResponse",
+    "question": "Quando devo usar ListarMovEstoqueResponse em Consulta Estoque?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarMovEstoqueResponse",
+    "question": "Quais parametros o metodo ListarMovEstoqueResponse aceita?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarMovEstoqueResponse",
+    "question": "Quais campos sao obrigatorios para chamar ListarMovEstoqueResponse?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarMovEstoqueResponse",
+    "question": "Qual exemplo de payload ficticio para ListarMovEstoqueResponse?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarMovEstoqueResponse",
+    "question": "Que resposta o metodo ListarMovEstoqueResponse retorna?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarMovimentoEstoque",
+    "question": "Quando devo usar ListarMovimentoEstoque em Consulta Estoque?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarMovimentoEstoque",
+    "question": "Quais parametros o metodo ListarMovimentoEstoque aceita?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarMovimentoEstoque",
+    "question": "Quais campos sao obrigatorios para chamar ListarMovimentoEstoque?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarMovimentoEstoque",
+    "question": "Qual exemplo de payload ficticio para ListarMovimentoEstoque?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarMovimentoEstoque",
+    "question": "Que resposta o metodo ListarMovimentoEstoque retorna?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarPosEstoque",
+    "question": "Quando devo usar ListarPosEstoque em Consulta Estoque?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarPosEstoque",
+    "question": "Quais parametros o metodo ListarPosEstoque aceita?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarPosEstoque",
+    "question": "Quais campos sao obrigatorios para chamar ListarPosEstoque?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarPosEstoque",
+    "question": "Qual exemplo de payload ficticio para ListarPosEstoque?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarPosEstoque",
+    "question": "Que resposta o metodo ListarPosEstoque retorna?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarSaldoPendente",
+    "question": "Quando devo usar ListarSaldoPendente em Consulta Estoque?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarSaldoPendente",
+    "question": "Quais parametros o metodo ListarSaldoPendente aceita?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarSaldoPendente",
+    "question": "Quais campos sao obrigatorios para chamar ListarSaldoPendente?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarSaldoPendente",
+    "question": "Qual exemplo de payload ficticio para ListarSaldoPendente?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  },
+  {
+    "method": "ListarSaldoPendente",
+    "question": "Que resposta o metodo ListarSaldoPendente retorna?",
+    "source": "https://app.omie.com.br/api/v1/estoque/consulta/"
+  }
+]

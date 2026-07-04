@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Consulta Estoque",
+  "type": "object",
+  "properties": {
+    "call": {
+      "type": "string",
+      "enum": [
+        "ListarEstPosRequest",
+        "ListarEstPosResponse",
+        "ListarMovEstoqueRequest",
+        "ListarMovEstoqueResponse",
+        "ListarMovimentoEstoque",
+        "ListarPosEstoque",
+        "ListarSaldoPendente"
+      ]
+    },
+    "param": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "call",
+    "param"
+  ],
+  "additionalProperties": true
+}
