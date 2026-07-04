@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pedidos de Venda",
+  "type": "object",
+  "properties": {
+    "call": {
+      "type": "string",
+      "enum": [
+        "AlterarPedFaturado",
+        "AlterarPedidoVenda",
+        "ConsultarPedido",
+        "Excluir",
+        "ExcluirPedido",
+        "IncluirPedido",
+        "Listar",
+        "ListarPedidos"
+      ]
+    },
+    "param": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "call",
+    "param"
+  ],
+  "additionalProperties": true
+}

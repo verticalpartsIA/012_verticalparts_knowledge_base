@@ -146,3 +146,23 @@ python scripts/generate_enterprise_omie_clientes.py
 pytest tests/knowledge
 python scripts/knowledge_score.py
 ```
+## Omie Commercial Suite Knowledge Base
+
+A branch `feature/omie-commercial-suite` usa a Autonomous Knowledge Factory para gerar conhecimento técnico e Business Knowledge dos módulos estratégicos de venda, compra, faturamento, fiscal, produtos, estoque e financeiro.
+
+Serviços cobertos nesta entrega:
+
+- Pedido de Venda
+- Pedido de Compra
+- Pedido de Venda - Faturamento
+- NF-e Consultas
+- NF-e Importar
+- NFS-e Consultas
+- Produtos
+- Consulta Estoque
+- Movimento Estoque
+- Contas a Receber existente
+- Contas a Pagar Lançamentos
+- Ordens de Serviço Faturamento
+
+Aprovação de pedido de venda e aprovação de pedido de compra foram registradas como Business Knowledge porque não foi identificado endpoint oficial específico na documentação pública Omie.

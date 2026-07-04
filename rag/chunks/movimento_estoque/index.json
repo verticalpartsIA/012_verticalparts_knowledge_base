@@ -1,0 +1,12 @@
+[
+  {
+    "chunk_id": "movimento_estoque-consultarprevisao-001",
+    "method": "ConsultarPrevisao",
+    "path": "factory/output/commercial-suite/movimento_estoque/rag/chunks/movimento_estoque/movimento_estoque-consultarprevisao-001.md"
+  },
+  {
+    "chunk_id": "movimento_estoque-listarmovimentos-001",
+    "method": "ListarMovimentos",
+    "path": "factory/output/commercial-suite/movimento_estoque/rag/chunks/movimento_estoque/movimento_estoque-listarmovimentos-001.md"
+  }
+]

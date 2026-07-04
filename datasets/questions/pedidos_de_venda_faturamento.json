@@ -1,0 +1,102 @@
+[
+  {
+    "method": "AssociarCodIntPedidoVenda",
+    "question": "Quando devo usar AssociarCodIntPedidoVenda em Pedidos de Venda Faturamento?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/"
+  },
+  {
+    "method": "AssociarCodIntPedidoVenda",
+    "question": "Quais parametros o metodo AssociarCodIntPedidoVenda aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/"
+  },
+  {
+    "method": "AssociarCodIntPedidoVenda",
+    "question": "Quais campos sao obrigatorios para chamar AssociarCodIntPedidoVenda?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/"
+  },
+  {
+    "method": "AssociarCodIntPedidoVenda",
+    "question": "Qual exemplo de payload ficticio para AssociarCodIntPedidoVenda?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/"
+  },
+  {
+    "method": "AssociarCodIntPedidoVenda",
+    "question": "Que resposta o metodo AssociarCodIntPedidoVenda retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/"
+  },
+  {
+    "method": "CancelarPedidoVenda",
+    "question": "Quando devo usar CancelarPedidoVenda em Pedidos de Venda Faturamento?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/"
+  },
+  {
+    "method": "CancelarPedidoVenda",
+    "question": "Quais parametros o metodo CancelarPedidoVenda aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/"
+  },
+  {
+    "method": "CancelarPedidoVenda",
+    "question": "Quais campos sao obrigatorios para chamar CancelarPedidoVenda?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/"
+  },
+  {
+    "method": "CancelarPedidoVenda",
+    "question": "Qual exemplo de payload ficticio para CancelarPedidoVenda?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/"
+  },
+  {
+    "method": "CancelarPedidoVenda",
+    "question": "Que resposta o metodo CancelarPedidoVenda retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/"
+  },
+  {
+    "method": "ObterPedidosVenda",
+    "question": "Quando devo usar ObterPedidosVenda em Pedidos de Venda Faturamento?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/"
+  },
+  {
+    "method": "ObterPedidosVenda",
+    "question": "Quais parametros o metodo ObterPedidosVenda aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/"
+  },
+  {
+    "method": "ObterPedidosVenda",
+    "question": "Quais campos sao obrigatorios para chamar ObterPedidosVenda?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/"
+  },
+  {
+    "method": "ObterPedidosVenda",
+    "question": "Qual exemplo de payload ficticio para ObterPedidosVenda?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/"
+  },
+  {
+    "method": "ObterPedidosVenda",
+    "question": "Que resposta o metodo ObterPedidosVenda retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/"
+  },
+  {
+    "method": "ValidarPedidoVenda",
+    "question": "Quando devo usar ValidarPedidoVenda em Pedidos de Venda Faturamento?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/"
+  },
+  {
+    "method": "ValidarPedidoVenda",
+    "question": "Quais parametros o metodo ValidarPedidoVenda aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/"
+  },
+  {
+    "method": "ValidarPedidoVenda",
+    "question": "Quais campos sao obrigatorios para chamar ValidarPedidoVenda?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/"
+  },
+  {
+    "method": "ValidarPedidoVenda",
+    "question": "Qual exemplo de payload ficticio para ValidarPedidoVenda?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/"
+  },
+  {
+    "method": "ValidarPedidoVenda",
+    "question": "Que resposta o metodo ValidarPedidoVenda retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/"
+  }
+]

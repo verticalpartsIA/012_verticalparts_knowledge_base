@@ -1,0 +1,42 @@
+[
+  {
+    "chunk_id": "pedidos_de_venda-alterarpedfaturado-001",
+    "method": "AlterarPedFaturado",
+    "path": "factory/output/commercial-suite/pedidos_de_venda/rag/chunks/pedidos_de_venda/pedidos_de_venda-alterarpedfaturado-001.md"
+  },
+  {
+    "chunk_id": "pedidos_de_venda-alterarpedidovenda-001",
+    "method": "AlterarPedidoVenda",
+    "path": "factory/output/commercial-suite/pedidos_de_venda/rag/chunks/pedidos_de_venda/pedidos_de_venda-alterarpedidovenda-001.md"
+  },
+  {
+    "chunk_id": "pedidos_de_venda-consultarpedido-001",
+    "method": "ConsultarPedido",
+    "path": "factory/output/commercial-suite/pedidos_de_venda/rag/chunks/pedidos_de_venda/pedidos_de_venda-consultarpedido-001.md"
+  },
+  {
+    "chunk_id": "pedidos_de_venda-excluir-001",
+    "method": "Excluir",
+    "path": "factory/output/commercial-suite/pedidos_de_venda/rag/chunks/pedidos_de_venda/pedidos_de_venda-excluir-001.md"
+  },
+  {
+    "chunk_id": "pedidos_de_venda-excluirpedido-001",
+    "method": "ExcluirPedido",
+    "path": "factory/output/commercial-suite/pedidos_de_venda/rag/chunks/pedidos_de_venda/pedidos_de_venda-excluirpedido-001.md"
+  },
+  {
+    "chunk_id": "pedidos_de_venda-incluirpedido-001",
+    "method": "IncluirPedido",
+    "path": "factory/output/commercial-suite/pedidos_de_venda/rag/chunks/pedidos_de_venda/pedidos_de_venda-incluirpedido-001.md"
+  },
+  {
+    "chunk_id": "pedidos_de_venda-listar-001",
+    "method": "Listar",
+    "path": "factory/output/commercial-suite/pedidos_de_venda/rag/chunks/pedidos_de_venda/pedidos_de_venda-listar-001.md"
+  },
+  {
+    "chunk_id": "pedidos_de_venda-listarpedidos-001",
+    "method": "ListarPedidos",
+    "path": "factory/output/commercial-suite/pedidos_de_venda/rag/chunks/pedidos_de_venda/pedidos_de_venda-listarpedidos-001.md"
+  }
+]

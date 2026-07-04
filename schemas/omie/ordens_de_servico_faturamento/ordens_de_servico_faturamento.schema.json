@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ordens de Serviço Faturamento",
+  "type": "object",
+  "properties": {
+    "call": {
+      "type": "string",
+      "enum": [
+        "AssociarCodIntOS",
+        "CancelarOS",
+        "ObterOS",
+        "ValidarOS"
+      ]
+    },
+    "param": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "call",
+    "param"
+  ],
+  "additionalProperties": true
+}

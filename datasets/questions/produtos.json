@@ -1,0 +1,277 @@
+[
+  {
+    "method": "AlterarProduto",
+    "question": "Quando devo usar AlterarProduto em Produtos?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "AlterarProduto",
+    "question": "Quais parametros o metodo AlterarProduto aceita?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "AlterarProduto",
+    "question": "Quais campos sao obrigatorios para chamar AlterarProduto?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "AlterarProduto",
+    "question": "Qual exemplo de payload ficticio para AlterarProduto?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "AlterarProduto",
+    "question": "Que resposta o metodo AlterarProduto retorna?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "AssociarCodIntProduto",
+    "question": "Quando devo usar AssociarCodIntProduto em Produtos?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "AssociarCodIntProduto",
+    "question": "Quais parametros o metodo AssociarCodIntProduto aceita?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "AssociarCodIntProduto",
+    "question": "Quais campos sao obrigatorios para chamar AssociarCodIntProduto?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "AssociarCodIntProduto",
+    "question": "Qual exemplo de payload ficticio para AssociarCodIntProduto?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "AssociarCodIntProduto",
+    "question": "Que resposta o metodo AssociarCodIntProduto retorna?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "ConsultarProduto",
+    "question": "Quando devo usar ConsultarProduto em Produtos?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "ConsultarProduto",
+    "question": "Quais parametros o metodo ConsultarProduto aceita?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "ConsultarProduto",
+    "question": "Quais campos sao obrigatorios para chamar ConsultarProduto?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "ConsultarProduto",
+    "question": "Qual exemplo de payload ficticio para ConsultarProduto?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "ConsultarProduto",
+    "question": "Que resposta o metodo ConsultarProduto retorna?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "ExcluirProduto",
+    "question": "Quando devo usar ExcluirProduto em Produtos?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "ExcluirProduto",
+    "question": "Quais parametros o metodo ExcluirProduto aceita?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "ExcluirProduto",
+    "question": "Quais campos sao obrigatorios para chamar ExcluirProduto?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "ExcluirProduto",
+    "question": "Qual exemplo de payload ficticio para ExcluirProduto?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "ExcluirProduto",
+    "question": "Que resposta o metodo ExcluirProduto retorna?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "Incluir",
+    "question": "Quando devo usar Incluir em Produtos?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "Incluir",
+    "question": "Quais parametros o metodo Incluir aceita?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "Incluir",
+    "question": "Quais campos sao obrigatorios para chamar Incluir?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "Incluir",
+    "question": "Qual exemplo de payload ficticio para Incluir?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "Incluir",
+    "question": "Que resposta o metodo Incluir retorna?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "IncluirProduto",
+    "question": "Quando devo usar IncluirProduto em Produtos?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "IncluirProduto",
+    "question": "Quais parametros o metodo IncluirProduto aceita?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "IncluirProduto",
+    "question": "Quais campos sao obrigatorios para chamar IncluirProduto?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "IncluirProduto",
+    "question": "Qual exemplo de payload ficticio para IncluirProduto?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "IncluirProduto",
+    "question": "Que resposta o metodo IncluirProduto retorna?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "IncluirProdutosPorLote",
+    "question": "Quando devo usar IncluirProdutosPorLote em Produtos?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "IncluirProdutosPorLote",
+    "question": "Quais parametros o metodo IncluirProdutosPorLote aceita?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "IncluirProdutosPorLote",
+    "question": "Quais campos sao obrigatorios para chamar IncluirProdutosPorLote?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "IncluirProdutosPorLote",
+    "question": "Qual exemplo de payload ficticio para IncluirProdutosPorLote?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "IncluirProdutosPorLote",
+    "question": "Que resposta o metodo IncluirProdutosPorLote retorna?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "ListarProdutos",
+    "question": "Quando devo usar ListarProdutos em Produtos?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "ListarProdutos",
+    "question": "Quais parametros o metodo ListarProdutos aceita?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "ListarProdutos",
+    "question": "Quais campos sao obrigatorios para chamar ListarProdutos?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "ListarProdutos",
+    "question": "Qual exemplo de payload ficticio para ListarProdutos?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "ListarProdutos",
+    "question": "Que resposta o metodo ListarProdutos retorna?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "ListarProdutosResumido",
+    "question": "Quando devo usar ListarProdutosResumido em Produtos?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "ListarProdutosResumido",
+    "question": "Quais parametros o metodo ListarProdutosResumido aceita?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "ListarProdutosResumido",
+    "question": "Quais campos sao obrigatorios para chamar ListarProdutosResumido?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "ListarProdutosResumido",
+    "question": "Qual exemplo de payload ficticio para ListarProdutosResumido?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "ListarProdutosResumido",
+    "question": "Que resposta o metodo ListarProdutosResumido retorna?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "UpsertProduto",
+    "question": "Quando devo usar UpsertProduto em Produtos?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "UpsertProduto",
+    "question": "Quais parametros o metodo UpsertProduto aceita?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "UpsertProduto",
+    "question": "Quais campos sao obrigatorios para chamar UpsertProduto?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "UpsertProduto",
+    "question": "Qual exemplo de payload ficticio para UpsertProduto?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "UpsertProduto",
+    "question": "Que resposta o metodo UpsertProduto retorna?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "UpsertProdutosPorLote",
+    "question": "Quando devo usar UpsertProdutosPorLote em Produtos?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "UpsertProdutosPorLote",
+    "question": "Quais parametros o metodo UpsertProdutosPorLote aceita?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "UpsertProdutosPorLote",
+    "question": "Quais campos sao obrigatorios para chamar UpsertProdutosPorLote?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "UpsertProdutosPorLote",
+    "question": "Qual exemplo de payload ficticio para UpsertProdutosPorLote?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  },
+  {
+    "method": "UpsertProdutosPorLote",
+    "question": "Que resposta o metodo UpsertProdutosPorLote retorna?",
+    "source": "https://app.omie.com.br/api/v1/geral/produtos/"
+  }
+]

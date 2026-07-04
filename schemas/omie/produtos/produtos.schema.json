@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Produtos",
+  "type": "object",
+  "properties": {
+    "call": {
+      "type": "string",
+      "enum": [
+        "AlterarProduto",
+        "AssociarCodIntProduto",
+        "ConsultarProduto",
+        "ExcluirProduto",
+        "Incluir",
+        "IncluirProduto",
+        "IncluirProdutosPorLote",
+        "ListarProdutos",
+        "ListarProdutosResumido",
+        "UpsertProduto",
+        "UpsertProdutosPorLote"
+      ]
+    },
+    "param": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "call",
+    "param"
+  ],
+  "additionalProperties": true
+}

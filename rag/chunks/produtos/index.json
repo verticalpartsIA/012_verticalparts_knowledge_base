@@ -1,0 +1,57 @@
+[
+  {
+    "chunk_id": "produtos-alterarproduto-001",
+    "method": "AlterarProduto",
+    "path": "factory/output/commercial-suite/produtos/rag/chunks/produtos/produtos-alterarproduto-001.md"
+  },
+  {
+    "chunk_id": "produtos-associarcodintproduto-001",
+    "method": "AssociarCodIntProduto",
+    "path": "factory/output/commercial-suite/produtos/rag/chunks/produtos/produtos-associarcodintproduto-001.md"
+  },
+  {
+    "chunk_id": "produtos-consultarproduto-001",
+    "method": "ConsultarProduto",
+    "path": "factory/output/commercial-suite/produtos/rag/chunks/produtos/produtos-consultarproduto-001.md"
+  },
+  {
+    "chunk_id": "produtos-excluirproduto-001",
+    "method": "ExcluirProduto",
+    "path": "factory/output/commercial-suite/produtos/rag/chunks/produtos/produtos-excluirproduto-001.md"
+  },
+  {
+    "chunk_id": "produtos-incluir-001",
+    "method": "Incluir",
+    "path": "factory/output/commercial-suite/produtos/rag/chunks/produtos/produtos-incluir-001.md"
+  },
+  {
+    "chunk_id": "produtos-incluirproduto-001",
+    "method": "IncluirProduto",
+    "path": "factory/output/commercial-suite/produtos/rag/chunks/produtos/produtos-incluirproduto-001.md"
+  },
+  {
+    "chunk_id": "produtos-incluirprodutosporlote-001",
+    "method": "IncluirProdutosPorLote",
+    "path": "factory/output/commercial-suite/produtos/rag/chunks/produtos/produtos-incluirprodutosporlote-001.md"
+  },
+  {
+    "chunk_id": "produtos-listarprodutos-001",
+    "method": "ListarProdutos",
+    "path": "factory/output/commercial-suite/produtos/rag/chunks/produtos/produtos-listarprodutos-001.md"
+  },
+  {
+    "chunk_id": "produtos-listarprodutosresumido-001",
+    "method": "ListarProdutosResumido",
+    "path": "factory/output/commercial-suite/produtos/rag/chunks/produtos/produtos-listarprodutosresumido-001.md"
+  },
+  {
+    "chunk_id": "produtos-upsertproduto-001",
+    "method": "UpsertProduto",
+    "path": "factory/output/commercial-suite/produtos/rag/chunks/produtos/produtos-upsertproduto-001.md"
+  },
+  {
+    "chunk_id": "produtos-upsertprodutosporlote-001",
+    "method": "UpsertProdutosPorLote",
+    "path": "factory/output/commercial-suite/produtos/rag/chunks/produtos/produtos-upsertprodutosporlote-001.md"
+  }
+]

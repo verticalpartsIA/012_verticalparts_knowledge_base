@@ -46,3 +46,20 @@
 | Arquivos planejados | 34 |
 | Documentação definitiva criada | Não |
 | Relatório | `factory/reports/first_autonomous_cycle.md` |
+## Omie Commercial Suite
+
+Última atualização: 2026-07-04
+
+| Métrica | Valor |
+|---|---:|
+| Serviços cobertos estimados | 12 |
+| Métodos documentados no repositório | 98 |
+| Documentos Markdown Omie | 98 |
+| Schemas JSON | 21 |
+| Arquivos de perguntas | 13 |
+| Perguntas estimadas | 925 |
+| Chunks RAG | 175 |
+| Graphs | 17 |
+| Business Docs | 18 |
+| Coverage antes | 1.46% |
+| Coverage depois estimado | 8.76% |

@@ -1,0 +1,102 @@
+[
+  {
+    "method": "ConsultarNF",
+    "question": "Quando devo usar ConsultarNF em NF-e Consultas?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfconsultar/"
+  },
+  {
+    "method": "ConsultarNF",
+    "question": "Quais parametros o metodo ConsultarNF aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfconsultar/"
+  },
+  {
+    "method": "ConsultarNF",
+    "question": "Quais campos sao obrigatorios para chamar ConsultarNF?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfconsultar/"
+  },
+  {
+    "method": "ConsultarNF",
+    "question": "Qual exemplo de payload ficticio para ConsultarNF?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfconsultar/"
+  },
+  {
+    "method": "ConsultarNF",
+    "question": "Que resposta o metodo ConsultarNF retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfconsultar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Quando devo usar Listar em NF-e Consultas?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfconsultar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Quais parametros o metodo Listar aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfconsultar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Quais campos sao obrigatorios para chamar Listar?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfconsultar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Qual exemplo de payload ficticio para Listar?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfconsultar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Que resposta o metodo Listar retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfconsultar/"
+  },
+  {
+    "method": "ListarNF",
+    "question": "Quando devo usar ListarNF em NF-e Consultas?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfconsultar/"
+  },
+  {
+    "method": "ListarNF",
+    "question": "Quais parametros o metodo ListarNF aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfconsultar/"
+  },
+  {
+    "method": "ListarNF",
+    "question": "Quais campos sao obrigatorios para chamar ListarNF?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfconsultar/"
+  },
+  {
+    "method": "ListarNF",
+    "question": "Qual exemplo de payload ficticio para ListarNF?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfconsultar/"
+  },
+  {
+    "method": "ListarNF",
+    "question": "Que resposta o metodo ListarNF retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfconsultar/"
+  },
+  {
+    "method": "NFConsultar",
+    "question": "Quando devo usar NFConsultar em NF-e Consultas?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfconsultar/"
+  },
+  {
+    "method": "NFConsultar",
+    "question": "Quais parametros o metodo NFConsultar aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfconsultar/"
+  },
+  {
+    "method": "NFConsultar",
+    "question": "Quais campos sao obrigatorios para chamar NFConsultar?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfconsultar/"
+  },
+  {
+    "method": "NFConsultar",
+    "question": "Qual exemplo de payload ficticio para NFConsultar?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfconsultar/"
+  },
+  {
+    "method": "NFConsultar",
+    "question": "Que resposta o metodo NFConsultar retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/nfconsultar/"
+  }
+]

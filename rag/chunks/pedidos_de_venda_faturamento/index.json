@@ -1,0 +1,22 @@
+[
+  {
+    "chunk_id": "pedidos_de_venda_faturamento-associarcodintpedidovenda-001",
+    "method": "AssociarCodIntPedidoVenda",
+    "path": "factory/output/commercial-suite/pedidos_de_venda_faturamento/rag/chunks/pedidos_de_venda_faturamento/pedidos_de_venda_faturamento-associarcodintpedidovenda-001.md"
+  },
+  {
+    "chunk_id": "pedidos_de_venda_faturamento-cancelarpedidovenda-001",
+    "method": "CancelarPedidoVenda",
+    "path": "factory/output/commercial-suite/pedidos_de_venda_faturamento/rag/chunks/pedidos_de_venda_faturamento/pedidos_de_venda_faturamento-cancelarpedidovenda-001.md"
+  },
+  {
+    "chunk_id": "pedidos_de_venda_faturamento-obterpedidosvenda-001",
+    "method": "ObterPedidosVenda",
+    "path": "factory/output/commercial-suite/pedidos_de_venda_faturamento/rag/chunks/pedidos_de_venda_faturamento/pedidos_de_venda_faturamento-obterpedidosvenda-001.md"
+  },
+  {
+    "chunk_id": "pedidos_de_venda_faturamento-validarpedidovenda-001",
+    "method": "ValidarPedidoVenda",
+    "path": "factory/output/commercial-suite/pedidos_de_venda_faturamento/rag/chunks/pedidos_de_venda_faturamento/pedidos_de_venda_faturamento-validarpedidovenda-001.md"
+  }
+]

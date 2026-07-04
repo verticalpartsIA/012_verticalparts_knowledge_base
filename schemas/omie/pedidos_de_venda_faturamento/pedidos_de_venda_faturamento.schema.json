@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pedidos de Venda Faturamento",
+  "type": "object",
+  "properties": {
+    "call": {
+      "type": "string",
+      "enum": [
+        "AssociarCodIntPedidoVenda",
+        "CancelarPedidoVenda",
+        "ObterPedidosVenda",
+        "ValidarPedidoVenda"
+      ]
+    },
+    "param": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "call",
+    "param"
+  ],
+  "additionalProperties": true
+}

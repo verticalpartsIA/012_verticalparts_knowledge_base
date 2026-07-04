@@ -146,3 +146,16 @@
 - Prioridade: Alta
 - Dependências: Fases 1 a 14
 - Status: Planejado
+## Omie Commercial Suite
+
+Status: Em PR
+Prioridade: Alta
+Data: 2026-07-04
+
+Objetivo: documentar os fluxos estratégicos Venda, Compra, Faturamento, NF-e, NFS-e, Produtos, Estoque e Financeiro usando a Factory existente.
+
+Entregas:
+
+- docs, schemas, datasets/questions, rag/chunks, graphs e business docs para os serviços oficiais selecionados
+- fluxos completos de venda, compra, faturamento e aprovações
+- coverage estimado de 1.46% para 8.76%

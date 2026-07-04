@@ -1,0 +1,22 @@
+[
+  {
+    "chunk_id": "nf_e_consultas-consultarnf-001",
+    "method": "ConsultarNF",
+    "path": "factory/output/commercial-suite/consultas/rag/chunks/nf_e_consultas/nf_e_consultas-consultarnf-001.md"
+  },
+  {
+    "chunk_id": "nf_e_consultas-listar-001",
+    "method": "Listar",
+    "path": "factory/output/commercial-suite/consultas/rag/chunks/nf_e_consultas/nf_e_consultas-listar-001.md"
+  },
+  {
+    "chunk_id": "nf_e_consultas-listarnf-001",
+    "method": "ListarNF",
+    "path": "factory/output/commercial-suite/consultas/rag/chunks/nf_e_consultas/nf_e_consultas-listarnf-001.md"
+  },
+  {
+    "chunk_id": "nf_e_consultas-nfconsultar-001",
+    "method": "NFConsultar",
+    "path": "factory/output/commercial-suite/consultas/rag/chunks/nf_e_consultas/nf_e_consultas-nfconsultar-001.md"
+  }
+]

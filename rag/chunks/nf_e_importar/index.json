@@ -1,0 +1,12 @@
+[
+  {
+    "chunk_id": "nf_e_importar-excluirnfe-001",
+    "method": "ExcluirNFe",
+    "path": "factory/output/commercial-suite/importar/rag/chunks/nf_e_importar/nf_e_importar-excluirnfe-001.md"
+  },
+  {
+    "chunk_id": "nf_e_importar-listarnfe-001",
+    "method": "ListarNFe",
+    "path": "factory/output/commercial-suite/importar/rag/chunks/nf_e_importar/nf_e_importar-listarnfe-001.md"
+  }
+]

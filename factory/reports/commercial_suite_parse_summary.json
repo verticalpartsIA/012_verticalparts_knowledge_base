@@ -1,0 +1,226 @@
+[
+  {
+    "id": "compras_estoque_e_producao_pedidos_de_venda",
+    "name": "Pedidos de Venda",
+    "url": "https://app.omie.com.br/api/v1/produtos/pedido/",
+    "endpoint": "https://app.omie.com.br/api/v1/produtos/pedido/",
+    "domain": "compras, estoque e produção",
+    "methods": [
+      "AlterarPedFaturado",
+      "AlterarPedidoVenda",
+      "ConsultarPedido",
+      "Excluir",
+      "ExcluirPedido",
+      "IncluirPedido",
+      "Listar",
+      "ListarPedidos"
+    ],
+    "count": 8,
+    "status": "ok"
+  },
+  {
+    "id": "compras_estoque_e_producao_pedidos_de_venda_faturamento",
+    "name": "Pedidos de Venda - Faturamento",
+    "url": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/",
+    "endpoint": "https://app.omie.com.br/api/v1/produtos/pedidovendafat/",
+    "domain": "compras, estoque e produção",
+    "methods": [
+      "AssociarCodIntPedidoVenda",
+      "CancelarPedidoVenda",
+      "ObterPedidosVenda",
+      "ValidarPedidoVenda"
+    ],
+    "count": 4,
+    "status": "ok"
+  },
+  {
+    "id": "compras_estoque_e_producao_pedidos_de_compra",
+    "name": "Pedidos de Compra",
+    "url": "https://app.omie.com.br/api/v1/produtos/pedidocompra/",
+    "endpoint": "https://app.omie.com.br/api/v1/produtos/pedidocompra/",
+    "domain": "compras, estoque e produção",
+    "methods": [
+      "Alterar",
+      "Consultar",
+      "ConsultarPedCompra",
+      "Excluir",
+      "ExcluirPedCompra",
+      "Incluir",
+      "IncluirPedCompra",
+      "Upsert",
+      "UpsertPedCompra"
+    ],
+    "count": 9,
+    "status": "ok"
+  },
+  {
+    "id": "geral_produtos",
+    "name": "Produtos",
+    "url": "https://app.omie.com.br/api/v1/geral/produtos/",
+    "endpoint": "https://app.omie.com.br/api/v1/geral/produtos/",
+    "domain": "geral",
+    "methods": [
+      "AlterarProduto",
+      "AssociarCodIntProduto",
+      "ConsultarProduto",
+      "ExcluirProduto",
+      "Incluir",
+      "IncluirProduto",
+      "IncluirProdutosPorLote",
+      "ListarProdutos",
+      "ListarProdutosResumido",
+      "UpsertProduto",
+      "UpsertProdutosPorLote"
+    ],
+    "count": 11,
+    "status": "ok"
+  },
+  {
+    "id": "compras_estoque_e_producao_consulta_estoque",
+    "name": "Consulta Estoque",
+    "url": "https://app.omie.com.br/api/v1/estoque/consulta/",
+    "endpoint": "https://app.omie.com.br/api/v1/estoque/consulta/",
+    "domain": "compras, estoque e produção",
+    "methods": [
+      "ListarEstPosRequest",
+      "ListarEstPosResponse",
+      "ListarMovEstoqueRequest",
+      "ListarMovEstoqueResponse",
+      "ListarMovimentoEstoque",
+      "ListarPosEstoque",
+      "ListarSaldoPendente"
+    ],
+    "count": 7,
+    "status": "ok"
+  },
+  {
+    "id": "compras_estoque_e_producao_movimento_estoque",
+    "name": "Movimento Estoque",
+    "url": "https://app.omie.com.br/api/v1/estoque/movestoque/",
+    "endpoint": "https://app.omie.com.br/api/v1/estoque/movestoque/",
+    "domain": "compras, estoque e produção",
+    "methods": [
+      "ConsultarPrevisao",
+      "ListarMovimentos"
+    ],
+    "count": 2,
+    "status": "ok"
+  },
+  {
+    "id": "financas_contas_a_receber_lancamentos",
+    "name": "Contas a Receber - Lançamentos",
+    "url": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "endpoint": "https://app.omie.com.br/api/v1/financas/contareceber/",
+    "domain": "finanças",
+    "methods": [
+      "AlterarContaReceber",
+      "AlterarDistribuicaoDepartamento",
+      "CancelarContaReceber",
+      "CancelarRecebimento",
+      "ConsultarContaReceber",
+      "ExcluirContaReceber",
+      "ExcluirDistribuicaoDepartamento",
+      "IncluirContaReceber",
+      "IncluirContaReceberPorLote",
+      "IncluirDistribuicaoDepartamento",
+      "LancarRecebimento",
+      "ListarContasReceber",
+      "Upsert",
+      "UPSERT",
+      "UpsertContaReceber",
+      "UpsertContaReceberPorLote"
+    ],
+    "count": 16,
+    "status": "ok"
+  },
+  {
+    "id": "financas_contas_a_pagar_lancamentos",
+    "name": "Contas a Pagar - Lançamentos",
+    "url": "https://app.omie.com.br/api/v1/financas/contapagar/",
+    "endpoint": "https://app.omie.com.br/api/v1/financas/contapagar/",
+    "domain": "finanças",
+    "methods": [
+      "AlterarContaPagar",
+      "CancelarPagamento",
+      "ConsultarContaPagar",
+      "ExcluirContaPagar",
+      "IncluirContaPagar",
+      "IncluirContaPagarPorLote",
+      "LancarPagamento",
+      "Listar",
+      "ListarContasPagar",
+      "Upsert",
+      "UPSERT",
+      "UpsertContaPagar",
+      "UpsertContaPagarPorLote"
+    ],
+    "count": 13,
+    "status": "ok"
+  },
+  {
+    "id": "compras_estoque_e_producao_consultas",
+    "name": "Consultas",
+    "url": "https://app.omie.com.br/api/v1/produtos/nfconsultar/",
+    "endpoint": "https://app.omie.com.br/api/v1/produtos/nfconsultar/",
+    "domain": "compras, estoque e produção",
+    "methods": [
+      "ConsultarNF",
+      "Listar",
+      "ListarNF",
+      "NFConsultar"
+    ],
+    "count": 4,
+    "status": "ok"
+  },
+  {
+    "id": "compras_estoque_e_producao_utilitarios",
+    "name": "Utilitários",
+    "url": "https://app.omie.com.br/api/v1/produtos/notafiscalutil/",
+    "endpoint": "https://app.omie.com.br/api/v1/produtos/notafiscalutil/",
+    "domain": "compras, estoque e produção",
+    "methods": [],
+    "count": 0,
+    "status": "parser_error",
+    "error": "Nenhum metodo foi extraido da documentacao. Verifique se o HTML contem os nomes oficiais."
+  },
+  {
+    "id": "compras_estoque_e_producao_importar",
+    "name": "Importar",
+    "url": "https://app.omie.com.br/api/v1/produtos/nfe/",
+    "endpoint": "https://app.omie.com.br/api/v1/produtos/nfe/",
+    "domain": "compras, estoque e produção",
+    "methods": [
+      "ExcluirNFe",
+      "ListarNFe"
+    ],
+    "count": 2,
+    "status": "ok"
+  },
+  {
+    "id": "servicos_e_nfs_e_consultas",
+    "name": "Consultas",
+    "url": "https://app.omie.com.br/api/v1/servicos/nfse/",
+    "endpoint": "https://app.omie.com.br/api/v1/servicos/nfse/",
+    "domain": "serviços e nfs-e",
+    "methods": [
+      "ListarNFSEs"
+    ],
+    "count": 1,
+    "status": "ok"
+  },
+  {
+    "id": "servicos_e_nfs_e_ordens_de_servico_faturamento",
+    "name": "Ordens de Serviço - Faturamento",
+    "url": "https://app.omie.com.br/api/v1/servicos/osp/",
+    "endpoint": "https://app.omie.com.br/api/v1/servicos/osp/",
+    "domain": "serviços e nfs-e",
+    "methods": [
+      "AssociarCodIntOS",
+      "CancelarOS",
+      "ObterOS",
+      "ValidarOS"
+    ],
+    "count": 4,
+    "status": "ok"
+  }
+]

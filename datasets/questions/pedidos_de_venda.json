@@ -1,0 +1,202 @@
+[
+  {
+    "method": "AlterarPedFaturado",
+    "question": "Quando devo usar AlterarPedFaturado em Pedidos de Venda?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "AlterarPedFaturado",
+    "question": "Quais parametros o metodo AlterarPedFaturado aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "AlterarPedFaturado",
+    "question": "Quais campos sao obrigatorios para chamar AlterarPedFaturado?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "AlterarPedFaturado",
+    "question": "Qual exemplo de payload ficticio para AlterarPedFaturado?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "AlterarPedFaturado",
+    "question": "Que resposta o metodo AlterarPedFaturado retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "AlterarPedidoVenda",
+    "question": "Quando devo usar AlterarPedidoVenda em Pedidos de Venda?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "AlterarPedidoVenda",
+    "question": "Quais parametros o metodo AlterarPedidoVenda aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "AlterarPedidoVenda",
+    "question": "Quais campos sao obrigatorios para chamar AlterarPedidoVenda?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "AlterarPedidoVenda",
+    "question": "Qual exemplo de payload ficticio para AlterarPedidoVenda?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "AlterarPedidoVenda",
+    "question": "Que resposta o metodo AlterarPedidoVenda retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "ConsultarPedido",
+    "question": "Quando devo usar ConsultarPedido em Pedidos de Venda?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "ConsultarPedido",
+    "question": "Quais parametros o metodo ConsultarPedido aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "ConsultarPedido",
+    "question": "Quais campos sao obrigatorios para chamar ConsultarPedido?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "ConsultarPedido",
+    "question": "Qual exemplo de payload ficticio para ConsultarPedido?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "ConsultarPedido",
+    "question": "Que resposta o metodo ConsultarPedido retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "Excluir",
+    "question": "Quando devo usar Excluir em Pedidos de Venda?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "Excluir",
+    "question": "Quais parametros o metodo Excluir aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "Excluir",
+    "question": "Quais campos sao obrigatorios para chamar Excluir?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "Excluir",
+    "question": "Qual exemplo de payload ficticio para Excluir?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "Excluir",
+    "question": "Que resposta o metodo Excluir retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "ExcluirPedido",
+    "question": "Quando devo usar ExcluirPedido em Pedidos de Venda?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "ExcluirPedido",
+    "question": "Quais parametros o metodo ExcluirPedido aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "ExcluirPedido",
+    "question": "Quais campos sao obrigatorios para chamar ExcluirPedido?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "ExcluirPedido",
+    "question": "Qual exemplo de payload ficticio para ExcluirPedido?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "ExcluirPedido",
+    "question": "Que resposta o metodo ExcluirPedido retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "IncluirPedido",
+    "question": "Quando devo usar IncluirPedido em Pedidos de Venda?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "IncluirPedido",
+    "question": "Quais parametros o metodo IncluirPedido aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "IncluirPedido",
+    "question": "Quais campos sao obrigatorios para chamar IncluirPedido?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "IncluirPedido",
+    "question": "Qual exemplo de payload ficticio para IncluirPedido?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "IncluirPedido",
+    "question": "Que resposta o metodo IncluirPedido retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "Listar",
+    "question": "Quando devo usar Listar em Pedidos de Venda?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "Listar",
+    "question": "Quais parametros o metodo Listar aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "Listar",
+    "question": "Quais campos sao obrigatorios para chamar Listar?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "Listar",
+    "question": "Qual exemplo de payload ficticio para Listar?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "Listar",
+    "question": "Que resposta o metodo Listar retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "ListarPedidos",
+    "question": "Quando devo usar ListarPedidos em Pedidos de Venda?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "ListarPedidos",
+    "question": "Quais parametros o metodo ListarPedidos aceita?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "ListarPedidos",
+    "question": "Quais campos sao obrigatorios para chamar ListarPedidos?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "ListarPedidos",
+    "question": "Qual exemplo de payload ficticio para ListarPedidos?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  },
+  {
+    "method": "ListarPedidos",
+    "question": "Que resposta o metodo ListarPedidos retorna?",
+    "source": "https://app.omie.com.br/api/v1/produtos/pedido/"
+  }
+]
