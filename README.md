@@ -146,3 +146,8 @@ python scripts/generate_enterprise_omie_clientes.py
 pytest tests/knowledge
 python scripts/knowledge_score.py
 ```
+## VerticalParts Business Knowledge Layer
+
+A camada `business/verticalparts/` inicia a segunda grande camada do projeto: conhecimento operacional da VerticalParts acima da Omie Knowledge Layer.
+
+Esta entrega cria apenas a arquitetura, domínios, ontologia, semântica, processos e GraphRAG estruturais. Nenhuma regra real foi inventada; todos os documentos estão marcados como `Aguardando modelagem da VerticalParts` ou `Será preenchido posteriormente`.

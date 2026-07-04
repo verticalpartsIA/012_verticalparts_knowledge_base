@@ -1,200 +1,273 @@
 # Índice Global da Documentação
 
-Última atualização: 2026-07-03
+Última atualização: 2026-07-04
 
-- [Business Knowledge: Omie Clientes](../business/omie/clientes.md) — `business/omie/clientes.md`
-- [Business Knowledge: Omie Contas a Receber](../business/omie/contas_a_receber.md) — `business/omie/contas_a_receber.md`
-- [Changelog](../CHANGELOG.md) — `CHANGELOG.md`
-- [Contribuindo](../CONTRIBUTING.md) — `CONTRIBUTING.md`
-- [Cobertura da API Omie](../coverage/omie_api_coverage.md) — `coverage/omie_api_coverage.md`
-- [Contas a Pagar](../docs/omie/financeiro/contas_a_pagar.md) — `docs/omie/financeiro/contas_a_pagar.md`
-- [Omie Financeiro: Contas a Receber](../docs/omie/financeiro/contas_a_receber.md) — `docs/omie/financeiro/contas_a_receber.md`
-- [AlterarContaReceber](../docs/omie/financeiro/contas_a_receber/alterar_conta_receber.md) — `docs/omie/financeiro/contas_a_receber/alterar_conta_receber.md`
-- [AlterarDistribuicaoDepartamento](../docs/omie/financeiro/contas_a_receber/alterar_distribuicao_departamento.md) — `docs/omie/financeiro/contas_a_receber/alterar_distribuicao_departamento.md`
-- [CancelarContaReceber](../docs/omie/financeiro/contas_a_receber/cancelar_conta_receber.md) — `docs/omie/financeiro/contas_a_receber/cancelar_conta_receber.md`
-- [CancelarRecebimento](../docs/omie/financeiro/contas_a_receber/cancelar_recebimento.md) — `docs/omie/financeiro/contas_a_receber/cancelar_recebimento.md`
-- [ConciliarRecebimento](../docs/omie/financeiro/contas_a_receber/conciliar_recebimento.md) — `docs/omie/financeiro/contas_a_receber/conciliar_recebimento.md`
-- [ConsultarContaReceber](../docs/omie/financeiro/contas_a_receber/consultar_conta_receber.md) — `docs/omie/financeiro/contas_a_receber/consultar_conta_receber.md`
-- [DesconciliarRecebimento](../docs/omie/financeiro/contas_a_receber/desconciliar_recebimento.md) — `docs/omie/financeiro/contas_a_receber/desconciliar_recebimento.md`
-- [ExcluirContaReceber](../docs/omie/financeiro/contas_a_receber/excluir_conta_receber.md) — `docs/omie/financeiro/contas_a_receber/excluir_conta_receber.md`
-- [ExcluirDistribuicaoDepartamento](../docs/omie/financeiro/contas_a_receber/excluir_distribuicao_departamento.md) — `docs/omie/financeiro/contas_a_receber/excluir_distribuicao_departamento.md`
-- [IncluirContaReceber](../docs/omie/financeiro/contas_a_receber/incluir_conta_receber.md) — `docs/omie/financeiro/contas_a_receber/incluir_conta_receber.md`
-- [IncluirContaReceberPorLote](../docs/omie/financeiro/contas_a_receber/incluir_conta_receber_por_lote.md) — `docs/omie/financeiro/contas_a_receber/incluir_conta_receber_por_lote.md`
-- [IncluirDistribuicaoDepartamento](../docs/omie/financeiro/contas_a_receber/incluir_distribuicao_departamento.md) — `docs/omie/financeiro/contas_a_receber/incluir_distribuicao_departamento.md`
-- [LancarRecebimento](../docs/omie/financeiro/contas_a_receber/lancar_recebimento.md) — `docs/omie/financeiro/contas_a_receber/lancar_recebimento.md`
-- [ListarContasReceber](../docs/omie/financeiro/contas_a_receber/listar_contas_receber.md) — `docs/omie/financeiro/contas_a_receber/listar_contas_receber.md`
-- [Omie Financeiro: Contas a Receber](../docs/omie/financeiro/contas_a_receber/README.md) — `docs/omie/financeiro/contas_a_receber/README.md`
-- [UpsertContaReceber](../docs/omie/financeiro/contas_a_receber/upsert_conta_receber.md) — `docs/omie/financeiro/contas_a_receber/upsert_conta_receber.md`
-- [UpsertContaReceberPorLote](../docs/omie/financeiro/contas_a_receber/upsert_conta_receber_por_lote.md) — `docs/omie/financeiro/contas_a_receber/upsert_conta_receber_por_lote.md`
-- [Movimentos Financeiros](../docs/omie/financeiro/movimentos_financeiros.md) — `docs/omie/financeiro/movimentos_financeiros.md`
-- [AlterarCliente](../docs/omie/geral/clientes/alterar_cliente.md) — `docs/omie/geral/clientes/alterar_cliente.md`
-- [AssociarCodIntCliente](../docs/omie/geral/clientes/associar_cod_int_cliente.md) — `docs/omie/geral/clientes/associar_cod_int_cliente.md`
-- [ConsultarCliente](../docs/omie/geral/clientes/consultar_cliente.md) — `docs/omie/geral/clientes/consultar_cliente.md`
-- [ExcluirCliente](../docs/omie/geral/clientes/excluir_cliente.md) — `docs/omie/geral/clientes/excluir_cliente.md`
-- [IncluirCliente](../docs/omie/geral/clientes/incluir_cliente.md) — `docs/omie/geral/clientes/incluir_cliente.md`
-- [IncluirClientesPorLote](../docs/omie/geral/clientes/incluir_clientes_por_lote.md) — `docs/omie/geral/clientes/incluir_clientes_por_lote.md`
-- [ListarClientes](../docs/omie/geral/clientes/listar_clientes.md) — `docs/omie/geral/clientes/listar_clientes.md`
-- [ListarClientesResumido](../docs/omie/geral/clientes/listar_clientes_resumido.md) — `docs/omie/geral/clientes/listar_clientes_resumido.md`
-- [Omie Geral: Clientes, Fornecedores e Transportadoras](../docs/omie/geral/clientes/README.md) — `docs/omie/geral/clientes/README.md`
-- [UpsertCliente](../docs/omie/geral/clientes/upsert_cliente.md) — `docs/omie/geral/clientes/upsert_cliente.md`
-- [UpsertClienteCpfCnpj](../docs/omie/geral/clientes/upsert_cliente_cpf_cnpj.md) — `docs/omie/geral/clientes/upsert_cliente_cpf_cnpj.md`
-- [UpsertClientesPorLote](../docs/omie/geral/clientes/upsert_clientes_por_lote.md) — `docs/omie/geral/clientes/upsert_clientes_por_lote.md`
-- [Índice: Clientes, Fornecedores e Transportadoras](../docs/omie/geral/clientes_fornecedores_transportadoras.md) — `docs/omie/geral/clientes_fornecedores_transportadoras.md`
-- [API Omie](../docs/omie/README.md) — `docs/omie/README.md`
-- [Ordem de Serviço](../docs/omie/servicos/ordem_de_servico.md) — `docs/omie/servicos/ordem_de_servico.md`
-- [Pedidos de Venda](../docs/omie/vendas/pedidos_de_venda.md) — `docs/omie/vendas/pedidos_de_venda.md`
-- [Documentação](../docs/README.md) — `docs/README.md`
-- [Embeddings](../embeddings/README.md) — `embeddings/README.md`
-- [Arquitetura](../factory/ARCHITECTURE.md) — `factory/ARCHITECTURE.md`
-- [Exemplo: Clientes](../factory/examples/clientes.md) — `factory/examples/clientes.md`
-- [Execution Engine](../factory/execution/README.md) — `factory/execution/README.md`
-- [First Autonomous Documentation Cycle](../factory/reports/first_autonomous_cycle.md) — `factory/reports/first_autonomous_cycle.md`
-- [FACTORY SDD](../factory/FACTORY_SDD.md) — `factory/FACTORY_SDD.md`
-- [FACTORY SPEC](../factory/FACTORY_SPEC.md) — `factory/FACTORY_SPEC.md`
-- [Generation Planner](../factory/planner/README.md) — `factory/planner/README.md`
-- [Omie Knowledge Factory](../factory/README.md) — `factory/README.md`
-- [Documentation Plan](../factory/reports/documentation_plan.md) — `factory/reports/documentation_plan.md`
-- [Execution Report](../factory/reports/execution_report.md) — `factory/reports/execution_report.md`
-- [Generation Planner Report](../factory/reports/planner_report.md) — `factory/reports/planner_report.md`
-- [Service Dependency Graph](../factory/reports/service_dependency_graph.md) — `factory/reports/service_dependency_graph.md`
-- [Roadmap da Factory](../factory/ROADMAP.md) — `factory/ROADMAP.md`
-- [Business Knowledge: {{ service_title }}](../factory/templates/business.md) — `factory/templates/business.md`
-- [Chunk {{ method }} - {{ focus }}](../factory/templates/chunk.md) — `factory/templates/chunk.md`
-- [Cobertura da API Omie](../factory/templates/coverage.md) — `factory/templates/coverage.md`
-- [{{ method }}](../factory/templates/document.md) — `factory/templates/document.md`
-- [Faq](../factory/templates/faq.md) — `factory/templates/faq.md`
-- [GraphRAG: {{ service_title }}](../factory/templates/graph.md) — `factory/templates/graph.md`
-- [Índice: {{ title }}](../factory/templates/index.md) — `factory/templates/index.md`
-- [{{ service_title }}](../factory/templates/readme.md) — `factory/templates/readme.md`
-- [Testes da Factory](../factory/tests/README.md) — `factory/tests/README.md`
-- [Workflow](../factory/workflows/workflow.md) — `factory/workflows/workflow.md`
-- [GraphRAG: Omie Clientes](../graphs/omie/clientes.graph.md) — `graphs/omie/clientes.graph.md`
-- [GraphRAG: Omie Contas a Receber](../graphs/omie/contas_a_receber.graph.md) — `graphs/omie/contas_a_receber.graph.md`
-- [Knowledge](../knowledge/README.md) — `knowledge/README.md`
-- [Foundation Complete](../milestones/FOUNDATION_COMPLETE.md) — `milestones/FOUNDATION_COMPLETE.md`
-- [v1.0.0 — Autonomous Knowledge Factory](../milestones/V1_AUTONOMOUS_KNOWLEDGE_FACTORY.md) — `milestones/V1_AUTONOMOUS_KNOWLEDGE_FACTORY.md`
-- [Chunk AlterarCliente - contrato](../rag/chunks/clientes/alterar_cliente.contrato.chunk.md) — `rag/chunks/clientes/alterar_cliente.contrato.chunk.md`
-- [Chunk AlterarCliente - faq](../rag/chunks/clientes/alterar_cliente.faq.chunk.md) — `rag/chunks/clientes/alterar_cliente.faq.chunk.md`
-- [Chunk AlterarCliente - identidade](../rag/chunks/clientes/alterar_cliente.identidade.chunk.md) — `rag/chunks/clientes/alterar_cliente.identidade.chunk.md`
-- [Chunk AlterarCliente - operacao](../rag/chunks/clientes/alterar_cliente.operacao.chunk.md) — `rag/chunks/clientes/alterar_cliente.operacao.chunk.md`
-- [Chunk AssociarCodIntCliente - contrato](../rag/chunks/clientes/associar_cod_int_cliente.contrato.chunk.md) — `rag/chunks/clientes/associar_cod_int_cliente.contrato.chunk.md`
-- [Chunk AssociarCodIntCliente - faq](../rag/chunks/clientes/associar_cod_int_cliente.faq.chunk.md) — `rag/chunks/clientes/associar_cod_int_cliente.faq.chunk.md`
-- [Chunk AssociarCodIntCliente - identidade](../rag/chunks/clientes/associar_cod_int_cliente.identidade.chunk.md) — `rag/chunks/clientes/associar_cod_int_cliente.identidade.chunk.md`
-- [Chunk AssociarCodIntCliente - operacao](../rag/chunks/clientes/associar_cod_int_cliente.operacao.chunk.md) — `rag/chunks/clientes/associar_cod_int_cliente.operacao.chunk.md`
-- [Chunk ConsultarCliente - contrato](../rag/chunks/clientes/consultar_cliente.contrato.chunk.md) — `rag/chunks/clientes/consultar_cliente.contrato.chunk.md`
-- [Chunk ConsultarCliente - faq](../rag/chunks/clientes/consultar_cliente.faq.chunk.md) — `rag/chunks/clientes/consultar_cliente.faq.chunk.md`
-- [Chunk ConsultarCliente - identidade](../rag/chunks/clientes/consultar_cliente.identidade.chunk.md) — `rag/chunks/clientes/consultar_cliente.identidade.chunk.md`
-- [Chunk ConsultarCliente - operacao](../rag/chunks/clientes/consultar_cliente.operacao.chunk.md) — `rag/chunks/clientes/consultar_cliente.operacao.chunk.md`
-- [Chunk ExcluirCliente - contrato](../rag/chunks/clientes/excluir_cliente.contrato.chunk.md) — `rag/chunks/clientes/excluir_cliente.contrato.chunk.md`
-- [Chunk ExcluirCliente - faq](../rag/chunks/clientes/excluir_cliente.faq.chunk.md) — `rag/chunks/clientes/excluir_cliente.faq.chunk.md`
-- [Chunk ExcluirCliente - identidade](../rag/chunks/clientes/excluir_cliente.identidade.chunk.md) — `rag/chunks/clientes/excluir_cliente.identidade.chunk.md`
-- [Chunk ExcluirCliente - operacao](../rag/chunks/clientes/excluir_cliente.operacao.chunk.md) — `rag/chunks/clientes/excluir_cliente.operacao.chunk.md`
-- [Chunk IncluirCliente - contrato](../rag/chunks/clientes/incluir_cliente.contrato.chunk.md) — `rag/chunks/clientes/incluir_cliente.contrato.chunk.md`
-- [Chunk IncluirCliente - faq](../rag/chunks/clientes/incluir_cliente.faq.chunk.md) — `rag/chunks/clientes/incluir_cliente.faq.chunk.md`
-- [Chunk IncluirCliente - identidade](../rag/chunks/clientes/incluir_cliente.identidade.chunk.md) — `rag/chunks/clientes/incluir_cliente.identidade.chunk.md`
-- [Chunk IncluirCliente - operacao](../rag/chunks/clientes/incluir_cliente.operacao.chunk.md) — `rag/chunks/clientes/incluir_cliente.operacao.chunk.md`
-- [Chunk IncluirClientesPorLote - contrato](../rag/chunks/clientes/incluir_clientes_por_lote.contrato.chunk.md) — `rag/chunks/clientes/incluir_clientes_por_lote.contrato.chunk.md`
-- [Chunk IncluirClientesPorLote - faq](../rag/chunks/clientes/incluir_clientes_por_lote.faq.chunk.md) — `rag/chunks/clientes/incluir_clientes_por_lote.faq.chunk.md`
-- [Chunk IncluirClientesPorLote - identidade](../rag/chunks/clientes/incluir_clientes_por_lote.identidade.chunk.md) — `rag/chunks/clientes/incluir_clientes_por_lote.identidade.chunk.md`
-- [Chunk IncluirClientesPorLote - operacao](../rag/chunks/clientes/incluir_clientes_por_lote.operacao.chunk.md) — `rag/chunks/clientes/incluir_clientes_por_lote.operacao.chunk.md`
-- [Chunk ListarClientes - contrato](../rag/chunks/clientes/listar_clientes.contrato.chunk.md) — `rag/chunks/clientes/listar_clientes.contrato.chunk.md`
-- [Chunk ListarClientes - faq](../rag/chunks/clientes/listar_clientes.faq.chunk.md) — `rag/chunks/clientes/listar_clientes.faq.chunk.md`
-- [Chunk ListarClientes - identidade](../rag/chunks/clientes/listar_clientes.identidade.chunk.md) — `rag/chunks/clientes/listar_clientes.identidade.chunk.md`
-- [Chunk ListarClientes - operacao](../rag/chunks/clientes/listar_clientes.operacao.chunk.md) — `rag/chunks/clientes/listar_clientes.operacao.chunk.md`
-- [Chunk ListarClientesResumido - contrato](../rag/chunks/clientes/listar_clientes_resumido.contrato.chunk.md) — `rag/chunks/clientes/listar_clientes_resumido.contrato.chunk.md`
-- [Chunk ListarClientesResumido - faq](../rag/chunks/clientes/listar_clientes_resumido.faq.chunk.md) — `rag/chunks/clientes/listar_clientes_resumido.faq.chunk.md`
-- [Chunk ListarClientesResumido - identidade](../rag/chunks/clientes/listar_clientes_resumido.identidade.chunk.md) — `rag/chunks/clientes/listar_clientes_resumido.identidade.chunk.md`
-- [Chunk ListarClientesResumido - operacao](../rag/chunks/clientes/listar_clientes_resumido.operacao.chunk.md) — `rag/chunks/clientes/listar_clientes_resumido.operacao.chunk.md`
-- [Estratégia de Recuperação: Clientes](../rag/chunks/clientes/retrieval_strategy.md) — `rag/chunks/clientes/retrieval_strategy.md`
-- [Chunk UpsertCliente - contrato](../rag/chunks/clientes/upsert_cliente.contrato.chunk.md) — `rag/chunks/clientes/upsert_cliente.contrato.chunk.md`
-- [Chunk UpsertCliente - faq](../rag/chunks/clientes/upsert_cliente.faq.chunk.md) — `rag/chunks/clientes/upsert_cliente.faq.chunk.md`
-- [Chunk UpsertCliente - identidade](../rag/chunks/clientes/upsert_cliente.identidade.chunk.md) — `rag/chunks/clientes/upsert_cliente.identidade.chunk.md`
-- [Chunk UpsertCliente - operacao](../rag/chunks/clientes/upsert_cliente.operacao.chunk.md) — `rag/chunks/clientes/upsert_cliente.operacao.chunk.md`
-- [Chunk UpsertClienteCpfCnpj - contrato](../rag/chunks/clientes/upsert_cliente_cpf_cnpj.contrato.chunk.md) — `rag/chunks/clientes/upsert_cliente_cpf_cnpj.contrato.chunk.md`
-- [Chunk UpsertClienteCpfCnpj - faq](../rag/chunks/clientes/upsert_cliente_cpf_cnpj.faq.chunk.md) — `rag/chunks/clientes/upsert_cliente_cpf_cnpj.faq.chunk.md`
-- [Chunk UpsertClienteCpfCnpj - identidade](../rag/chunks/clientes/upsert_cliente_cpf_cnpj.identidade.chunk.md) — `rag/chunks/clientes/upsert_cliente_cpf_cnpj.identidade.chunk.md`
-- [Chunk UpsertClienteCpfCnpj - operacao](../rag/chunks/clientes/upsert_cliente_cpf_cnpj.operacao.chunk.md) — `rag/chunks/clientes/upsert_cliente_cpf_cnpj.operacao.chunk.md`
-- [Chunk UpsertClientesPorLote - contrato](../rag/chunks/clientes/upsert_clientes_por_lote.contrato.chunk.md) — `rag/chunks/clientes/upsert_clientes_por_lote.contrato.chunk.md`
-- [Chunk UpsertClientesPorLote - faq](../rag/chunks/clientes/upsert_clientes_por_lote.faq.chunk.md) — `rag/chunks/clientes/upsert_clientes_por_lote.faq.chunk.md`
-- [Chunk UpsertClientesPorLote - identidade](../rag/chunks/clientes/upsert_clientes_por_lote.identidade.chunk.md) — `rag/chunks/clientes/upsert_clientes_por_lote.identidade.chunk.md`
-- [Chunk UpsertClientesPorLote - operacao](../rag/chunks/clientes/upsert_clientes_por_lote.operacao.chunk.md) — `rag/chunks/clientes/upsert_clientes_por_lote.operacao.chunk.md`
-- [Chunk AlterarContaReceber - contrato](../rag/chunks/contas_a_receber/alterar_conta_receber.contrato.chunk.md) — `rag/chunks/contas_a_receber/alterar_conta_receber.contrato.chunk.md`
-- [Chunk AlterarContaReceber - faq](../rag/chunks/contas_a_receber/alterar_conta_receber.faq.chunk.md) — `rag/chunks/contas_a_receber/alterar_conta_receber.faq.chunk.md`
-- [Chunk AlterarContaReceber - identidade](../rag/chunks/contas_a_receber/alterar_conta_receber.identidade.chunk.md) — `rag/chunks/contas_a_receber/alterar_conta_receber.identidade.chunk.md`
-- [Chunk AlterarContaReceber - operacao](../rag/chunks/contas_a_receber/alterar_conta_receber.operacao.chunk.md) — `rag/chunks/contas_a_receber/alterar_conta_receber.operacao.chunk.md`
-- [Chunk AlterarDistribuicaoDepartamento - contrato](../rag/chunks/contas_a_receber/alterar_distribuicao_departamento.contrato.chunk.md) — `rag/chunks/contas_a_receber/alterar_distribuicao_departamento.contrato.chunk.md`
-- [Chunk AlterarDistribuicaoDepartamento - faq](../rag/chunks/contas_a_receber/alterar_distribuicao_departamento.faq.chunk.md) — `rag/chunks/contas_a_receber/alterar_distribuicao_departamento.faq.chunk.md`
-- [Chunk AlterarDistribuicaoDepartamento - identidade](../rag/chunks/contas_a_receber/alterar_distribuicao_departamento.identidade.chunk.md) — `rag/chunks/contas_a_receber/alterar_distribuicao_departamento.identidade.chunk.md`
-- [Chunk AlterarDistribuicaoDepartamento - operacao](../rag/chunks/contas_a_receber/alterar_distribuicao_departamento.operacao.chunk.md) — `rag/chunks/contas_a_receber/alterar_distribuicao_departamento.operacao.chunk.md`
-- [Chunk CancelarContaReceber - contrato](../rag/chunks/contas_a_receber/cancelar_conta_receber.contrato.chunk.md) — `rag/chunks/contas_a_receber/cancelar_conta_receber.contrato.chunk.md`
-- [Chunk CancelarContaReceber - faq](../rag/chunks/contas_a_receber/cancelar_conta_receber.faq.chunk.md) — `rag/chunks/contas_a_receber/cancelar_conta_receber.faq.chunk.md`
-- [Chunk CancelarContaReceber - identidade](../rag/chunks/contas_a_receber/cancelar_conta_receber.identidade.chunk.md) — `rag/chunks/contas_a_receber/cancelar_conta_receber.identidade.chunk.md`
-- [Chunk CancelarContaReceber - operacao](../rag/chunks/contas_a_receber/cancelar_conta_receber.operacao.chunk.md) — `rag/chunks/contas_a_receber/cancelar_conta_receber.operacao.chunk.md`
-- [Chunk CancelarRecebimento - contrato](../rag/chunks/contas_a_receber/cancelar_recebimento.contrato.chunk.md) — `rag/chunks/contas_a_receber/cancelar_recebimento.contrato.chunk.md`
-- [Chunk CancelarRecebimento - faq](../rag/chunks/contas_a_receber/cancelar_recebimento.faq.chunk.md) — `rag/chunks/contas_a_receber/cancelar_recebimento.faq.chunk.md`
-- [Chunk CancelarRecebimento - identidade](../rag/chunks/contas_a_receber/cancelar_recebimento.identidade.chunk.md) — `rag/chunks/contas_a_receber/cancelar_recebimento.identidade.chunk.md`
-- [Chunk CancelarRecebimento - operacao](../rag/chunks/contas_a_receber/cancelar_recebimento.operacao.chunk.md) — `rag/chunks/contas_a_receber/cancelar_recebimento.operacao.chunk.md`
-- [Chunk ConciliarRecebimento - contrato](../rag/chunks/contas_a_receber/conciliar_recebimento.contrato.chunk.md) — `rag/chunks/contas_a_receber/conciliar_recebimento.contrato.chunk.md`
-- [Chunk ConciliarRecebimento - faq](../rag/chunks/contas_a_receber/conciliar_recebimento.faq.chunk.md) — `rag/chunks/contas_a_receber/conciliar_recebimento.faq.chunk.md`
-- [Chunk ConciliarRecebimento - identidade](../rag/chunks/contas_a_receber/conciliar_recebimento.identidade.chunk.md) — `rag/chunks/contas_a_receber/conciliar_recebimento.identidade.chunk.md`
-- [Chunk ConciliarRecebimento - operacao](../rag/chunks/contas_a_receber/conciliar_recebimento.operacao.chunk.md) — `rag/chunks/contas_a_receber/conciliar_recebimento.operacao.chunk.md`
-- [Chunk ConsultarContaReceber - contrato](../rag/chunks/contas_a_receber/consultar_conta_receber.contrato.chunk.md) — `rag/chunks/contas_a_receber/consultar_conta_receber.contrato.chunk.md`
-- [Chunk ConsultarContaReceber - faq](../rag/chunks/contas_a_receber/consultar_conta_receber.faq.chunk.md) — `rag/chunks/contas_a_receber/consultar_conta_receber.faq.chunk.md`
-- [Chunk ConsultarContaReceber - identidade](../rag/chunks/contas_a_receber/consultar_conta_receber.identidade.chunk.md) — `rag/chunks/contas_a_receber/consultar_conta_receber.identidade.chunk.md`
-- [Chunk ConsultarContaReceber - operacao](../rag/chunks/contas_a_receber/consultar_conta_receber.operacao.chunk.md) — `rag/chunks/contas_a_receber/consultar_conta_receber.operacao.chunk.md`
-- [Chunk DesconciliarRecebimento - contrato](../rag/chunks/contas_a_receber/desconciliar_recebimento.contrato.chunk.md) — `rag/chunks/contas_a_receber/desconciliar_recebimento.contrato.chunk.md`
-- [Chunk DesconciliarRecebimento - faq](../rag/chunks/contas_a_receber/desconciliar_recebimento.faq.chunk.md) — `rag/chunks/contas_a_receber/desconciliar_recebimento.faq.chunk.md`
-- [Chunk DesconciliarRecebimento - identidade](../rag/chunks/contas_a_receber/desconciliar_recebimento.identidade.chunk.md) — `rag/chunks/contas_a_receber/desconciliar_recebimento.identidade.chunk.md`
-- [Chunk DesconciliarRecebimento - operacao](../rag/chunks/contas_a_receber/desconciliar_recebimento.operacao.chunk.md) — `rag/chunks/contas_a_receber/desconciliar_recebimento.operacao.chunk.md`
-- [Chunk ExcluirContaReceber - contrato](../rag/chunks/contas_a_receber/excluir_conta_receber.contrato.chunk.md) — `rag/chunks/contas_a_receber/excluir_conta_receber.contrato.chunk.md`
-- [Chunk ExcluirContaReceber - faq](../rag/chunks/contas_a_receber/excluir_conta_receber.faq.chunk.md) — `rag/chunks/contas_a_receber/excluir_conta_receber.faq.chunk.md`
-- [Chunk ExcluirContaReceber - identidade](../rag/chunks/contas_a_receber/excluir_conta_receber.identidade.chunk.md) — `rag/chunks/contas_a_receber/excluir_conta_receber.identidade.chunk.md`
-- [Chunk ExcluirContaReceber - operacao](../rag/chunks/contas_a_receber/excluir_conta_receber.operacao.chunk.md) — `rag/chunks/contas_a_receber/excluir_conta_receber.operacao.chunk.md`
-- [Chunk ExcluirDistribuicaoDepartamento - contrato](../rag/chunks/contas_a_receber/excluir_distribuicao_departamento.contrato.chunk.md) — `rag/chunks/contas_a_receber/excluir_distribuicao_departamento.contrato.chunk.md`
-- [Chunk ExcluirDistribuicaoDepartamento - faq](../rag/chunks/contas_a_receber/excluir_distribuicao_departamento.faq.chunk.md) — `rag/chunks/contas_a_receber/excluir_distribuicao_departamento.faq.chunk.md`
-- [Chunk ExcluirDistribuicaoDepartamento - identidade](../rag/chunks/contas_a_receber/excluir_distribuicao_departamento.identidade.chunk.md) — `rag/chunks/contas_a_receber/excluir_distribuicao_departamento.identidade.chunk.md`
-- [Chunk ExcluirDistribuicaoDepartamento - operacao](../rag/chunks/contas_a_receber/excluir_distribuicao_departamento.operacao.chunk.md) — `rag/chunks/contas_a_receber/excluir_distribuicao_departamento.operacao.chunk.md`
-- [Chunk IncluirContaReceber - contrato](../rag/chunks/contas_a_receber/incluir_conta_receber.contrato.chunk.md) — `rag/chunks/contas_a_receber/incluir_conta_receber.contrato.chunk.md`
-- [Chunk IncluirContaReceber - faq](../rag/chunks/contas_a_receber/incluir_conta_receber.faq.chunk.md) — `rag/chunks/contas_a_receber/incluir_conta_receber.faq.chunk.md`
-- [Chunk IncluirContaReceber - identidade](../rag/chunks/contas_a_receber/incluir_conta_receber.identidade.chunk.md) — `rag/chunks/contas_a_receber/incluir_conta_receber.identidade.chunk.md`
-- [Chunk IncluirContaReceber - operacao](../rag/chunks/contas_a_receber/incluir_conta_receber.operacao.chunk.md) — `rag/chunks/contas_a_receber/incluir_conta_receber.operacao.chunk.md`
-- [Chunk IncluirContaReceberPorLote - contrato](../rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.contrato.chunk.md) — `rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.contrato.chunk.md`
-- [Chunk IncluirContaReceberPorLote - faq](../rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.faq.chunk.md) — `rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.faq.chunk.md`
-- [Chunk IncluirContaReceberPorLote - identidade](../rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.identidade.chunk.md) — `rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.identidade.chunk.md`
-- [Chunk IncluirContaReceberPorLote - operacao](../rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.operacao.chunk.md) — `rag/chunks/contas_a_receber/incluir_conta_receber_por_lote.operacao.chunk.md`
-- [Chunk IncluirDistribuicaoDepartamento - contrato](../rag/chunks/contas_a_receber/incluir_distribuicao_departamento.contrato.chunk.md) — `rag/chunks/contas_a_receber/incluir_distribuicao_departamento.contrato.chunk.md`
-- [Chunk IncluirDistribuicaoDepartamento - faq](../rag/chunks/contas_a_receber/incluir_distribuicao_departamento.faq.chunk.md) — `rag/chunks/contas_a_receber/incluir_distribuicao_departamento.faq.chunk.md`
-- [Chunk IncluirDistribuicaoDepartamento - identidade](../rag/chunks/contas_a_receber/incluir_distribuicao_departamento.identidade.chunk.md) — `rag/chunks/contas_a_receber/incluir_distribuicao_departamento.identidade.chunk.md`
-- [Chunk IncluirDistribuicaoDepartamento - operacao](../rag/chunks/contas_a_receber/incluir_distribuicao_departamento.operacao.chunk.md) — `rag/chunks/contas_a_receber/incluir_distribuicao_departamento.operacao.chunk.md`
-- [Chunk LancarRecebimento - contrato](../rag/chunks/contas_a_receber/lancar_recebimento.contrato.chunk.md) — `rag/chunks/contas_a_receber/lancar_recebimento.contrato.chunk.md`
-- [Chunk LancarRecebimento - faq](../rag/chunks/contas_a_receber/lancar_recebimento.faq.chunk.md) — `rag/chunks/contas_a_receber/lancar_recebimento.faq.chunk.md`
-- [Chunk LancarRecebimento - identidade](../rag/chunks/contas_a_receber/lancar_recebimento.identidade.chunk.md) — `rag/chunks/contas_a_receber/lancar_recebimento.identidade.chunk.md`
-- [Chunk LancarRecebimento - operacao](../rag/chunks/contas_a_receber/lancar_recebimento.operacao.chunk.md) — `rag/chunks/contas_a_receber/lancar_recebimento.operacao.chunk.md`
-- [Chunk ListarContasReceber - contrato](../rag/chunks/contas_a_receber/listar_contas_receber.contrato.chunk.md) — `rag/chunks/contas_a_receber/listar_contas_receber.contrato.chunk.md`
-- [Chunk ListarContasReceber - faq](../rag/chunks/contas_a_receber/listar_contas_receber.faq.chunk.md) — `rag/chunks/contas_a_receber/listar_contas_receber.faq.chunk.md`
-- [Chunk ListarContasReceber - identidade](../rag/chunks/contas_a_receber/listar_contas_receber.identidade.chunk.md) — `rag/chunks/contas_a_receber/listar_contas_receber.identidade.chunk.md`
-- [Chunk ListarContasReceber - operacao](../rag/chunks/contas_a_receber/listar_contas_receber.operacao.chunk.md) — `rag/chunks/contas_a_receber/listar_contas_receber.operacao.chunk.md`
-- [Estratégia de Recuperação: Contas a Receber](../rag/chunks/contas_a_receber/retrieval_strategy.md) — `rag/chunks/contas_a_receber/retrieval_strategy.md`
-- [Chunk UpsertContaReceber - contrato](../rag/chunks/contas_a_receber/upsert_conta_receber.contrato.chunk.md) — `rag/chunks/contas_a_receber/upsert_conta_receber.contrato.chunk.md`
-- [Chunk UpsertContaReceber - faq](../rag/chunks/contas_a_receber/upsert_conta_receber.faq.chunk.md) — `rag/chunks/contas_a_receber/upsert_conta_receber.faq.chunk.md`
-- [Chunk UpsertContaReceber - identidade](../rag/chunks/contas_a_receber/upsert_conta_receber.identidade.chunk.md) — `rag/chunks/contas_a_receber/upsert_conta_receber.identidade.chunk.md`
-- [Chunk UpsertContaReceber - operacao](../rag/chunks/contas_a_receber/upsert_conta_receber.operacao.chunk.md) — `rag/chunks/contas_a_receber/upsert_conta_receber.operacao.chunk.md`
-- [Chunk UpsertContaReceberPorLote - contrato](../rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.contrato.chunk.md) — `rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.contrato.chunk.md`
-- [Chunk UpsertContaReceberPorLote - faq](../rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.faq.chunk.md) — `rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.faq.chunk.md`
-- [Chunk UpsertContaReceberPorLote - identidade](../rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.identidade.chunk.md) — `rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.identidade.chunk.md`
-- [Chunk UpsertContaReceberPorLote - operacao](../rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.operacao.chunk.md) — `rag/chunks/contas_a_receber/upsert_conta_receber_por_lote.operacao.chunk.md`
-- [Estratégia de Chunking: Omie Geral Clientes](../rag/omie/geral/clientes/chunking_strategy.md) — `rag/omie/geral/clientes/chunking_strategy.md`
-- [Estratégia de Indexação RAG para API Omie](../rag/omie_indexing_strategy.md) — `rag/omie_indexing_strategy.md`
-- [RAG](../rag/README.md) — `rag/README.md`
-- [VerticalParts Knowledge Base](../README.md) — `README.md`
-- [Dashboard da Knowledge Base](../reports/dashboard.md) — `reports/dashboard.md`
-- [Knowledge Score](../reports/knowledge_score.md) — `reports/knowledge_score.md`
-- [Roadmap VerticalParts Knowledge Base](../ROADMAP.md) — `ROADMAP.md`
-- [Scripts](../scripts/README.md) — `scripts/README.md`
-- [SDD: Desenho Técnico da Base Omie para RAG/LLM](../sdd/omie_api_knowledge_base_sdd.md) — `sdd/omie_api_knowledge_base_sdd.md`
-- [SDD](../sdd/README.md) — `sdd/README.md`
-- [Skill: Omie API Knowledge](../skills/omie-api-knowledge/SKILL.md) — `skills/omie-api-knowledge/SKILL.md`
-- [Skills](../skills/README.md) — `skills/README.md`
-- [SPEC: Base de Conhecimento da API Omie](../specs/omie_api_knowledge_base_spec.md) — `specs/omie_api_knowledge_base_spec.md`
-- [Especificações](../specs/README.md) — `specs/README.md`
-- [LLM Document Standard](../standards/LLM_DOCUMENT_STANDARD.md) — `standards/LLM_DOCUMENT_STANDARD.md`
+## docs
+- [docs/INDEX.md](docs/INDEX.md)
+- [docs/omie/financeiro/contas_a_pagar.md](docs/omie/financeiro/contas_a_pagar.md)
+- [docs/omie/financeiro/contas_a_receber/alterar_conta_receber.md](docs/omie/financeiro/contas_a_receber/alterar_conta_receber.md)
+- [docs/omie/financeiro/contas_a_receber/alterar_distribuicao_departamento.md](docs/omie/financeiro/contas_a_receber/alterar_distribuicao_departamento.md)
+- [docs/omie/financeiro/contas_a_receber/cancelar_conta_receber.md](docs/omie/financeiro/contas_a_receber/cancelar_conta_receber.md)
+- [docs/omie/financeiro/contas_a_receber/cancelar_recebimento.md](docs/omie/financeiro/contas_a_receber/cancelar_recebimento.md)
+- [docs/omie/financeiro/contas_a_receber/conciliar_recebimento.md](docs/omie/financeiro/contas_a_receber/conciliar_recebimento.md)
+- [docs/omie/financeiro/contas_a_receber/consultar_conta_receber.md](docs/omie/financeiro/contas_a_receber/consultar_conta_receber.md)
+- [docs/omie/financeiro/contas_a_receber/desconciliar_recebimento.md](docs/omie/financeiro/contas_a_receber/desconciliar_recebimento.md)
+- [docs/omie/financeiro/contas_a_receber/excluir_conta_receber.md](docs/omie/financeiro/contas_a_receber/excluir_conta_receber.md)
+- [docs/omie/financeiro/contas_a_receber/excluir_distribuicao_departamento.md](docs/omie/financeiro/contas_a_receber/excluir_distribuicao_departamento.md)
+- [docs/omie/financeiro/contas_a_receber/incluir_conta_receber.md](docs/omie/financeiro/contas_a_receber/incluir_conta_receber.md)
+- [docs/omie/financeiro/contas_a_receber/incluir_conta_receber_por_lote.md](docs/omie/financeiro/contas_a_receber/incluir_conta_receber_por_lote.md)
+- [docs/omie/financeiro/contas_a_receber/incluir_distribuicao_departamento.md](docs/omie/financeiro/contas_a_receber/incluir_distribuicao_departamento.md)
+- [docs/omie/financeiro/contas_a_receber/lancar_recebimento.md](docs/omie/financeiro/contas_a_receber/lancar_recebimento.md)
+- [docs/omie/financeiro/contas_a_receber/listar_contas_receber.md](docs/omie/financeiro/contas_a_receber/listar_contas_receber.md)
+- [docs/omie/financeiro/contas_a_receber/README.md](docs/omie/financeiro/contas_a_receber/README.md)
+- [docs/omie/financeiro/contas_a_receber/upsert_conta_receber.md](docs/omie/financeiro/contas_a_receber/upsert_conta_receber.md)
+- [docs/omie/financeiro/contas_a_receber/upsert_conta_receber_por_lote.md](docs/omie/financeiro/contas_a_receber/upsert_conta_receber_por_lote.md)
+- [docs/omie/financeiro/contas_a_receber.md](docs/omie/financeiro/contas_a_receber.md)
+- [docs/omie/financeiro/movimentos_financeiros.md](docs/omie/financeiro/movimentos_financeiros.md)
+- [docs/omie/geral/clientes/alterar_cliente.md](docs/omie/geral/clientes/alterar_cliente.md)
+- [docs/omie/geral/clientes/associar_cod_int_cliente.md](docs/omie/geral/clientes/associar_cod_int_cliente.md)
+- [docs/omie/geral/clientes/consultar_cliente.md](docs/omie/geral/clientes/consultar_cliente.md)
+- [docs/omie/geral/clientes/excluir_cliente.md](docs/omie/geral/clientes/excluir_cliente.md)
+- [docs/omie/geral/clientes/incluir_cliente.md](docs/omie/geral/clientes/incluir_cliente.md)
+- [docs/omie/geral/clientes/incluir_clientes_por_lote.md](docs/omie/geral/clientes/incluir_clientes_por_lote.md)
+- [docs/omie/geral/clientes/listar_clientes.md](docs/omie/geral/clientes/listar_clientes.md)
+- [docs/omie/geral/clientes/listar_clientes_resumido.md](docs/omie/geral/clientes/listar_clientes_resumido.md)
+- [docs/omie/geral/clientes/README.md](docs/omie/geral/clientes/README.md)
+- [docs/omie/geral/clientes/upsert_cliente.md](docs/omie/geral/clientes/upsert_cliente.md)
+- [docs/omie/geral/clientes/upsert_cliente_cpf_cnpj.md](docs/omie/geral/clientes/upsert_cliente_cpf_cnpj.md)
+- [docs/omie/geral/clientes/upsert_clientes_por_lote.md](docs/omie/geral/clientes/upsert_clientes_por_lote.md)
+- [docs/omie/geral/clientes_fornecedores_transportadoras.md](docs/omie/geral/clientes_fornecedores_transportadoras.md)
+- [docs/omie/README.md](docs/omie/README.md)
+- [docs/omie/servicos/ordem_de_servico.md](docs/omie/servicos/ordem_de_servico.md)
+- [docs/omie/vendas/pedidos_de_venda.md](docs/omie/vendas/pedidos_de_venda.md)
+- [docs/README.md](docs/README.md)
+
+## business
+- [business/omie/clientes.md](business/omie/clientes.md)
+- [business/omie/contas_a_receber.md](business/omie/contas_a_receber.md)
+- [business/verticalparts/01_comercial/BUSINESS_OBJECTS.md](business/verticalparts/01_comercial/BUSINESS_OBJECTS.md)
+- [business/verticalparts/01_comercial/BUSINESS_RULES.md](business/verticalparts/01_comercial/BUSINESS_RULES.md)
+- [business/verticalparts/01_comercial/CHECKLIST.md](business/verticalparts/01_comercial/CHECKLIST.md)
+- [business/verticalparts/01_comercial/FAQ.md](business/verticalparts/01_comercial/FAQ.md)
+- [business/verticalparts/01_comercial/GLOSSARY.md](business/verticalparts/01_comercial/GLOSSARY.md)
+- [business/verticalparts/01_comercial/KPIS.md](business/verticalparts/01_comercial/KPIS.md)
+- [business/verticalparts/01_comercial/OVERVIEW.md](business/verticalparts/01_comercial/OVERVIEW.md)
+- [business/verticalparts/01_comercial/README.md](business/verticalparts/01_comercial/README.md)
+- [business/verticalparts/01_comercial/RISKS.md](business/verticalparts/01_comercial/RISKS.md)
+- [business/verticalparts/02_engenharia/BUSINESS_OBJECTS.md](business/verticalparts/02_engenharia/BUSINESS_OBJECTS.md)
+- [business/verticalparts/02_engenharia/BUSINESS_RULES.md](business/verticalparts/02_engenharia/BUSINESS_RULES.md)
+- [business/verticalparts/02_engenharia/CHECKLIST.md](business/verticalparts/02_engenharia/CHECKLIST.md)
+- [business/verticalparts/02_engenharia/FAQ.md](business/verticalparts/02_engenharia/FAQ.md)
+- [business/verticalparts/02_engenharia/GLOSSARY.md](business/verticalparts/02_engenharia/GLOSSARY.md)
+- [business/verticalparts/02_engenharia/KPIS.md](business/verticalparts/02_engenharia/KPIS.md)
+- [business/verticalparts/02_engenharia/OVERVIEW.md](business/verticalparts/02_engenharia/OVERVIEW.md)
+- [business/verticalparts/02_engenharia/README.md](business/verticalparts/02_engenharia/README.md)
+- [business/verticalparts/02_engenharia/RISKS.md](business/verticalparts/02_engenharia/RISKS.md)
+- [business/verticalparts/03_compras/BUSINESS_OBJECTS.md](business/verticalparts/03_compras/BUSINESS_OBJECTS.md)
+- [business/verticalparts/03_compras/BUSINESS_RULES.md](business/verticalparts/03_compras/BUSINESS_RULES.md)
+- [business/verticalparts/03_compras/CHECKLIST.md](business/verticalparts/03_compras/CHECKLIST.md)
+- [business/verticalparts/03_compras/FAQ.md](business/verticalparts/03_compras/FAQ.md)
+- [business/verticalparts/03_compras/GLOSSARY.md](business/verticalparts/03_compras/GLOSSARY.md)
+- [business/verticalparts/03_compras/KPIS.md](business/verticalparts/03_compras/KPIS.md)
+- [business/verticalparts/03_compras/OVERVIEW.md](business/verticalparts/03_compras/OVERVIEW.md)
+- [business/verticalparts/03_compras/README.md](business/verticalparts/03_compras/README.md)
+- [business/verticalparts/03_compras/RISKS.md](business/verticalparts/03_compras/RISKS.md)
+- [business/verticalparts/04_pcp/BUSINESS_OBJECTS.md](business/verticalparts/04_pcp/BUSINESS_OBJECTS.md)
+- [business/verticalparts/04_pcp/BUSINESS_RULES.md](business/verticalparts/04_pcp/BUSINESS_RULES.md)
+- [business/verticalparts/04_pcp/CHECKLIST.md](business/verticalparts/04_pcp/CHECKLIST.md)
+- [business/verticalparts/04_pcp/FAQ.md](business/verticalparts/04_pcp/FAQ.md)
+- [business/verticalparts/04_pcp/GLOSSARY.md](business/verticalparts/04_pcp/GLOSSARY.md)
+- [business/verticalparts/04_pcp/KPIS.md](business/verticalparts/04_pcp/KPIS.md)
+- [business/verticalparts/04_pcp/OVERVIEW.md](business/verticalparts/04_pcp/OVERVIEW.md)
+- [business/verticalparts/04_pcp/README.md](business/verticalparts/04_pcp/README.md)
+- [business/verticalparts/04_pcp/RISKS.md](business/verticalparts/04_pcp/RISKS.md)
+- [business/verticalparts/05_almoxarifado/BUSINESS_OBJECTS.md](business/verticalparts/05_almoxarifado/BUSINESS_OBJECTS.md)
+- [business/verticalparts/05_almoxarifado/BUSINESS_RULES.md](business/verticalparts/05_almoxarifado/BUSINESS_RULES.md)
+- [business/verticalparts/05_almoxarifado/CHECKLIST.md](business/verticalparts/05_almoxarifado/CHECKLIST.md)
+- [business/verticalparts/05_almoxarifado/FAQ.md](business/verticalparts/05_almoxarifado/FAQ.md)
+- [business/verticalparts/05_almoxarifado/GLOSSARY.md](business/verticalparts/05_almoxarifado/GLOSSARY.md)
+- [business/verticalparts/05_almoxarifado/KPIS.md](business/verticalparts/05_almoxarifado/KPIS.md)
+- [business/verticalparts/05_almoxarifado/OVERVIEW.md](business/verticalparts/05_almoxarifado/OVERVIEW.md)
+- [business/verticalparts/05_almoxarifado/README.md](business/verticalparts/05_almoxarifado/README.md)
+- [business/verticalparts/05_almoxarifado/RISKS.md](business/verticalparts/05_almoxarifado/RISKS.md)
+- [business/verticalparts/06_logistica/BUSINESS_OBJECTS.md](business/verticalparts/06_logistica/BUSINESS_OBJECTS.md)
+- [business/verticalparts/06_logistica/BUSINESS_RULES.md](business/verticalparts/06_logistica/BUSINESS_RULES.md)
+- [business/verticalparts/06_logistica/CHECKLIST.md](business/verticalparts/06_logistica/CHECKLIST.md)
+- [business/verticalparts/06_logistica/FAQ.md](business/verticalparts/06_logistica/FAQ.md)
+- [business/verticalparts/06_logistica/GLOSSARY.md](business/verticalparts/06_logistica/GLOSSARY.md)
+- [business/verticalparts/06_logistica/KPIS.md](business/verticalparts/06_logistica/KPIS.md)
+- [business/verticalparts/06_logistica/OVERVIEW.md](business/verticalparts/06_logistica/OVERVIEW.md)
+- [business/verticalparts/06_logistica/README.md](business/verticalparts/06_logistica/README.md)
+- [business/verticalparts/06_logistica/RISKS.md](business/verticalparts/06_logistica/RISKS.md)
+- [business/verticalparts/07_instalacao/BUSINESS_OBJECTS.md](business/verticalparts/07_instalacao/BUSINESS_OBJECTS.md)
+- [business/verticalparts/07_instalacao/BUSINESS_RULES.md](business/verticalparts/07_instalacao/BUSINESS_RULES.md)
+- [business/verticalparts/07_instalacao/CHECKLIST.md](business/verticalparts/07_instalacao/CHECKLIST.md)
+- [business/verticalparts/07_instalacao/FAQ.md](business/verticalparts/07_instalacao/FAQ.md)
+- [business/verticalparts/07_instalacao/GLOSSARY.md](business/verticalparts/07_instalacao/GLOSSARY.md)
+- [business/verticalparts/07_instalacao/KPIS.md](business/verticalparts/07_instalacao/KPIS.md)
+- [business/verticalparts/07_instalacao/OVERVIEW.md](business/verticalparts/07_instalacao/OVERVIEW.md)
+- [business/verticalparts/07_instalacao/README.md](business/verticalparts/07_instalacao/README.md)
+- [business/verticalparts/07_instalacao/RISKS.md](business/verticalparts/07_instalacao/RISKS.md)
+- [business/verticalparts/08_assistencia/BUSINESS_OBJECTS.md](business/verticalparts/08_assistencia/BUSINESS_OBJECTS.md)
+- [business/verticalparts/08_assistencia/BUSINESS_RULES.md](business/verticalparts/08_assistencia/BUSINESS_RULES.md)
+- [business/verticalparts/08_assistencia/CHECKLIST.md](business/verticalparts/08_assistencia/CHECKLIST.md)
+- [business/verticalparts/08_assistencia/FAQ.md](business/verticalparts/08_assistencia/FAQ.md)
+- [business/verticalparts/08_assistencia/GLOSSARY.md](business/verticalparts/08_assistencia/GLOSSARY.md)
+- [business/verticalparts/08_assistencia/KPIS.md](business/verticalparts/08_assistencia/KPIS.md)
+- [business/verticalparts/08_assistencia/OVERVIEW.md](business/verticalparts/08_assistencia/OVERVIEW.md)
+- [business/verticalparts/08_assistencia/README.md](business/verticalparts/08_assistencia/README.md)
+- [business/verticalparts/08_assistencia/RISKS.md](business/verticalparts/08_assistencia/RISKS.md)
+- [business/verticalparts/09_financeiro/BUSINESS_OBJECTS.md](business/verticalparts/09_financeiro/BUSINESS_OBJECTS.md)
+- [business/verticalparts/09_financeiro/BUSINESS_RULES.md](business/verticalparts/09_financeiro/BUSINESS_RULES.md)
+- [business/verticalparts/09_financeiro/CHECKLIST.md](business/verticalparts/09_financeiro/CHECKLIST.md)
+- [business/verticalparts/09_financeiro/FAQ.md](business/verticalparts/09_financeiro/FAQ.md)
+- [business/verticalparts/09_financeiro/GLOSSARY.md](business/verticalparts/09_financeiro/GLOSSARY.md)
+- [business/verticalparts/09_financeiro/KPIS.md](business/verticalparts/09_financeiro/KPIS.md)
+- [business/verticalparts/09_financeiro/OVERVIEW.md](business/verticalparts/09_financeiro/OVERVIEW.md)
+- [business/verticalparts/09_financeiro/README.md](business/verticalparts/09_financeiro/README.md)
+- [business/verticalparts/09_financeiro/RISKS.md](business/verticalparts/09_financeiro/RISKS.md)
+- [business/verticalparts/10_fiscal/BUSINESS_OBJECTS.md](business/verticalparts/10_fiscal/BUSINESS_OBJECTS.md)
+- [business/verticalparts/10_fiscal/BUSINESS_RULES.md](business/verticalparts/10_fiscal/BUSINESS_RULES.md)
+- [business/verticalparts/10_fiscal/CHECKLIST.md](business/verticalparts/10_fiscal/CHECKLIST.md)
+- [business/verticalparts/10_fiscal/FAQ.md](business/verticalparts/10_fiscal/FAQ.md)
+- [business/verticalparts/10_fiscal/GLOSSARY.md](business/verticalparts/10_fiscal/GLOSSARY.md)
+- [business/verticalparts/10_fiscal/KPIS.md](business/verticalparts/10_fiscal/KPIS.md)
+- [business/verticalparts/10_fiscal/OVERVIEW.md](business/verticalparts/10_fiscal/OVERVIEW.md)
+- [business/verticalparts/10_fiscal/README.md](business/verticalparts/10_fiscal/README.md)
+- [business/verticalparts/10_fiscal/RISKS.md](business/verticalparts/10_fiscal/RISKS.md)
+- [business/verticalparts/11_rh/BUSINESS_OBJECTS.md](business/verticalparts/11_rh/BUSINESS_OBJECTS.md)
+- [business/verticalparts/11_rh/BUSINESS_RULES.md](business/verticalparts/11_rh/BUSINESS_RULES.md)
+- [business/verticalparts/11_rh/CHECKLIST.md](business/verticalparts/11_rh/CHECKLIST.md)
+- [business/verticalparts/11_rh/FAQ.md](business/verticalparts/11_rh/FAQ.md)
+- [business/verticalparts/11_rh/GLOSSARY.md](business/verticalparts/11_rh/GLOSSARY.md)
+- [business/verticalparts/11_rh/KPIS.md](business/verticalparts/11_rh/KPIS.md)
+- [business/verticalparts/11_rh/OVERVIEW.md](business/verticalparts/11_rh/OVERVIEW.md)
+- [business/verticalparts/11_rh/README.md](business/verticalparts/11_rh/README.md)
+- [business/verticalparts/11_rh/RISKS.md](business/verticalparts/11_rh/RISKS.md)
+- [business/verticalparts/12_juridico/BUSINESS_OBJECTS.md](business/verticalparts/12_juridico/BUSINESS_OBJECTS.md)
+- [business/verticalparts/12_juridico/BUSINESS_RULES.md](business/verticalparts/12_juridico/BUSINESS_RULES.md)
+- [business/verticalparts/12_juridico/CHECKLIST.md](business/verticalparts/12_juridico/CHECKLIST.md)
+- [business/verticalparts/12_juridico/FAQ.md](business/verticalparts/12_juridico/FAQ.md)
+- [business/verticalparts/12_juridico/GLOSSARY.md](business/verticalparts/12_juridico/GLOSSARY.md)
+- [business/verticalparts/12_juridico/KPIS.md](business/verticalparts/12_juridico/KPIS.md)
+- [business/verticalparts/12_juridico/OVERVIEW.md](business/verticalparts/12_juridico/OVERVIEW.md)
+- [business/verticalparts/12_juridico/README.md](business/verticalparts/12_juridico/README.md)
+- [business/verticalparts/12_juridico/RISKS.md](business/verticalparts/12_juridico/RISKS.md)
+- [business/verticalparts/13_crm/BUSINESS_OBJECTS.md](business/verticalparts/13_crm/BUSINESS_OBJECTS.md)
+- [business/verticalparts/13_crm/BUSINESS_RULES.md](business/verticalparts/13_crm/BUSINESS_RULES.md)
+- [business/verticalparts/13_crm/CHECKLIST.md](business/verticalparts/13_crm/CHECKLIST.md)
+- [business/verticalparts/13_crm/FAQ.md](business/verticalparts/13_crm/FAQ.md)
+- [business/verticalparts/13_crm/GLOSSARY.md](business/verticalparts/13_crm/GLOSSARY.md)
+- [business/verticalparts/13_crm/KPIS.md](business/verticalparts/13_crm/KPIS.md)
+- [business/verticalparts/13_crm/OVERVIEW.md](business/verticalparts/13_crm/OVERVIEW.md)
+- [business/verticalparts/13_crm/README.md](business/verticalparts/13_crm/README.md)
+- [business/verticalparts/13_crm/RISKS.md](business/verticalparts/13_crm/RISKS.md)
+- [business/verticalparts/14_qualidade/BUSINESS_OBJECTS.md](business/verticalparts/14_qualidade/BUSINESS_OBJECTS.md)
+- [business/verticalparts/14_qualidade/BUSINESS_RULES.md](business/verticalparts/14_qualidade/BUSINESS_RULES.md)
+- [business/verticalparts/14_qualidade/CHECKLIST.md](business/verticalparts/14_qualidade/CHECKLIST.md)
+- [business/verticalparts/14_qualidade/FAQ.md](business/verticalparts/14_qualidade/FAQ.md)
+- [business/verticalparts/14_qualidade/GLOSSARY.md](business/verticalparts/14_qualidade/GLOSSARY.md)
+- [business/verticalparts/14_qualidade/KPIS.md](business/verticalparts/14_qualidade/KPIS.md)
+- [business/verticalparts/14_qualidade/OVERVIEW.md](business/verticalparts/14_qualidade/OVERVIEW.md)
+- [business/verticalparts/14_qualidade/README.md](business/verticalparts/14_qualidade/README.md)
+- [business/verticalparts/14_qualidade/RISKS.md](business/verticalparts/14_qualidade/RISKS.md)
+- [business/verticalparts/15_bi/BUSINESS_OBJECTS.md](business/verticalparts/15_bi/BUSINESS_OBJECTS.md)
+- [business/verticalparts/15_bi/BUSINESS_RULES.md](business/verticalparts/15_bi/BUSINESS_RULES.md)
+- [business/verticalparts/15_bi/CHECKLIST.md](business/verticalparts/15_bi/CHECKLIST.md)
+- [business/verticalparts/15_bi/FAQ.md](business/verticalparts/15_bi/FAQ.md)
+- [business/verticalparts/15_bi/GLOSSARY.md](business/verticalparts/15_bi/GLOSSARY.md)
+- [business/verticalparts/15_bi/KPIS.md](business/verticalparts/15_bi/KPIS.md)
+- [business/verticalparts/15_bi/OVERVIEW.md](business/verticalparts/15_bi/OVERVIEW.md)
+- [business/verticalparts/15_bi/README.md](business/verticalparts/15_bi/README.md)
+- [business/verticalparts/15_bi/RISKS.md](business/verticalparts/15_bi/RISKS.md)
+- [business/verticalparts/16_wms/BUSINESS_OBJECTS.md](business/verticalparts/16_wms/BUSINESS_OBJECTS.md)
+- [business/verticalparts/16_wms/BUSINESS_RULES.md](business/verticalparts/16_wms/BUSINESS_RULES.md)
+- [business/verticalparts/16_wms/CHECKLIST.md](business/verticalparts/16_wms/CHECKLIST.md)
+- [business/verticalparts/16_wms/FAQ.md](business/verticalparts/16_wms/FAQ.md)
+- [business/verticalparts/16_wms/GLOSSARY.md](business/verticalparts/16_wms/GLOSSARY.md)
+- [business/verticalparts/16_wms/KPIS.md](business/verticalparts/16_wms/KPIS.md)
+- [business/verticalparts/16_wms/OVERVIEW.md](business/verticalparts/16_wms/OVERVIEW.md)
+- [business/verticalparts/16_wms/README.md](business/verticalparts/16_wms/README.md)
+- [business/verticalparts/16_wms/RISKS.md](business/verticalparts/16_wms/RISKS.md)
+- [business/verticalparts/17_erp/BUSINESS_OBJECTS.md](business/verticalparts/17_erp/BUSINESS_OBJECTS.md)
+- [business/verticalparts/17_erp/BUSINESS_RULES.md](business/verticalparts/17_erp/BUSINESS_RULES.md)
+- [business/verticalparts/17_erp/CHECKLIST.md](business/verticalparts/17_erp/CHECKLIST.md)
+- [business/verticalparts/17_erp/FAQ.md](business/verticalparts/17_erp/FAQ.md)
+- [business/verticalparts/17_erp/GLOSSARY.md](business/verticalparts/17_erp/GLOSSARY.md)
+- [business/verticalparts/17_erp/KPIS.md](business/verticalparts/17_erp/KPIS.md)
+- [business/verticalparts/17_erp/OVERVIEW.md](business/verticalparts/17_erp/OVERVIEW.md)
+- [business/verticalparts/17_erp/README.md](business/verticalparts/17_erp/README.md)
+- [business/verticalparts/17_erp/RISKS.md](business/verticalparts/17_erp/RISKS.md)
+- [business/verticalparts/18_ai_agents/agent_catalog.md](business/verticalparts/18_ai_agents/agent_catalog.md)
+- [business/verticalparts/18_ai_agents/agent_permissions.md](business/verticalparts/18_ai_agents/agent_permissions.md)
+- [business/verticalparts/18_ai_agents/agent_responsibilities.md](business/verticalparts/18_ai_agents/agent_responsibilities.md)
+- [business/verticalparts/18_ai_agents/BUSINESS_OBJECTS.md](business/verticalparts/18_ai_agents/BUSINESS_OBJECTS.md)
+- [business/verticalparts/18_ai_agents/BUSINESS_RULES.md](business/verticalparts/18_ai_agents/BUSINESS_RULES.md)
+- [business/verticalparts/18_ai_agents/CHECKLIST.md](business/verticalparts/18_ai_agents/CHECKLIST.md)
+- [business/verticalparts/18_ai_agents/FAQ.md](business/verticalparts/18_ai_agents/FAQ.md)
+- [business/verticalparts/18_ai_agents/GLOSSARY.md](business/verticalparts/18_ai_agents/GLOSSARY.md)
+- [business/verticalparts/18_ai_agents/knowledge_sources.md](business/verticalparts/18_ai_agents/knowledge_sources.md)
+- [business/verticalparts/18_ai_agents/KPIS.md](business/verticalparts/18_ai_agents/KPIS.md)
+- [business/verticalparts/18_ai_agents/OVERVIEW.md](business/verticalparts/18_ai_agents/OVERVIEW.md)
+- [business/verticalparts/18_ai_agents/README.md](business/verticalparts/18_ai_agents/README.md)
+- [business/verticalparts/18_ai_agents/RISKS.md](business/verticalparts/18_ai_agents/RISKS.md)
+- [business/verticalparts/ARCHITECTURE.md](business/verticalparts/ARCHITECTURE.md)
+- [business/verticalparts/BUSINESS_RULES.md](business/verticalparts/BUSINESS_RULES.md)
+- [business/verticalparts/company/business_units.md](business/verticalparts/company/business_units.md)
+- [business/verticalparts/company/company_structure.md](business/verticalparts/company/company_structure.md)
+- [business/verticalparts/company/departments.md](business/verticalparts/company/departments.md)
+- [business/verticalparts/company/organization.md](business/verticalparts/company/organization.md)
+- [business/verticalparts/DOMAIN_MODEL.md](business/verticalparts/DOMAIN_MODEL.md)
+- [business/verticalparts/GLOSSARY.md](business/verticalparts/GLOSSARY.md)
+- [business/verticalparts/processes/customer_support.md](business/verticalparts/processes/customer_support.md)
+- [business/verticalparts/processes/engineering_workflow.md](business/verticalparts/processes/engineering_workflow.md)
+- [business/verticalparts/processes/inventory_lifecycle.md](business/verticalparts/processes/inventory_lifecycle.md)
+- [business/verticalparts/processes/lead_to_cash.md](business/verticalparts/processes/lead_to_cash.md)
+- [business/verticalparts/processes/maintenance_lifecycle.md](business/verticalparts/processes/maintenance_lifecycle.md)
+- [business/verticalparts/processes/procure_to_pay.md](business/verticalparts/processes/procure_to_pay.md)
+- [business/verticalparts/processes/project_to_installation.md](business/verticalparts/processes/project_to_installation.md)
+- [business/verticalparts/README.md](business/verticalparts/README.md)
+- [business/verticalparts/ROADMAP.md](business/verticalparts/ROADMAP.md)
+
+## graphs
+- [graphs/omie/clientes.graph.md](graphs/omie/clientes.graph.md)
+- [graphs/omie/contas_a_receber.graph.md](graphs/omie/contas_a_receber.graph.md)
+- [graphs/verticalparts/lead_to_cash.graph.md](graphs/verticalparts/lead_to_cash.graph.md)
+- [graphs/verticalparts/maintenance.graph.md](graphs/verticalparts/maintenance.graph.md)
+- [graphs/verticalparts/organization.graph.md](graphs/verticalparts/organization.graph.md)
+- [graphs/verticalparts/procure_to_pay.graph.md](graphs/verticalparts/procure_to_pay.graph.md)
+- [graphs/verticalparts/project_installation.graph.md](graphs/verticalparts/project_installation.graph.md)
+
+## ontology
+- [ontology/verticalparts/business_terms.yaml](ontology/verticalparts/business_terms.yaml)
+- [ontology/verticalparts/entities.yaml](ontology/verticalparts/entities.yaml)
+- [ontology/verticalparts/events.yaml](ontology/verticalparts/events.yaml)
+- [ontology/verticalparts/kpis.yaml](ontology/verticalparts/kpis.yaml)
+- [ontology/verticalparts/relationships.yaml](ontology/verticalparts/relationships.yaml)
+- [ontology/verticalparts/states.yaml](ontology/verticalparts/states.yaml)
+
+## semantic
+- [semantic/verticalparts/aliases.yaml](semantic/verticalparts/aliases.yaml)
+- [semantic/verticalparts/business_dictionary.yaml](semantic/verticalparts/business_dictionary.yaml)
+- [semantic/verticalparts/business_taxonomy.yaml](semantic/verticalparts/business_taxonomy.yaml)
+- [semantic/verticalparts/intent_catalog.yaml](semantic/verticalparts/intent_catalog.yaml)
+- [semantic/verticalparts/synonyms.yaml](semantic/verticalparts/synonyms.yaml)
+
+## coverage
+- [coverage/omie_api_coverage.md](coverage/omie_api_coverage.md)
+- [coverage/verticalparts_business_layer_coverage.md](coverage/verticalparts_business_layer_coverage.md)
+
+## reports
+- [reports/dashboard.md](reports/dashboard.md)
+- [reports/knowledge_score.md](reports/knowledge_score.md)
+
+## factory/reports
+- [factory/reports/document_quality_ranking.md](factory/reports/document_quality_ranking.md)
+- [factory/reports/documentation_plan.md](factory/reports/documentation_plan.md)
+- [factory/reports/execution_history.json](factory/reports/execution_history.json)
+- [factory/reports/execution_report.md](factory/reports/execution_report.md)
+- [factory/reports/first_autonomous_cycle.md](factory/reports/first_autonomous_cycle.md)
+- [factory/reports/improvement_report.md](factory/reports/improvement_report.md)
+- [factory/reports/planner_report.md](factory/reports/planner_report.md)
+- [factory/reports/service_dependency_graph.md](factory/reports/service_dependency_graph.md)
+- [factory/reports/validation_report.md](factory/reports/validation_report.md)

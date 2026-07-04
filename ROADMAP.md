@@ -146,3 +146,15 @@
 - Prioridade: Alta
 - Dependências: Fases 1 a 14
 - Status: Planejado
+## VerticalParts Business Layer
+
+Status: Estrutura inicial criada.
+Prioridade: Alta.
+Dependências: validação futura com responsáveis internos da VerticalParts.
+
+Próximas etapas:
+
+- Modelar domínios reais com responsáveis internos.
+- Validar processos de ponta a ponta.
+- Conectar regras internas aos serviços Omie já documentados.
+- Preparar agentes para usar Omie Knowledge Layer + VerticalParts Business Layer.
