@@ -1,0 +1,39 @@
+version: "0.8.0"
+source: "factory/scripts/knowledge_validator.py"
+minimum_score: 80
+weights:
+  completude: 10
+  consistencia: 8
+  referencias: 8
+  estrutura: 8
+  metadados: 10
+  rag: 8
+  graphrag: 8
+  schemas: 8
+  faq: 8
+  questions: 8
+  business_knowledge: 8
+  markdown: 8
+required_sections:
+  - "## Objetivo"
+  - "## Quando utilizar"
+  - "## FAQ"
+  - "## Perguntas naturais"
+  - "## Tags para RAG"
+  - "## Fonte oficial consultada"
+required_metadata:
+  - title
+  - service
+  - domain
+  - endpoint
+  - source
+  - status
+  - llm_ready
+  - rag_ready
+  - graph_ready
+  - embedding_version
+official_source_prefixes:
+  - "https://app.omie.com.br/api/v1/"
+  - "https://developer.omie.com.br/"
+faq_minimum_items: 20
+questions_minimum_items: 5
