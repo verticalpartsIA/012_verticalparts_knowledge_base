@@ -1,0 +1,8 @@
+status: Aguardando modelagem da VerticalParts
+events:
+- EntityCreated
+- EntityUpdated
+- StateChanged
+- RelationshipCreated
+- DocumentLinked
+- KpiMeasured

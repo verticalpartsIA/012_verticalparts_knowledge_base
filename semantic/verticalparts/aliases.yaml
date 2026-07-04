@@ -1,0 +1,171 @@
+status: Aguardando modelagem da VerticalParts
+ontology_source: ontology/verticalparts/entities.yaml
+aliases:
+- alias: Cliente VerticalParts
+  entity: Cliente
+- alias: CLI
+  entity: Cliente
+- alias: Parceiro fornecedor
+  entity: Fornecedor
+- alias: FOR
+  entity: Fornecedor
+- alias: Pessoa de contato
+  entity: Contato
+- alias: CTT
+  entity: Contato
+- alias: Local de obra
+  entity: Obra
+- alias: OBR
+  entity: Obra
+- alias: Projeto técnico
+  entity: Projeto
+- alias: PRJ
+  entity: Projeto
+- alias: Ativo instalado
+  entity: Equipamento
+- alias: EQP
+  entity: Equipamento
+- alias: Equipamento elevador
+  entity: Elevador
+- alias: ELV
+  entity: Elevador
+- alias: Equipamento escada rolante
+  entity: Escada Rolante
+- alias: ESC
+  entity: Escada Rolante
+- alias: Equipamento esteira rolante
+  entity: Esteira Rolante
+- alias: ESTR
+  entity: Esteira Rolante
+- alias: Componente
+  entity: Peça
+- alias: PCA
+  entity: Peça
+- alias: Item comercial
+  entity: Produto
+- alias: PROD
+  entity: Produto
+- alias: Depósito interno
+  entity: Almoxarifado
+- alias: ALM
+  entity: Almoxarifado
+- alias: Saldo de estoque
+  entity: Estoque
+- alias: STK
+  entity: Estoque
+- alias: Pedido de Venda
+  entity: PedidoVenda
+- alias: PV
+  entity: PedidoVenda
+- alias: Pedido de Compra
+  entity: PedidoCompra
+- alias: PC
+  entity: PedidoCompra
+- alias: Instrumento contratual
+  entity: Contrato
+- alias: CTR
+  entity: Contrato
+- alias: Proposta comercial
+  entity: Proposta
+- alias: PROP
+  entity: Proposta
+- alias: Ordem de Serviço
+  entity: OrdemServico
+- alias: OS
+  entity: OrdemServico
+- alias: Ticket de atendimento
+  entity: Chamado
+- alias: CHM
+  entity: Chamado
+- alias: Manutenção preventiva
+  entity: Preventiva
+- alias: PREV
+  entity: Preventiva
+- alias: Manutenção corretiva
+  entity: Corretiva
+- alias: COR
+  entity: Corretiva
+- alias: Modernização técnica
+  entity: Modernização
+- alias: MOD
+  entity: Modernização
+- alias: Instalação técnica
+  entity: Instalação
+- alias: INST
+  entity: Instalação
+- alias: Entrega operacional
+  entity: Entrega
+- alias: ENT
+  entity: Entrega
+- alias: Recebimento físico
+  entity: Recebimento
+- alias: REC
+  entity: Recebimento
+- alias: Processo de faturamento
+  entity: Faturamento
+- alias: FAT
+  entity: Faturamento
+- alias: Nota Fiscal Eletrônica
+  entity: NF-e
+- alias: NFE
+  entity: NF-e
+- alias: Nota Fiscal de Serviço Eletrônica
+  entity: NFS-e
+- alias: NFSE
+  entity: NFS-e
+- alias: Liquidação de pagamento
+  entity: Pagamento
+- alias: PAG
+  entity: Pagamento
+- alias: Recebimento financeiro
+  entity: RecebimentoFinanceiro
+- alias: RCF
+  entity: RecebimentoFinanceiro
+- alias: Centro de Custo
+  entity: CentroCusto
+- alias: CC
+  entity: CentroCusto
+- alias: Conta a Receber
+  entity: ContaReceber
+- alias: CR
+  entity: ContaReceber
+- alias: Conta a Pagar
+  entity: ContaPagar
+- alias: CP
+  entity: ContaPagar
+- alias: Colaborador
+  entity: Funcionário
+- alias: FUNC
+  entity: Funcionário
+- alias: Técnico de campo
+  entity: Técnico
+- alias: TEC
+  entity: Técnico
+- alias: Supervisor operacional
+  entity: Supervisor
+- alias: SUP
+  entity: Supervisor
+- alias: Analista de compras
+  entity: Comprador
+- alias: COMP
+  entity: Comprador
+- alias: Consultor comercial
+  entity: Vendedor
+- alias: VEND
+  entity: Vendedor
+- alias: Área de engenharia
+  entity: Engenharia
+- alias: ENG
+  entity: Engenharia
+- alias: Área financeira
+  entity: Financeiro
+- alias: FIN
+  entity: Financeiro
+- alias: Área jurídica
+  entity: Jurídico
+- alias: JUR
+  entity: Jurídico
+- alias: Recursos Humanos
+  entity: RH
+- alias: RH
+  entity: RH

@@ -1,0 +1,66 @@
+status: Aguardando modelagem da VerticalParts
+state_machines:
+- entity: Proposta
+  states:
+  - Rascunho
+  - Enviada
+  - Negociação
+  - Aprovada
+  - Cancelada
+  - Convertida
+- entity: PedidoVenda
+  states:
+  - Rascunho
+  - Aberto
+  - Aprovado
+  - Faturado
+  - Cancelado
+  - Concluído
+- entity: PedidoCompra
+  states:
+  - Rascunho
+  - Aberto
+  - Aprovado
+  - Recebido
+  - Cancelado
+  - Concluído
+- entity: Contrato
+  states:
+  - Rascunho
+  - Em análise
+  - Assinado
+  - Vigente
+  - Suspenso
+  - Encerrado
+- entity: OrdemServico
+  states:
+  - Aberta
+  - Planejada
+  - Em execução
+  - Concluída
+  - Cancelada
+  - Faturada
+- entity: Compra
+  states:
+  - Solicitada
+  - Cotada
+  - Aprovada
+  - Emitida
+  - Recebida
+  - Encerrada
+- entity: Projeto
+  states:
+  - Rascunho
+  - Em engenharia
+  - Aprovado
+  - Em implantação
+  - Entregue
+  - Encerrado
+- entity: Equipamento
+  states:
+  - Planejado
+  - Em instalação
+  - Ativo
+  - Em manutenção
+  - Modernização
+  - Desativado

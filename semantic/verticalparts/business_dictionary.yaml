@@ -1,0 +1,129 @@
+status: Aguardando modelagem da VerticalParts
+ontology_source: ontology/verticalparts/entities.yaml
+terms:
+- term: Cliente
+  entity: Cliente
+  definition: Será preenchido posteriormente
+- term: Fornecedor
+  entity: Fornecedor
+  definition: Será preenchido posteriormente
+- term: Contato
+  entity: Contato
+  definition: Será preenchido posteriormente
+- term: Obra
+  entity: Obra
+  definition: Será preenchido posteriormente
+- term: Projeto
+  entity: Projeto
+  definition: Será preenchido posteriormente
+- term: Equipamento
+  entity: Equipamento
+  definition: Será preenchido posteriormente
+- term: Elevador
+  entity: Elevador
+  definition: Será preenchido posteriormente
+- term: Escada Rolante
+  entity: Escada Rolante
+  definition: Será preenchido posteriormente
+- term: Esteira Rolante
+  entity: Esteira Rolante
+  definition: Será preenchido posteriormente
+- term: Peça
+  entity: Peça
+  definition: Será preenchido posteriormente
+- term: Produto
+  entity: Produto
+  definition: Será preenchido posteriormente
+- term: Almoxarifado
+  entity: Almoxarifado
+  definition: Será preenchido posteriormente
+- term: Estoque
+  entity: Estoque
+  definition: Será preenchido posteriormente
+- term: PedidoVenda
+  entity: PedidoVenda
+  definition: Será preenchido posteriormente
+- term: PedidoCompra
+  entity: PedidoCompra
+  definition: Será preenchido posteriormente
+- term: Contrato
+  entity: Contrato
+  definition: Será preenchido posteriormente
+- term: Proposta
+  entity: Proposta
+  definition: Será preenchido posteriormente
+- term: OrdemServico
+  entity: OrdemServico
+  definition: Será preenchido posteriormente
+- term: Chamado
+  entity: Chamado
+  definition: Será preenchido posteriormente
+- term: Preventiva
+  entity: Preventiva
+  definition: Será preenchido posteriormente
+- term: Corretiva
+  entity: Corretiva
+  definition: Será preenchido posteriormente
+- term: Modernização
+  entity: Modernização
+  definition: Será preenchido posteriormente
+- term: Instalação
+  entity: Instalação
+  definition: Será preenchido posteriormente
+- term: Entrega
+  entity: Entrega
+  definition: Será preenchido posteriormente
+- term: Recebimento
+  entity: Recebimento
+  definition: Será preenchido posteriormente
+- term: Faturamento
+  entity: Faturamento
+  definition: Será preenchido posteriormente
+- term: NF-e
+  entity: NF-e
+  definition: Será preenchido posteriormente
+- term: NFS-e
+  entity: NFS-e
+  definition: Será preenchido posteriormente
+- term: Pagamento
+  entity: Pagamento
+  definition: Será preenchido posteriormente
+- term: RecebimentoFinanceiro
+  entity: RecebimentoFinanceiro
+  definition: Será preenchido posteriormente
+- term: CentroCusto
+  entity: CentroCusto
+  definition: Será preenchido posteriormente
+- term: ContaReceber
+  entity: ContaReceber
+  definition: Será preenchido posteriormente
+- term: ContaPagar
+  entity: ContaPagar
+  definition: Será preenchido posteriormente
+- term: Funcionário
+  entity: Funcionário
+  definition: Será preenchido posteriormente
+- term: Técnico
+  entity: Técnico
+  definition: Será preenchido posteriormente
+- term: Supervisor
+  entity: Supervisor
+  definition: Será preenchido posteriormente
+- term: Comprador
+  entity: Comprador
+  definition: Será preenchido posteriormente
+- term: Vendedor
+  entity: Vendedor
+  definition: Será preenchido posteriormente
+- term: Engenharia
+  entity: Engenharia
+  definition: Será preenchido posteriormente
+- term: Financeiro
+  entity: Financeiro
+  definition: Será preenchido posteriormente
+- term: Jurídico
+  entity: Jurídico
+  definition: Será preenchido posteriormente
+- term: RH
+  entity: RH
+  definition: Será preenchido posteriormente
