@@ -28,6 +28,7 @@ def test_method_docs_have_enterprise_sections():
     method_dirs = [
         Path("docs/omie/geral/clientes"),
         Path("docs/omie/financeiro/contas_a_receber"),
+        Path("docs/omie/financeiro/contas_a_pagar_lancamentos"),
     ]
     for method_dir in method_dirs:
         for path in method_dir.glob("*.md"):

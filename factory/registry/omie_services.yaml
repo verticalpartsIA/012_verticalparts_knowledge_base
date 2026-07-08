@@ -495,14 +495,14 @@ services:
   name: Contas a Pagar - Lançamentos
   domain: finanças
   endpoint: https://app.omie.com.br/api/v1/financas/contapagar/
-  status: Planejado
+  status: Concluído
   priority: alta
-  implemented: false
-  methods_count: null
+  implemented: true
+  methods_count: 13
   documentation_url: https://app.omie.com.br/api/v1/financas/contapagar/
   output_slug: contas_a_pagar_lancamentos
   depends_on: []
-  notes: Servico importado da matriz coverage/omie_api_coverage.md.
+  notes: Documentado pela primeira geração real da Autonomous Knowledge Factory.
 - id: financas_contas_a_receber_lancamentos
   name: Contas a Receber - Lançamentos
   domain: finanças

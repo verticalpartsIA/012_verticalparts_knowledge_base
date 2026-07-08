@@ -1,0 +1,1302 @@
+[
+  {
+    "method": "AlterarContaPagar",
+    "question": "Quando devo usar AlterarContaPagar em Contas a Pagar - Lançamentos?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "AlterarContaPagar",
+    "question": "Quais parametros o metodo AlterarContaPagar aceita?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "AlterarContaPagar",
+    "question": "Quais campos sao obrigatorios para chamar AlterarContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "AlterarContaPagar",
+    "question": "Qual exemplo de payload ficticio para AlterarContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "AlterarContaPagar",
+    "question": "Que resposta o metodo AlterarContaPagar retorna?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "AlterarContaPagar",
+    "question": "AlterarContaPagar serve para fornecedor em contas a pagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "AlterarContaPagar",
+    "question": "AlterarContaPagar exige categoria financeira?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "AlterarContaPagar",
+    "question": "AlterarContaPagar depende de banco ou conta corrente?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "AlterarContaPagar",
+    "question": "Como validar o payload de AlterarContaPagar antes de enviar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "AlterarContaPagar",
+    "question": "Quais erros comuns podem ocorrer em AlterarContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "AlterarContaPagar",
+    "question": "Quando nao devo usar AlterarContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "AlterarContaPagar",
+    "question": "AlterarContaPagar pode ser usado em lote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "AlterarContaPagar",
+    "question": "AlterarContaPagar gera movimento financeiro?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "AlterarContaPagar",
+    "question": "AlterarContaPagar altera titulo ja baixado?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "AlterarContaPagar",
+    "question": "Qual fonte oficial valida AlterarContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "AlterarContaPagar",
+    "question": "Como uma LLM escolhe AlterarContaPagar para uma pergunta do usuario?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "AlterarContaPagar",
+    "question": "AlterarContaPagar usa codigo Omie ou codigo interno?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "AlterarContaPagar",
+    "question": "Que retorno devo esperar de AlterarContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "AlterarContaPagar",
+    "question": "Como testar AlterarContaPagar com dados ficticios?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "AlterarContaPagar",
+    "question": "Quais tags RAG ajudam a recuperar AlterarContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "CancelarPagamento",
+    "question": "Quando devo usar CancelarPagamento em Contas a Pagar - Lançamentos?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "CancelarPagamento",
+    "question": "Quais parametros o metodo CancelarPagamento aceita?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "CancelarPagamento",
+    "question": "Quais campos sao obrigatorios para chamar CancelarPagamento?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "CancelarPagamento",
+    "question": "Qual exemplo de payload ficticio para CancelarPagamento?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "CancelarPagamento",
+    "question": "Que resposta o metodo CancelarPagamento retorna?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "CancelarPagamento",
+    "question": "CancelarPagamento serve para fornecedor em contas a pagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "CancelarPagamento",
+    "question": "CancelarPagamento exige categoria financeira?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "CancelarPagamento",
+    "question": "CancelarPagamento depende de banco ou conta corrente?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "CancelarPagamento",
+    "question": "Como validar o payload de CancelarPagamento antes de enviar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "CancelarPagamento",
+    "question": "Quais erros comuns podem ocorrer em CancelarPagamento?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "CancelarPagamento",
+    "question": "Quando nao devo usar CancelarPagamento?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "CancelarPagamento",
+    "question": "CancelarPagamento pode ser usado em lote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "CancelarPagamento",
+    "question": "CancelarPagamento gera movimento financeiro?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "CancelarPagamento",
+    "question": "CancelarPagamento altera titulo ja baixado?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "CancelarPagamento",
+    "question": "Qual fonte oficial valida CancelarPagamento?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "CancelarPagamento",
+    "question": "Como uma LLM escolhe CancelarPagamento para uma pergunta do usuario?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "CancelarPagamento",
+    "question": "CancelarPagamento usa codigo Omie ou codigo interno?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "CancelarPagamento",
+    "question": "Que retorno devo esperar de CancelarPagamento?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "CancelarPagamento",
+    "question": "Como testar CancelarPagamento com dados ficticios?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "CancelarPagamento",
+    "question": "Quais tags RAG ajudam a recuperar CancelarPagamento?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ConsultarContaPagar",
+    "question": "Quando devo usar ConsultarContaPagar em Contas a Pagar - Lançamentos?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ConsultarContaPagar",
+    "question": "Quais parametros o metodo ConsultarContaPagar aceita?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ConsultarContaPagar",
+    "question": "Quais campos sao obrigatorios para chamar ConsultarContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ConsultarContaPagar",
+    "question": "Qual exemplo de payload ficticio para ConsultarContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ConsultarContaPagar",
+    "question": "Que resposta o metodo ConsultarContaPagar retorna?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ConsultarContaPagar",
+    "question": "ConsultarContaPagar serve para fornecedor em contas a pagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ConsultarContaPagar",
+    "question": "ConsultarContaPagar exige categoria financeira?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ConsultarContaPagar",
+    "question": "ConsultarContaPagar depende de banco ou conta corrente?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ConsultarContaPagar",
+    "question": "Como validar o payload de ConsultarContaPagar antes de enviar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ConsultarContaPagar",
+    "question": "Quais erros comuns podem ocorrer em ConsultarContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ConsultarContaPagar",
+    "question": "Quando nao devo usar ConsultarContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ConsultarContaPagar",
+    "question": "ConsultarContaPagar pode ser usado em lote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ConsultarContaPagar",
+    "question": "ConsultarContaPagar gera movimento financeiro?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ConsultarContaPagar",
+    "question": "ConsultarContaPagar altera titulo ja baixado?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ConsultarContaPagar",
+    "question": "Qual fonte oficial valida ConsultarContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ConsultarContaPagar",
+    "question": "Como uma LLM escolhe ConsultarContaPagar para uma pergunta do usuario?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ConsultarContaPagar",
+    "question": "ConsultarContaPagar usa codigo Omie ou codigo interno?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ConsultarContaPagar",
+    "question": "Que retorno devo esperar de ConsultarContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ConsultarContaPagar",
+    "question": "Como testar ConsultarContaPagar com dados ficticios?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ConsultarContaPagar",
+    "question": "Quais tags RAG ajudam a recuperar ConsultarContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ExcluirContaPagar",
+    "question": "Quando devo usar ExcluirContaPagar em Contas a Pagar - Lançamentos?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ExcluirContaPagar",
+    "question": "Quais parametros o metodo ExcluirContaPagar aceita?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ExcluirContaPagar",
+    "question": "Quais campos sao obrigatorios para chamar ExcluirContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ExcluirContaPagar",
+    "question": "Qual exemplo de payload ficticio para ExcluirContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ExcluirContaPagar",
+    "question": "Que resposta o metodo ExcluirContaPagar retorna?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ExcluirContaPagar",
+    "question": "ExcluirContaPagar serve para fornecedor em contas a pagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ExcluirContaPagar",
+    "question": "ExcluirContaPagar exige categoria financeira?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ExcluirContaPagar",
+    "question": "ExcluirContaPagar depende de banco ou conta corrente?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ExcluirContaPagar",
+    "question": "Como validar o payload de ExcluirContaPagar antes de enviar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ExcluirContaPagar",
+    "question": "Quais erros comuns podem ocorrer em ExcluirContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ExcluirContaPagar",
+    "question": "Quando nao devo usar ExcluirContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ExcluirContaPagar",
+    "question": "ExcluirContaPagar pode ser usado em lote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ExcluirContaPagar",
+    "question": "ExcluirContaPagar gera movimento financeiro?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ExcluirContaPagar",
+    "question": "ExcluirContaPagar altera titulo ja baixado?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ExcluirContaPagar",
+    "question": "Qual fonte oficial valida ExcluirContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ExcluirContaPagar",
+    "question": "Como uma LLM escolhe ExcluirContaPagar para uma pergunta do usuario?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ExcluirContaPagar",
+    "question": "ExcluirContaPagar usa codigo Omie ou codigo interno?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ExcluirContaPagar",
+    "question": "Que retorno devo esperar de ExcluirContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ExcluirContaPagar",
+    "question": "Como testar ExcluirContaPagar com dados ficticios?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ExcluirContaPagar",
+    "question": "Quais tags RAG ajudam a recuperar ExcluirContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagar",
+    "question": "Quando devo usar IncluirContaPagar em Contas a Pagar - Lançamentos?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagar",
+    "question": "Quais parametros o metodo IncluirContaPagar aceita?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagar",
+    "question": "Quais campos sao obrigatorios para chamar IncluirContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagar",
+    "question": "Qual exemplo de payload ficticio para IncluirContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagar",
+    "question": "Que resposta o metodo IncluirContaPagar retorna?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagar",
+    "question": "IncluirContaPagar serve para fornecedor em contas a pagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagar",
+    "question": "IncluirContaPagar exige categoria financeira?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagar",
+    "question": "IncluirContaPagar depende de banco ou conta corrente?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagar",
+    "question": "Como validar o payload de IncluirContaPagar antes de enviar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagar",
+    "question": "Quais erros comuns podem ocorrer em IncluirContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagar",
+    "question": "Quando nao devo usar IncluirContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagar",
+    "question": "IncluirContaPagar pode ser usado em lote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagar",
+    "question": "IncluirContaPagar gera movimento financeiro?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagar",
+    "question": "IncluirContaPagar altera titulo ja baixado?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagar",
+    "question": "Qual fonte oficial valida IncluirContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagar",
+    "question": "Como uma LLM escolhe IncluirContaPagar para uma pergunta do usuario?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagar",
+    "question": "IncluirContaPagar usa codigo Omie ou codigo interno?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagar",
+    "question": "Que retorno devo esperar de IncluirContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagar",
+    "question": "Como testar IncluirContaPagar com dados ficticios?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagar",
+    "question": "Quais tags RAG ajudam a recuperar IncluirContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagarPorLote",
+    "question": "Quando devo usar IncluirContaPagarPorLote em Contas a Pagar - Lançamentos?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagarPorLote",
+    "question": "Quais parametros o metodo IncluirContaPagarPorLote aceita?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagarPorLote",
+    "question": "Quais campos sao obrigatorios para chamar IncluirContaPagarPorLote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagarPorLote",
+    "question": "Qual exemplo de payload ficticio para IncluirContaPagarPorLote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagarPorLote",
+    "question": "Que resposta o metodo IncluirContaPagarPorLote retorna?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagarPorLote",
+    "question": "IncluirContaPagarPorLote serve para fornecedor em contas a pagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagarPorLote",
+    "question": "IncluirContaPagarPorLote exige categoria financeira?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagarPorLote",
+    "question": "IncluirContaPagarPorLote depende de banco ou conta corrente?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagarPorLote",
+    "question": "Como validar o payload de IncluirContaPagarPorLote antes de enviar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagarPorLote",
+    "question": "Quais erros comuns podem ocorrer em IncluirContaPagarPorLote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagarPorLote",
+    "question": "Quando nao devo usar IncluirContaPagarPorLote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagarPorLote",
+    "question": "IncluirContaPagarPorLote pode ser usado em lote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagarPorLote",
+    "question": "IncluirContaPagarPorLote gera movimento financeiro?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagarPorLote",
+    "question": "IncluirContaPagarPorLote altera titulo ja baixado?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagarPorLote",
+    "question": "Qual fonte oficial valida IncluirContaPagarPorLote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagarPorLote",
+    "question": "Como uma LLM escolhe IncluirContaPagarPorLote para uma pergunta do usuario?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagarPorLote",
+    "question": "IncluirContaPagarPorLote usa codigo Omie ou codigo interno?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagarPorLote",
+    "question": "Que retorno devo esperar de IncluirContaPagarPorLote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagarPorLote",
+    "question": "Como testar IncluirContaPagarPorLote com dados ficticios?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "IncluirContaPagarPorLote",
+    "question": "Quais tags RAG ajudam a recuperar IncluirContaPagarPorLote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "LancarPagamento",
+    "question": "Quando devo usar LancarPagamento em Contas a Pagar - Lançamentos?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "LancarPagamento",
+    "question": "Quais parametros o metodo LancarPagamento aceita?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "LancarPagamento",
+    "question": "Quais campos sao obrigatorios para chamar LancarPagamento?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "LancarPagamento",
+    "question": "Qual exemplo de payload ficticio para LancarPagamento?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "LancarPagamento",
+    "question": "Que resposta o metodo LancarPagamento retorna?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "LancarPagamento",
+    "question": "LancarPagamento serve para fornecedor em contas a pagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "LancarPagamento",
+    "question": "LancarPagamento exige categoria financeira?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "LancarPagamento",
+    "question": "LancarPagamento depende de banco ou conta corrente?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "LancarPagamento",
+    "question": "Como validar o payload de LancarPagamento antes de enviar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "LancarPagamento",
+    "question": "Quais erros comuns podem ocorrer em LancarPagamento?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "LancarPagamento",
+    "question": "Quando nao devo usar LancarPagamento?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "LancarPagamento",
+    "question": "LancarPagamento pode ser usado em lote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "LancarPagamento",
+    "question": "LancarPagamento gera movimento financeiro?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "LancarPagamento",
+    "question": "LancarPagamento altera titulo ja baixado?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "LancarPagamento",
+    "question": "Qual fonte oficial valida LancarPagamento?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "LancarPagamento",
+    "question": "Como uma LLM escolhe LancarPagamento para uma pergunta do usuario?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "LancarPagamento",
+    "question": "LancarPagamento usa codigo Omie ou codigo interno?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "LancarPagamento",
+    "question": "Que retorno devo esperar de LancarPagamento?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "LancarPagamento",
+    "question": "Como testar LancarPagamento com dados ficticios?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "LancarPagamento",
+    "question": "Quais tags RAG ajudam a recuperar LancarPagamento?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Quando devo usar Listar em Contas a Pagar - Lançamentos?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Quais parametros o metodo Listar aceita?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Quais campos sao obrigatorios para chamar Listar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Qual exemplo de payload ficticio para Listar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Que resposta o metodo Listar retorna?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Listar serve para fornecedor em contas a pagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Listar exige categoria financeira?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Listar depende de banco ou conta corrente?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Como validar o payload de Listar antes de enviar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Quais erros comuns podem ocorrer em Listar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Quando nao devo usar Listar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Listar pode ser usado em lote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Listar gera movimento financeiro?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Listar altera titulo ja baixado?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Qual fonte oficial valida Listar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Como uma LLM escolhe Listar para uma pergunta do usuario?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Listar usa codigo Omie ou codigo interno?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Que retorno devo esperar de Listar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Como testar Listar com dados ficticios?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Listar",
+    "question": "Quais tags RAG ajudam a recuperar Listar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ListarContasPagar",
+    "question": "Quando devo usar ListarContasPagar em Contas a Pagar - Lançamentos?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ListarContasPagar",
+    "question": "Quais parametros o metodo ListarContasPagar aceita?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ListarContasPagar",
+    "question": "Quais campos sao obrigatorios para chamar ListarContasPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ListarContasPagar",
+    "question": "Qual exemplo de payload ficticio para ListarContasPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ListarContasPagar",
+    "question": "Que resposta o metodo ListarContasPagar retorna?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ListarContasPagar",
+    "question": "ListarContasPagar serve para fornecedor em contas a pagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ListarContasPagar",
+    "question": "ListarContasPagar exige categoria financeira?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ListarContasPagar",
+    "question": "ListarContasPagar depende de banco ou conta corrente?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ListarContasPagar",
+    "question": "Como validar o payload de ListarContasPagar antes de enviar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ListarContasPagar",
+    "question": "Quais erros comuns podem ocorrer em ListarContasPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ListarContasPagar",
+    "question": "Quando nao devo usar ListarContasPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ListarContasPagar",
+    "question": "ListarContasPagar pode ser usado em lote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ListarContasPagar",
+    "question": "ListarContasPagar gera movimento financeiro?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ListarContasPagar",
+    "question": "ListarContasPagar altera titulo ja baixado?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ListarContasPagar",
+    "question": "Qual fonte oficial valida ListarContasPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ListarContasPagar",
+    "question": "Como uma LLM escolhe ListarContasPagar para uma pergunta do usuario?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ListarContasPagar",
+    "question": "ListarContasPagar usa codigo Omie ou codigo interno?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ListarContasPagar",
+    "question": "Que retorno devo esperar de ListarContasPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ListarContasPagar",
+    "question": "Como testar ListarContasPagar com dados ficticios?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "ListarContasPagar",
+    "question": "Quais tags RAG ajudam a recuperar ListarContasPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Quando devo usar Upsert em Contas a Pagar - Lançamentos?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Quais parametros o metodo Upsert aceita?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Quais campos sao obrigatorios para chamar Upsert?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Qual exemplo de payload ficticio para Upsert?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Que resposta o metodo Upsert retorna?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Upsert serve para fornecedor em contas a pagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Upsert exige categoria financeira?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Upsert depende de banco ou conta corrente?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Como validar o payload de Upsert antes de enviar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Quais erros comuns podem ocorrer em Upsert?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Quando nao devo usar Upsert?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Upsert pode ser usado em lote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Upsert gera movimento financeiro?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Upsert altera titulo ja baixado?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Qual fonte oficial valida Upsert?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Como uma LLM escolhe Upsert para uma pergunta do usuario?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Upsert usa codigo Omie ou codigo interno?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Que retorno devo esperar de Upsert?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Como testar Upsert com dados ficticios?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "Upsert",
+    "question": "Quais tags RAG ajudam a recuperar Upsert?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UPSERT",
+    "question": "Quando devo usar UPSERT em Contas a Pagar - Lançamentos?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UPSERT",
+    "question": "Quais parametros o metodo UPSERT aceita?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UPSERT",
+    "question": "Quais campos sao obrigatorios para chamar UPSERT?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UPSERT",
+    "question": "Qual exemplo de payload ficticio para UPSERT?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UPSERT",
+    "question": "Que resposta o metodo UPSERT retorna?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UPSERT",
+    "question": "UPSERT serve para fornecedor em contas a pagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UPSERT",
+    "question": "UPSERT exige categoria financeira?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UPSERT",
+    "question": "UPSERT depende de banco ou conta corrente?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UPSERT",
+    "question": "Como validar o payload de UPSERT antes de enviar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UPSERT",
+    "question": "Quais erros comuns podem ocorrer em UPSERT?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UPSERT",
+    "question": "Quando nao devo usar UPSERT?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UPSERT",
+    "question": "UPSERT pode ser usado em lote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UPSERT",
+    "question": "UPSERT gera movimento financeiro?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UPSERT",
+    "question": "UPSERT altera titulo ja baixado?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UPSERT",
+    "question": "Qual fonte oficial valida UPSERT?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UPSERT",
+    "question": "Como uma LLM escolhe UPSERT para uma pergunta do usuario?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UPSERT",
+    "question": "UPSERT usa codigo Omie ou codigo interno?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UPSERT",
+    "question": "Que retorno devo esperar de UPSERT?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UPSERT",
+    "question": "Como testar UPSERT com dados ficticios?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UPSERT",
+    "question": "Quais tags RAG ajudam a recuperar UPSERT?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagar",
+    "question": "Quando devo usar UpsertContaPagar em Contas a Pagar - Lançamentos?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagar",
+    "question": "Quais parametros o metodo UpsertContaPagar aceita?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagar",
+    "question": "Quais campos sao obrigatorios para chamar UpsertContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagar",
+    "question": "Qual exemplo de payload ficticio para UpsertContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagar",
+    "question": "Que resposta o metodo UpsertContaPagar retorna?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagar",
+    "question": "UpsertContaPagar serve para fornecedor em contas a pagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagar",
+    "question": "UpsertContaPagar exige categoria financeira?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagar",
+    "question": "UpsertContaPagar depende de banco ou conta corrente?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagar",
+    "question": "Como validar o payload de UpsertContaPagar antes de enviar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagar",
+    "question": "Quais erros comuns podem ocorrer em UpsertContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagar",
+    "question": "Quando nao devo usar UpsertContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagar",
+    "question": "UpsertContaPagar pode ser usado em lote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagar",
+    "question": "UpsertContaPagar gera movimento financeiro?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagar",
+    "question": "UpsertContaPagar altera titulo ja baixado?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagar",
+    "question": "Qual fonte oficial valida UpsertContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagar",
+    "question": "Como uma LLM escolhe UpsertContaPagar para uma pergunta do usuario?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagar",
+    "question": "UpsertContaPagar usa codigo Omie ou codigo interno?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagar",
+    "question": "Que retorno devo esperar de UpsertContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagar",
+    "question": "Como testar UpsertContaPagar com dados ficticios?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagar",
+    "question": "Quais tags RAG ajudam a recuperar UpsertContaPagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagarPorLote",
+    "question": "Quando devo usar UpsertContaPagarPorLote em Contas a Pagar - Lançamentos?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagarPorLote",
+    "question": "Quais parametros o metodo UpsertContaPagarPorLote aceita?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagarPorLote",
+    "question": "Quais campos sao obrigatorios para chamar UpsertContaPagarPorLote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagarPorLote",
+    "question": "Qual exemplo de payload ficticio para UpsertContaPagarPorLote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagarPorLote",
+    "question": "Que resposta o metodo UpsertContaPagarPorLote retorna?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagarPorLote",
+    "question": "UpsertContaPagarPorLote serve para fornecedor em contas a pagar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagarPorLote",
+    "question": "UpsertContaPagarPorLote exige categoria financeira?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagarPorLote",
+    "question": "UpsertContaPagarPorLote depende de banco ou conta corrente?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagarPorLote",
+    "question": "Como validar o payload de UpsertContaPagarPorLote antes de enviar?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagarPorLote",
+    "question": "Quais erros comuns podem ocorrer em UpsertContaPagarPorLote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagarPorLote",
+    "question": "Quando nao devo usar UpsertContaPagarPorLote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagarPorLote",
+    "question": "UpsertContaPagarPorLote pode ser usado em lote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagarPorLote",
+    "question": "UpsertContaPagarPorLote gera movimento financeiro?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagarPorLote",
+    "question": "UpsertContaPagarPorLote altera titulo ja baixado?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagarPorLote",
+    "question": "Qual fonte oficial valida UpsertContaPagarPorLote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagarPorLote",
+    "question": "Como uma LLM escolhe UpsertContaPagarPorLote para uma pergunta do usuario?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagarPorLote",
+    "question": "UpsertContaPagarPorLote usa codigo Omie ou codigo interno?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagarPorLote",
+    "question": "Que retorno devo esperar de UpsertContaPagarPorLote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagarPorLote",
+    "question": "Como testar UpsertContaPagarPorLote com dados ficticios?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  },
+  {
+    "method": "UpsertContaPagarPorLote",
+    "question": "Quais tags RAG ajudam a recuperar UpsertContaPagarPorLote?",
+    "source": "https://app.omie.com.br/api/v1/financas/contapagar/"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LancarPagamento",
+  "type": "object",
+  "properties": {
+    "call": {
+      "type": "string",
+      "const": "LancarPagamento"
+    },
+    "param": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  },
+  "required": [
+    "call",
+    "param"
+  ],
+  "additionalProperties": true
+}

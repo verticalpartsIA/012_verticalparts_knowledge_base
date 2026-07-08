@@ -65,6 +65,8 @@ def slugify(value: str) -> str:
     import re
     import unicodedata
 
+    value = re.sub(r"(?<=[a-z0-9])(?=[A-Z])", " ", value)
+    value = re.sub(r"(?<=[A-Z])(?=[A-Z][a-z])", " ", value)
     normalized = unicodedata.normalize("NFKD", value)
     ascii_value = normalized.encode("ascii", "ignore").decode("ascii")
     words = re.findall(r"[A-Za-z0-9]+", ascii_value)

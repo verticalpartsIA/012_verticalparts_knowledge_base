@@ -5,17 +5,17 @@
 | Métrica | Valor |
 | --- | ---: |
 | Versão atual | v0.7.0-execution-engine |
-| Serviços documentados | 2 |
+| Serviços documentados | 3 |
 | Serviços oficiais mapeados | 137 |
-| Métodos documentados | 27 |
-| Documentos Markdown no repositório | 189 |
-| Graphs | 2 |
-| Business Docs | 2 |
-| Schemas | 10 |
-| Perguntas | 600 |
-| Chunks RAG | 108 |
+| Métodos documentados | 40 |
+| Documentos Markdown no repositório | 52 |
+| Graphs | 3 |
+| Business Docs | 3 |
+| Schemas | 24 |
+| Perguntas | 860 |
+| Chunks RAG | 123 |
 | Knowledge Score médio | 95.14 |
-| Cobertura da API | 1.46% |
+| Cobertura da API | 2.19% |
 | Factory | MVP funcional / evolução autônoma iniciada |
 
 ## Autonomous Knowledge Factory v1.0.0
@@ -30,8 +30,8 @@
 | Próximo melhor serviço | Contas a Pagar - Lançamentos |
 | Execution Engine | Implementado |
 | Estado da Factory | `factory/state/factory_state.json` |
-| Próximo objetivo | geração real controlada de Contas a Pagar |
-| Impacto na cobertura | 0 ponto percentual nesta entrega |
+| Próximo objetivo | curadoria humana e geração real do próximo serviço |
+| Impacto na cobertura | 2.19% após primeira geração real |
 
 ## First Autonomous Documentation Cycle
 
@@ -46,3 +46,14 @@
 | Arquivos planejados | 34 |
 | Documentação definitiva criada | Não |
 | Relatório | `factory/reports/first_autonomous_cycle.md` |
+
+## First Real Autonomous Documentation Generation
+
+| Item | Valor |
+| --- | --- |
+| Status | Geração real concluída pela Factory |
+| Serviço selecionado | Contas a Pagar - Lançamentos |
+| Endpoint | `https://app.omie.com.br/api/v1/financas/contapagar/` |
+| Métodos documentados | 13 |
+| Coverage atualizado | 2.19% |
+| Relatório | `factory/reports/first_real_generation.md` |

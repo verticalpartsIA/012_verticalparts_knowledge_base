@@ -2,13 +2,28 @@
 
 Última atualização: 2026-07-03
 
+- [pytest cache directory #](../.pytest_cache/README.md) — `.pytest_cache/README.md`
 - [Business Knowledge: Omie Clientes](../business/omie/clientes.md) — `business/omie/clientes.md`
+- [Business Knowledge - Contas a Pagar - Lançamentos](../business/omie/contas_a_pagar_lancamentos.md) — `business/omie/contas_a_pagar_lancamentos.md`
 - [Business Knowledge: Omie Contas a Receber](../business/omie/contas_a_receber.md) — `business/omie/contas_a_receber.md`
 - [Changelog](../CHANGELOG.md) — `CHANGELOG.md`
 - [Contribuindo](../CONTRIBUTING.md) — `CONTRIBUTING.md`
 - [Cobertura da API Omie](../coverage/omie_api_coverage.md) — `coverage/omie_api_coverage.md`
 - [Contas a Pagar](../docs/omie/financeiro/contas_a_pagar.md) — `docs/omie/financeiro/contas_a_pagar.md`
-- [Omie Financeiro: Contas a Receber](../docs/omie/financeiro/contas_a_receber.md) — `docs/omie/financeiro/contas_a_receber.md`
+- [AlterarContaPagar](../docs/omie/financeiro/contas_a_pagar_lancamentos/alterar_conta_pagar.md) — `docs/omie/financeiro/contas_a_pagar_lancamentos/alterar_conta_pagar.md`
+- [CancelarPagamento](../docs/omie/financeiro/contas_a_pagar_lancamentos/cancelar_pagamento.md) — `docs/omie/financeiro/contas_a_pagar_lancamentos/cancelar_pagamento.md`
+- [ConsultarContaPagar](../docs/omie/financeiro/contas_a_pagar_lancamentos/consultar_conta_pagar.md) — `docs/omie/financeiro/contas_a_pagar_lancamentos/consultar_conta_pagar.md`
+- [ExcluirContaPagar](../docs/omie/financeiro/contas_a_pagar_lancamentos/excluir_conta_pagar.md) — `docs/omie/financeiro/contas_a_pagar_lancamentos/excluir_conta_pagar.md`
+- [IncluirContaPagar](../docs/omie/financeiro/contas_a_pagar_lancamentos/incluir_conta_pagar.md) — `docs/omie/financeiro/contas_a_pagar_lancamentos/incluir_conta_pagar.md`
+- [IncluirContaPagarPorLote](../docs/omie/financeiro/contas_a_pagar_lancamentos/incluir_conta_pagar_por_lote.md) — `docs/omie/financeiro/contas_a_pagar_lancamentos/incluir_conta_pagar_por_lote.md`
+- [LancarPagamento](../docs/omie/financeiro/contas_a_pagar_lancamentos/lancar_pagamento.md) — `docs/omie/financeiro/contas_a_pagar_lancamentos/lancar_pagamento.md`
+- [Listar](../docs/omie/financeiro/contas_a_pagar_lancamentos/listar.md) — `docs/omie/financeiro/contas_a_pagar_lancamentos/listar.md`
+- [ListarContasPagar](../docs/omie/financeiro/contas_a_pagar_lancamentos/listar_contas_pagar.md) — `docs/omie/financeiro/contas_a_pagar_lancamentos/listar_contas_pagar.md`
+- [Contas a Pagar - Lançamentos](../docs/omie/financeiro/contas_a_pagar_lancamentos/README.md) — `docs/omie/financeiro/contas_a_pagar_lancamentos/README.md`
+- [Upsert](../docs/omie/financeiro/contas_a_pagar_lancamentos/upsert_cadastro.md) — `docs/omie/financeiro/contas_a_pagar_lancamentos/upsert_cadastro.md`
+- [UpsertContaPagar](../docs/omie/financeiro/contas_a_pagar_lancamentos/upsert_conta_pagar.md) — `docs/omie/financeiro/contas_a_pagar_lancamentos/upsert_conta_pagar.md`
+- [UpsertContaPagarPorLote](../docs/omie/financeiro/contas_a_pagar_lancamentos/upsert_conta_pagar_por_lote.md) — `docs/omie/financeiro/contas_a_pagar_lancamentos/upsert_conta_pagar_por_lote.md`
+- [UPSERT](../docs/omie/financeiro/contas_a_pagar_lancamentos/upsert_lote.md) — `docs/omie/financeiro/contas_a_pagar_lancamentos/upsert_lote.md`
 - [AlterarContaReceber](../docs/omie/financeiro/contas_a_receber/alterar_conta_receber.md) — `docs/omie/financeiro/contas_a_receber/alterar_conta_receber.md`
 - [AlterarDistribuicaoDepartamento](../docs/omie/financeiro/contas_a_receber/alterar_distribuicao_departamento.md) — `docs/omie/financeiro/contas_a_receber/alterar_distribuicao_departamento.md`
 - [CancelarContaReceber](../docs/omie/financeiro/contas_a_receber/cancelar_conta_receber.md) — `docs/omie/financeiro/contas_a_receber/cancelar_conta_receber.md`
@@ -26,6 +41,7 @@
 - [Omie Financeiro: Contas a Receber](../docs/omie/financeiro/contas_a_receber/README.md) — `docs/omie/financeiro/contas_a_receber/README.md`
 - [UpsertContaReceber](../docs/omie/financeiro/contas_a_receber/upsert_conta_receber.md) — `docs/omie/financeiro/contas_a_receber/upsert_conta_receber.md`
 - [UpsertContaReceberPorLote](../docs/omie/financeiro/contas_a_receber/upsert_conta_receber_por_lote.md) — `docs/omie/financeiro/contas_a_receber/upsert_conta_receber_por_lote.md`
+- [Omie Financeiro: Contas a Receber](../docs/omie/financeiro/contas_a_receber.md) — `docs/omie/financeiro/contas_a_receber.md`
 - [Movimentos Financeiros](../docs/omie/financeiro/movimentos_financeiros.md) — `docs/omie/financeiro/movimentos_financeiros.md`
 - [AlterarCliente](../docs/omie/geral/clientes/alterar_cliente.md) — `docs/omie/geral/clientes/alterar_cliente.md`
 - [AssociarCodIntCliente](../docs/omie/geral/clientes/associar_cod_int_cliente.md) — `docs/omie/geral/clientes/associar_cod_int_cliente.md`
@@ -48,13 +64,13 @@
 - [Arquitetura](../factory/ARCHITECTURE.md) — `factory/ARCHITECTURE.md`
 - [Exemplo: Clientes](../factory/examples/clientes.md) — `factory/examples/clientes.md`
 - [Execution Engine](../factory/execution/README.md) — `factory/execution/README.md`
-- [First Autonomous Documentation Cycle](../factory/reports/first_autonomous_cycle.md) — `factory/reports/first_autonomous_cycle.md`
 - [FACTORY SDD](../factory/FACTORY_SDD.md) — `factory/FACTORY_SDD.md`
 - [FACTORY SPEC](../factory/FACTORY_SPEC.md) — `factory/FACTORY_SPEC.md`
 - [Generation Planner](../factory/planner/README.md) — `factory/planner/README.md`
 - [Omie Knowledge Factory](../factory/README.md) — `factory/README.md`
 - [Documentation Plan](../factory/reports/documentation_plan.md) — `factory/reports/documentation_plan.md`
 - [Execution Report](../factory/reports/execution_report.md) — `factory/reports/execution_report.md`
+- [First Autonomous Documentation Cycle](../factory/reports/first_autonomous_cycle.md) — `factory/reports/first_autonomous_cycle.md`
 - [Generation Planner Report](../factory/reports/planner_report.md) — `factory/reports/planner_report.md`
 - [Service Dependency Graph](../factory/reports/service_dependency_graph.md) — `factory/reports/service_dependency_graph.md`
 - [Roadmap da Factory](../factory/ROADMAP.md) — `factory/ROADMAP.md`
@@ -69,6 +85,7 @@
 - [Testes da Factory](../factory/tests/README.md) — `factory/tests/README.md`
 - [Workflow](../factory/workflows/workflow.md) — `factory/workflows/workflow.md`
 - [GraphRAG: Omie Clientes](../graphs/omie/clientes.graph.md) — `graphs/omie/clientes.graph.md`
+- [GraphRAG - Contas a Pagar - Lançamentos](../graphs/omie/contas_a_pagar_lancamentos.graph.md) — `graphs/omie/contas_a_pagar_lancamentos.graph.md`
 - [GraphRAG: Omie Contas a Receber](../graphs/omie/contas_a_receber.graph.md) — `graphs/omie/contas_a_receber.graph.md`
 - [Knowledge](../knowledge/README.md) — `knowledge/README.md`
 - [Foundation Complete](../milestones/FOUNDATION_COMPLETE.md) — `milestones/FOUNDATION_COMPLETE.md`
@@ -118,6 +135,19 @@
 - [Chunk UpsertClientesPorLote - faq](../rag/chunks/clientes/upsert_clientes_por_lote.faq.chunk.md) — `rag/chunks/clientes/upsert_clientes_por_lote.faq.chunk.md`
 - [Chunk UpsertClientesPorLote - identidade](../rag/chunks/clientes/upsert_clientes_por_lote.identidade.chunk.md) — `rag/chunks/clientes/upsert_clientes_por_lote.identidade.chunk.md`
 - [Chunk UpsertClientesPorLote - operacao](../rag/chunks/clientes/upsert_clientes_por_lote.operacao.chunk.md) — `rag/chunks/clientes/upsert_clientes_por_lote.operacao.chunk.md`
+- [AlterarContaPagar](../rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-alterar_conta_pagar-001.md) — `rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-alterar_conta_pagar-001.md`
+- [CancelarPagamento](../rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-cancelar_pagamento-001.md) — `rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-cancelar_pagamento-001.md`
+- [ConsultarContaPagar](../rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-consultar_conta_pagar-001.md) — `rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-consultar_conta_pagar-001.md`
+- [ExcluirContaPagar](../rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-excluir_conta_pagar-001.md) — `rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-excluir_conta_pagar-001.md`
+- [IncluirContaPagar](../rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-incluir_conta_pagar-001.md) — `rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-incluir_conta_pagar-001.md`
+- [IncluirContaPagarPorLote](../rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-incluir_conta_pagar_por_lote-001.md) — `rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-incluir_conta_pagar_por_lote-001.md`
+- [LancarPagamento](../rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-lancar_pagamento-001.md) — `rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-lancar_pagamento-001.md`
+- [Listar](../rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-listar-001.md) — `rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-listar-001.md`
+- [ListarContasPagar](../rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-listar_contas_pagar-001.md) — `rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-listar_contas_pagar-001.md`
+- [Upsert](../rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-upsert_cadastro-001.md) — `rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-upsert_cadastro-001.md`
+- [UpsertContaPagar](../rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-upsert_conta_pagar-001.md) — `rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-upsert_conta_pagar-001.md`
+- [UpsertContaPagarPorLote](../rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-upsert_conta_pagar_por_lote-001.md) — `rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-upsert_conta_pagar_por_lote-001.md`
+- [UPSERT](../rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-upsert_lote-001.md) — `rag/chunks/contas_a_pagar_lancamentos/contas_a_pagar_lancamentos-upsert_lote-001.md`
 - [Chunk AlterarContaReceber - contrato](../rag/chunks/contas_a_receber/alterar_conta_receber.contrato.chunk.md) — `rag/chunks/contas_a_receber/alterar_conta_receber.contrato.chunk.md`
 - [Chunk AlterarContaReceber - faq](../rag/chunks/contas_a_receber/alterar_conta_receber.faq.chunk.md) — `rag/chunks/contas_a_receber/alterar_conta_receber.faq.chunk.md`
 - [Chunk AlterarContaReceber - identidade](../rag/chunks/contas_a_receber/alterar_conta_receber.identidade.chunk.md) — `rag/chunks/contas_a_receber/alterar_conta_receber.identidade.chunk.md`
