@@ -146,3 +146,13 @@ python scripts/generate_enterprise_omie_clientes.py
 pytest tests/knowledge
 python scripts/knowledge_score.py
 ```
+
+---
+
+## Contributors
+
+- Gelson Simões — criador e responsável pelas soluções VerticalParts
+
+---
+
+**Feito por Gelson Simões**
